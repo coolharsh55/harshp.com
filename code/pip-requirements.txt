@@ -28,5 +28,5 @@ requests==2.25.1
     # via -r pip-requirements.in
 six==1.15.0
     # via rdflib
-urllib3==1.26.4
+urllib3==1.26.5
     # via requests
