@@ -435,6 +435,7 @@
         schema:Book, hpcom:Book ;
     hpcom:book_id "33"^^xsd:int ;
     hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
     schema:author "Dan Simmons"^^xsd:string ;
     schema:dateCreated "2003"^^xsd:int ;
     schema:isbn "9780380817924"^^xsd:string ;
@@ -504,13 +505,17 @@
 <https://harshp.com/hobbies/books/39> a hpcom:RenderedItem, hpcom:BookReading,
         schema:Book, hpcom:Book ;
     hpcom:book_id "39"^^xsd:int ;
+    hpcom:date_book_read "2026-01-20T00:00:00"^^xsd:dateTime ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Neal Stephenson"^^xsd:string ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:isbn "9780062409164"^^xsd:string ;
     schema:name "The Rise and Fall of D.O.D.O."@en ;
-    schema:url "https://harshp.com/hobbies/books/39"^^xsd:anyURI .
+    schema:review """I don't like Stephenson anymore. While this is an okay read, the ideas keep clunking ahead and it feel forced and just unsavoury. This is some of his earlier work. Okay, magic and some governmental shenanigans. Okay, some time travelling mischief. But then the ending just feels a stereotypical chase and I didn not like how it ended into a shoehorning situation."""@en ;
+    schema:url "https://harshp.com/hobbies/books/997"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/40> a hpcom:RenderedItem, hpcom:BookReading,
         schema:Book, hpcom:Book ;
@@ -11949,15 +11954,16 @@
 <https://harshp.com/hobbies/books/812> a hpcom:RenderedItem,
         schema:Book, hpcom:Book ;
     hpcom:book_id "812"^^xsd:int ;
-    # hpcom:book_owned_medium hpcom:PhysicalBook ;
-    # hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
-    #hpcom:date_book_read "2021-11-12T00:00:00"^^xsd:dateTime ;
-    #schema:aggregatedRating hptag:Rating4 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-02-06T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Vauhini Vara"^^xsd:string ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
     schema:name "The Immortal King Rao"@en ;
+    schema:review """An incredible premise, flipping between a past in a post-colonial Indian village to a post-apocalyptic global corpo-government. Mix in some sci-fi elements of genetic engineering, leaps of advancements in digital computing, and an anarchy community. Sounds interesting. But the writing is hand-wavy on most things. Yes, I get it that this is a take on Apple, and many other techie things. But to just declare that a future has been created is a hack, an unsatisfying whimsy that makes it clear that you are interested more in the ideas than in thinking them through. Maybe this book is more interesting and feels better for people who do not understand technology or corporate power or the resilience of politicians in not ceeding their own control. The story about the village life in India was charming, and if the book had only been about that, perhaps intersped with less fantastical things, it would have been a nice read."""@en ;
     schema:url "https://harshp.com/hobbies/books/812"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/813> a hpcom:RenderedItem,
@@ -13174,16 +13180,17 @@
 
 <https://harshp.com/hobbies/books/895> a schema:Book, hpcom:RenderedItem ;
     hpcom:book_id "895"^^xsd:int ;
-    hpcom:book_status hpcom:book-currently-reading ;
-    #schema:aggregatedRating hptag:Rating5 ;
-    #hpcom:date_book_read "2021-04-15T00:00:00"^^xsd:dateTime ;
+    hpcom:book_status hpcom:book-read ;
+    schema:aggregatedRating hptag:Rating1 ;
+    hpcom:date_book_read "2025-12-29T00:00:00"^^xsd:dateTime ;
     hpcom:book_owned_medium hpcom:EBook ;
-    # hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:EBook ;
     schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
     schema:author "Eliezer Yudkowsky"^^xsd:string ;
     schema:dateCreated "2015"^^xsd:int ;
     # schema:isbn ""^^xsd:string ;
     schema:name "Harry Potter and the Methods of Rationality"@en ;
+    schema:review """It started off as incredibly clever, and looked to be a fun parody. Instead, it went quickly down a deep dark hole and kept going in. A circle-jerk vehicle for the author's force insertion of their ideas about 'rationality'. Then I looked up the author's other works - found some stuff about AI and safety and alignment -- so more crazy stuff. Makes sense. Didn't like it. DNF."""@en ;
     schema:url "https://harshp.com/hobbies/books/895"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/896> a schema:Book, hpcom:RenderedItem ;
@@ -13542,16 +13549,17 @@
 
 <https://harshp.com/hobbies/books/919> a schema:Book, hpcom:RenderedItem ;
     hpcom:book_id "919"^^xsd:int ;
-    hpcom:book_status hpcom:book-to-read ;
-    #schema:aggregatedRating hptag:Rating5 ;
-    #hpcom:date_book_read "2021-04-15T00:00:00"^^xsd:dateTime ;
+    hpcom:book_status hpcom:book-read ;
+    schema:aggregatedRating hptag:Rating3 ;
+    hpcom:date_book_read "2026-01-15T00:00:00"^^xsd:dateTime ;
     hpcom:book_owned_medium hpcom:EBook ;
-    # hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:EBook ;
     schema:genre hpcom:BookNonFiction ;
     schema:author "Andrea Komlosy"^^xsd:string ;
     schema:dateCreated "2014"^^xsd:int ;
     # schema:isbn ""^^xsd:string ;
     schema:name "Work: The Last 1,000 Years"@en ;
+    schema:review "An ambitious premise as the book summarises the different of 'work' over the last thousand years. The earlier era seems a bit vague as to how we know about these things, but the book provides ample references (I didn't check them though). The later years cover more familiar things. I was excited to see how all these things connect to the modern practices. But alas the book stops just short of modern day work. A lost opportunity. The book's value and novelty is merely as a historical informatica."@en ;  
     schema:url "https://harshp.com/hobbies/books/919"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/920> a schema:Book, hpcom:RenderedItem ;
@@ -14355,7 +14363,7 @@
     schema:author "Seth Godin"^^xsd:string ;
     schema:dateCreated "2007"^^xsd:int ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    # hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
     schema:genre hpcom:BookNonFiction; 
     schema:name "The Dip: The Extraordinary Benefits of Knowing When to Quit (and When to Stick)"@en ;
     schema:review """This is a very small tiny book that really packs a punch. Good simple structure and framework to make sense of should I quit or not. I wrote about it - https://harshp.com/blog/the-dip - and this book gave me the thinking process and allowed me to quit my job (which I had been thinking of anyway)."""@en ;
@@ -14525,14 +14533,15 @@
         schema:Book ;
     hpcom:book_id "984"^^xsd:int ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    # hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
-    #hpcom:date_book_read "2021-11-12T00:00:00"^^xsd:dateTime ;
-    #schema:aggregatedRating hptag:Rating4 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-12-27T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Olga Tokarczuk"^^xsd:string ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:name "The Empusium"@en ;
+    schema:review """A horror story? By Olga Tokarczuk?! Yes please! After 'Drive your Plow over the Bones of the Dead', I was excited to see this. Half way through the book, after several passing references to ghosts, spirits, and in general uncomfortable circumstances but no actual horror, it struck me that the horror was more psychological. All the men were afraid of the women! Its not an accurate description of the book, but its a keen, wise, and clever take on storytelling that hides the real realisations until the very end, but also asks the reader to reflect on their own as characters become more familiar and exposed."""@en ;
     schema:url "https://harshp.com/hobbies/books/984"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/985> a schema:Book, hpcom:RenderedItem ;
@@ -14626,17 +14635,17 @@
 
 <https://harshp.com/hobbies/books/991> a schema:Book, hpcom:RenderedItem ;
     hpcom:book_id "991"^^xsd:int ;
-    hpcom:book_status hpcom:book-currently-reading ;
-    #schema:aggregatedRating hptag:Rating5 ;
-    #hpcom:date_book_read "2025-09-11T00:00:00"^^xsd:dateTime ;
+    hpcom:book_status hpcom:book-read ;
+    schema:aggregatedRating hptag:Rating5 ;
+    hpcom:date_book_read "2026-01-02T00:00:00"^^xsd:dateTime ;
     hpcom:book_owned_medium hpcom:EBook ;
-    #hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_read_medium hpcom:EBook ;
     schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
     schema:author "James S. A. Corey"^^xsd:string ;
     schema:dateCreated "2015"^^xsd:int ;
     # schema:isbn ""^^xsd:string ;
     schema:name "Leviathan Falls"@en ;
-    #schema:review """The Gang goes their separate ways and then shit happens that makes them want to get back together. I liked that this wasn't another episodic instance of the same stuff and that each character got enough of a back and individual story to have them be relevant in the larger story. I thought the pieces on Earth were a little slow and/or a little low in terms of having content. I'd have liked to see more, but that's the part where the good styorytelling comes through. Having less and wanting more is good if the overall story still is enjoying, which this was. Onwards to the next book."""@en ;
+    schema:review """The last book in the series of 9 books. Incredible expectations. Lots of loose ends to tie up. Will it end with a satisfying exposition or will things be hurriedly resolved off-screen. Reading was exciting, the story kept pushing the pace so there never was a feeling that where's my ending. I could happily have read a couple more novels in continuation. And yes, the ending does satisfy things in a way that doesn't leave much to regret. Really solid writing, and what a job to deliver 9 books!"""@en ;
     schema:url "https://harshp.com/hobbies/books/991"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/992> a schema:Book, hpcom:RenderedItem ;
@@ -14696,3 +14705,513 @@
     schema:name "Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence"@en ;
     schema:review """A recommendation for people looking into AI and its troubles. I think this was a bit too late for me, and in general felt aimed at someone else as I've had far too much exposure to these through my work. Recommended for people who want a more generalist perspective and would benefit from some additional details. The phrasing of 'atlas' really through me off, and I was expecting a more systematic structure and navigation. Instead the work means more about getting a perspective, which I've had from other books."""@en ;
     schema:url "https://harshp.com/hobbies/books/995"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/996> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "996"^^xsd:int ;
+    hpcom:book_status hpcom:book-read ;
+    schema:aggregatedRating hptag:Rating5 ;
+    hpcom:date_book_read "2026-01-16T00:00:00"^^xsd:dateTime ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "qntm"^^xsd:string ;
+    schema:dateCreated "2022"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Valuable Humans in Transit and Other Stories "@en ;
+    schema:review """A collection of short stories, which deal on topics ranging from simulation to the nature of things. Quite entertaining, and reminiscient of Ted Chiang's foray, though these are more sci-fi focused."""@en ;
+    schema:url "https://harshp.com/hobbies/books/996"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/997> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "997"^^xsd:int ;
+    hpcom:book_status hpcom:book-read ;
+    schema:aggregatedRating hptag:Rating2;
+    hpcom:date_book_read "2026-01-31T00:00:00"^^xsd:dateTime ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Bora Chung"^^xsd:string ;
+    schema:dateCreated "2023"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Midnight Timetable"@en ;
+    schema:review """A collection of ghost stories, I was initially patient that things might get more weirder, but the stories were all just meh. I understand there is an undercurrent in each that provides social commentary, but all of it felt so obviously placed, disconnected from the story itself, and also on the nose. So while interesting to read, none of the stories really stuck."""@en ;
+    schema:url "https://harshp.com/hobbies/books/997"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/998> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "998"^^xsd:int ;
+    hpcom:book_status hpcom:book-read ;
+    schema:aggregatedRating hptag:Rating3;
+    hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction ;
+    schema:author "Munir Hachemi"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Living Things"@en ;
+    schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/998"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/999> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "999"^^xsd:int ;
+    hpcom:book_status hpcom:book-read ;
+    schema:aggregatedRating hptag:Rating3;
+    hpcom:date_book_read "2026-01-31T00:00:00"^^xsd:dateTime ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction ;
+    schema:author "Claire Keegan"^^xsd:string ;
+    schema:dateCreated "2021"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Small Things Like These"@en ;
+    schema:review """An anti-Christmas carol, this is a story about a decent man finding a woman in distress in one of the Magdalene laundries. The book itself is small, and the writing flowing and episodic. It is a good book. Something to consider that the spirit of things is in our deeds more than the abstract notions of religion or celebration or any other thing. If you do not act, then you are not good."""@en ;
+    schema:url "https://harshp.com/hobbies/books/999"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1000> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1000"^^xsd:int ;
+    hpcom:book_status hpcom:book-currently-reading ;
+    schema:aggregatedRating hptag:Rating3;
+    # hpcom:date_book_read "2026-02-06T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction ;
+    schema:author ""^^xsd:string ;
+    schema:dateCreated "2020"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Hamnet"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1000"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1001> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1001"^^xsd:int ;
+    hpcom:book_status hpcom:book-currently-reading ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "The AI Con: How to Fight Big Tech's Hype and Create the Future We Want"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:author "Emily M. Bender and Alex Hanna"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1001"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1002> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1002"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:author "Kashmir Hill"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Your Face Belongs to Us: A Tale of AI, a Secretive Startup, and the End of Privacy"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1002"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1003> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1003"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:author "Callum Cant, James Muldoon, Mark Graham"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Feeding the Machine: The Hidden Human Labor Powering A.I."@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1003"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1004> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1004"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:author "Laura Bates"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "The New Age of Sexism: How the AI Revolution is Reinventing Misogyny"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1004"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1005> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1005"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:author "Tim Wu"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "The Age of Extraction: How Tech Platforms Conquered the Economy and Threaten Our Future Prosperity"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1005"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1006> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1006"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction ;
+    schema:author "Olga Tokarczuk"^^xsd:string ;
+    schema:dateCreated "1998"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "House of Day, House of Night"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1006"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1007> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1007"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction ;
+    schema:author "Salman Rushdie"^^xsd:string ;
+    schema:dateCreated "2001"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Fury"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1007"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1008> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1008"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction ;
+    schema:author "Salman Rushdie"^^xsd:string ;
+    schema:dateCreated "2015"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Two Years Eight Months and Twenty-Eight Nights"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1008"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1009> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1009"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction ;
+    schema:author "Salman Rushdie"^^xsd:string ;
+    schema:dateCreated "2017"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "The Golden House"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1009"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1010> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1010"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction ;
+    schema:author "Paul Murray"^^xsd:string ;
+    schema:dateCreated "2023"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "The Bee Sting"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1010"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1011> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1011"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "James S. A. Corey"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "The Mercy of Gods"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1011"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1012> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1012"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Dan Simmons"^^xsd:string ;
+    schema:dateCreated "1997"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Endymion II (The Rise of Endymion)"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1012"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1013> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1013"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:author "Liz Pelly"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Mood Machine: The Rise of Spotify and the Costs of the Perfect Playlist"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1013"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1014> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1014"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Stephen King"^^xsd:string ;
+    schema:dateCreated "1983"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Pet Sematary"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1014"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1015> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1015"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Iain M. Banks"^^xsd:string ;
+    schema:dateCreated "1988"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "The Player of Games"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1015"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1016> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1016"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Iain M. Banks"^^xsd:string ;
+    schema:dateCreated "1998"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1016"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1017> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1017"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    #hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Iain M. Banks"^^xsd:string ;
+    schema:dateCreated "1990"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Use of Weapons"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1017"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1018> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1018"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Andrzej Sapkowski"^^xsd:string ;
+    schema:dateCreated "1992"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Sword of Destiny"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1018"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1019> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1019"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    #hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Andrzej Sapkowski"^^xsd:string ;
+    schema:dateCreated "1994"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Blood of Elves"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1019"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1020> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1020"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Andrzej Sapkowski"^^xsd:string ;
+    schema:dateCreated "1995"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Time of Contempt"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1020"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1021> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1021"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    #hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Andrzej Sapkowski"^^xsd:string ;
+    schema:dateCreated "1996"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Baptism of Fire"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1021"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1022> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1022"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Andrzej Sapkowski"^^xsd:string ;
+    schema:dateCreated "1997"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Tower of Swallows"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1022"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1023> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1023"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Lives of Bitter Rain"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1023"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1024> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1024"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2021"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "One day all this will be yours"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1024"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1025> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1025"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2023"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "And put away the childish things"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1025"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1026> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1026"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Saturation Point"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1026"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1027> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1027"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    #hpcom:book_owned_medium hpcom:EBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2026"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Pretenders to the Throne of God"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1027"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1028> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1028"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    #hpcom:book_owned_medium hpcom:EBook ;
+    schema:genre hpcom:BookFiction, hpcom:BookSciFi ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2026"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Children of Strife"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1028"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1029> a schema:Book, hpcom:RenderedItem ;
+    hpcom:book_id "1029"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    #schema:aggregatedRating hptag:Rating3;
+    #hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    #hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:author "Cory Doctorow"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    # schema:isbn ""^^xsd:string ;
+    schema:name "Enshittification: Why Everything Suddenly Got Worse and What to Do About It"@en ;
+    #schema:review """A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."""@en ;
+    schema:url "https://harshp.com/hobbies/books/1029"^^xsd:anyURI .

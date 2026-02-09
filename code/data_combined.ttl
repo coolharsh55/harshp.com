@@ -586,7 +586,7 @@ hpcom:View a rdfs:Class ;
     schema:description "book notes for The Checklist Manifesto by Atul Gawande"@en ;
     schema:isPartOf <https://harshp.com/blog> ;
     schema:name "The Checklist Manifesto - book notes"@en ;
-    schema:url "https://harshp.com/blog/books/checklist-manifesto"^^xsd:anyURI .
+    schema:url "https://harshp.com/blog/checklist-manifesto"^^xsd:anyURI .
 
 <https://harshp.com/blog/completing-super-hexagon> a <https://harshp.com/blog>,
         hpcom:RenderedItem,
@@ -720,7 +720,7 @@ hpcom:View a rdfs:Class ;
     schema:description "Fiasco is a hard science masterpiece by Stanislaw Lem"@en ;
     schema:isPartOf <https://harshp.com/blog> ;
     schema:name "Fiasco"@en ;
-    schema:url "https://harshp.com/blog/books/fiasco"^^xsd:anyURI .
+    schema:url "https://harshp.com/blog/fiasco"^^xsd:anyURI .
 
 <https://harshp.com/blog/gratification-can-lead-to-stagnation> a <https://harshp.com/blog>,
         hpcom:RenderedItem,
@@ -890,7 +890,7 @@ hpcom:View a rdfs:Class ;
     schema:description "book notes for Invisible Women"@en ;
     schema:isPartOf <https://harshp.com/blog> ;
     schema:name "Invisible Women"@en ;
-    schema:url "https://harshp.com/blog/books/invisible-women"^^xsd:anyURI .
+    schema:url "https://harshp.com/blog/invisible-women"^^xsd:anyURI .
 
 <https://harshp.com/blog/iswc-2017> a <https://harshp.com/blog>,
         hpcom:RenderedItem,
@@ -1237,7 +1237,7 @@ hpcom:View a rdfs:Class ;
     schema:image "https://media.harshp.com/blog/old_books.jpg" ;
     schema:isPartOf <https://harshp.com/blog> ;
     schema:name "reading without guilt (buy old books!)"@en ;
-    schema:url "https://harshp.com/blog/books/reading-without-guilt-buy-old-books"^^xsd:anyURI .
+    schema:url "https://harshp.com/blog/reading-without-guilt-buy-old-books"^^xsd:anyURI .
 
 <https://harshp.com/blog/relationship-development-life-cycle-rdlc> a <https://harshp.com/blog>,
         hpcom:RenderedItem,
@@ -1454,7 +1454,23 @@ hpcom:View a rdfs:Class ;
     schema:description "The Dark Tower"@en ;
     schema:isPartOf <https://harshp.com/blog> ;
     schema:name "The Dark Tower"@en ;
-    schema:url "https://harshp.com/blog/books/the-dark-tower"^^xsd:anyURI .
+    schema:url "https://harshp.com/blog/the-dark-tower"^^xsd:anyURI .
+
+<https://harshp.com/blog/the-dip> a <https://harshp.com/blog>,
+        hpcom:RenderedItem,
+        schema:BlogPosting ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/blog/books/the-dip.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:tag hptag:blog,
+        hptag:books ;
+    schema:author <https://harshp.com/me> ;
+    schema:dateModified "2025-04-28T23:21:00"^^xsd:dateTime ;
+    schema:datePublished "2025-04-28T23:21:00"^^xsd:dateTime ;
+    schema:description "Book notes, thoughts, and reactions"@en ;
+    schema:isPartOf <https://harshp.com/blog> ;
+    schema:name "The Dip: The Extraordinary Benefits of Knowing When to Quit (and When to Stick)"@en ;
+    schema:url "https://harshp.com/blog/the-dip"^^xsd:anyURI .
 
 <https://harshp.com/blog/the-feeling> a <https://harshp.com/blog>,
         hpcom:RenderedItem,
@@ -1572,7 +1588,7 @@ hpcom:View a rdfs:Class ;
     schema:description "Book notes, thoughts, and reactions"@en ;
     schema:isPartOf <https://harshp.com/blog> ;
     schema:name "The Subtle Art of Not Giving a F***"@en ;
-    schema:url "https://harshp.com/blog/books/the-subtle-art-of-not-giving-a-f"^^xsd:anyURI .
+    schema:url "https://harshp.com/blog/the-subtle-art-of-not-giving-a-f"^^xsd:anyURI .
 
 <https://harshp.com/blog/two-surprisingly-productive-weeks> a <https://harshp.com/blog>,
         hpcom:RenderedItem,
@@ -2409,6 +2425,25 @@ hpcom:view_template a rdf:Property ;
     schema:name "Modelling AI Training in DPV - Part 2"@en ;
     schema:url "https://harshp.com/dev/dpv/ai-training-02"^^xsd:anyURI .
 
+<https://harshp.com/dev/dpv/docgen-modular-01> a hpcom:RenderedItem,
+        <https://harshp.com/dev>,
+        schema:BlogPosting ;
+    hpcom:code_highlight true ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/dev/dpv/docgen-modular-01.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:tag hptag:DPV,
+        hptag:DPVCG,
+        hptag:semantic-web,
+        hptag:working-note ;
+    schema:author <https://harshp.com/me> ;
+    schema:dateModified "2025-04-26T19:02:00"^^xsd:dateTime ;
+    schema:datePublished "2025-04-26T19:02:00"^^xsd:dateTime ;
+    schema:description "Ideas on how the DPV documentation generator could be made modular and easier to use"@en ;
+    schema:isPartOf <https://harshp.com/dev/dpv> ;
+    schema:name "How to make the docs generator modular?"@en ;
+    schema:url "https://harshp.com/dev/dpv/docgen-modular-01"^^xsd:anyURI .
+
 <https://harshp.com/dev/dpv/dpv-skos-analysis> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -2730,6 +2765,25 @@ hpcom:view_template a rdf:Property ;
     schema:isPartOf <https://harshp.com/dev/dpv> ;
     schema:name "Describing Intent in Documentation through Use-Cases"@en ;
     schema:url "https://harshp.com/dev/dpv/use-cases-01"^^xsd:anyURI .
+
+<https://harshp.com/dev/dpv/use-cases-02> a hpcom:RenderedItem,
+        <https://harshp.com/dev>,
+        schema:BlogPosting ;
+    hpcom:code_highlight true ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/dev/dpv/use-cases-02.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:tag hptag:DPV,
+        hptag:DPVCG,
+        hptag:semantic-web,
+        hptag:working-note ;
+    schema:author <https://harshp.com/me> ;
+    schema:dateModified "2025-06-11T22:45:00"^^xsd:dateTime ;
+    schema:datePublished "2025-06-11T22:45:00"^^xsd:dateTime ;
+    schema:description "Notes for resolving how to model use-cases through existing DPV Rules"@en ;
+    schema:isPartOf <https://harshp.com/dev/dpv> ;
+    schema:name "Modelling Acceptable and Intended Uses as DPV Rules"@en ;
+    schema:url "https://harshp.com/dev/dpv/use-cases-02"^^xsd:anyURI .
 
 <https://harshp.com/dev/gnib_appointments/analysing-gnib-appointment-app-survey-responses> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
@@ -3427,6 +3481,7 @@ book:1 a hpcom:Book,
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:educational ;
     schema:isbn "9780718193669"^^xsd:string ;
     schema:name "Poor Economics"@en ;
@@ -3467,6 +3522,117 @@ book:100 a hpcom:Book,
     schema:name "The Godfather"@en ;
     schema:url "https://harshp.com/hobbies/books/100"^^xsd:anyURI .
 
+book:1000 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1000"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-currently-reading ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author ""^^xsd:string ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "Hamnet"@en ;
+    schema:url "https://harshp.com/hobbies/books/1000"^^xsd:anyURI .
+
+book:1001 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1001"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-currently-reading ;
+    schema:author "Emily M. Bender and Alex Hanna"@en ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "The AI Con: How to Fight Big Tech's Hype and Create the Future We Want"^^xsd:string ;
+    schema:url "https://harshp.com/hobbies/books/1001"^^xsd:anyURI .
+
+book:1002 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1002"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Kashmir Hill"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Your Face Belongs to Us: A Tale of AI, a Secretive Startup, and the End of Privacy"@en ;
+    schema:url "https://harshp.com/hobbies/books/1002"^^xsd:anyURI .
+
+book:1003 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1003"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Callum Cant, James Muldoon, Mark Graham"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Feeding the Machine: The Hidden Human Labor Powering A.I."@en ;
+    schema:url "https://harshp.com/hobbies/books/1003"^^xsd:anyURI .
+
+book:1004 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1004"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Laura Bates"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "The New Age of Sexism: How the AI Revolution is Reinventing Misogyny"@en ;
+    schema:url "https://harshp.com/hobbies/books/1004"^^xsd:anyURI .
+
+book:1005 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1005"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Tim Wu"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "The Age of Extraction: How Tech Platforms Conquered the Economy and Threaten Our Future Prosperity"@en ;
+    schema:url "https://harshp.com/hobbies/books/1005"^^xsd:anyURI .
+
+book:1006 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1006"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Olga Tokarczuk"^^xsd:string ;
+    schema:dateCreated "1998"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "House of Day, House of Night"@en ;
+    schema:url "https://harshp.com/hobbies/books/1006"^^xsd:anyURI .
+
+book:1007 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1007"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Salman Rushdie"^^xsd:string ;
+    schema:dateCreated "2001"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "Fury"@en ;
+    schema:url "https://harshp.com/hobbies/books/1007"^^xsd:anyURI .
+
+book:1008 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1008"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Salman Rushdie"^^xsd:string ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "Two Years Eight Months and Twenty-Eight Nights"@en ;
+    schema:url "https://harshp.com/hobbies/books/1008"^^xsd:anyURI .
+
+book:1009 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1009"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Salman Rushdie"^^xsd:string ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "The Golden House"@en ;
+    schema:url "https://harshp.com/hobbies/books/1009"^^xsd:anyURI .
+
 book:101 a hpcom:Book,
         hpcom:BookReading,
         hpcom:RenderedItem,
@@ -3484,6 +3650,122 @@ book:101 a hpcom:Book,
     schema:name "Harry Potter and the Sorcerer's Stone"@en ;
     schema:url "https://harshp.com/hobbies/books/101"^^xsd:anyURI .
 
+book:1010 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1010"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Paul Murray"^^xsd:string ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "The Bee Sting"@en ;
+    schema:url "https://harshp.com/hobbies/books/1010"^^xsd:anyURI .
+
+book:1011 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1011"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "James S. A. Corey"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The Mercy of Gods"@en ;
+    schema:url "https://harshp.com/hobbies/books/1011"^^xsd:anyURI .
+
+book:1012 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1012"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Dan Simmons"^^xsd:string ;
+    schema:dateCreated "1997"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Endymion II (The Rise of Endymion)"@en ;
+    schema:url "https://harshp.com/hobbies/books/1012"^^xsd:anyURI .
+
+book:1013 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1013"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Liz Pelly"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Mood Machine: The Rise of Spotify and the Costs of the Perfect Playlist"@en ;
+    schema:url "https://harshp.com/hobbies/books/1013"^^xsd:anyURI .
+
+book:1014 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1014"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Stephen King"^^xsd:string ;
+    schema:dateCreated "1983"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Pet Sematary"@en ;
+    schema:url "https://harshp.com/hobbies/books/1014"^^xsd:anyURI .
+
+book:1015 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1015"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Iain M. Banks"^^xsd:string ;
+    schema:dateCreated "1988"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The Player of Games"@en ;
+    schema:url "https://harshp.com/hobbies/books/1015"^^xsd:anyURI .
+
+book:1016 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1016"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Iain M. Banks"^^xsd:string ;
+    schema:dateCreated "1998"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference"@en ;
+    schema:url "https://harshp.com/hobbies/books/1016"^^xsd:anyURI .
+
+book:1017 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1017"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Iain M. Banks"^^xsd:string ;
+    schema:dateCreated "1990"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Use of Weapons"@en ;
+    schema:url "https://harshp.com/hobbies/books/1017"^^xsd:anyURI .
+
+book:1018 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1018"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Andrzej Sapkowski"^^xsd:string ;
+    schema:dateCreated "1992"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Sword of Destiny"@en ;
+    schema:url "https://harshp.com/hobbies/books/1018"^^xsd:anyURI .
+
+book:1019 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1019"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Andrzej Sapkowski"^^xsd:string ;
+    schema:dateCreated "1994"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Blood of Elves"@en ;
+    schema:url "https://harshp.com/hobbies/books/1019"^^xsd:anyURI .
+
 book:102 a hpcom:Book,
         hpcom:BookReading,
         hpcom:RenderedItem,
@@ -3499,6 +3781,122 @@ book:102 a hpcom:Book,
     schema:isbn "9780439321617"^^xsd:string ;
     schema:name "Quidditch Through the Ages (Hogwarts Library)"@en ;
     schema:url "https://harshp.com/hobbies/books/102"^^xsd:anyURI .
+
+book:1020 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1020"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Andrzej Sapkowski"^^xsd:string ;
+    schema:dateCreated "1995"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Time of Contempt"@en ;
+    schema:url "https://harshp.com/hobbies/books/1020"^^xsd:anyURI .
+
+book:1021 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1021"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Andrzej Sapkowski"^^xsd:string ;
+    schema:dateCreated "1996"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Baptism of Fire"@en ;
+    schema:url "https://harshp.com/hobbies/books/1021"^^xsd:anyURI .
+
+book:1022 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1022"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Andrzej Sapkowski"^^xsd:string ;
+    schema:dateCreated "1997"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Tower of Swallows"@en ;
+    schema:url "https://harshp.com/hobbies/books/1022"^^xsd:anyURI .
+
+book:1023 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1023"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Lives of Bitter Rain"@en ;
+    schema:url "https://harshp.com/hobbies/books/1023"^^xsd:anyURI .
+
+book:1024 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1024"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2021"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "One day all this will be yours"@en ;
+    schema:url "https://harshp.com/hobbies/books/1024"^^xsd:anyURI .
+
+book:1025 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1025"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "And put away the childish things"@en ;
+    schema:url "https://harshp.com/hobbies/books/1025"^^xsd:anyURI .
+
+book:1026 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1026"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Saturation Point"@en ;
+    schema:url "https://harshp.com/hobbies/books/1026"^^xsd:anyURI .
+
+book:1027 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1027"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Pretenders to the Throne of God"@en ;
+    schema:url "https://harshp.com/hobbies/books/1027"^^xsd:anyURI .
+
+book:1028 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1028"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Children of Strife"@en ;
+    schema:url "https://harshp.com/hobbies/books/1028"^^xsd:anyURI .
+
+book:1029 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "1029"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Cory Doctorow"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Enshittification: Why Everything Suddenly Got Worse and What to Do About It"@en ;
+    schema:url "https://harshp.com/hobbies/books/1029"^^xsd:anyURI .
 
 book:103 a hpcom:Book,
         hpcom:BookReading,
@@ -4534,6 +4932,7 @@ book:160 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "160"^^xsd:int ;
+    hpcom:book_on_loan "Sprangers 12" ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-read ;
     hpcom:date_book_read "2002-10-03T00:00:00"^^xsd:dateTime ;
@@ -6850,6 +7249,7 @@ book:29 a hpcom:Book,
     schema:dateCreated "1988"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:educational ;
     schema:isbn "9780375714498"^^xsd:string ;
     schema:name "Manufacturing Consent: The Political Economy of the Mass Media"@en ;
@@ -7591,6 +7991,7 @@ book:33 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "33"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Dan Simmons"^^xsd:string ;
     schema:dateCreated "2003"^^xsd:int ;
@@ -7685,6 +8086,7 @@ book:334 a hpcom:Book,
     schema:dateCreated "-340"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:classics ;
     schema:isbn "9780199213610"^^xsd:string ;
     schema:name "The Nicomachean Ethics"@en ;
@@ -7855,6 +8257,7 @@ book:343 a hpcom:Book,
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:educational ;
     schema:isbn "9780062316097"^^xsd:string ;
     schema:name "Sapiens: A Brief History of Humankind"@en ;
@@ -7874,6 +8277,7 @@ book:344 a hpcom:Book,
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:educational ;
     schema:isbn "9780062464316"^^xsd:string ;
     schema:name "Homo Deus: A Brief History of Tomorrow"@en ;
@@ -8328,7 +8732,8 @@ book:369 a hpcom:Book,
     schema:author "Plato"^^xsd:string ;
     schema:dateCreated "-400"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:isbn "9780872205543"^^xsd:string ;
     schema:name "The Trial and Death of Socrates (Euthyphro, Apology, Crito, Phaedo (death scene only))"@en ;
     schema:url "https://harshp.com/hobbies/books/369"^^xsd:anyURI .
@@ -8595,6 +9000,7 @@ book:383 a hpcom:Book,
     schema:dateCreated "-322"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:classics ;
     schema:isbn "9780198724254"^^xsd:string ;
     schema:name "The Art of Rhetoric"@en ;
@@ -8613,7 +9019,8 @@ book:384 a hpcom:Book,
     schema:author "Penelope Murray"^^xsd:string ;
     schema:dateCreated "2001"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:isbn "9780140446517"^^xsd:string ;
     schema:name "Classical Literary Criticism"@en ;
     schema:url "https://harshp.com/hobbies/books/384"^^xsd:anyURI .
@@ -8711,12 +9118,16 @@ book:39 a hpcom:Book,
         schema:Book ;
     hpcom:book_id "39"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-01-20T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Neal Stephenson"^^xsd:string ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:isbn "9780062409164"^^xsd:string ;
     schema:name "The Rise and Fall of D.O.D.O."@en ;
-    schema:url "https://harshp.com/hobbies/books/39"^^xsd:anyURI .
+    schema:review "I don't like Stephenson anymore. While this is an okay read, the ideas keep clunking ahead and it feel forced and just unsavoury. This is some of his earlier work. Okay, magic and some governmental shenanigans. Okay, some time travelling mischief. But then the ending just feels a stereotypical chase and I didn not like how it ended into a shoehorning situation."@en ;
+    schema:url "https://harshp.com/hobbies/books/997"^^xsd:anyURI .
 
 book:390 a hpcom:Book,
         hpcom:BookReading,
@@ -8907,11 +9318,17 @@ book:40 a hpcom:Book,
         schema:Book ;
     hpcom:book_id "40"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-07-15T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Neal Stephenson"^^xsd:string ;
     schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isbn "9780061977961"^^xsd:string ;
     schema:name "Reamde"@en ;
+    schema:review "Stephenson had some really crazy and intense ideas in the earlier books like Snow Crash and Cryptonomicon and Anathem. Then I found it less interesting in the later books, starting from Seven Eves and especially for Fall or Dodge in Hell. Reamde (I keep reading this as Readme!) is the previous book to Fall... I didn't like it. Its too abstract, too pretentious, and just goes too grandiose for the sake of it. I read the latest one (Termination Shock) before this, and I can see how the aspects that I didn't like are here and scattered but really amplified with each book. No more Stephenson for me."@en ;
     schema:url "https://harshp.com/hobbies/books/40"^^xsd:anyURI .
 
 book:400 a hpcom:Book,
@@ -9033,7 +9450,8 @@ book:406 a hpcom:Book,
     schema:author "Howard Jacobson"^^xsd:string ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:isbn "9781408808870"^^xsd:string ;
     schema:name "The Finkler Question"@en ;
     schema:url "https://harshp.com/hobbies/books/406"^^xsd:anyURI .
@@ -9240,6 +9658,7 @@ book:417 a hpcom:Book,
     schema:dateCreated "-380"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:books-changed-life,
         list:classics,
         list:educational ;
@@ -9356,7 +9775,8 @@ book:423 a hpcom:Book,
     schema:author "Maeve Binchy"^^xsd:string ;
     schema:dateCreated "1996"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:isbn "9780752876825"^^xsd:string ;
     schema:name "Evening Class"@en ;
     schema:url "https://harshp.com/hobbies/books/423"^^xsd:anyURI .
@@ -9681,7 +10101,8 @@ book:440 a hpcom:Book,
     schema:author "Seneca"^^xsd:string ;
     schema:dateCreated "64"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:isbn "9780140442106"^^xsd:string ;
     schema:name "Letters from a Stoic"@en ;
     schema:url "https://harshp.com/hobbies/books/440"^^xsd:anyURI .
@@ -9736,7 +10157,8 @@ book:443 a hpcom:Book,
     schema:author "Helen Oyeyemi"^^xsd:string ;
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:isbn "9780330536264"^^xsd:string ;
     schema:name "Mr. Fox"@en ;
     schema:url "https://harshp.com/hobbies/books/443"^^xsd:anyURI .
@@ -10522,6 +10944,7 @@ book:486 a hpcom:Book,
     schema:dateCreated "1922"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:classics,
         list:storytelling ;
     schema:name "Ulysses"@en ;
@@ -10549,6 +10972,7 @@ book:488 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "488"^^xsd:int ;
+    hpcom:book_on_loan "DCU" ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-read ;
@@ -10871,7 +11295,8 @@ book:503 a hpcom:Book,
     schema:author "Caroline Criado Perez"^^xsd:string ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:educational ;
+    schema:isPartOf list:DCU,
+        list:educational ;
     schema:isbn "9781419729072"^^xsd:string ;
     schema:name "Invisible Women: Data Bias in a World Designed for Men"@en ;
     schema:url "https://harshp.com/hobbies/books/503"^^xsd:anyURI .
@@ -11003,7 +11428,8 @@ book:510 a hpcom:Book,
     schema:author "Richard Powers"^^xsd:string ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:isbn "9780393356687"^^xsd:string ;
     schema:name "The Overstory"@en ;
     schema:url "https://harshp.com/hobbies/books/510"^^xsd:anyURI .
@@ -11165,6 +11591,7 @@ book:519 a hpcom:Book,
     schema:dateCreated "-350"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:books-changed-life,
         list:classics,
         list:educational ;
@@ -11934,6 +12361,7 @@ book:56 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "56"^^xsd:int ;
+    hpcom:book_on_loan "Sprangers 12" ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-read ;
@@ -12180,7 +12608,8 @@ book:571 a hpcom:Book,
     schema:author "Donella H. Meadows"^^xsd:string ;
     schema:dateCreated "2008"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:isbn "9781603580557"^^xsd:string ;
     schema:name "Thinking in Systems: A Primer"@en ;
     schema:review "This is a great book to introduce yourself to \"thinking in systems\" - just like the title says. Other than that, the book can be frustrating if one tries to figure out how to apply it everywhere. At this point, one realises that the book is an introductory course in systems thinking - it will tell what a system is, how to express the functioning of a system, and how to map some real-world events in terms of systems. This is like a first-year college course - you learn things, but you need to get more advanced knowledge before you can apply it masterfully. All that said - excellent book to get started."@en ;
@@ -12784,12 +13213,15 @@ book:602 a hpcom:Book,
     hpcom:book_id "602"^^xsd:int ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-04-14T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Greg Bear"^^xsd:string ;
     schema:dateCreated "1987"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "The Forge of God"@en ;
+    schema:review "I had high hopes for this after having read Darwin's Radio, which was a scientifically charged story. Instead, this book creates some interesting conundrums but doesn't really pay off at the end. A good drama until it looks for a sequel rather than finishing the story."@en ;
     schema:url "https://harshp.com/hobbies/books/602"^^xsd:anyURI .
 
 book:603 a hpcom:Book,
@@ -12828,7 +13260,6 @@ book:605 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "605"^^xsd:int ;
-    hpcom:book_on_loan "JW" ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-read ;
@@ -12928,7 +13359,8 @@ book:610 a hpcom:Book,
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The City We Became"@en ;
     schema:url "https://harshp.com/hobbies/books/610"^^xsd:anyURI .
 
@@ -12982,7 +13414,8 @@ book:613 a hpcom:Book,
     schema:author "Paul J. Steinhardt"^^xsd:string ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The Second Kind of Impossible: The Extraordinary Quest for a New Form of Matter "@en ;
     schema:url "https://harshp.com/hobbies/books/613"^^xsd:anyURI .
 
@@ -13000,6 +13433,7 @@ book:614 a hpcom:Book,
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:books-changed-life,
         list:educational ;
     schema:name "Our Mathematical Universe: My Quest for the Ultimate Nature of Reality"@en ;
@@ -13514,6 +13948,7 @@ book:641 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "641"^^xsd:int ;
+    hpcom:book_on_loan "Sprangers 12" ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-read ;
@@ -13634,12 +14069,16 @@ book:648 a hpcom:Book,
         schema:Book ;
     hpcom:book_id "648"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-09-10T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Haruki Murakami"^^xsd:string ;
     schema:dateCreated "2009"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "1Q84: Book 1"@en ;
+    schema:review "Read Books 1 to 3 together, so the review is in Book 3"@en ;
     schema:url "https://harshp.com/hobbies/books/648"^^xsd:anyURI .
 
 book:649 a hpcom:Book,
@@ -13648,12 +14087,16 @@ book:649 a hpcom:Book,
         schema:Book ;
     hpcom:book_id "649"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-09-20T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Haruki Murakami"^^xsd:string ;
     schema:dateCreated "2009"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "1Q84: Book 2"@en ;
+    schema:review "Read Books 1 to 3 together, so the review is in Book 3"@en ;
     schema:url "https://harshp.com/hobbies/books/649"^^xsd:anyURI .
 
 book:65 a hpcom:Book,
@@ -13673,12 +14116,17 @@ book:650 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "650"^^xsd:int ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-09-30T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Haruki Murakami"^^xsd:string ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "1Q84: Book 3"@en ;
+    schema:review "I bought this book a long time ago when I was enjoying Murakami. This seemed like a massive book (3 volumes) and so I left it until later. This year I decided to clear out the backlog, and so got to this. This felt like Murakami, but in such slow motion that I was constantly waiting for things to happen. Really wish this was a single book. The length is far too long, there are too many points at which you go no thanks (what is it with Murakami and young girls being involved with older men in questionable ways to justify it in the story?) and in general the main charisma of mystery seems convoluted rather than ethereal."@en ;
     schema:url "https://harshp.com/hobbies/books/650"^^xsd:anyURI .
 
 book:651 a hpcom:Book,
@@ -13944,13 +14392,16 @@ book:665 a hpcom:Book,
     hpcom:book_id "665"^^xsd:int ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-04-21T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Ursula K. Le Guinn"^^xsd:string ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DCU ;
     schema:name "The Wind's Twelve Quarters & The Compass Rose"@en ;
+    schema:review "Some interesting, but mostly okay stories."@en ;
     schema:url "https://harshp.com/hobbies/books/665"^^xsd:anyURI .
 
 book:666 a hpcom:Book,
@@ -14140,6 +14591,8 @@ book:675 a hpcom:Book,
     schema:dateCreated "1989"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The Doomed City"@en ;
     schema:review "A masterpiece of how science fiction can be a work of philosophical and political commentary. Reading it today there is no indication of why this was a controversial or risky venture in its time and place. But the explanation provided at the end by the authors explains it quite well how imagining this in today's social situation where freedom of thought and speech are common is a difficult - we have no means of comparing or experiencing what it would mean to consider some thoughts as illegal. To imagine this has happened, and at the risk of happening again is a provocative realisation."@en ;
     schema:url "https://harshp.com/hobbies/books/675"^^xsd:anyURI .
@@ -14157,7 +14610,8 @@ book:676 a hpcom:Book,
     schema:author "Andrew Sean Greer"^^xsd:string ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "LESS"@en ;
     schema:url "https://harshp.com/hobbies/books/676"^^xsd:anyURI .
 
@@ -14813,7 +15267,8 @@ book:710 a hpcom:Book,
     schema:author "David Sedaris"^^xsd:string ;
     schema:dateCreated "2008"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "When You Are Engulfed in Flames"@en ;
     schema:review "More of David Sedaris telling quips about how shit his life is, how weird his upbringing was, and offering slices of his life along with his family and friends. A decent way to pass time. Read it, move along."@en ;
     schema:url "https://harshp.com/hobbies/books/710"^^xsd:anyURI .
@@ -14948,6 +15403,8 @@ book:718 a hpcom:Book,
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Obelisk"@en ;
     schema:review "A good overview of Baxter's various writing styles in which he grapples with philosophical questions in one, to what is it to be human in future science. A lot of the stories are connected to other novels, often relying on some hidden knowledge that isn't apparent at first. Still, a good read."@en ;
     schema:url "https://harshp.com/hobbies/books/718"^^xsd:anyURI .
@@ -14966,7 +15423,9 @@ book:719 a hpcom:Book,
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
-    schema:isPartOf list:scifi ;
+    schema:isPartOf list:DCU,
+        list:GiveAway,
+        list:scifi ;
     schema:name "The Hidden Girl and Other Stories"@en ;
     schema:url "https://harshp.com/hobbies/books/719"^^xsd:anyURI .
 
@@ -14998,6 +15457,8 @@ book:720 a hpcom:Book,
     schema:dateCreated "1994"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Feersum Endjinn"@en ;
     schema:review "This is an interesting book, with an apparent novel sci-fi situation containing virtual second lives. Why this is novel is beyond my understanding, when Philip K. Dick had already published the much more intriguing and existential Ubik way back in 1969, a good 30 years prior to this work. In addition, the language was off-putting. Phonetic English (writing as sounds are spoken, not as words conventionally written) may be interesting in small measures, but to read a lot of it is annoying. The choice of why medieval cultures are chosen to reanimate the dead is just absurd, and the insistence on classes, clans, wars, factions - is interesting were it not the overusage of convoluted sentences - seemingly for the sake of it. Definitely not a book for my tastes."@en ;
     schema:url "https://harshp.com/hobbies/books/720"^^xsd:anyURI .
@@ -15107,7 +15568,8 @@ book:726 a hpcom:Book,
     schema:author "Anna Burns"^^xsd:string ;
     schema:dateCreated "2001"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "No Bones"@en ;
     schema:review "This was the stone from which the Milkman diamond was cut"@en ;
     schema:url "https://harshp.com/hobbies/books/726"^^xsd:anyURI .
@@ -15191,7 +15653,8 @@ book:730 a hpcom:Book,
     schema:author "Lisa Margonelli"^^xsd:string ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Underbug: An Obsessive Tale of Termites and Technology"@en ;
     schema:review "Too much people experience, not enough termites"@en ;
     schema:url "https://harshp.com/hobbies/books/730"^^xsd:anyURI .
@@ -15228,7 +15691,8 @@ book:732 a hpcom:Book,
     schema:author "David Sedaris"^^xsd:string ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Theft by Finding Diaries"@en ;
     schema:review "Fans of Sedaris might like this if they want to know more about the mind of Sedaris, but I found this quite dull and the wit and humour in there to not be much amusing."@en ;
     schema:url "https://harshp.com/hobbies/books/732"^^xsd:anyURI .
@@ -15489,6 +15953,8 @@ book:749 a hpcom:Book,
     schema:dateCreated "2021"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Termination Shock"@en ;
     schema:review "Where is the action? Where is the well-researched hard science fiction? Beyond some hodgy-podgy climate change scheme, this novel is not what I would expect from a Stephenson book at all. Disappointing to spend 700 pages to have very little payoff."@en ;
     schema:url "https://harshp.com/hobbies/books/749"^^xsd:anyURI .
@@ -15523,6 +15989,7 @@ book:751 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "751"^^xsd:int ;
+    hpcom:book_on_loan "Sprangers 12" ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-read ;
@@ -15660,6 +16127,8 @@ book:759 a hpcom:Book,
     schema:author "Carlo Rovelli"^^xsd:string ;
     schema:dateCreated "2021"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Helgoland: The World of Quantum Theory"@en ;
     schema:review "There's no illusions that this book is written by someone who can explain quantum physics in the manner of a nice lecture. Unfortunately, this is exactly what the book comes off as. Excellent start, some hand waving of concepts that should have chapters dedicated to explanation, and then complete derailment towards things that are relevant but not on the topic. When the book is this thin, every page has to offer more. All this said, the book did offer new perspectives, but didn't make good descriptions out of them."@en ;
     schema:url "https://harshp.com/hobbies/books/759"^^xsd:anyURI .
@@ -15937,6 +16406,7 @@ book:776 a hpcom:Book,
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
+    schema:isPartOf list:DCU ;
     schema:name "The Doors of Eden"@en ;
     schema:review "A fantastic imagination of what life would have been like if sentient species had dominated at various points in the timeline instead of humans, their existence on parallel earths, and how their various cultures might clash. A lesser rating because the part where it was all shoehorned into a human society episodic chase between an organisation and the good folk was not interesting at all, and the characters were shallow with no interest to read about."@en ;
     schema:url "https://harshp.com/hobbies/books/776"^^xsd:anyURI .
@@ -16075,6 +16545,7 @@ book:784 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "784"^^xsd:int ;
+    hpcom:book_on_loan "Sprangers 12" ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-read ;
@@ -16101,6 +16572,7 @@ book:785 a hpcom:Book,
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:educational ;
     schema:name "Endless Universe: Beyond the Big Bang"@en ;
     schema:review "An educational read, though a bit heavy on the physics side, of the big bang, origins of the universe, and the theories out there."@en ;
@@ -16118,7 +16590,8 @@ book:786 a hpcom:Book,
     schema:author "Sean Carroll"^^xsd:string ;
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The Particle at the End of the Universe"@en ;
     schema:review "A relaxed introduction to the world of particle physics, detection methods, LHC/CERN, and the importance of Higg's boson. A little too much on the people-side of things, but it makes up by explaining particle theories and applications in good detail. Has some useful analogies to understand things without a physics doctorate."@en ;
     schema:url "https://harshp.com/hobbies/books/786"^^xsd:anyURI .
@@ -16135,7 +16608,8 @@ book:787 a hpcom:Book,
     schema:author "Stephen Kelman"^^xsd:string ;
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Pigeon English"@en ;
     schema:review "A thematic book written in London slang. Like watching City of Gold mixed with Mud in word form."@en ;
     schema:url "https://harshp.com/hobbies/books/787"^^xsd:anyURI .
@@ -16171,6 +16645,7 @@ book:789 a hpcom:Book,
     schema:dateCreated "2002"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:educational ;
     schema:name "Globalization and its Discontents"@en ;
     schema:review "I'm not an economist, nor do I have any formal training or background knowledge on this subject. Despite this, the book was remarkably easy to read and understand, and illuminating and how plain and simple the causal models of fiscal policies can be. Even before I had finished the first chapter, I knew more about the world, and could understand and appreciate better the way finances work. By the time I had finished the book, I had realised the immense huge machinery that is the global economy, and how increasingly it looks like economics = rich people. A narrative that *must* change if we are to progress."@en ;
@@ -16188,7 +16663,8 @@ book:790 a hpcom:Book,
     schema:author "Luke Heaton"^^xsd:string ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "A Brief History of Mathematical Thought"@en ;
     schema:review "A (truly) brief summary of different mathematical 'philosophies'. Would have been nice to read in school."@en ;
     schema:url "https://harshp.com/hobbies/books/790"^^xsd:anyURI .
@@ -16302,7 +16778,9 @@ book:796 a hpcom:Book,
     schema:author "Richard Dawkins"^^xsd:string ;
     schema:dateCreated "2006"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:books-changed-life,
+    schema:isPartOf list:DCU,
+        list:GiveAway,
+        list:books-changed-life,
         list:educational ;
     schema:name "The God Delusion"@en ;
     schema:review "Wow. Some books expand the mind, or as Dawkins correctly puts it - they expand the 'consciousness' because it forever changes the perception and ability to think about things. This is one such book. It really hammers down on religion, even though a lot of it (most?) is Abrahamic ones, the arguments and the logical questions are utilities for any and all religions. This is a great book to consider why we must question everything, and why things don't make sense when we put them in a consistent logical framework. And this is what religion is explained as - and why and where and how it ruins our ability to progress. Really influential book, and which has permanently set me on a path to finalising my mind. The only bits I would have liked to be included was an exploration of religions which don't have a written book, but instead rely on the moral policing by society itself. This is what I saw and experienced growing up in India. Its still religion, but there is no single word of God to debate against. The book does give the tools that are universal in arguments, but it would have been nice to see them used for exploring such social structures as well."@en ;
@@ -16322,6 +16800,7 @@ book:797 a hpcom:Book,
     schema:dateCreated "1932"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:educational ;
     schema:name "Brave New World Revisited"@en ;
     schema:review "An excellent and astute observation from the mind that wrote Brave New World, the Revisited can be interpreted as a collection of essays on the reflection of that book's topics to the functioning in real world. It is quite sobering, and astounding, if not merely depressing - to realise that this book was written 60 years ago (from today) and yet the words are eerily accurate and applicable to the current times. Whether to call people like Huxley and Orwell is an understatement. The fact that we did not course-correct is more telling that whether they were accurate. Because we could have decided not to let them be accurate. And yet here we are two generations later, seeminly worse than ever."@en ;
@@ -16357,7 +16836,8 @@ book:799 a hpcom:Book,
     schema:author "Stanley I. Greenspan, Stuart G. Shanker"^^xsd:string ;
     schema:dateCreated "2004"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The First Idea: The First Idea: How Symbols, Language, and Intelligence Evolved from Our Primate Ancestors to Modern Humans "@en ;
     schema:review "Interesting idea, dense and limited views. The authors and consequently the book is very much rooted in Psychology and Anthropology as opposed to what I was hoping would be a more broader view of Biology and Philosophy. It spends too much time on anecdotal stories about babies and their abilities to communicate - which while very interesting, does not satisfy the question of how did we evolve to think symbols and languages. The title should have warned me - this book is only about primates, and nothing before that, but I suppose I was too excited to notice. For instance, communication is the basis for an idea - which the book makes clear, but utterly fails to consider any notion of communication in non-primates as being of relevance other than a few related mammalian instances. Birds, bees, insects, even plans all communicate. Do they have a language? Undoubtedly yes. Do they have symbols? Probably. Do they have Ideas? I don't know! By not considering this, the book fails at the premise of answering its own question. And identifying a larger one at that - whether the notion of ideas and symbols has been evolutionary only within us or we merely at the tail of a long chain of developments in nature."@en ;
     schema:url "https://harshp.com/hobbies/books/799"^^xsd:anyURI .
@@ -16436,7 +16916,8 @@ book:802 a hpcom:Book,
     schema:dateCreated "1962"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Island"@en ;
     schema:url "https://harshp.com/hobbies/books/802"^^xsd:anyURI .
 
@@ -16582,6 +17063,7 @@ book:811 a hpcom:Book,
     schema:dateCreated "1983"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf list:DCU,
+        list:GiveAway,
         list:language ;
     schema:name "Mr. Palomar"@en ;
     schema:review "A delightful read that is clever and thoughtful"@en ;
@@ -16591,12 +17073,17 @@ book:812 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "812"^^xsd:int ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-02-06T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Vauhini Vara"^^xsd:string ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "The Immortal King Rao"@en ;
+    schema:review "An incredible premise, flipping between a past in a post-colonial Indian village to a post-apocalyptic global corpo-government. Mix in some sci-fi elements of genetic engineering, leaps of advancements in digital computing, and an anarchy community. Sounds interesting. But the writing is hand-wavy on most things. Yes, I get it that this is a take on Apple, and many other techie things. But to just declare that a future has been created is a hack, an unsatisfying whimsy that makes it clear that you are interested more in the ideas than in thinking them through. Maybe this book is more interesting and feels better for people who do not understand technology or corporate power or the resilience of politicians in not ceeding their own control. The story about the village life in India was charming, and if the book had only been about that, perhaps intersped with less fantastical things, it would have been a nice read."@en ;
     schema:url "https://harshp.com/hobbies/books/812"^^xsd:anyURI .
 
 book:813 a hpcom:Book,
@@ -16741,6 +17228,8 @@ book:820 a hpcom:Book,
     schema:author "Sussane Wedlich"^^xsd:string ;
     schema:dateCreated "2021"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Slime: A Natural History"@en ;
     schema:review "The title and cover implied this would be about slime substances and slime molds. But instead, it was a collection of short articles mostly about slime as in the gooey substance with very little about slime molds. The articles were interesting, but too short to keep up interest. Disappointing pick to read."@en ;
     schema:url "https://harshp.com/hobbies/books/820"^^xsd:anyURI .
@@ -16757,6 +17246,8 @@ book:821 a hpcom:Book,
     schema:author "Peter Wohlleben"^^xsd:string ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The Secret Network of Nature"@en ;
     schema:review "A good nature documentary in book form."@en ;
     schema:url "https://harshp.com/hobbies/books/821"^^xsd:anyURI .
@@ -16838,8 +17329,9 @@ book:826 a hpcom:Book,
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
-    schema:isPartOf list:DCU ;
-    schema:name "Killing Moon"@en ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
+    schema:name "The Killing Moon"@en ;
     schema:review "Interesting take on dreams and magic. Good world building, characters with stories, and a mystical plot. Though where the story goes next depends on whether I would want to read the sequels."@en ;
     schema:url "https://harshp.com/hobbies/books/826"^^xsd:anyURI .
 
@@ -17088,7 +17580,8 @@ book:840 a hpcom:Book,
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
-    schema:isPartOf list:DCU ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "2312"@en ;
     schema:review "A bold mystery set in solar space that manages to convince that not just humankind's set but the setting has changed as well. Personal computing, gender identity, sexuality, ethics, a lot of things that mesh well together without feeling forced or introduced to make a point. Just matter of fact, as if part of the world. The story I thought I'd read before, so was not novel. But the plot points and space-tech was enough to continue reading."@en ;
     schema:url "https://harshp.com/hobbies/books/840"^^xsd:anyURI .
@@ -17105,6 +17598,8 @@ book:841 a hpcom:Book,
     schema:author "Adam Zeman"^^xsd:string ;
     schema:dateCreated "2002"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Consciousness: A User's Guide"@en ;
     schema:review "I picked up this book because of the title stating it is \"a user's guide\" - which to me implied that I would be receiving some sort of primer or framework. To a certain extent, the book does provide different concepts and theories from philosophy, neurology, biology, and physics to discuss consciousness. This knowledge spans and skips domains in so many ways that the book became quite dense and at times it felt that the subject wasn't been explored in as much detail as possible. For example, the notion of neurons and the brain being evolutionary key pieces to discuss how consciousness evolved is a great topic to understand what consciousness actually is or means. But it is quite quickly glossed over. Similarly, how the brain exhibits consciousnes versus what is the 'feeling' of being conscios is mentioned throughout the book, but the conclusion never offers enough insight to think about it further. Even as a book providing 'here's what we know' type of collections, it didn't really tickle my neurons. Good to skim through and pick at pages that interest."@en ;
     schema:url "https://harshp.com/hobbies/books/841"^^xsd:anyURI .
@@ -17132,6 +17627,8 @@ book:843 a hpcom:Book,
     schema:author "Matt Wilkinson"^^xsd:string ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Restless Creatures"@en ;
     schema:review "Interesting way to present what is essentially a biological phenomenon - walking. There's physics, chemistry, biology - of course, but also lots of practical mix-match between these. Educational in the sense of presenting a way of thinking how disciplines flow into one another at the face of a problem. The writing was difficult and dry at times, but the overall pacing was good and the topic was handled well. At the end of it all, I did learn something new about walking, and its various forms such as flying, slithering, contracting, expanding, floating, and so on."@en ;
     schema:url "https://harshp.com/hobbies/books/843"^^xsd:anyURI .
@@ -17166,6 +17663,8 @@ book:846 a hpcom:Book,
     schema:author "John D. Barrow"^^xsd:string ;
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The Book of Universes: Exploring the Limits of the Cosmos"@en ;
     schema:review "A nice book describing how different solutions to a theoretical equation led to the modelling of how universes work and what may happen with the one we live in."@en ;
     schema:url "https://harshp.com/hobbies/books/846"^^xsd:anyURI .
@@ -17254,6 +17753,7 @@ book:851 a hpcom:Book,
     schema:author "Mireille Hildebrandt"^^xsd:string ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU ;
     schema:name "Law for Computer Scientists and Other Folks"@en ;
     schema:url "https://harshp.com/hobbies/books/851"^^xsd:anyURI .
 
@@ -17401,6 +17901,7 @@ book:861 a hpcom:Book,
     schema:author "Jamie Susskind"^^xsd:string ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU ;
     schema:name "The Digital Republic: How to Govern and Take Back Control Technology"@en ;
     schema:review "A comprehensive book about what 'republican' means in the political context (not the American one), and how it applies to the rising digital internet economy. There's a lot of interesting concepts, and even though I knew a lot of the events and situations mentioned, the specific perspective of how they relate to things such as self-determination and governance of systems was interesting and thought-provoking."@en ;
     schema:url "https://harshp.com/hobbies/books/861"^^xsd:anyURI .
@@ -17471,6 +17972,8 @@ book:867 a hpcom:Book,
     schema:author "Nicholas Carr"^^xsd:string ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Utopia is Creepy; and other provocations"@en ;
     schema:review "Interesting book that contains few thought-provoking articles, but then most of the other times its just some person rambling on a topic. Sometimes its things that don't seem sensible because I'd see biases and prejudices for a particular technology or company (mostly Apple) that taint the other writings."@en ;
     schema:url "https://harshp.com/hobbies/books/867"^^xsd:anyURI .
@@ -17573,6 +18076,7 @@ book:873 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "873"^^xsd:int ;
+    hpcom:book_on_loan "Sprangers 12" ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-read ;
@@ -17657,6 +18161,7 @@ book:878 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "878"^^xsd:int ;
+    hpcom:book_on_loan "Sprangers 12" ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-read ;
@@ -17773,6 +18278,8 @@ book:884 a hpcom:Book,
     schema:dateCreated "2023"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The Ferryman"@en ;
     schema:review "The Ferryman starts off with a fantastic premise and a hook that makes you want to latch on seeking the mystery promised at every other page. There is a society where there are no children - instead teens are dropped off by a ferry where the implication is that somehow they were created at that stage. The society is a panopticon utopia situated on an island. Amidst all this are shades of something horribly wrong, implications that the freedom is an illusion. The 'help' who serve the utopia are humans who are treated as a poorer class. One would think that after all of this, the ending would be something just as intricate and that there would be a commentary on why things were the way they are. Instead, we get this hand-wavy cliche absolutely not well done. Good book that may get passed as acceptable and even be considered as good for other casual readers - but this was not satisfying for me."@en ;
     schema:url "https://harshp.com/hobbies/books/884"^^xsd:anyURI .
@@ -17888,6 +18395,7 @@ book:891 a hpcom:RenderedItem,
 book:892 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "892"^^xsd:int ;
+    hpcom:book_on_loan "DCU" ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_read_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-read ;
@@ -17913,6 +18421,8 @@ book:893 a hpcom:RenderedItem,
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The Ministry for the Future"@en ;
     schema:review "If nothing else, - read Chapter 1 of this book. Tell me if doesn't affect you. So off to a great start about what climate change is going to do to human society, and the havoc it will have on everything. I do not recall another book that had me so personally invested in feeling the frustrations of the plot. Climate change is real, it is happening NOW, and yet we sit idly by. The book takes today as what we would do, and turns it into fiction - what will happen when we get disaster after disaster - and still shows that we wouldn't do much except short term band-aid solutions. The frustration of getting governments and companies to move, to stop producing carbon, to innovate for the betterment of the world and society - I felt all of that. The book is hard science-fiction, but I would categorise it more as 'hard policy fiction'. The stuff about pulling carbon out of the atmosphere, spreading particulates to reflect sun back, stopping glaciers from melting into the sea is cool. But the more interesting stuff is the reluctance from banks and companies to stop making quick profits - and how economics carrots and sticks can be used to induce a change for the better. In this case, through a 'carbon coin' - not a new idea, but certainly an important concept for the story. Blockchain makes an appearance too - and it was awkward because there were no details whatsoever about its implementation, but that's okay since there were other things to follow up on. It is difficult to understand this book - yes it is not 'realistic' in that it expects a lot of cooperation from agencies that we know today do not work that way. But it is also fiction, and the author chose not to just wave their hands and produce solutions. They showed that it is frustrating, but there are ways out of the quagmire we are in - and that is worth something. Let's call this a pragmatic utopian vision."@en ;
     schema:url "https://harshp.com/hobbies/books/893"^^xsd:anyURI .
@@ -17931,35 +18441,47 @@ book:895 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "895"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-12-29T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating1 ;
     schema:author "Eliezer Yudkowsky"^^xsd:string ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Harry Potter and the Methods of Rationality"@en ;
+    schema:review "It started off as incredibly clever, and looked to be a fun parody. Instead, it went quickly down a deep dark hole and kept going in. A circle-jerk vehicle for the author's force insertion of their ideas about 'rationality'. Then I looked up the author's other works - found some stuff about AI and safety and alignment -- so more crazy stuff. Makes sense. Didn't like it. DNF."@en ;
     schema:url "https://harshp.com/hobbies/books/895"^^xsd:anyURI .
 
 book:896 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "896"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-06-12T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Cory Doctorow"^^xsd:string ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:name "How to Destroy Surveillance Capitalism"@en ;
+    schema:review "Brought this because I wanted to support Doctorow and hear more of what he says. The book itself is quite short, and the 'chatpers' are more like a short commentary in between things. The premise of the book sounds explosive, but the actual contents are more of a primer to the situation rather than a primer to an explosion. Still, I made notes of several sentences which I thought were good to use when describing the things in articles or to others. So there was value in reading more of the same."@en ;
     schema:url "https://harshp.com/hobbies/books/896"^^xsd:anyURI .
 
 book:897 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "897"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-06-15T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Cory Doctorow and Charles Stross"^^xsd:string ;
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "The Rapture of the Nerds"@en ;
+    schema:review "This was a fun book to start and then a complex one to end with. It starts off as a Hitchhiker's take by Charles Stross with all the shenanigans I've come to expect from the author who wrote about Cornucopia (Singularity Sky). Then things just got more and more chaotic until we get more of Doctorow's influences in creating societal structures. Entertaining but felt like it ran off quite a bit of steam towards the end."@en ;
     schema:url "https://harshp.com/hobbies/books/897"^^xsd:anyURI .
 
 book:898 a hpcom:RenderedItem,
@@ -17995,6 +18517,8 @@ book:9 a hpcom:Book,
     schema:author "Charlie Kaufman"^^xsd:string ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Antkind"@en ;
     schema:review "This is Kaufman, but 700 pages long."@en ;
     schema:url "https://harshp.com/hobbies/books/9"^^xsd:anyURI .
@@ -18032,6 +18556,7 @@ book:901 a hpcom:RenderedItem,
     schema:author "Cory Doctorow"^^xsd:string ;
     schema:dateCreated "2023"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU ;
     schema:name "The Internet Con"@en ;
     schema:review "Got this off kickstarter - the author at the time had mentioned that Amazon Audible required a really shit deal of signing over stuff and not being able to have a DRM free experience. The book is a really good 'manifesto' for what has gone wrong with the internet and digital services through rampant abuse of copyright and IP. Much of it is about interoperability - so we all can do what we want to do with stuff. I was surprised to read that the solution is really a better alignment of laws (rather than replacement or overhaul which are exhuberant and expensive) with the intention of 'interoperability' so that we get more competition and better innovation from the grassroot upwards. The book was poignant, restricted in its argument (which is a good thing), and offered a good purview of history to understand why we arrived here and what kind of backsteps we need to get out of the sinkhole. This also made me buy 2 other books from Doctorow, and to support a third on Kickstarter."@en ;
     schema:url "https://harshp.com/hobbies/books/901"^^xsd:anyURI .
@@ -18063,6 +18588,8 @@ book:903 a hpcom:RenderedItem,
     schema:author "Lawrence M. Krauss"^^xsd:string ;
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "A Universe from nothing"@en ;
     schema:review "This is a mixed-bag for me - on one hand the topic is interesting (dare I say 'universal') and the physics is explained in a readily accessible way; on the other hand there is much ado about 'nothing'. I get that the intention of the author is to point out how a universe can arise from 'nothingness' in the sense of energy and mass, and why this doesn't need an intelligent creator - pointing to a similar aha moment in biology when evolution was discovered. But if its intention was to give a metaphysical consideration, it merely touches upon the subject (and I'm the already convinced) rather than have a clearer and cleaner picture. I still liked reading about the aspects of how 'nothing' in space is being still pondered upon in terms of physics - dark matter and dark energy."@en ;
     schema:url "https://harshp.com/hobbies/books/903"^^xsd:anyURI .
@@ -18078,7 +18605,8 @@ book:904 a hpcom:RenderedItem,
     schema:author "Yanis Varoufakis"^^xsd:string ;
     schema:dateCreated "2023"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
-    schema:isPartOf list:educational ;
+    schema:isPartOf list:DCU,
+        list:educational ;
     schema:name "Technofeudalism: What Killed Capitalism"@en ;
     schema:review "A book that tells about the history of economics, capital, technology, the internet, and the rise of cloud - in a way that is easy to explore, understand, and think about. Whilst I have no qualifications to make statements regarding the validity of the conclusion in terms of alternative models - I acknoledge the vastly important existence of such debates and that I have learned, through this book, the proper tools with which to think about it. It is easy to state that power is concentrated in cloud, but difficult to explain how historiacally this changes things and more importantly what we need to understand about the way money works to understand the implications of a 'virtual capital'. Technofeudalism is what the concept is called where we are locked in a cloud serfdom, unable to escape, and stuck paying 'value rents' to the lords. Reading this soon after The Internet Con was a good follow-up because I could see a lot of its solutions as being necessary and pragmatic in the face of what this book explores."@en ;
     schema:url "https://harshp.com/hobbies/books/904"^^xsd:anyURI .
@@ -18111,6 +18639,8 @@ book:906 a hpcom:RenderedItem,
     schema:author "Margaret Atwood"^^xsd:string ;
     schema:dateCreated "2000"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The Blind Assassin"@en ;
     schema:review "The language used here is nice - phrases that are poetic and contemplative. But the story itself isn't appealing. Its too slow, too much caught up into these specific lives that don't interest me. And the pacing is super slow. Would have been a nicer book had it been half its size. Though I can see the appreciation with the Booker - the writing and the embedding of stories within stories within stories is quite clever."@en ;
     schema:url "https://harshp.com/hobbies/books/906"^^xsd:anyURI .
@@ -18273,23 +18803,31 @@ book:916 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "916"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-12-22T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Cory Doctorow"^^xsd:string ;
     schema:dateCreated "2023"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "The Lost Cause"@en ;
+    schema:review "I didn't know this book was YA (Young Adult), so while reading it I constantly kept being annoyed by the language and the juvenile characters. When I found out, I changed my perspective about. Overall, its a good optimistic story set in a rough time, where the government has got its bearings on correct, and everything is green and clean. Still, not a great book. Might have been interesting when I was younger and not as matured."@en ;
     schema:url "https://harshp.com/hobbies/books/916"^^xsd:anyURI .
 
 book:917 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "917"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-12-21T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "R. Trebor Scholz"^^xsd:string ;
     schema:dateCreated "2023"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:name "Own this!: How platform cooperatives help workers build a democratic Internet"@en ;
+    schema:review "The topic is of great interest to me, however the book never really gets into an exploration of how co-operatives work or what challenges they face. We get lots and lots of examples and mentions without any real takeaways. At times it felt unnecessary to see blockchain mentioned in places without exploring all the other governance mechanisms. Not recommended for reading."@en ;
     schema:url "https://harshp.com/hobbies/books/917"^^xsd:anyURI .
 
 book:918 a hpcom:RenderedItem,
@@ -18311,11 +18849,15 @@ book:919 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "919"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-01-15T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Andrea Komlosy"^^xsd:string ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:name "Work: The Last 1,000 Years"@en ;
+    schema:review "An ambitious premise as the book summarises the different of 'work' over the last thousand years. The earlier era seems a bit vague as to how we know about these things, but the book provides ample references (I didn't check them though). The later years cover more familiar things. I was excited to see how all these things connect to the modern practices. But alas the book stops just short of modern day work. A lost opportunity. The book's value and novelty is merely as a historical informatica."@en ;
     schema:url "https://harshp.com/hobbies/books/919"^^xsd:anyURI .
 
 book:92 a hpcom:Book,
@@ -18378,6 +18920,8 @@ book:922 a hpcom:RenderedItem,
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "The Rosewater Insurrection"@en ;
     schema:review "Reading it as a sequel - this gets more into the 'powers' and 'politics' of the situation. Good beach reading. I was more interested in the fungal alien - so that was enough to pass the time."@en ;
     schema:url "https://harshp.com/hobbies/books/922"^^xsd:anyURI .
@@ -18573,6 +19117,8 @@ book:934 a hpcom:RenderedItem,
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Star Trek Voyager: A Pocket Full of Lies"@en ;
     schema:review "Second best thing to watching a Star Trek episode. The perks of having rewatched Voyager several times is that I could picture the characters saying the lines, and with the appropriate mannerisms and styles. The writing itself is a bit lacking, but the story does seem like a typical episode on the show. However, this was one of my lesser liked typical episodes - where there is a conflict, there is a lot of science thrown around but not the main goal, and it is too focused on one particular character (Janeway). Still an okay read."@en ;
     schema:url "https://harshp.com/hobbies/books/934"^^xsd:anyURI .
@@ -18712,12 +19258,17 @@ book:942 a hpcom:RenderedItem,
 book:943 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "943"^^xsd:int ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-10-25T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Adrian Tchaikovsky"^^xsd:string ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Days of Shattered Faith"@en ;
+    schema:review "Book 3 in the series of depressing magical fascist multiverses. There were new characters, new things, new ideas, and new thoughts. I really enjoyed how diverse and expansive the ideas and stories are. Also excited that there is another book coming, and maybe another one after that."@en ;
     schema:url "https://harshp.com/hobbies/books/943"^^xsd:anyURI .
 
 book:944 a hpcom:RenderedItem,
@@ -18767,12 +19318,16 @@ book:947 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "947"^^xsd:int ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-11-23T12:00:00"^^xsd:dateTime ;
+    hpcom:list list:books-changed-life ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "James Clear"^^xsd:string ;
     schema:dateCreated "2018"^^xsd:int ;
-    schema:genre hpcom:BookFiction,
-        hpcom:BookSciFi ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"@en ;
+    schema:review "Atomic Habits is a popular book about making habits in a methodological and structured manner and making it a part of you. The 'atomic' is a reference to 'units' i.e. building blocks rather than sweeping changes. The core ideas resonated with me because with big blocks you either do stuff or you fail, but with smaller blocks you still have the benefit of some of the structure being in place and then benefitting from not having to restart from scratch. I read the book twice, but didn't want to mark it read the first time around because I knew that if I were to benefit from it, I have to give it some time, and then go back and make detailed notes for how I want to use the book. Good book. Recommended."@en ;
     schema:url "https://harshp.com/hobbies/books/947"^^xsd:anyURI .
 
 book:948 a hpcom:RenderedItem,
@@ -18802,6 +19357,7 @@ book:949 a hpcom:RenderedItem,
     schema:author "Grace Blakeley "^^xsd:string ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU ;
     schema:name "Vulture Capitalism: Corporate Crimes, Backdoor Bailouts and the Death of Freedom"@en ;
     schema:review "A powerful book that gives a succint history lesson on corporate economics and how things keep getting screwed and we keep making the same mistakes again and again with every decade. This book is a good resource to understand the economic side of economy and how certain economic philosophies shaped what we have come to make of the modern world."@en ;
     schema:url "https://harshp.com/hobbies/books/949"^^xsd:anyURI .
@@ -18845,6 +19401,7 @@ book:951 a hpcom:RenderedItem,
     schema:author "Alison Pouliot"^^xsd:string ;
     schema:dateCreated "2023"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU ;
     schema:name "Meetings with Remarkable Mushrooms: Forays with Fungi across Hemispheres"@en ;
     schema:review "A book about mushrooms, with pics, and lots of details about history? Yes, please - picked this up straight away and was not disappointed. Expectations were low - a cautious approach to see whether this would be a repeat of what I know or something truly new and interesting. There are lots of nice details and a bit of history, including the role of women in mushroom foraging and forming the early knowledge about fungi. But the book is otherwise too sparse on details - I would have been happy with twice the length. Also, the pics are not that central - a couple of center shots in between chapters and most of them in low quality monochrome printing. I was expecting pictures spread around the text."@en ;
     schema:url "https://harshp.com/hobbies/books/951"^^xsd:anyURI .
@@ -18893,6 +19450,8 @@ book:954 a hpcom:RenderedItem,
     schema:author "Thomas Halliday"^^xsd:string ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Otherlands: A Journey Through Earth's Extinct Worlds"@en ;
     schema:review "This was not a book I found myself being absorbed into despite the breadth of content and the topic. This is because the eras are structured most recent first and then the ancient ones at last - perhaps because we know so much more about the recent time rather than the oldest ones. But it meant that I had to read backwards on what came about rather than reading how evolution worked. In addition, the narration was filled to the brim with rapid facts - and at some point I started suspecting how it can be that so much details are available across so many ages. Which means that it was perhaps an extrapolated fiction - which is not a problem for a pop-science documentary but it is indeed a problem if you are looking for something more educational and authoritative. Still, this is a good book to understand the variances of flora and fauna and would make for a good 'coffee table' addition."@en ;
     schema:url "https://harshp.com/hobbies/books/954"^^xsd:anyURI .
@@ -18908,6 +19467,8 @@ book:955 a hpcom:RenderedItem,
     schema:author "Ethan Mollick"^^xsd:string ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DCU,
+        list:GiveAway ;
     schema:name "Co-Intelligence: Living and Working with AI"@en ;
     schema:review "I had high hopes for this book as it promised different perspectives on how AI can be used in different modes and modalities - from supporting us to working on behalf of us. Instead, its a high-level abstract explanation of the concept, with lots of (acknowledged) ChatGPT copy-paste materials, and not enough science or technical details or even political/sociological issues such as risks and careful considerations. A coffee table book."@en ;
     schema:url "https://harshp.com/hobbies/books/955"^^xsd:anyURI .
@@ -19037,12 +19598,16 @@ book:963 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "963"^^xsd:int ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-04-07T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Mary Doria Russell"^^xsd:string ;
     schema:dateCreated "1998"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Children of God"@en ;
+    schema:review "The first book, The Sparrow, is one of my most memorable readings. Its an excellent introspection of religion and belief. So I was hyped to know there's a second book set in the same universe, and that I had found a copy in a second-hand bookshop. This book deals with the aftermath, with a new focus on the strange nature of the aliens and their culture in the first book. Less about religion, and more about the evolution of a culture to deal with its own horror (in the sense of humanity). I was a bit disappointed that this wasn't as shocking or thrilling as the first book, but there is a good commentary in here that is better laid out and less about one individual and more about civilisation in a broad way."@en ;
     schema:url "https://harshp.com/hobbies/books/963"^^xsd:anyURI .
 
 book:964 a hpcom:RenderedItem,
@@ -19065,11 +19630,15 @@ book:965 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "965"^^xsd:int ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-11-13T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Carmine Gallo"^^xsd:string ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:name "Talk Like TED: The 9 Public-Speaking Secrets of the World's Top Minds"@en ;
+    schema:review "I had a presentation coming up, so though this might a good quick read. Worst case scenario, its completely useless and I won't damage my comms skills. The book does have some decent ideas so I've made a note of them for future reference. But could have done without. Recommended if you have no ideas on what ideas could be considered for talking/presentation."@en ;
     schema:url "https://harshp.com/hobbies/books/965"^^xsd:anyURI .
 
 book:966 a hpcom:RenderedItem,
@@ -19119,11 +19688,16 @@ book:969 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "969"^^xsd:int ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-11-23T13:00:00"^^xsd:dateTime ;
+    hpcom:list list:books-changed-life ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Oliver Burkeman"^^xsd:string ;
     schema:dateCreated "2021"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:name "Four Thousand Weeks"@en ;
+    schema:review "This book effectively points out that you have a limited amount of time and that you should be aware of it. That's pretty much it. There isn't too much of a beating around the bush or hammering it over your head. You listen to what the person has to say, go yes that makes sense, and then go over to mull over it. I did that, read the book once, thought about it, then read it again to make notes for future reference. Worthwhile reading if the topic has been on your mind."@en ;
     schema:url "https://harshp.com/hobbies/books/969"^^xsd:anyURI .
 
 book:97 a hpcom:Book,
@@ -19177,11 +19751,15 @@ book:972 a hpcom:Book,
         schema:Book ;
     hpcom:book_id "972"^^xsd:int ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-04-07T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Seth Godin"^^xsd:string ;
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:name "The Dip: The Extraordinary Benefits of Knowing When to Quit (and When to Stick)"@en ;
+    schema:review "This is a very small tiny book that really packs a punch. Good simple structure and framework to make sense of should I quit or not. I wrote about it - https://harshp.com/blog/the-dip - and this book gave me the thinking process and allowed me to quit my job (which I had been thinking of anyway)."@en ;
     schema:url "https://harshp.com/hobbies/books/972"^^xsd:anyURI .
 
 book:973 a hpcom:Book,
@@ -19233,12 +19811,16 @@ book:976 a hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id "976"^^xsd:int ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-03-31T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Greg Bear"^^xsd:string ;
     schema:dateCreated "1999"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Darwin's Radio"@en ;
+    schema:review "Initially, I thought this would be a biological thriller about evolution (as in Darwin), which it is, but the topic is quite surprisingly subtle and well thought out. In the book, there is a mutation that changes the human genetic makeup and wrecks havoc with birth and society. Good, well thought out writing, and fun to read in a scientifically curious way."@en ;
     schema:url "https://harshp.com/hobbies/books/976"^^xsd:anyURI .
 
 book:977 a hpcom:RenderedItem,
@@ -19266,6 +19848,20 @@ book:978 a hpcom:RenderedItem,
     schema:review "The Greek mythology is fascinating not only because of its rich characterisation and drama, but also because at the heart of all stories is the core of a philosophy that makes describing humans an exercise in the interpretation of the divine. Greek gods - the mythos - are structured around the facets of human emotions, virtues, aspects, and so much more. I greatly respect Stephen Fry as a narrator, orator, and as a person who knows to focus on being decent above political correctness and style. This book is a fantastic recollection of the greek mythos - covering a lot in such a small space and making it enjoyable. I borrowed this book from our neighbour - and it has been fantastic reading it."@en ;
     schema:url "https://harshp.com/hobbies/books/978"^^xsd:anyURI .
 
+book:979 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "979"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-04-28T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Niall Mac Coitir"^^xsd:string ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Ireland's Trees: Myths, Legends and Folklore"@en ;
+    schema:review "Lots of information about trees and how the Irish history is tangled with them. Good read, but I would have loved to read this while knowing the trees themselves in physical form. Maybe I should re-read this someday as and when I find the trees."@en ;
+    schema:url "https://harshp.com/hobbies/books/979"^^xsd:anyURI .
+
 book:98 a hpcom:Book,
         hpcom:BookReading,
         hpcom:RenderedItem,
@@ -19278,6 +19874,150 @@ book:98 a hpcom:Book,
     schema:name "Cloud Atlas"@en ;
     schema:url "https://harshp.com/hobbies/books/98"^^xsd:anyURI .
 
+book:980 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "980"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-05-10T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Sarah Wynn-Williams"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Careless People: A story of where I used to work"@en ;
+    schema:review "This book was hyped because a) its about Facebook/Meta and their shenanigans, and b) it was the subject of an attempted ban by the same. So I bought the book (Dunning-Kruger et al) and hoped that it was not all about a look how bad it was type of situation. It was not. Instead, what we get is a deeply personal, empathetic, and real story of Sarah and her life, which happened to be at Facebook. In the course of this, we are told of how it is bad, worse, misogynistic, immoral, illegal, and technocratic. In between these, she testified in the US Congress about how Facebook intentionally detected when teenage girls were most vulnerable when they deleted selfies just to target beauty product ads at them. Brave woman, good book."@en ;
+    schema:url "https://harshp.com/hobbies/books/980"^^xsd:anyURI .
+
+book:981 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "981"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-06-10T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Peter F. Hamilton"^^xsd:string ;
+    schema:dateCreated "1993"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Mindstar Rising"@en ;
+    schema:review "Futuristic dystopian cyberpunk-ish detective thriller with some class based societal commentary. Would imagine this was creative in the decades before when it was published. Now it is interesting for the descriptions of how things work and how society gets weirder, but otherwise the actual mystery isn't quite that appealing. I bought this in the tiny pulp format -- was good to have it in the pocket."@en ;
+    schema:url "https://harshp.com/hobbies/books/981"^^xsd:anyURI .
+
+book:982 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "982"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Orrin Grey & Silvia Moreno-Garcia"^^xsd:string ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Fungi: An Anthology"@en ;
+    schema:url "https://harshp.com/hobbies/books/982"^^xsd:anyURI .
+
+book:983 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "983"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-11-18T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Sarah Pinsker"^^xsd:string ;
+    schema:dateCreated "2021"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "We are satellites"@en ;
+    schema:review "The book is about Pilots - a neuralink type tech that gets you alert but not superintelligent. But the book is not about the tech at all. Instead, its about the normal people who have to put this in, have to face the subjective experiences of living in a world that increasingly considers having this as ableism and a status symbol. Brilliant restrained take. The only thing that felt off was the ending which became cliche for me, but did not detract from the rest of the book."@en ;
+    schema:url "https://harshp.com/hobbies/books/983"^^xsd:anyURI .
+
+book:984 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "984"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-12-27T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Olga Tokarczuk"^^xsd:string ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "The Empusium"@en ;
+    schema:review "A horror story? By Olga Tokarczuk?! Yes please! After 'Drive your Plow over the Bones of the Dead', I was excited to see this. Half way through the book, after several passing references to ghosts, spirits, and in general uncomfortable circumstances but no actual horror, it struck me that the horror was more psychological. All the men were afraid of the women! Its not an accurate description of the book, but its a keen, wise, and clever take on storytelling that hides the real realisations until the very end, but also asks the reader to reflect on their own as characters become more familiar and exposed."@en ;
+    schema:url "https://harshp.com/hobbies/books/984"^^xsd:anyURI .
+
+book:985 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "985"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-12-25T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Paul Lynch"^^xsd:string ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "Prophet Song"@en ;
+    schema:review "A strangely intense novel about what I would also have called dystopian, but the author states its not dystopian if its already happening somewhere. The book is set in Ireland amidst a future where a far-right government has taken over and we have a police agency who can simply disappear people. Its authoritarian fascism in a place where its really difficult to imagine it. I wanted to know about how something like this happened. But the book doesn't really give any glimpses in to the history. There's also a surprising aspect where we only really see people who are against the power. The writing is good, it really creates a sense of urgency and stress that resonates with the happenings in each page and chapter. Interesting read, but didn't really stick with me in the end."@en ;
+    schema:url "https://harshp.com/hobbies/books/985"^^xsd:anyURI .
+
+book:986 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "986"^^xsd:int ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Anne Applebaum"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Autocracy, Inc: The Dictators Who Want to Run the World"@en ;
+    schema:url "https://harshp.com/hobbies/books/986"^^xsd:anyURI .
+
+book:987 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "987"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-09-11T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "James S. A. Corey"^^xsd:string ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Nemesis Games"@en ;
+    schema:review "Book 5: The Gang goes their separate ways and then shit happens that makes them want to get back together. I liked that this wasn't another episodic instance of the same stuff and that each character got enough of a back and individual story to have them be relevant in the larger story. I thought the pieces on Earth were a little slow and/or a little low in terms of having content. I'd have liked to see more, but that's the part where the good styorytelling comes through. Having less and wanting more is good if the overall story still is enjoying, which this was. Onwards to the next book."@en ;
+    schema:url "https://harshp.com/hobbies/books/987"^^xsd:anyURI .
+
+book:988 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "988"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-09-21T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "James S. A. Corey"^^xsd:string ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Babylon's Ashes"@en ;
+    schema:review "Book 6: I've got to hand it to the authors. They know how to keep things interesting and adding more and more chaos and layers to the story. This one is about conflicts between factions and idealogies and it all plays out in the system. Good stuff, entertaining stuff. But at no point did it feel like this is a book on its own, so I kept expecting more things to happen or be clear, and then at one point I realised that it isn't in this book and that I would have to read one. Okay, next one it is."@en ;
+    schema:url "https://harshp.com/hobbies/books/988"^^xsd:anyURI .
+
+book:989 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "989"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-10-11T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "James S. A. Corey"^^xsd:string ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Persepolis Rising"@en ;
+    schema:review "Book 7: It gets interesting! It gets exciting! Finally, the big payoff has started. I enjoyed the book and the action and the chaos just unfolding. Two more books to go and I have a feeling that I will be enjoying the entire series all things considered."@en ;
+    schema:url "https://harshp.com/hobbies/books/989"^^xsd:anyURI .
+
 book:99 a hpcom:Book,
         hpcom:BookReading,
         hpcom:RenderedItem,
@@ -19289,6 +20029,160 @@ book:99 a hpcom:Book,
     schema:isbn "9781886778184"^^xsd:string ;
     schema:name "From These Ashes: The Complete Short SF of Fredric Brown"@en ;
     schema:url "https://harshp.com/hobbies/books/99"^^xsd:anyURI .
+
+book:990 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "990"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-10-28T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "James S. A. Corey"^^xsd:string ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Tiamat's Wrath"@en ;
+    schema:review "Book 8: The book starts off with a bang and then just keeps it up throughout. After reading 7 books, there are some huge paybacks. Looking forward to the next and last book."@en ;
+    schema:url "https://harshp.com/hobbies/books/990"^^xsd:anyURI .
+
+book:991 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "991"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-01-02T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "James S. A. Corey"^^xsd:string ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Leviathan Falls"@en ;
+    schema:review "The last book in the series of 9 books. Incredible expectations. Lots of loose ends to tie up. Will it end with a satisfying exposition or will things be hurriedly resolved off-screen. Reading was exciting, the story kept pushing the pace so there never was a feeling that where's my ending. I could happily have read a couple more novels in continuation. And yes, the ending does satisfy things in a way that doesn't leave much to regret. Really solid writing, and what a job to deliver 9 books!"@en ;
+    schema:url "https://harshp.com/hobbies/books/991"^^xsd:anyURI .
+
+book:992 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "992"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-11-30T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Adrian Tchaikovsky"^^xsd:string ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Shroud"@en ;
+    schema:review "The best way I can describe this book is as if Jules Verne and Stephen Baxter had an adventure story written for Star Trek. Its simultaneously hard science fiction, as hard as it can get, with just a fantastically new and alien perspective on life and intelligence, and also a commentary of society and a truly grim outlook on the corporate capitalist nature of economy. The book itself is about aliens that evolved to treat the EM spectrum as communications medium without any sunlight, meaning only things that interact specifically with the EM bands are relevant. Human meatbags are not. Human made vehicles are. An adventure across the planet ensues. Brilliant, and extremely rewarding. I also somehow read this (hopefully) as a link to the next book in the Children of Time series. I'm going to be hunting for Tchaikovsky's  books - the man has a talen for rapidly producing intelligent situations and writing multiple books in a year."@en ;
+    schema:url "https://harshp.com/hobbies/books/992"^^xsd:anyURI .
+
+book:993 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "993"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-10-04T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating1 ;
+    schema:author "Lee Min-ye"^^xsd:string ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Dallergut Dream Department Store"@en ;
+    schema:review "The premise of the book seemed alluring. A department store where you go buy dreams? An economy built on emotional reactions? A character plot promising hidden wisdom and a takedown of busy lifebodies? Sold! I bought the physical book. Turned out to be a dud. The premise seemed exceedingly made up and changing arbitrarily as if we are kids learning from story book time. There is no details given to characters beyond what seems like a single facet that you hold them to for the entire story. Feels too emotional reaction driven rather than being about actual ideas or stories. Disappointing."@en ;
+    schema:url "https://harshp.com/hobbies/books/993"^^xsd:anyURI .
+
+book:994 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "994"^^xsd:int ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-11-01T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Sandra Uwiringiyimana, Abigail Pesta"^^xsd:string ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "How dare the sun rise"@en ;
+    schema:review "This was part of the bookclub, so gave it a go. Was really into the story because its told so well, and its so human and real, and just made me more aware of different perspectives that I thought I knew but benefitted from seeing it from someone else's experiences. The story is about how the author escapes from a war torn country where they are effectively cuturally and socially uprooted, and their move to America with their parents, the adaption, and rising through sheer dedication and mindset. Admirable, and a good look on the world being more than a few ideas and people despite what we get exposed to."@en ;
+    schema:url "https://harshp.com/hobbies/books/994"^^xsd:anyURI .
+
+book:995 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "995"^^xsd:int ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2025-10-12T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Kate Crawford"^^xsd:string ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence"@en ;
+    schema:review "A recommendation for people looking into AI and its troubles. I think this was a bit too late for me, and in general felt aimed at someone else as I've had far too much exposure to these through my work. Recommended for people who want a more generalist perspective and would benefit from some additional details. The phrasing of 'atlas' really through me off, and I was expecting a more systematic structure and navigation. Instead the work means more about getting a perspective, which I've had from other books."@en ;
+    schema:url "https://harshp.com/hobbies/books/995"^^xsd:anyURI .
+
+book:996 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "996"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-01-16T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "qntm"^^xsd:string ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Valuable Humans in Transit and Other Stories "@en ;
+    schema:review "A collection of short stories, which deal on topics ranging from simulation to the nature of things. Quite entertaining, and reminiscient of Ted Chiang's foray, though these are more sci-fi focused."@en ;
+    schema:url "https://harshp.com/hobbies/books/996"^^xsd:anyURI .
+
+book:997 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "997"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-01-31T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "Bora Chung"^^xsd:string ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Midnight Timetable"@en ;
+    schema:review "A collection of ghost stories, I was initially patient that things might get more weirder, but the stories were all just meh. I understand there is an undercurrent in each that provides social commentary, but all of it felt so obviously placed, disconnected from the story itself, and also on the nose. So while interesting to read, none of the stories really stuck."@en ;
+    schema:url "https://harshp.com/hobbies/books/997"^^xsd:anyURI .
+
+book:998 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "998"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-01-24T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Munir Hachemi"^^xsd:string ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "Living Things"@en ;
+    schema:review "A short read about four (young) guys on a summer work program in Spain, and how their world is shaped through the experience. The writing is sharp and fluid, and keeps the story flowing. This would have been a good airport read. I didn't quite see the ending be done in a satisfying way, but that is also why the book is so short. Good writing, good storytelling."@en ;
+    schema:url "https://harshp.com/hobbies/books/998"^^xsd:anyURI .
+
+book:999 a hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id "999"^^xsd:int ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-01-31T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Claire Keegan"^^xsd:string ;
+    schema:dateCreated "2021"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "Small Things Like These"@en ;
+    schema:review "An anti-Christmas carol, this is a story about a decent man finding a woman in distress in one of the Magdalene laundries. The book itself is small, and the writing flowing and episodic. It is a good book. Something to consider that the spirit of things is in our deeds more than the abstract notions of religion or celebration or any other thing. If you do not act, then you are not good."@en ;
+    schema:url "https://harshp.com/hobbies/books/999"^^xsd:anyURI .
 
 list:best-rated a hpcom:RenderedItem,
         book:lists ;
@@ -22187,6 +23081,36 @@ list:owned_unread a hpcom:RenderedItem,
     schema:startDate "2022-07-01T00:00:00"^^xsd:dateTime ;
     schema:url "https://adra-e.eu/"^^xsd:anyURI .
 
+<https://harshp.com/research/projects/aisi-companions> a hpcom:RenderedItem,
+        <https://harshp.com/research/projects>,
+        schema:Project ;
+    hpcom:acronym "AISI-Companions" ;
+    hpcom:competitive_funding true ;
+    hpcom:funding_credit false ;
+    hpcom:project_budget "213056"^^xsd:int ;
+    hpcom:project_budget_award "213056"^^xsd:int ;
+    hpcom:project_budget_control "213056"^^xsd:int ;
+    hpcom:project_type "AISI, DSIT UK"@en ;
+    schema:description "This project will undertake a systematic investigation of how AI companion apps attract and retain users as a potential pathway to emotional dependence and psychological harm, and how such practices can be addressed through policy interventions."@en ;
+    schema:endDate "2026-04-30T00:00:00"^^xsd:dateTime ;
+    schema:funding [ a schema:MonetaryGrant ;
+            schema:funder [ a schema:FundingScheme ;
+                    schema:funder [ a schema:Organization ;
+                            schema:name "Department of Science, Innovation, & Technology (DSIT) UK "@en ;
+                            schema:url "https://gov.uk/dsit"^^xsd:anyURI ] ;
+                    schema:name "AI Security Institute (AISI)"@en ;
+                    schema:url "https://www.aisi.gov.uk/"^^xsd:anyURI ] ;
+            schema:identifier "2025-01-16275"^^xsd:string ;
+            schema:recipient "AI Accountability Lab (AIAL)"@en ] ;
+    schema:member [ a schema:Role ;
+            schema:endDate "2026-04-30T00:00:00"^^xsd:dateTime ;
+            schema:member <https://harshp.com/me> ;
+            schema:roleName "Researcher"@en ;
+            schema:startDate "2025-11-12T00:00:00"^^xsd:dateTime ] ;
+    schema:name "An Analysis of AI Companions: \"Friendship\" without Boundaries?"@en ;
+    schema:startDate "2025-11-12T00:00:00"^^xsd:dateTime ;
+    schema:url "https://aial.ie/"^^xsd:anyURI .
+
 <https://harshp.com/research/projects/cost-dkg-stsm> a hpcom:RenderedItem,
         <https://harshp.com/research/projects>,
         schema:Project ;
@@ -22239,7 +23163,7 @@ list:owned_unread a hpcom:RenderedItem,
             schema:identifier "101135705"^^xsd:string ;
             schema:recipient "Edu4Standards Consortium"@en ] ;
     schema:member [ a schema:Role ;
-            schema:endDate "2026-12-31T00:00:00"^^xsd:dateTime ;
+            schema:endDate "2025-06-30T00:00:00"^^xsd:dateTime ;
             schema:member <https://harshp.com/me> ;
             schema:roleName "Principal Investigator"@en ;
             schema:startDate "2024-01-01T00:00:00"^^xsd:dateTime ] ;
@@ -22540,7 +23464,7 @@ list:owned_unread a hpcom:RenderedItem,
             schema:identifier "101091933"^^xsd:string ;
             schema:recipient "StandICT'26 Consortium"@en ] ;
     schema:member [ a schema:Role ;
-            schema:endDate "2025-12-31T00:00:00"^^xsd:dateTime ;
+            schema:endDate "2025-06-30T00:00:00"^^xsd:dateTime ;
             schema:member <https://harshp.com/me> ;
             schema:roleName "Principal Investigator"@en ;
             schema:startDate "2023-11-01T00:00:00"^^xsd:dateTime ] ;
@@ -23391,12 +24315,12 @@ list:owned_unread a hpcom:RenderedItem,
     hpcom:tag hptag:AI-Act,
         hptag:DCAT,
         hptag:semantic-web ;
-    schema:datePublished "2024-12-10T00:00:00"^^xsd:dateTime ;
+    schema:datePublished "2025-03-21T00:00:00"^^xsd:dateTime ;
     schema:description "An extension of DCAT for representing catalogues of AI systems that provides consistency, machine-readability, searchability, and interoperability in managing open metadata regarding AI systems, particularly beyond the immediate needs of high-risk AI compliance in the EU"@en ;
     schema:funder <http://example.com/ADAPT> ;
     schema:name "AICat: An AI Cataloguing Approach to Support the EU AI Act"@en ;
     schema:publication <https://aics2024.ucd.ie/> ;
-    schema:url ""^^xsd:anyURI .
+    schema:url "https://ceur-ws.org/Vol-3910/aics2024_p38.pdf"^^xsd:anyURI .
 
 <https://harshp.com/research/publications/073-Datasheets-AI-Bias> a hpcom:FullPaper,
         hpcom:RenderedItem,
@@ -23425,12 +24349,12 @@ list:owned_unread a hpcom:RenderedItem,
     hpcom:tag hptag:AI,
         hptag:data-governance,
         hptag:risk ;
-    schema:datePublished "2024-12-09T00:00:00"^^xsd:dateTime ;
+    schema:datePublished "2025-03-21T00:00:00"^^xsd:dateTime ;
     schema:description "A dataset documentation framework for AI risk assessments, particularly bias, that promotes transparency and ensures alignment with regulatory requirements and can be expressed in a machine-readable format"@en ;
     schema:funder <http://example.com/IEHRB> ;
     schema:name "Datasheets for Healthcare AI: A Framework for Transparency and Bias Mitigation"@en ;
     schema:publication <https://aics2024.ucd.ie/> ;
-    schema:url ""^^xsd:anyURI .
+    schema:url "https://ceur-ws.org/Vol-3910/aics2024_p76.pdf"^^xsd:anyURI .
 
 <https://harshp.com/research/publications/074-FRIA-Tool-DPIA> a hpcom:FullPaper,
         hpcom:RenderedItem,
@@ -23457,12 +24381,11 @@ list:owned_unread a hpcom:RenderedItem,
         hptag:DPIA,
         hptag:FRIA,
         hptag:GDPR ;
-    schema:datePublished "2024-12-11T08:00:00"^^xsd:dateTime ;
+    schema:datePublished "2025-12-31T08:00:00"^^xsd:dateTime ;
     schema:description "Interpreting the FRIA as a 5-step process where automated tools can apply for each step and how a DPIA can be reused in it"@en ;
     schema:funder <http://example.com/ADAPT> ;
     schema:name "Towards An Automated AI Act FRIA Tool That Can Reuse GDPR's DPIA"@en ;
     schema:publication <http://example.com/conferences/CLAIRvoyant2024> ;
-    schema:status "Presented at Workshop, finalising revised version" ;
     schema:url ""^^xsd:anyURI .
 
 <https://harshp.com/research/publications/075-FRIA-Ontology> a hpcom:FullPaper,
@@ -23491,13 +24414,136 @@ list:owned_unread a hpcom:RenderedItem,
         hptag:FRIA,
         hptag:GDPR,
         hptag:semantic-web ;
-    schema:datePublished "2024-12-11T09:00:00"^^xsd:dateTime ;
+    schema:datePublished "2025-12-31T09:00:00"^^xsd:dateTime ;
     schema:description "An ontology for creation and management of FRIA and use of automated tool in its various steps"@en ;
     schema:funder <http://example.com/ADAPT> ;
     schema:name "Developing an Ontology for AI Act Fundamental Rights Impact Assessments"@en ;
     schema:publication <http://example.com/conferences/CLAIRvoyant2024> ;
-    schema:status "Presented at Workshop, finalising revised version" ;
     schema:url ""^^xsd:anyURI .
+
+<https://harshp.com/research/publications/076-Solid-GDPR-governance> a hpcom:FullPaper,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/076-Solid-GDPR-governance"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "SSRN" ;
+            schema:url "https://dx.doi.org/10.2139/ssrn.4993170"^^xsd:anyURI ] ;
+    hpcom:author_lead <http://example.com/MichielFierens> ;
+    hpcom:author_other ( <https://harshp.com/me> <http://example.com/AureliaTamoLarrieux> <http://example.com/KimberlyGarcia> ) ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/076-Solid-GDPR-governance.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed true ;
+    hpcom:tag hptag:GDPR,
+        hptag:Solid ;
+    schema:datePublished "2025-04-13T00:00:00"^^xsd:dateTime ;
+    schema:description "Investigating GDPR compliance in decentralised data storage and management through an interdisciplinary lens applied to Solid"@en ;
+    schema:funder <http://example.com/ADAPT> ;
+    schema:identifier "10.1016/j.clsr.2025.106133"^^xsd:anyURI ;
+    schema:name "A Solid use case to empower and protect data subjects: Responsibilities under GDPR for governance of personal data stores"@en ;
+    schema:publisher <https://www.sciencedirect.com/journal/clsr> ;
+    schema:url "https://doi.org/10.1016/j.clsr.2025.106133"^^xsd:anyURI .
+
+<https://harshp.com/research/publications/077-GDPR-A30> a hpcom:FullPaper,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/077-GDPR-A30"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "SSRN" ;
+            schema:url "https://dx.doi.org/10.2139/ssrn.5284507"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "OSF" ;
+            schema:url "https://doi.org/10.31235/osf.io/t3d9w_v2"^^xsd:anyURI ] ;
+    hpcom:author_lead <https://harshp.com/me> ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/077-GDPR-A30.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed true ;
+    hpcom:supplementary <https://harshp.com/research/presentations#2025-APF-GDPR-A30> ;
+    hpcom:tag hptag:GDPR,
+        hptag:ROPA ;
+    schema:datePublished "2025-10-11T00:00:00"^^xsd:dateTime ;
+    schema:description "Demonstrating the risks of diluting GDPR Article 30 through the Simplification Omnibus"@en ;
+    schema:funder <http://example.com/AIAL> ;
+    schema:identifier "10.1007/978-3-032-07574-1_6"^^xsd:anyURI ;
+    schema:name "Simple now, Complex later: The Questionable Efficacy of Diluting GDPR Article 30(5)"@en ;
+    schema:publication <http://example.com/conferences/APF2025> ;
+    schema:url "https://doi.org/10.1007/978-3-032-07574-1_6"^^xsd:anyURI .
+
+<https://harshp.com/research/publications/078-eu-sovereignty-technical-challenges> a hpcom:BookChapter,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/078-eu-sovereignty-technical-challenges"^^xsd:anyURI ] ;
+    hpcom:author_lead <https://harshp.com/me> ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/078-eu-sovereignty-technical-challenges.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed true ;
+    hpcom:tag hptag:EU,
+        hptag:GDPR ;
+    schema:datePublished "2025-08-21T00:00:00"^^xsd:dateTime ;
+    schema:description "Highlighting the lawmaking and enforcement challenges based on past experiences with the GDPR"@en ;
+    schema:funder <http://example.com/ADAPT> ;
+    schema:identifier "https://www.bloomsbury.com/us/digital-sovereignty-and-the-green-transition-9781509983636/"^^xsd:anyURI ;
+    schema:name "Technical Challenges for EU Digital Sovereignty: Lessons from the GDPR"@en ;
+    schema:publisher <https://www.igi-global.com/book/shaping-future-through-standardization/235703> ;
+    schema:url "https://www.bloomsbury.com/us/digital-sovereignty-and-the-green-transition-9781509983636/"^^xsd:anyURI .
+
+<https://harshp.com/research/publications/079-are-you-being-played> a hpcom:FullPaper,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/079-are-you-being-played"^^xsd:anyURI ] ;
+    hpcom:author_lead <http://example.com/GarethYoung> ;
+    hpcom:author_other ( <http://example.com/HelenHusca> <https://harshp.com/me> ) ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/079-are-you-being-played.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed true ;
+    hpcom:tag hptag:ethics,
+        hptag:video-games ;
+    schema:datePublished "2025-12-31T00:00:00"^^xsd:dateTime ;
+    schema:description "Shows how games make ethical arguments through code as well as story, and function as laboratories for AI ethics, foregrounding issues of consent, transparency, and autonomy"@en ;
+    schema:funder <http://example.com/AIAL> ;
+    schema:identifier "10.1177/15554120251409051"^^xsd:anyURI ;
+    schema:name "Are You Being Played? — Video Games as a Lens for AI Ethics and Data Politics"@en ;
+    schema:publisher <https://journals.sagepub.com/home/gac> ;
+    schema:url "https://doi.org/10.1177/15554120251409051"^^xsd:anyURI .
+
+<https://harshp.com/research/publications/080-AI-Act-prohibited-systems> a hpcom:FullPaper,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/080-AI-Act-prohibited-systems"^^xsd:anyURI ] ;
+    hpcom:author_lead <https://www.scss.tcd.ie/personnel/golpayes> ;
+    hpcom:author_other ( <https://harshp.com/me> <https://www.scss.tcd.ie/dave.lewis/> ) ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/080-AI-Act-prohibited-systems.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed true ;
+    hpcom:supplementary [ a hpcom:Link ;
+            schema:name "repo" ;
+            schema:url "https://github.com/DelaramGlp/airo/"^^xsd:anyURI ] ;
+    hpcom:tag hptag:AI,
+        hptag:AI-Act,
+        hptag:risk,
+        hptag:semantic-web ;
+    schema:datePublished "2025-10-10T00:00:00"^^xsd:dateTime ;
+    schema:description "We specify the prohibited AI conditions in Art. 5 in a machine-readable format using semantic constraint and rule languages SHACL and N3"@en ;
+    schema:funder <http://example.com/ADAPT> ;
+    schema:identifier "https://ceur-ws.org/Vol-4064/NXDG25-paper7.pdf"^^xsd:anyURI ;
+    schema:inSupportOf "Protecting Personal Data Amidst Big Data Innovation (PROTECT-ITN) H2020 Project; RISKY: Representing Privacy Risks of Technologies using Knowedlge Graphs"@en ;
+    schema:name "Semantic Patterns of Prohibited AI Systems in the EU AI Act"@en ;
+    schema:publication <http://example.com/workshops/NXDG2025> ;
+    schema:url "https://ceur-ws.org/Vol-4064/NXDG25-paper7.pdf"^^xsd:anyURI .
 
 <https://harshp.com/research/publications/drafts/001-Consent-Signal-User-Dialogue> a hpcom:DraftPaper,
         hpcom:FullPaper,
@@ -23527,13 +24573,14 @@ list:owned_unread a hpcom:RenderedItem,
     schema:funder <http://example.com/ADAPT> ;
     schema:identifier ""^^xsd:anyURI ;
     schema:inSupportOf "RISKY: Representing Privacy Risks of Technologies using Knowedlge Graphs"@en ;
-    schema:name "Proposals for Resolving Consenting Issues with Signals and User-side Dialogues"@en ;
+    schema:name "Draft 01: Proposals for Resolving Consenting Issues with Signals and User-side Dialogues"@en ;
     schema:publication <http://example.com/working-draft> ;
     schema:status "inviting feedback"@en ;
     schema:url ""^^xsd:anyURI .
 
 <https://harshp.com/research/publications/drafts/002-Making-sense-of-Solid> a hpcom:DraftPaper,
         hpcom:FullPaper,
+        hpcom:PublishedDraftPaper,
         hpcom:RenderedItem,
         schema:ScholarlyArticle ;
     hpcom:archived_version [ a hpcom:Link ;
@@ -23559,7 +24606,7 @@ list:owned_unread a hpcom:RenderedItem,
     schema:description "This article explores Solid as a new technology, and provides a framework to describe its implementations and use-cases using cloud-technology terminology. It also explores GDPR's application and identifies existing issues and solutions that also apply to Solid."@en ;
     schema:funder <http://example.com/ADAPT> ;
     schema:identifier ""^^xsd:anyURI ;
-    schema:name "Making Sense of Solid for Data Governance and GDPR"@en ;
+    schema:name "Draft 02: Making Sense of Solid for Data Governance and GDPR"@en ;
     schema:publication <http://example.com/working-draft> ;
     schema:status "published"@en ;
     schema:url ""^^xsd:anyURI .
@@ -23587,7 +24634,7 @@ list:owned_unread a hpcom:RenderedItem,
     schema:description "In this paper we discuss requirements that privacy signals must satisfy to be enforceable under the ePrivacy Regulation and enable its real-world application."@en ;
     schema:funder <http://example.com/ADAPT> ;
     schema:identifier ""^^xsd:anyURI ;
-    schema:name "How could the upcoming ePrivacy Regulation recognise enforceable privacy signals in the EU?"@en ;
+    schema:name "Draft 03: How could the upcoming ePrivacy Regulation recognise enforceable privacy signals in the EU?"@en ;
     schema:publication <http://example.com/working-draft> ;
     schema:status "inviting feedback"@en ;
     schema:url ""^^xsd:anyURI .
@@ -23612,17 +24659,18 @@ list:owned_unread a hpcom:RenderedItem,
         hptag:DPIA,
         hptag:GDPR,
         hptag:risk ;
-    schema:datePublished "2024-09-03T00:00:00"^^xsd:dateTime ;
+    schema:datePublished "2025-10-07T00:00:00"^^xsd:dateTime ;
     schema:description "In this paper we analysed DPIA requirements from all 30 EU/EEA DPAs and found variance. We then aligned the DPIA required conditions with Annex III High-Risk cases in the AI Act and found that there is a large overlap between GDPR and AI Act."@en ;
     schema:funder <http://example.com/ADAPT> ;
-    schema:identifier "10.31219/osf.io/6qhzj"^^xsd:anyURI ;
-    schema:name "High-Risk Categorisations in GDPR vs AI Act: Overlaps and Implications"@en ;
+    schema:identifier ""^^xsd:anyURI ;
+    schema:name "Draft 04: Impact Assessment Requirements in the GDPR vs the AI Act: Overlaps, Divergence, and Implications"@en ;
     schema:publication <http://example.com/working-draft> ;
     schema:status "under review"@en ;
-    schema:url "https://doi.org/10.31219/osf.io/6qhzj"^^xsd:anyURI .
+    schema:url ""^^xsd:anyURI .
 
 <https://harshp.com/research/publications/drafts/005-Solid-Use-Case> a hpcom:DraftPaper,
         hpcom:FullPaper,
+        hpcom:PublishedDraftPaper,
         hpcom:RenderedItem,
         schema:ScholarlyArticle ;
     hpcom:archived_version [ a hpcom:Link ;
@@ -23643,10 +24691,96 @@ list:owned_unread a hpcom:RenderedItem,
     schema:description "Investigating GDPR compliance in decentralised data storage and management through an interdisciplinary lens applied to Solid"@en ;
     schema:funder <http://example.com/ADAPT> ;
     schema:identifier "https://dx.doi.org/10.2139/ssrn.4993170"^^xsd:anyURI ;
-    schema:name "A Solid Use Case To Empower And Protect Data Subjects"@en ;
+    schema:name "Draft 05: A Solid Use Case To Empower And Protect Data Subjects"@en ;
     schema:publication <http://example.com/working-draft> ;
     schema:status "under review"@en ;
     schema:url "https://dx.doi.org/10.2139/ssrn.4993170"^^xsd:anyURI .
+
+<https://harshp.com/research/publications/drafts/006-GPC-EU-law> a hpcom:DraftPaper,
+        hpcom:FullPaper,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/drafts/006-GPC-EU-law"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "OSF" ;
+            schema:url "https://doi.org/10.31235/osf.io/fekcg_v1"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "arXiv" ;
+            schema:url "https://doi.org/10.48550/arXiv.2512.08856"^^xsd:anyURI ] ;
+    hpcom:author_lead <http://example.com/SebastianZimmeck> ;
+    hpcom:author_other ( <http://example.com/FrederikZuiderveenBorgesius> <https://harshp.com/me> <http://example.com/CristianaSantos> <http://example.com/KonradKollnig> <http://example.com/RobinBerjon> ) ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/006-GPC-EU-law.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed false ;
+    hpcom:tag hptag:GDPR,
+        hptag:consent,
+        hptag:signal ;
+    schema:datePublished "2025-12-07T00:00:00"^^xsd:dateTime ;
+    schema:description "The GPC signal is being standardised by the W3C. Assessing if it will be helpful for the EU to deal with consent popups under current laws."@en ;
+    schema:funder <http://example.com/ADAPT> ;
+    schema:identifier ""^^xsd:anyURI ;
+    schema:name "Draft 06: Can the GPC standard eliminate consent banners in the EU?"@en ;
+    schema:publication <http://example.com/working-draft> ;
+    schema:status "under review"@en ;
+    schema:url ""^^xsd:anyURI .
+
+<https://harshp.com/research/publications/drafts/007-semantic-frameworks-ai-act> a hpcom:DraftPaper,
+        hpcom:FullPaper,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/drafts/007-semantic-frameworks-ai-act"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "OSF" ;
+            schema:url "https://doi.org/10.31219/osf.io/43rq2_v1"^^xsd:anyURI ] ;
+    hpcom:author_lead <https://www.scss.tcd.ie/personnel/golpayes> ;
+    hpcom:author_other ( <https://harshp.com/me> <https://www.scss.tcd.ie/dave.lewis/> <https://www.scss.tcd.ie/declan.osullivan/> ) ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/007-semantic-frameworks-ai-act.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed false ;
+    hpcom:tag hptag:AI-Act,
+        hptag:data-governance,
+        hptag:semantic-web ;
+    schema:datePublished "2025-05-29T00:00:00"^^xsd:dateTime ;
+    schema:description "We provide a novel set of open, standardised, and extensible artefacts for the AI Act to determine the risk category as per the AI Act, declaring AI intended purposes, retrieve information in technical documentation, and support the data governance requirements of the EU high-risk AI database."@en ;
+    schema:funder <http://example.com/ADAPT> ;
+    schema:identifier ""^^xsd:anyURI ;
+    schema:name "Draft 007: Semantic Frameworks to Support Implementation of the EU AI Act"@en ;
+    schema:publication <http://example.com/working-draft> ;
+    schema:status "under review"@en ;
+    schema:url ""^^xsd:anyURI .
+
+<https://harshp.com/research/publications/drafts/008-mapping-regulatory-learning-AI-Act> a hpcom:DraftPaper,
+        hpcom:FullPaper,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/drafts/008-mapping-regulatory-learning-AI-Act"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "OSF" ;
+            schema:url "https://doi.org/10.31219/osf.io/43rq2_v1"^^xsd:anyURI ] ;
+    hpcom:author_lead <https://www.scss.tcd.ie/dave.lewis/> ;
+    hpcom:author_other ( <http://example.com/MartaLasekMarkey> <https://www.scss.tcd.ie/personnel/golpayes> <https://harshp.com/me> ) ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/008-mapping-regulatory-learning-AI-Act.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed false ;
+    hpcom:tag hptag:AI-Act,
+        hptag:data-governance ;
+    schema:datePublished "2025-05-28T00:00:00"^^xsd:dateTime ;
+    schema:description "We define a parametrised regulatory learning space based on the provisions of the Act and describe a layered system of different learning arenas where the population of oversight authorities, value chain participants, and affected stakeholders may interact to apply and learn from technical, organisational and legal implementation measures."@en ;
+    schema:funder <http://example.com/ADAPT> ;
+    schema:identifier "10.48550/arXiv.2503.05787"^^xsd:anyURI ;
+    schema:name "Draft 008: Mapping the Regulatory Learning Space for the EU AI Act"@en ;
+    schema:publication <http://example.com/working-draft> ;
+    schema:status "inviting feedback"@en ;
+    schema:url "https://doi.org/10.48550/arXiv.2503.05787"^^xsd:anyURI .
 
 <https://harshp.com/research/supervision/2017-ethics-canvas-website> a hpcom:RenderedItem,
         hpcom:SupervisionRole,
@@ -23875,7 +25009,7 @@ list:owned_unread a hpcom:RenderedItem,
         hpcom:SupervisionRole,
         schema:Role ;
     schema:agent "Paul Ryan" ;
-    schema:endDate "2024-10-31T00:00:00"^^xsd:dateTime ;
+    schema:endDate "2025-11-30T00:00:00"^^xsd:dateTime ;
     schema:name "ERoPA: A Machine-Readable Approach to the Record of Processing Activities (RoPA) for GDPR Compliance" ;
     schema:roleName "Co-Supervisor" ;
     schema:startDate "2024-01-01T00:00:00"^^xsd:dateTime ;
@@ -23991,6 +25125,56 @@ list:owned_unread a hpcom:RenderedItem,
     schema:startDate "2024-05-01T00:00:00"^^xsd:dateTime ;
     schema:subjectOf hpcom:ProjectInternship .
 
+<https://harshp.com/research/supervision/2024-ai-incident-risk> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Charan Ravi and Pranav Rao" ;
+    schema:endDate "2025-06-30T00:00:00"^^xsd:dateTime ;
+    schema:name "AI Incident Risk Analysis"@en ;
+    schema:roleName "Supervisor" ;
+    schema:startDate "2024-10-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectMSc .
+
+<https://harshp.com/research/supervision/2024-ai-policy-analysis> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Ojasvi Gupta" ;
+    schema:endDate "2024-01-31T00:00:00"^^xsd:dateTime ;
+    schema:name "AI Policy and Standards" ;
+    schema:roleName "Supervisor" ;
+    schema:startDate "2023-10-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectInternship .
+
+<https://harshp.com/research/supervision/2024-ai-risk-expression> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Atharv Kulkarni and Harshada Sutar" ;
+    schema:endDate "2025-06-30T00:00:00"^^xsd:dateTime ;
+    schema:name "Stakeholder AI Use-Case Expression and Risk Assessment"@en ;
+    schema:roleName "Supervisor" ;
+    schema:startDate "2024-10-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectMSc .
+
+<https://harshp.com/research/supervision/2024-app-privacy-label-disparity> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Hua Bai and Kexin Ma" ;
+    schema:endDate "2025-06-30T00:00:00"^^xsd:dateTime ;
+    schema:name "Disparities Analysis between App Store Privacy Labels and Policies"@en ;
+    schema:roleName "Supervisor" ;
+    schema:startDate "2024-10-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectMSc .
+
+<https://harshp.com/research/supervision/2024-automated-privacy-policy-generation> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Tianrui Zhou and Zhiheng Sun" ;
+    schema:endDate "2025-06-30T00:00:00"^^xsd:dateTime ;
+    schema:name "Automated Privacy Policy Generation"@en ;
+    schema:roleName "Supervisor" ;
+    schema:startDate "2024-10-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectMSc .
+
 <https://harshp.com/research/supervision/2024-bias-data-sheets> a hpcom:RenderedItem,
         hpcom:SupervisionRole,
         schema:Role ;
@@ -24010,6 +25194,66 @@ list:owned_unread a hpcom:RenderedItem,
     schema:roleName "Supervisor" ;
     schema:startDate "2024-05-01T00:00:00"^^xsd:dateTime ;
     schema:subjectOf hpcom:ProjectInternship .
+
+<https://harshp.com/research/supervision/2024-gdpr-consent> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Ritvik Dubey and Syed Farhan" ;
+    schema:endDate "2025-06-30T00:00:00"^^xsd:dateTime ;
+    schema:name "Automated Assessment of Consent Dialogues for GDPR Compliance"@en ;
+    schema:roleName "Supervisor" ;
+    schema:startDate "2024-10-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectMSc .
+
+<https://harshp.com/research/supervision/2024-gdpr-rights> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Syed Jaffer and Mustakim Sayyed" ;
+    schema:endDate "2025-06-30T00:00:00"^^xsd:dateTime ;
+    schema:name "Multipurpose API Framework for GDPR Rights Management"@en ;
+    schema:roleName "Supervisor" ;
+    schema:startDate "2024-10-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectMSc .
+
+<https://harshp.com/research/supervision/2025-ai-act-anx-iii> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Mauricio Dal Pozzo Schneider" ;
+    schema:endDate "2025-08-31T00:00:00"^^xsd:dateTime ;
+    schema:name "Analysis of AI Act's Annex III High-Risk Criterias"@en ;
+    schema:roleName "Supervisor" ;
+    schema:startDate "2025-06-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectInternship .
+
+<https://harshp.com/research/supervision/2025-ai-terms-analysis> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Adel Shaban" ;
+    schema:endDate "2026-04-30T00:00:00"^^xsd:dateTime ;
+    schema:name "AI Terms Analysis"@en ;
+    schema:roleName "Co-Supervisor" ;
+    schema:startDate "2025-10-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectY4 .
+
+<https://harshp.com/research/supervision/2025-facial-recognition-tracker> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Karolina Raczynska" ;
+    schema:endDate "2026-04-30T00:00:00"^^xsd:dateTime ;
+    schema:name "Facial Recognition Tracker"@en ;
+    schema:roleName "Co-Supervisor" ;
+    schema:startDate "2025-10-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectMSc .
+
+<https://harshp.com/research/supervision/2025-taxonomy-laws> a hpcom:RenderedItem,
+        hpcom:SupervisionRole,
+        schema:Role ;
+    schema:agent "Gabriela Kurteva" ;
+    schema:endDate "2029-08-31T00:00:00"^^xsd:dateTime ;
+    schema:name "Taxonomy of Actors, Rights and Obligations across AI and Data Regulations " ;
+    schema:roleName "Supervisor" ;
+    schema:startDate "2025-09-01T00:00:00"^^xsd:dateTime ;
+    schema:subjectOf hpcom:ProjectPhD .
 
 <https://harshp.com/stories/apple-sauce-in-cranberry-juice> a hpcom:RenderedItem,
         <https://harshp.com/stories>,
@@ -24634,6 +25878,11 @@ list:owned_unread a hpcom:RenderedItem,
     schema:name "Xenophobia"@en ;
     schema:url "https://harshp.com/stories/xenophobia"^^xsd:anyURI .
 
+<https://www.bloomsbury.com/us/digital-sovereignty-and-the-green-transition-9781509983636/> a schema:Book ;
+    schema:issn "0" ;
+    schema:name "Digital Sovereignty and the Green Transition: EU Challenges in Times of War and Energy Crisis"@en ;
+    schema:url "https://www.bloomsbury.com/us/digital-sovereignty-and-the-green-transition-9781509983636/" .
+
 <https://www.cikm2020.org/> a hpcom:ReviewingEvent,
         schema:PublicationEvent ;
     schema:alternateName "CIKM" ;
@@ -24687,9 +25936,6 @@ list:owned_unread a hpcom:RenderedItem,
 <http://example.com/AriannaRossi> a schema:Person ;
     schema:name "Arianna Rossi" .
 
-<http://example.com/AureliaTamoLarrieux> a schema:Person ;
-    schema:name "Aurelia Tamò-Larrieux" .
-
 <http://example.com/BertBos> a schema:Person ;
     schema:name "Bert Bos" .
 
@@ -24726,8 +25972,17 @@ list:owned_unread a hpcom:RenderedItem,
 <http://example.com/FajarEkaputra> a schema:Person ;
     schema:name "Fajar Ekaputra" .
 
+<http://example.com/FrederikZuiderveenBorgesius> a schema:Person ;
+    schema:name "Frederik Zuiderveen Borgesius" .
+
+<http://example.com/GarethYoung> a schema:Person ;
+    schema:name "Gareth Young" .
+
 <http://example.com/HannahDevinney> a schema:Person ;
     schema:name "Hannah Devinney" .
+
+<http://example.com/HelenHusca> a schema:Person ;
+    schema:name "Helen Husca" .
 
 <http://example.com/IreneKamara> a schema:Person ;
     schema:name "Irene Kamara" .
@@ -24744,8 +25999,8 @@ list:owned_unread a hpcom:RenderedItem,
 <http://example.com/KevinKoidl> a schema:Person ;
     schema:name "Kevin Koidl" .
 
-<http://example.com/KimberlyGarcia> a schema:Person ;
-    schema:name "Kimberly García" .
+<http://example.com/KonradKollnig> a schema:Person ;
+    schema:name "Konrad Kollnig" .
 
 <http://example.com/MandanKazzazi> a schema:Person ;
     schema:name "Mandan Kazzazi" .
@@ -24753,14 +26008,14 @@ list:owned_unread a hpcom:RenderedItem,
 <http://example.com/MarjiaSiddik> a schema:Person ;
     schema:name "Marjia Siddik" .
 
+<http://example.com/MartaLasekMarkey> a schema:Person ;
+    schema:name "Marta Lasek-Markey" .
+
 <http://example.com/MartinCrane> a schema:Person ;
     schema:name "Martin Crane" .
 
 <http://example.com/MartinDegeling> a schema:Person ;
     schema:name "Martin Degeling" .
-
-<http://example.com/MichielFierens> a schema:Person ;
-    schema:name "Michiel Fierens" .
 
 <http://example.com/MohammedMahdi> a schema:Person ;
     schema:name "Mohammed Mahdi" .
@@ -24780,11 +26035,17 @@ list:owned_unread a hpcom:RenderedItem,
 <http://example.com/RigoWenning> a schema:Person ;
     schema:name "Rigo Wenning" .
 
+<http://example.com/RobinBerjon> a schema:Person ;
+    schema:name "Robin Berjon" .
+
 <http://example.com/SaieshaGowdar> a schema:Person ;
     schema:name "Saiesha Gowdar" .
 
 <http://example.com/SalvatoreDAgostino> a schema:Person ;
     schema:name "Salvatore D'Agostino" .
+
+<http://example.com/SebastianZimmeck> a schema:Person ;
+    schema:name "Sebastian Zimmeck" .
 
 <http://example.com/ShankarAmmai> a schema:Person ;
     schema:name "Shankar Ammai" .
@@ -24942,6 +26203,15 @@ list:owned_unread a hpcom:RenderedItem,
     schema:startDate "2023-11-06T00:00:00"^^xsd:dateTime ;
     schema:url "https://iswc2023.semanticweb.org/"^^xsd:anyURI .
 
+<http://example.com/conferences/SEMANTiCS2025> a schema:PublicationEvent ;
+    hpcom:event_type hpcom:Conference ;
+    schema:alternateName "SEMANTiCS" ;
+    schema:endDate "2025-09-05T00:00:00"^^xsd:dateTime ;
+    schema:location "Vienna, Austria" ;
+    schema:name "International Conference on Semantic Systems"@en ;
+    schema:startDate "2025-09-03T00:00:00"^^xsd:dateTime ;
+    schema:url "https://2025-eu.semantics.cc/"^^xsd:anyURI .
+
 <http://example.com/conferences/UMAP2016> a schema:PublicationEvent ;
     hpcom:event_type hpcom:Conference ;
     schema:alternateName "UMAP" ;
@@ -25015,6 +26285,17 @@ list:owned_unread a hpcom:RenderedItem,
     schema:location "Heraklion, Crete, Greece" ;
     schema:name "ESWC 2018 Satellite Events"@en ;
     schema:superEvent <http://example.com/conferences/ESWC2018> .
+
+<http://example.com/workshops/NXDG2025> a hpcom:OrganisationEvent,
+        schema:PublicationEvent ;
+    hpcom:event_type hpcom:Workshop ;
+    schema:alternateName "NXDG2025" ;
+    schema:endDate "2025-09-03T00:00:00"^^xsd:dateTime ;
+    schema:location "Vienna, Austria" ;
+    schema:name "Workshop on Next Generation Data Governance"@en ;
+    schema:startDate "2025-09-03T00:00:00"^^xsd:dateTime ;
+    schema:superEvent <http://example.com/conferences/SEMANTiCS2025> ;
+    schema:url "https://w3id.org/nxdg/2025"^^xsd:anyURI .
 
 <http://publish.ucc.ie/researchprofiles/D005/aoriordan> a schema:Person ;
     schema:name "Adrian O'Riordan" ;
@@ -25116,7 +26397,8 @@ hpview:ResearchDraftPublicationsIndexView a hpcom:View ;
             SELECT DISTINCT ?publication ?date WHERE {
                 ?publication a hpcom:DraftPaper .
                 ?publication schema:datePublished ?date .
-            } ORDER By DESC(?date)
+                FILTER NOT EXISTS { ?publication a hpcom:PublishedDraftPaper } .
+            } ORDER By ASC(?date)
         """ ] ;
     hpcom:view_renderer hpcom:Jinja2 ;
     hpcom:view_target <https://harshp.com/research/publications/drafts> ;
@@ -26055,6 +27337,27 @@ hpcom:RPG a hpcom:VideoGameGenre ;
     schema:performer <https://harshp.com/me> ;
     schema:publication <http://example.com/conferences/ISWC2024> ;
     schema:url "https://harshp.com/research/presentations#2024-ISWC-DPV"^^xsd:anyURI .
+
+<https://harshp.com/research/presentations#2025-APF-GDPR-A30> a schema:PresentationDigitalDocument ;
+    schema:about [ a hpcom:Link ;
+            schema:name "Research Paper" ;
+            schema:url "https://doi.org/10.1007/978-3-032-07574-1_6" ] ;
+    schema:category "Research Presentation"@en ;
+    schema:datePublished "2025-10-22T14:00:00"^^xsd:dateTime ;
+    schema:encoding [ a schema:DigitalDocument ;
+            schema:encodingFormat "PDF" ;
+            schema:url "https://harshp.com/presentations/2025/APF-GDPR-A30/APF-GDPR-A30.pdf"^^xsd:anyURI ],
+        [ a schema:DigitalDocument ;
+            schema:encodingFormat "KEY" ;
+            schema:url "https://harshp.com/presentations/2025/APF-GDPR-A30/APF-GDPR-A30.key"^^xsd:anyURI ],
+        [ a schema:DigitalDocument ;
+            schema:encodingFormat "HTML" ;
+            schema:url "https://harshp.com/presentations/2025/APF-GDPR-A30/"^^xsd:anyURI ] ;
+    schema:identifier "2025-APF-GDPR-A30" ;
+    schema:name "Simple now, Complex later: The Questionable Efficacy of Diluting GDPR Article 30(5)"@en ;
+    schema:performer <https://harshp.com/me> ;
+    schema:publication <http://example.com/conferences/APF2025> ;
+    schema:url "https://harshp.com/research/presentations#2025-APF-GDPR-A30"^^xsd:anyURI .
 
 <https://harshp.com/research/projects/protect> a hpcom:RenderedItem,
         <https://harshp.com/research/projects>,
@@ -27549,7 +28852,6 @@ hpcom:RPG a hpcom:VideoGameGenre ;
     schema:inSupportOf "Protecting Personal Data Amidst Big Data Innovation (PROTECT-ITN) H2020 Project"@en ;
     schema:name "AI Cards: Towards an Applied Framework for Machine-Readable AI and Risk Documentation Inspired by the EU AI Act"@en ;
     schema:publication <http://example.com/conferences/APF2024> ;
-    schema:status "to be presented"@en ;
     schema:url "https://doi.org/10.1007/978-3-031-68024-3_3"^^xsd:anyURI .
 
 <https://harshp.com/research/publications/066-ISO27560-ConsentRecords-GDPR-DGA> a hpcom:FullPaper,
@@ -27659,11 +28961,6 @@ hptag:Decentralisation a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "Decentralisation"@en ;
     schema:url "https://harshp.com/tags/Decentralisation"^^xsd:anyURI .
-
-hptag:EU a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "EU" ;
-    schema:url "https://harshp.com/tags/EU"^^xsd:anyURI .
 
 hptag:EUVoc a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -28151,6 +29448,12 @@ hptag:workshop a hpcom:RenderedItem,
     schema:name "IEEE Access"@en ;
     schema:url "https://ieeeaccess.ieee.org/"^^xsd:anyURI .
 
+<https://journals.sagepub.com/home/gac> a schema:Periodical ;
+    schema:alternateName "GAC" ;
+    schema:issn "0" ;
+    schema:name "Games and Culture"@en ;
+    schema:url "https://journals.sagepub.com/home/gac" .
+
 <https://link.springer.com/referencework/10.1007/978-3-319-23514-1> a schema:Book ;
     schema:name "Encyclopedia of Business and Professional Ethics"@en ;
     schema:url "https://link.springer.com/referencework/10.1007/978-3-319-23514-1" .
@@ -28177,11 +29480,6 @@ hptag:workshop a hpcom:RenderedItem,
     schema:name "Journal of Data Protection & Privacy"@en ;
     schema:url "https://www.henrystewartpublications.com/jdpp" .
 
-<https://www.igi-global.com/book/shaping-future-through-standardization/235703> a schema:Book ;
-    schema:issn "9781799821816" ;
-    schema:name "Standardisation, Data Interoperability, and GDPR"@en ;
-    schema:url "https://www.igi-global.com/book/shaping-future-through-standardization/235703" .
-
 <https://www.igi-global.com/journal/international-journal-standards-standardization-research/1077> a schema:Periodical ;
     schema:alternateName "IJITSSR" ;
     schema:issn "1539-3062" ;
@@ -28192,6 +29490,13 @@ hptag:workshop a hpcom:RenderedItem,
     schema:issn "" ;
     schema:name "Factoring Ethics in Technology, Policy Making and Regulation"@en ;
     schema:url "https://www.intechopen.com/" .
+
+<https://www.sciencedirect.com/journal/clsr> a hpcom:ReviewingEvent,
+        schema:Periodical ;
+    schema:alternateName "CLSR" ;
+    schema:issn "0" ;
+    schema:name "Computer Law & Security Review"@en ;
+    schema:url "https://www.sciencedirect.com/journal/computer-law-and-security-review" .
 
 <https://www.scss.tcd.ie/owen.conlan/> a schema:Person ;
     schema:name "Owen Conlan" .
@@ -28206,6 +29511,13 @@ hptag:workshop a hpcom:RenderedItem,
     schema:name "CEUR-WS" ;
     schema:url "http://ceur-ws.org/"^^xsd:anyURI .
 
+<http://example.com/AIAL> a schema:Project ;
+    schema:name "AI Accountability Lab (AIAL)"@en ;
+    schema:url "https://aial.ie/"^^xsd:anyURI .
+
+<http://example.com/AureliaTamoLarrieux> a schema:Person ;
+    schema:name "Aurelia Tamò-Larrieux" .
+
 <http://example.com/DavlidFilip> a schema:Person ;
     schema:name "David Filip" .
 
@@ -28215,11 +29527,27 @@ hptag:workshop a hpcom:RenderedItem,
 <http://example.com/JavierFernandez> a schema:Person ;
     schema:name "Javier Fernandez" .
 
+<http://example.com/KimberlyGarcia> a schema:Person ;
+    schema:name "Kimberly García" .
+
+<http://example.com/MichielFierens> a schema:Person ;
+    schema:name "Michiel Fierens" .
+
 <http://example.com/PJWall> a schema:Person ;
     schema:name "P. J. Wall" .
 
 <http://example.com/WesselReijers> a schema:Person ;
     schema:name "Wessel Reijers" .
+
+<http://example.com/conferences/APF2025> a hpcom:ReviewingEvent,
+        schema:PublicationEvent ;
+    hpcom:event_type hpcom:Conference ;
+    schema:alternateName "APF" ;
+    schema:endDate "2025-10-23T00:00:00"^^xsd:dateTime ;
+    schema:location "Frankfurt, Germany" ;
+    schema:name "Annual Privacy Forum"@en ;
+    schema:startDate "2025-10-22T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.enisa.europa.eu/events/annual-privacy-forum-2025"^^xsd:anyURI .
 
 <http://example.com/conferences/CLAIRvoyant2024> a hpcom:ReviewingEvent,
         schema:PublicationEvent ;
@@ -28714,6 +30042,11 @@ hptag:CCPA a hpcom:RenderedItem,
     schema:name "CCPA"@en ;
     schema:url "https://harshp.com/tags/CCPA"^^xsd:anyURI .
 
+hptag:EU a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "EU" ;
+    schema:url "https://harshp.com/tags/EU"^^xsd:anyURI .
+
 hptag:FRIA a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "FRIA"@en ;
@@ -28804,11 +30137,6 @@ hptag:security a hpcom:RenderedItem,
     schema:name "security" ;
     schema:url "https://harshp.com/tags/security"^^xsd:anyURI .
 
-hptag:signal a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "signal"@en ;
-    schema:url "https://harshp.com/tags/signal"^^xsd:anyURI .
-
 hptag:survey a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "survey" ;
@@ -28829,6 +30157,11 @@ hptag:work a hpcom:RenderedItem,
     schema:name "Dublin City University" ;
     schema:url "https://www.dcu.ie/"^^xsd:anyURI .
 
+<https://www.igi-global.com/book/shaping-future-through-standardization/235703> a schema:Book ;
+    schema:issn "9781799821816" ;
+    schema:name "Standardisation, Data Interoperability, and GDPR"@en ;
+    schema:url "https://www.igi-global.com/book/shaping-future-through-standardization/235703" .
+
 <https://www.ucc.ie/> a schema:CollegeOrUniversity ;
     schema:address "Cork, Ireland" ;
     schema:name "University College Cork" ;
@@ -28839,9 +30172,6 @@ hptag:work a hpcom:RenderedItem,
 
 <http://example.com/AseemGogte> a schema:Person ;
     schema:name "Aseem Gogte" .
-
-<http://example.com/CristianaSantos> a schema:Person ;
-    schema:name "Cristiana Santos" .
 
 <http://example.com/KanizFatema> a schema:Person ;
     schema:name "Kaniz Fatema" .
@@ -28877,6 +30207,9 @@ hptag:work a hpcom:RenderedItem,
     schema:startDate "2018-10-08T00:00:00"^^xsd:dateTime ;
     schema:url "https://iswc2018.semanticweb.org/"^^xsd:anyURI .
 
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
+
 <https://harshp.com/dev/webdev> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -28899,11 +30232,6 @@ hptag:GPC a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "GPC"@en ;
     schema:url "https://harshp.com/tags/GPC"^^xsd:anyURI .
-
-hptag:ROPA a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "Register of Processing Activities"@en ;
-    schema:url "https://harshp.com/tags/ROPA"^^xsd:anyURI .
 
 hptag:apps a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -29010,6 +30338,11 @@ hptag:server a hpcom:RenderedItem,
     schema:name "server" ;
     schema:url "https://harshp.com/tags/server"^^xsd:anyURI .
 
+hptag:signal a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "signal"@en ;
+    schema:url "https://harshp.com/tags/signal"^^xsd:anyURI .
+
 hptag:smartphone a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "smartphone"@en ;
@@ -29029,6 +30362,9 @@ hptag:standardisation a hpcom:RenderedItem,
     schema:address "Dublin, Ireland" ;
     schema:name "Trinity College Dublin" ;
     schema:url "https://www.tcd.ie/"^^xsd:anyURI .
+
+<http://example.com/CristianaSantos> a schema:Person ;
+    schema:name "Cristiana Santos" .
 
 <http://example.com/EnsarHadziselimovic> a schema:Person ;
     schema:name "Ensar Hadziselimovic" .
@@ -29131,6 +30467,11 @@ hptag:ODRL a hpcom:RenderedItem,
     schema:name "ODRL"@en ;
     schema:url "https://harshp.com/tags/ODRL"^^xsd:anyURI .
 
+hptag:ROPA a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "Register of Processing Activities"@en ;
+    schema:url "https://harshp.com/tags/ROPA"^^xsd:anyURI .
+
 hptag:academic a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "academic" ;
@@ -29140,11 +30481,6 @@ hptag:adventure a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "adventure" ;
     schema:url "https://harshp.com/tags/adventure"^^xsd:anyURI .
-
-hptag:books a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "books" ;
-    schema:url "https://harshp.com/tags/books"^^xsd:anyURI .
 
 hptag:gadgets a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -29219,36 +30555,15 @@ hptag:trains a hpcom:RenderedItem,
     schema:startDate "2022-09-13T00:00:00"^^xsd:dateTime ;
     schema:url "https://2022-eu.semantics.cc"^^xsd:anyURI .
 
-<http://example.com/working-draft> a schema:Publication ;
-    hpcom:event_type "" ;
-    schema:name "working draft"@en ;
-    schema:url "http://example.com/working-draft" .
-
-hpcom:BookChapter rdfs:subClassOf schema:ScholarlyArticle ;
-    schema:name "Book Chapter"@en .
-
-hpcom:DraftPaper rdfs:subClassOf schema:ScholarlyArticle ;
-    schema:name "Draft Paper"@en .
-
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
-
 hptag:ODP a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "ODP"@en ;
     schema:url "https://harshp.com/tags/ODP"^^xsd:anyURI .
 
-hptag:Rating1 a hpcom:Rating,
-        hpcom:RenderedItem,
+hptag:books a hpcom:RenderedItem,
         hpcom:Tag ;
-    schema:name "😠awful (1/5)"@en ;
-    schema:ratingValue "1"^^xsd:int ;
-    schema:url "https://harshp.com/tags/Rating1"^^xsd:anyURI .
-
-hptag:ethics a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "ethics" ;
-    schema:url "https://harshp.com/tags/ethics"^^xsd:anyURI .
+    schema:name "books" ;
+    schema:url "https://harshp.com/tags/books"^^xsd:anyURI .
 
 hptag:ontologies a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -29274,6 +30589,9 @@ hptag:website a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "website" ;
     schema:url "https://harshp.com/tags/website"^^xsd:anyURI .
+
+hpcom:BookChapter rdfs:subClassOf schema:ScholarlyArticle ;
+    schema:name "Book Chapter"@en .
 
 list:visually-stunning a hpcom:RenderedItem,
         book:lists ;
@@ -29310,10 +30628,10 @@ list:visually-stunning a hpcom:RenderedItem,
     schema:startDate "2016-03-01T00:00:00"^^xsd:dateTime ;
     schema:url "https://harshp.com/research/phd-thesis"^^xsd:anyURI .
 
-hptag:Solid a hpcom:RenderedItem,
+hptag:ethics a hpcom:RenderedItem,
         hpcom:Tag ;
-    schema:name "Solid"@en ;
-    schema:url "https://harshp.com/tags/Solid"^^xsd:anyURI .
+    schema:name "ethics" ;
+    schema:url "https://harshp.com/tags/ethics"^^xsd:anyURI .
 
 hptag:social a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -29338,6 +30656,18 @@ list:humour a hpcom:RenderedItem,
     schema:identifier "humour"@en ;
     schema:name "Funny and Humorous"@en .
 
+hptag:Rating1 a hpcom:Rating,
+        hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "😠awful (1/5)"@en ;
+    schema:ratingValue "1"^^xsd:int ;
+    schema:url "https://harshp.com/tags/Rating1"^^xsd:anyURI .
+
+hptag:Solid a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "Solid"@en ;
+    schema:url "https://harshp.com/tags/Solid"^^xsd:anyURI .
+
 hptag:flash-fiction a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "flash-fiction" ;
@@ -29358,24 +30688,23 @@ hptag:script a hpcom:RenderedItem,
     schema:name "script" ;
     schema:url "https://harshp.com/tags/script"^^xsd:anyURI .
 
+<http://example.com/working-draft> a schema:Publication ;
+    hpcom:event_type "" ;
+    schema:name "working draft"@en ;
+    schema:url "http://example.com/working-draft" .
+
+hpcom:DraftPaper rdfs:subClassOf schema:ScholarlyArticle ;
+    schema:name "Draft Paper"@en .
+
 list:thriller a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "thriller"@en ;
     schema:name "Thrilling Thrillers"@en .
 
-hptag:AI a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "AI"@en ;
-    schema:url "https://harshp.com/tags/AI"^^xsd:anyURI .
-
 hptag:automation a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "automation" ;
     schema:url "https://harshp.com/tags/automation"^^xsd:anyURI .
-
-<https://www.scss.tcd.ie/personnel/golpayes> a schema:Person ;
-    schema:name "Delaram Golpayegani" ;
-    schema:url "https://www.scss.tcd.ie/personnel/golpayes"^^xsd:anyURI .
 
 <http://example.com/PaulRyan> a schema:Person ;
     schema:name "Paul Ryan" .
@@ -29383,6 +30712,11 @@ hptag:automation a hpcom:RenderedItem,
 <https://chrdebru.github.io/> a schema:Person ;
     schema:name "Christophe Debruyne" ;
     schema:url "https://chrdebru.github.io/"^^xsd:anyURI .
+
+hptag:AI a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "AI"@en ;
+    schema:url "https://harshp.com/tags/AI"^^xsd:anyURI .
 
 hptag:conference a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -29432,11 +30766,6 @@ list:storytelling a hpcom:RenderedItem,
     schema:identifier "storytelling"@en ;
     schema:name "Great Storytelling"@en .
 
-hptag:AI-Act a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "AI-Act"@en ;
-    schema:url "https://harshp.com/tags/AI-Act"^^xsd:anyURI .
-
 hptag:GNIB a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "GNIB" ;
@@ -29457,16 +30786,6 @@ hptag:semantics a hpcom:RenderedItem,
     schema:name "semantics"@en ;
     schema:url "https://harshp.com/tags/semantics"^^xsd:anyURI .
 
-hptag:video-games a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "video-games" ;
-    schema:url "https://harshp.com/tags/video-games"^^xsd:anyURI .
-
-hptag:working-note a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "Working Note"@en ;
-    schema:url "https://harshp.com/tags/working-note"^^xsd:anyURI .
-
 <http://example.com/BeatrizEsteves> a schema:Person ;
     schema:name "Beatriz Esteves" .
 
@@ -29485,10 +30804,19 @@ hptag:nature a hpcom:RenderedItem,
     schema:name "nature" ;
     schema:url "https://harshp.com/tags/nature"^^xsd:anyURI .
 
+hptag:video-games a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "video-games" ;
+    schema:url "https://harshp.com/tags/video-games"^^xsd:anyURI .
+
 hptag:web-dev a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "web-dev" ;
     schema:url "https://harshp.com/tags/web-dev"^^xsd:anyURI .
+
+<https://www.scss.tcd.ie/personnel/golpayes> a schema:Person ;
+    schema:name "Delaram Golpayegani" ;
+    schema:url "https://www.scss.tcd.ie/personnel/golpayes"^^xsd:anyURI .
 
 hpview:DevProjectView a hpcom:View ;
     hpcom:sparql [ a hpcom:SparqlQuery ;
@@ -29513,10 +30841,10 @@ hptag:rant a hpcom:RenderedItem,
     schema:name "rant" ;
     schema:url "https://harshp.com/tags/rant"^^xsd:anyURI .
 
-hptag:risk a hpcom:RenderedItem,
+hptag:working-note a hpcom:RenderedItem,
         hpcom:Tag ;
-    schema:name "risk" ;
-    schema:url "https://harshp.com/tags/risk"^^xsd:anyURI .
+    schema:name "Working Note"@en ;
+    schema:url "https://harshp.com/tags/working-note"^^xsd:anyURI .
 
 <https://harshp.com/research/projects/paecg> a hpcom:RenderedItem,
         <https://harshp.com/research/projects>,
@@ -29555,10 +30883,20 @@ hptag:risk a hpcom:RenderedItem,
     schema:startDate "2020-09-14T00:00:00"^^xsd:dateTime ;
     schema:url "https://privacy-as-expected.org/"^^xsd:anyURI .
 
+hptag:AI-Act a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "AI-Act"@en ;
+    schema:url "https://harshp.com/tags/AI-Act"^^xsd:anyURI .
+
 hptag:humor a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "humor" ;
     schema:url "https://harshp.com/tags/humor"^^xsd:anyURI .
+
+hptag:risk a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "risk" ;
+    schema:url "https://harshp.com/tags/risk"^^xsd:anyURI .
 
 <https://harshp.com/research/projects> a owl:Class,
         hpcom:RenderedItem ;
@@ -29576,11 +30914,6 @@ hptag:academia a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "academia" ;
     schema:url "https://harshp.com/tags/academia"^^xsd:anyURI .
-
-hptag:data-governance a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "data-governance"@en ;
-    schema:url "https://harshp.com/tags/data-governance"^^xsd:anyURI .
 
 hptag:drama a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -29630,6 +30963,11 @@ hptag:philosophy a hpcom:RenderedItem,
     schema:startDate "2020-10-01T00:00:00"^^xsd:dateTime ;
     schema:url "https://harshp.com/research/projects/risky"^^xsd:anyURI .
 
+hptag:data-governance a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "data-governance"@en ;
+    schema:url "https://harshp.com/tags/data-governance"^^xsd:anyURI .
+
 <https://harshp.com/dev/dpv> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -29647,23 +30985,23 @@ book:lists a owl:Class,
     schema:name "Book Lists"@en ;
     schema:url "https://harshp.com/hobbies/books/lists"^^xsd:anyURI .
 
+<https://www.scss.tcd.ie/declan.osullivan/> a schema:Person ;
+    schema:name "Declan O'Sullivan" .
+
 hptag:DPVCG a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "DPVCG"@en ;
     schema:url "https://harshp.com/tags/DPVCG"^^xsd:anyURI .
 
-<https://www.scss.tcd.ie/declan.osullivan/> a schema:Person ;
-    schema:name "Declan O'Sullivan" .
+hptag:privacy a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "privacy" ;
+    schema:url "https://harshp.com/tags/privacy"^^xsd:anyURI .
 
 hptag:DPV a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "DPV"@en ;
     schema:url "https://harshp.com/tags/DPV"^^xsd:anyURI .
-
-hptag:privacy a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "privacy" ;
-    schema:url "https://harshp.com/tags/privacy"^^xsd:anyURI .
 
 hptag:emotional a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -29712,38 +31050,38 @@ hpcom:Conference a hpcom:EventType ;
     rdfs:subClassOf schema:Event ;
     schema:name "Conference"@en .
 
-hptag:GDPR a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "GDPR"@en ;
-    schema:url "https://harshp.com/tags/GDPR"^^xsd:anyURI .
-
-hpcom:FullPaper rdfs:subClassOf schema:ScholarlyArticle ;
-    schema:name "Full Paper"@en .
-
 hptag:personal a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "personal" ;
     schema:url "https://harshp.com/tags/personal"^^xsd:anyURI .
 
-hptag:blog a hpcom:RenderedItem,
+hptag:GDPR a hpcom:RenderedItem,
         hpcom:Tag ;
-    schema:name "blog" ;
-    schema:url "https://harshp.com/tags/blog"^^xsd:anyURI .
+    schema:name "GDPR"@en ;
+    schema:url "https://harshp.com/tags/GDPR"^^xsd:anyURI .
 
 hptag:story a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "story" ;
     schema:url "https://harshp.com/tags/story"^^xsd:anyURI .
 
+list:GiveAway a hpcom:RenderedItem,
+        book:give-away ;
+    schema:identifier "books-give-away"@en ;
+    schema:name "Books to give away"@en .
+
+hptag:blog a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "blog" ;
+    schema:url "https://harshp.com/tags/blog"^^xsd:anyURI .
+
+hpcom:FullPaper rdfs:subClassOf schema:ScholarlyArticle ;
+    schema:name "Full Paper"@en .
+
 list:classics a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "classics"@en ;
     schema:name "Classics"@en .
-
-list:DCU a hpcom:RenderedItem,
-        book:lists ;
-    schema:identifier "DCU"@en ;
-    schema:name "Books in DCU"@en .
 
 hptag:Rating2 a hpcom:Rating,
         hpcom:RenderedItem,
@@ -29751,6 +31089,11 @@ hptag:Rating2 a hpcom:Rating,
     schema:name "🙁bad (2/5)"@en ;
     schema:ratingValue "2"^^xsd:int ;
     schema:url "https://harshp.com/tags/Rating2"^^xsd:anyURI .
+
+hptag:semantic-web a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "semantic-web" ;
+    schema:url "https://harshp.com/tags/semantic-web"^^xsd:anyURI .
 
 <http://example.com/ADAPT> a schema:Project ;
     schema:endDate "2020-12-31T00:00:00"^^xsd:dateTime ;
@@ -29762,11 +31105,6 @@ hptag:Rating2 a hpcom:Rating,
     schema:startDate "2015-01-01T00:00:00"^^xsd:dateTime ;
     schema:url "https://www.adaptcentre.ie/"^^xsd:anyURI .
 
-hptag:semantic-web a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "semantic-web" ;
-    schema:url "https://harshp.com/tags/semantic-web"^^xsd:anyURI .
-
 hptag:poem a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "poem" ;
@@ -29776,6 +31114,11 @@ list:scifi a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "scifi"@en ;
     schema:name "Exciting Sci-Fi"@en .
+
+list:DCU a hpcom:RenderedItem,
+        book:lists ;
+    schema:identifier "DCU"@en ;
+    schema:name "Books in DCU"@en .
 
 hpcom:book-to-read a hpcom:BookStatus ;
     rdfs:label "to read"@en .
@@ -29804,15 +31147,12 @@ hptag:Rating3 a hpcom:Rating,
     schema:ratingValue "3"^^xsd:int ;
     schema:url "https://harshp.com/tags/Rating3"^^xsd:anyURI .
 
-hpcom:BookSciFi a hpcom:BookGenre ;
-    rdfs:label "sci-fi"@en .
-
 hpcom:formatHTML a hpcom:FileFormat ;
     rdfs:label "formatHTML"@en ;
     rdfs:comment "Represents the HTML format for content"@en .
 
-hpcom:EBook a hpcom:BookMedium ;
-    rdfs:label "💾digital"@en .
+hpcom:BookSciFi a hpcom:BookGenre ;
+    rdfs:label "sci-fi"@en .
 
 <https://harshp.com/me> a hpcom:RenderedItem,
         schema:BlogPosting,
@@ -29843,6 +31183,9 @@ hpcom:EBook a hpcom:BookMedium ;
             schema:name "India" ] ;
     schema:url "https://harshp.com/me"^^xsd:anyURI ;
     schema:worksFor <https://www.dcu.ie/> .
+
+hpcom:EBook a hpcom:BookMedium ;
+    rdfs:label "💾digital"@en .
 
 hpcom:BookFiction a hpcom:BookGenre ;
     rdfs:label "fiction"@en .
