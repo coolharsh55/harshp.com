@@ -179,3 +179,25 @@
     schema:name "Robin Berjon" .
 <http://example.com/MartaLasekMarkey> a schema:Person ;
     schema:name "Marta Lasek-Markey" .
+<http://example.com/JulioHernandez> a schema:Person ;
+    schema:name "Julio Hernandez" .
+<http://example.com/AbebaBirhane> a schema:Person ;
+    schema:name "Abeba Birhane" .
+<http://example.com/RiccardoAngius> a schema:Person ;
+    schema:name "Riccardo Angius" .
+<http://example.com/WilliamAgnew> a schema:Person ;
+    schema:name "William Agnew" .
+<http://example.com/BhaskarMitra> a schema:Person ;
+    schema:name "Bhaskar Mitra" .
+<http://example.com/RoelDobbe> a schema:Person ;
+    schema:name "Roel Dobbe" .
+<http://example.com/ZeerakTalat> a schema:Person ;
+    schema:name "Zeerak Talat" .
+<http://example.com/DickBlankvoort> a schema:Person ;
+    schema:name "Dick A. H. Blankvoort" .
+<http://example.com/MaximilianGahntz> a schema:Person ;
+    schema:name "Maximilian Gahntz" .
+<http://example.com/SashaLuccioni> a schema:Person ;
+    schema:name "Sasha Luccioni" .
+<http://example.com/AdelShaaban> a schema:Person ;
+    schema:name "Adel Shaaban" .

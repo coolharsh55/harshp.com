@@ -1006,6 +1006,22 @@ hptag:linux a hpcom:RenderedItem, hpcom:Tag ;
                 schema:name "Linux"@en ;
                 schema:url "https://harshp.com/tags/linux"^^xsd:anyURI .
 
+hptag:corporate-capture a hpcom:RenderedItem, hpcom:Tag ;
+                schema:name "Corporate Capture"@en ;
+                schema:url "https://harshp.com/tags/corporate-capture"^^xsd:anyURI .
+
+hptag:regulatory-capture a hpcom:RenderedItem, hpcom:Tag ;
+                schema:name "Regulatory Capture"@en ;
+                schema:url "https://harshp.com/tags/regulatory-capture"^^xsd:anyURI .
+
+hptag:terms-conditions a hpcom:RenderedItem, hpcom:Tag ;
+                schema:name "terms-conditions"@en ;
+                schema:url "https://harshp.com/tags/terms-conditions"^^xsd:anyURI .
+
+hptag:consumer-protection a hpcom:RenderedItem, hpcom:Tag ;
+                schema:name "consumer-protection"@en ;
+                schema:url "https://harshp.com/tags/consumer-protection"^^xsd:anyURI .
+
 hptag:Rating1 a hpcom:Rating, hpcom:Tag, hpcom:RenderedItem ; 
     schema:ratingValue "1"^^xsd:int ;
     schema:url "https://harshp.com/tags/Rating1"^^xsd:anyURI ;

@@ -993,3 +993,21 @@
     schema:endDate "2025-09-03T00:00:00"^^xsd:dateTime ;
     schema:superEvent <http://example.com/conferences/SEMANTiCS2025> ;
     schema:location "Vienna, Austria" .
+
+<http://example.com/conferences/ESWC2026> a schema:PublicationEvent, hpcom:ReviewingEvent ;
+    hpcom:event_type hpcom:Conference ;
+    schema:name "Extended Semantic Web Conference"@en ;
+    schema:alternateName "ESWC" ;
+    schema:url "https://2026.eswc-conferences.org"^^xsd:anyURI ;
+    schema:startDate "2026-05-10T00:00:00"^^xsd:dateTime ;
+    schema:endDate "2026-05-14T00:00:00"^^xsd:dateTime ;
+    schema:location "Dubrovnik, Croatia" .
+
+<https://facctconference.org/2026/> a schema:PublicationEvent, hpcom:ReviewingEvent ;
+    hpcom:event_type hpcom:Conference ;
+    schema:name "Conference on Fairness, Accountability, and Transparency"@en ;
+    schema:alternateName "FAccT" ;
+    schema:url "https://facctconference.org/2026/"^^xsd:anyURI ;
+    schema:startDate "2023-06-25T00:00:00"^^xsd:dateTime ;
+    schema:endDate "2023-06-28T00:00:00"^^xsd:dateTime ;
+    schema:location "Montreal, Canada" .

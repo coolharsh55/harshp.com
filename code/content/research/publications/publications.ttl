@@ -2015,6 +2015,7 @@
     hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/marjiasdk/Healthcare-AI-Datasheet"^^xsd:anyURI ] ;
     #hpcom:supplementary <https://harshp.com/research/presentations#2024-CLAIRVoyant-FRIA-Tool-DPIA> ;
     hpcom:peer_reviewed true ;
+    schema:status "This was presented at the workshop in December 2024, however the organisers are yet to create the proceedings due to unknown reasons";
     hpcom:content [
         a hpcom:Content ;
         hpcom:contentFile "https://harshp.com/code/content/research/publications/074-FRIA-Tool-DPIA.html" ;
@@ -2043,6 +2044,7 @@
     hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://doi.org/10.48550/arXiv.2501.10391"^^xsd:anyURI ] ;
     #hpcom:supplementary <https://harshp.com/research/presentations#2024-CLAIRVoyant-FRIA-Ontology> ;
     hpcom:peer_reviewed true ;
+    schema:status "This was presented at the workshop in December 2024, however the organisers are yet to create the proceedings due to unknown reasons";
     hpcom:content [
         a hpcom:Content ;
         hpcom:contentFile "https://harshp.com/code/content/research/publications/075-FRIA-Ontology.html" ;
@@ -2159,4 +2161,128 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/080-AI-Act-prohibited-systems.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
+    hpcom:peer_reviewed true .
+
+<https://harshp.com/research/publications/081-Data-Sharing-Agreements> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
+    schema:name "Explainable Validation of Data Sharing Agreements using DPV, SHACL, and Human-in-the-Loop Review"@en ;
+    hpcom:author_lead <http://example.com/JulioHernandez> ;
+    hpcom:author_other <https://harshp.com/me> ;
+    schema:description "The paper proposes a DPV-aligned Data Sharing Agreement Ontology (DSAO), a family of SHACL profiles for DSA quality, and a guided human-review schema, all evaluated on a synthetic DSA corpus"@en ;
+    hpcom:tag hptag:data-governance ;
+    hpcom:tag hptag:SHACL ;
+    hpcom:tag hptag:semantic-web ;
+    # schema:inSupportOf ""@en ;
+    schema:datePublished "2026-05-10T00:00:00"^^xsd:dateTime ;
+    # schema:identifier ""^^xsd:anyURI ;
+    # schema:url "https://ceur-ws.org/Vol-4064/NXDG25-paper7.pdf"^^xsd:anyURI ;
+    schema:publication <http://example.com/conferences/ESWC2026> ;
+    schema:funder <http://example.com/ADAPT> ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/081-Data-Sharing-Agreements"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/100132"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.6821844"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/Julio-Noe/ESWC2026-DSAO"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "specification" ; schema:url "https://w3id.org/AIRO"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/081-Data-Sharing-Agreements.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+    ] ;
+    schema:status "to be presented"@en ;
+    hpcom:peer_reviewed true .
+
+<https://harshp.com/research/publications/082-Corporate-Capture> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
+    schema:name "Big AI’s Regulatory Capture: Mapping Industry Interference and Government Complicity"@en ;
+    hpcom:author_lead <http://example.com/AbebaBirhane> ;
+    hpcom:author_other (
+        <http://example.com/RiccardoAngius>
+        <http://example.com/WilliamAgnew>
+        <https://harshp.com/me>
+        <http://example.com/BhaskarMitra>
+        <http://example.com/RoelDobbe>
+        <http://example.com/ZeerakTalat> ) ;
+    schema:description "A taxonomy of 27 mechanisms enable capture with an analysis of 100 news articles showing 260 instances of capture mechanisms, variably co-occurring with narratives that rationalise capture."@en ;
+    hpcom:tag hptag:corporate-capture ;
+    hpcom:tag hptag:regulatory-capture ;
+    hpcom:tag hptag:AI ;
+    hpcom:tag hptag:law ;
+    # schema:inSupportOf ""@en ;
+    schema:datePublished "2026-06-25T09:00:00"^^xsd:dateTime ;
+    # schema:identifier ""^^xsd:anyURI ;
+    # schema:url "https://ceur-ws.org/Vol-4064/NXDG25-paper7.pdf"^^xsd:anyURI ;
+    schema:publication <https://facctconference.org/2026/> ;
+    # schema:funder <http://example.com/ADAPT> ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/082-Corporate-Capture"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/100132"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.6821844"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/Julio-Noe/ESWC2026-DSAO"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "specification" ; schema:url "https://w3id.org/AIRO"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/082-Corporate-Capture.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+    ] ;
+    schema:status "to be presented"@en ;
+    hpcom:peer_reviewed true .
+
+<https://harshp.com/research/publications/083-Quality-Assessment-AIA531d> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
+    schema:name "A Quality Assessment Framework for GPAI Model Public Summaries required by AI Act Article 53(1)(d)"@en ;
+    hpcom:author_lead ( <http://example.com/DickBlankvoort> <https://harshp.com/me> ) ;
+    hpcom:author_other <http://example.com/MaximilianGahntz> ;
+    schema:description "A quality assessment framework for public summaries of GPAI training required under AI Act Article 53(1)(d) and an analysis of published summaries."@en ;
+    hpcom:tag hptag:AI-Act ;
+    hpcom:tag hptag:data-governance ;
+    hpcom:tag hptag:accountability ;
+    hpcom:tag hptag:AI ;
+    schema:inSupportOf "Mozilla Foundation"@en ;
+    schema:datePublished "2026-06-25T10:00:00"^^xsd:dateTime ;
+    # schema:identifier ""^^xsd:anyURI ;
+    # schema:url "https://ceur-ws.org/Vol-4064/NXDG25-paper7.pdf"^^xsd:anyURI ;
+    schema:publication <https://facctconference.org/2026/> ;
+    # schema:funder <http://example.com/ADAPT> ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/083-Quality-Assessment-AIA531d"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/100132"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.18803975"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/Julio-Noe/ESWC2026-DSAO"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "website" ; schema:url "https://aial.ie/research/gpai-training-transparency"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "Euractiv article" ; schema:url "https://www.euractiv.com/news/researchers-have-trouble-finding-ai-training-data-summaries/"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/083-Quality-Assessment-AIA531d.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+    ] ;
+    schema:status "to be presented"@en ;
+    hpcom:peer_reviewed true .
+
+<https://harshp.com/research/publications/084-Terms-of-Abuse> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
+    schema:name "Terms of (Ab)Use: An Analysis of GenAI Services"@en ;
+    hpcom:author_lead ( <https://harshp.com/me> ) ;
+    hpcom:author_other ( <http://example.com/DickBlankvoort> <http://example.com/AdelShaaban> <http://example.com/SashaLuccioni> <http://example.com/AbebaBirhane> );
+    schema:description "We analyse the terms of 6 generative AI services from the perspective of an EU-based consumer and reiterate known issues such as use for training and surface new concerns regarding responsibility, liability, and rights. We make concrete recommendations to urgently upgrade existing consumer protection mechanisms."@en ;
+    hpcom:tag hptag:consumer-protection ;
+    hpcom:tag hptag:terms-conditions ;
+    hpcom:tag hptag:privacy-policy ;
+    hpcom:tag hptag:accountability ;
+    hpcom:tag hptag:AI ;
+    #schema:inSupportOf "Mozilla Foundation"@en ;
+    schema:datePublished "2026-06-25T11:00:00"^^xsd:dateTime ;
+    # schema:identifier ""^^xsd:anyURI ;
+    # schema:url "https://ceur-ws.org/Vol-4064/NXDG25-paper7.pdf"^^xsd:anyURI ;
+    schema:publication <https://facctconference.org/2026/> ;
+    # schema:funder <http://example.com/ADAPT> ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/084-Terms-of-Abuse"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/100132"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.18803975"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/Julio-Noe/ESWC2026-DSAO"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "website" ; schema:url "https://aial.ie/research/gpai-training-transparency"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "Euractiv article" ; schema:url "https://www.euractiv.com/news/researchers-have-trouble-finding-ai-training-data-summaries/"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/084-Terms-of-Abuse.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+    ] ;
+    schema:status "to be presented"@en ;
     hpcom:peer_reviewed true .
