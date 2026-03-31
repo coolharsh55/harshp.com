@@ -2286,3 +2286,31 @@
     ] ;
     schema:status "to be presented"@en ;
     hpcom:peer_reviewed true .
+
+<https://harshp.com/research/publications/085-Semweb-AIAct> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
+    schema:name "Semantic Frameworks to Support Implementation of the EU AI Act"@en ;
+    schema:description "Set of open, standards-based, and extensible artefacts for (1) automatically determine risk category, (2) AI Use Policy profile for declaring AI intended purposes, (3) SPARQL queries for technical documentation, and (4) AI Catalogue vocabulary to support the data governance"@en ;
+    hpcom:tag hptag:AI-Act ;
+    hpcom:tag hptag:semantic-web ;
+    hpcom:tag hptag:risk ;
+    hpcom:tag hptag:ISO ;
+    hpcom:author_lead <https://www.scss.tcd.ie/personnel/golpayes> ;
+    hpcom:author_other ( <https://harshp.com/me> <https://www.scss.tcd.ie/declan.osullivan/> <https://www.scss.tcd.ie/dave.lewis/> ) ;
+    schema:datePublished "2026-04-01T00:00:00"^^xsd:dateTime ;
+    schema:publisher <https://www.sciencedirect.com/journal/clsr> ;
+    schema:url ""^^xsd:anyURI ;
+    schema:inSupportOf ""@en ;
+    schema:funder <http://example.com/ADAPT> ; 
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/085-Semweb-AIAct"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "DORAS" ; schema:url "https://doras.dcu.ie/29298/"^^xsd:anyURI ] ;
+    # hpcom:archived_version [ a hpcom:Link ; schema:name "arXiv" ; schema:url "https://doi.org/10.48550/arXiv.2406.18211"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://zenodo.org/doi/10.5281/zenodo.10381927"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "OSF" ; schema:url "https://osf.io/preprints/osf/43rq2"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/delaramGlp/aicards"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2024-APF-AI-Cards> ;
+    hpcom:peer_reviewed true ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/085-Semweb-AIAct.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+        ] .
