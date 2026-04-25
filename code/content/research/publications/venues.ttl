@@ -1011,3 +1011,13 @@
     schema:startDate "2023-06-25T00:00:00"^^xsd:dateTime ;
     schema:endDate "2023-06-28T00:00:00"^^xsd:dateTime ;
     schema:location "Montreal, Canada" .
+
+<http://example.com/workshops/SDS2026> a schema:PublicationEvent ;
+    hpcom:event_type hpcom:Workshop ;
+    schema:name "Fourth International Workshop on Semantics in Dataspaces"@en ;
+    schema:alternateName "SDS" ;
+    schema:url "https://dbis.rwth-aachen.de/SDS26/"^^xsd:anyURI ;
+    schema:startDate "2026-05-10T00:00:00"^^xsd:dateTime ;
+    schema:endDate "2026-05-10T00:00:00"^^xsd:dateTime ;
+    schema:superEvent <http://example.com/conferences/ESWC2026> ;
+    schema:location "Dubrovnik, Croatia" .

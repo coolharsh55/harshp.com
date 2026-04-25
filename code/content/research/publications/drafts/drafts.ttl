@@ -19,7 +19,7 @@
     ] .
 
 <https://harshp.com/research/publications/drafts/001-Consent-Signal-User-Dialogue> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
-    schema:name "Draft 01: Proposals for Resolving Consenting Issues with Signals and User-side Dialogues"@en ;
+    schema:name "Draft 001: Proposals for Resolving Consenting Issues with Signals and User-side Dialogues"@en ;
     hpcom:author_lead <https://harshp.com/me> ;
     schema:description "Consent dialogues are a source of annoyance, malicious intent, dark patterns, illegal practices and a plethora of other issues. This work presents known problems based on GDPR requirements grouped into two categories: (i) UI/UX for consenting; and (ii) power imbalance in expressing consent. To resolve this, it presents two proposals: First, the use of automation through privacy signals to better govern consenting processes and to reduce ‘consent-fatigue’. Second, as generation of consent dialogues on the user side and its practicalities for both websites as well as users and agents (e.g. web browsers). Both proposals are discussed in terms of possibilities for implementation and suitability for stakeholders. The article concludes with a discussion on the difficulties in achieving such solutions owing to the conflicts of interest between ‘web-enablers’ and ‘web-consumers’, and the necessity for the EU to take a direct stance in addressing these in their future laws."@en ;
     hpcom:tag hptag:consent ;
@@ -45,7 +45,7 @@
     hpcom:peer_reviewed false .
 
 <https://harshp.com/research/publications/drafts/002-Making-sense-of-Solid> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:PublishedDraftPaper, hpcom:RenderedItem ;
-    schema:name "Draft 02: Making Sense of Solid for Data Governance and GDPR"@en ;
+    schema:name "Draft 002: Making Sense of Solid for Data Governance and GDPR"@en ;
     hpcom:author_lead <https://harshp.com/me> ;
     schema:description "This article explores Solid as a new technology, and provides a framework to describe its implementations and use-cases using cloud-technology terminology. It also explores GDPR's application and identifies existing issues and solutions that also apply to Solid."@en ;
     hpcom:tag hptag:Solid ;
@@ -70,7 +70,7 @@
     hpcom:peer_reviewed false .
 
 <https://harshp.com/research/publications/drafts/003-enforceable-privacy-signals> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
-    schema:name "Draft 03: How could the upcoming ePrivacy Regulation recognise enforceable privacy signals in the EU?"@en ;
+    schema:name "Draft 003: How could the upcoming ePrivacy Regulation recognise enforceable privacy signals in the EU?"@en ;
     hpcom:author_lead ( <http://example.com/CristianaSantos> <https://harshp.com/me> ) ;
     schema:description "In this paper we discuss requirements that privacy signals must satisfy to be enforceable under the ePrivacy Regulation and enable its real-world application."@en ;
     hpcom:tag hptag:signal ;
@@ -93,7 +93,7 @@
     hpcom:peer_reviewed false .
 
 <https://harshp.com/research/publications/drafts/004-high-risk-GDPR-DPIA-AI-Act> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
-    schema:name "Draft 04: Impact Assessment Requirements in the GDPR vs the AI Act: Overlaps, Divergence, and Implications"@en ;
+    schema:name "Draft 004: Impact Assessment Requirements in the GDPR vs the AI Act: Overlaps, Divergence, and Implications"@en ;
     hpcom:author_lead <http://example.com/TyttiRintamaki> ;
     hpcom:author_other ( <https://www.scss.tcd.ie/personnel/golpayes> <https://www.scss.tcd.ie/dave.lewis/> <http://example.com/EdoardoCeleste> <https://harshp.com/me> ) ;
     schema:description "In this paper we analysed DPIA requirements from all 30 EU/EEA DPAs and found variance. We then aligned the DPIA required conditions with Annex III High-Risk cases in the AI Act and found that there is a large overlap between GDPR and AI Act."@en ;
@@ -108,16 +108,17 @@
     schema:funder <http://example.com/ADAPT> ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/drafts/004-high-risk-GDPR-DPIA-AI-Act"^^xsd:anyURI ] ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "OSF" ; schema:url "https://doi.org/10.31219/osf.io/6qhzj"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "published version" ; schema:url "https://harshp.com/research/publications/087-impact-assessments-GDPR-AIAct-overlaps"^^xsd:anyURI ] ;
     hpcom:content [
         a hpcom:Content ;
         hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/004-high-risk-GDPR-DPIA-AI-Act.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "under review"@en ;
+    schema:status "published"@en ;
     hpcom:peer_reviewed false .
 
 <https://harshp.com/research/publications/drafts/005-Solid-Use-Case> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:PublishedDraftPaper, hpcom:RenderedItem ;
-    schema:name "Draft 05: A Solid Use Case To Empower And Protect Data Subjects"@en ;
+    schema:name "Draft 005: A Solid Use Case To Empower And Protect Data Subjects"@en ;
     hpcom:author_lead <http://example.com/MichielFierens> ;
     hpcom:author_other ( <https://harshp.com/me> <http://example.com/AureliaTamoLarrieux> <http://example.com/KimberlyGarcia> ) ;
     schema:description "Investigating GDPR compliance in decentralised data storage and management through an interdisciplinary lens applied to Solid"@en ;
@@ -130,18 +131,19 @@
     schema:funder <http://example.com/ADAPT> ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/drafts/005-Solid-Use-Case"^^xsd:anyURI ] ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "SSRN" ; schema:url "https://dx.doi.org/10.2139/ssrn.4993170"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "published version" ; schema:url "https://harshp.com/research/publications/076-Solid-GDPR-governance"^^xsd:anyURI ] ;
     hpcom:content [
         a hpcom:Content ;
         hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/005-Solid-Use-Case.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "under review"@en ;
+    schema:status "published"@en ;
     hpcom:peer_reviewed false .
 
 <https://harshp.com/research/publications/drafts/006-GPC-EU-law> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
-    schema:name "Draft 06: Can the GPC standard eliminate consent banners in the EU?"@en ;
+    schema:name "Draft 006: Can the GPC standard eliminate consent banners in the EU?"@en ;
     hpcom:author_lead <http://example.com/SebastianZimmeck> ;
-    hpcom:author_other ( <http://example.com/FrederikZuiderveenBorgesius> <https://harshp.com/me> <http://example.com/CristianaSantos> <http://example.com/KonradKollnig> <http://example.com/RobinBerjon> ) ;
+    hpcom:author_other ( <https://harshp.com/me> <http://example.com/FrederikZuiderveenBorgesius> <http://example.com/CristianaSantos> <http://example.com/KonradKollnig> <http://example.com/RobinBerjon> ) ;
     schema:description "The GPC signal is being standardised by the W3C. Assessing if it will be helpful for the EU to deal with consent popups under current laws."@en ;
     hpcom:tag hptag:consent ;
     hpcom:tag hptag:GDPR, hptag:signal ;
@@ -153,12 +155,13 @@
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/drafts/006-GPC-EU-law"^^xsd:anyURI ] ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "OSF" ; schema:url "https://doi.org/10.31235/osf.io/fekcg_v1"^^xsd:anyURI ] ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "arXiv" ; schema:url "https://doi.org/10.48550/arXiv.2512.08856"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "published version" ; schema:url "https://harshp.com/research/publications/088-GPC-consent-banners-EU"^^xsd:anyURI ] ;
     hpcom:content [
         a hpcom:Content ;
         hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/006-GPC-EU-law.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "under review"@en ;
+    schema:status "published"@en ;
     hpcom:peer_reviewed false .
 
 <https://harshp.com/research/publications/drafts/007-semantic-frameworks-ai-act> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
@@ -175,13 +178,14 @@
     schema:funder <http://example.com/ADAPT> ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/drafts/007-semantic-frameworks-ai-act"^^xsd:anyURI ] ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "OSF" ; schema:url "https://doi.org/10.31219/osf.io/43rq2_v1"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "published version" ; schema:url "https://harshp.com/research/publications/085-Semweb-AIAct"^^xsd:anyURI ] ;
     # hpcom:archived_version [ a hpcom:Link ; schema:name "arXiv" ; schema:url "https://doi.org/10.48550/arXiv.2512.08856"^^xsd:anyURI ] ;
     hpcom:content [
         a hpcom:Content ;
         hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/007-semantic-frameworks-ai-act.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "under review"@en ;
+    schema:status "published"@en ;
     hpcom:peer_reviewed false .
 
 <https://harshp.com/research/publications/drafts/008-mapping-regulatory-learning-AI-Act> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;

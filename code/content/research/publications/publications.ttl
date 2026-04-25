@@ -2003,7 +2003,7 @@
     hpcom:tag hptag:FRIA ;
     hpcom:author_lead <https://harshp.com/me> ;
     hpcom:author_other <http://example.com/TyttiRintamaki> ;
-    schema:datePublished "2025-12-31T08:00:00"^^xsd:dateTime ;
+    schema:datePublished "2026-01-01T08:00:00"^^xsd:dateTime ;
     schema:publication <http://example.com/conferences/CLAIRvoyant2024> ;
     schema:url ""^^xsd:anyURI ;
     schema:funder <http://example.com/ADAPT> ;
@@ -2032,7 +2032,7 @@
     hpcom:tag hptag:semantic-web ;
     hpcom:author_lead <http://example.com/TyttiRintamaki> ;
     hpcom:author_other <https://harshp.com/me> ;
-    schema:datePublished "2025-12-31T09:00:00"^^xsd:dateTime ;
+    schema:datePublished "2026-01-01T09:00:00"^^xsd:dateTime ;
     schema:publication <http://example.com/conferences/CLAIRvoyant2024> ;
     schema:url ""^^xsd:anyURI ;
     schema:funder <http://example.com/ADAPT> ;
@@ -2201,15 +2201,15 @@
         <http://example.com/BhaskarMitra>
         <http://example.com/RoelDobbe>
         <http://example.com/ZeerakTalat> ) ;
-    schema:description "A taxonomy of 27 mechanisms enable capture with an analysis of 100 news articles showing 260 instances of capture mechanisms, variably co-occurring with narratives that rationalise capture."@en ;
+    schema:description "A taxonomy of 27 mechanisms enabling capture with an analysis of 100 news articles showing 260 instances of capture mechanisms, variably co-occurring with narratives that rationalise capture."@en ;
     hpcom:tag hptag:corporate-capture ;
     hpcom:tag hptag:regulatory-capture ;
     hpcom:tag hptag:AI ;
     hpcom:tag hptag:law ;
     # schema:inSupportOf ""@en ;
     schema:datePublished "2026-06-25T09:00:00"^^xsd:dateTime ;
-    # schema:identifier ""^^xsd:anyURI ;
-    # schema:url "https://ceur-ws.org/Vol-4064/NXDG25-paper7.pdf"^^xsd:anyURI ;
+    schema:identifier "10.1145/3805689.3806740"^^xsd:anyURI ;
+    schema:url "https://doi.org/10.1145/3805689.3806740"^^xsd:anyURI ;
     schema:publication <https://facctconference.org/2026/> ;
     # schema:funder <http://example.com/ADAPT> ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/082-Corporate-Capture"^^xsd:anyURI ] ;
@@ -2237,16 +2237,17 @@
     hpcom:tag hptag:AI ;
     schema:inSupportOf "Mozilla Foundation"@en ;
     schema:datePublished "2026-06-25T10:00:00"^^xsd:dateTime ;
-    # schema:identifier ""^^xsd:anyURI ;
-    # schema:url "https://ceur-ws.org/Vol-4064/NXDG25-paper7.pdf"^^xsd:anyURI ;
+    schema:identifier "10.1145/3805689.3806755"^^xsd:anyURI ;
+    schema:url "https://doi.org/10.1145/3805689.3806755"^^xsd:anyURI ;
     schema:publication <https://facctconference.org/2026/> ;
     # schema:funder <http://example.com/ADAPT> ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/083-Quality-Assessment-AIA531d"^^xsd:anyURI ] ;
     #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/100132"^^xsd:anyURI ] ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.18803975"^^xsd:anyURI ] ;
-    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/Julio-Noe/ESWC2026-DSAO"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/AIAccountabilityLab/gpai-training-transparency"^^xsd:anyURI ] ;
     hpcom:supplementary [ a hpcom:Link ; schema:name "website" ; schema:url "https://aial.ie/research/gpai-training-transparency"^^xsd:anyURI ] ;
-    hpcom:supplementary [ a hpcom:Link ; schema:name "Euractiv article" ; schema:url "https://www.euractiv.com/news/researchers-have-trouble-finding-ai-training-data-summaries/"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "(media article) Tech Policy Press" ; schema:url "https://www.techpolicy.press/how-big-ai-developers-are-skirting-a-mandate-for-training-data-transparency/"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "(media article) Euractiv" ; schema:url "https://www.euractiv.com/news/researchers-have-trouble-finding-ai-training-data-summaries/"^^xsd:anyURI ] ;
     #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
     hpcom:content [
         a hpcom:Content ;
@@ -2268,15 +2269,15 @@
     hpcom:tag hptag:AI ;
     #schema:inSupportOf "Mozilla Foundation"@en ;
     schema:datePublished "2026-06-25T11:00:00"^^xsd:dateTime ;
-    # schema:identifier ""^^xsd:anyURI ;
-    # schema:url "https://ceur-ws.org/Vol-4064/NXDG25-paper7.pdf"^^xsd:anyURI ;
+    schema:identifier "10.1145/3805689.3806809"^^xsd:anyURI ;
+    schema:url "https://doi.org/10.1145/3805689.3806809"^^xsd:anyURI ;
     schema:publication <https://facctconference.org/2026/> ;
     # schema:funder <http://example.com/ADAPT> ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/084-Terms-of-Abuse"^^xsd:anyURI ] ;
     #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/100132"^^xsd:anyURI ] ;
     #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.18803975"^^xsd:anyURI ] ;
     #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/Julio-Noe/ESWC2026-DSAO"^^xsd:anyURI ] ;
-    #hpcom:supplementary [ a hpcom:Link ; schema:name "website" ; schema:url "https://aial.ie/research/gpai-training-transparency"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "arXiv" ; schema:url "https://doi.org/10.48550/arXiv.2603.18964"^^xsd:anyURI ] ;
     #hpcom:supplementary [ a hpcom:Link ; schema:name "Euractiv article" ; schema:url "https://www.euractiv.com/news/researchers-have-trouble-finding-ai-training-data-summaries/"^^xsd:anyURI ] ;
     #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
     hpcom:content [
@@ -2296,7 +2297,7 @@
     hpcom:tag hptag:ISO ;
     hpcom:author_lead <https://www.scss.tcd.ie/personnel/golpayes> ;
     hpcom:author_other ( <https://harshp.com/me> <https://www.scss.tcd.ie/declan.osullivan/> <https://www.scss.tcd.ie/dave.lewis/> ) ;
-    schema:datePublished "2026-04-01T00:00:00"^^xsd:dateTime ;
+    schema:datePublished "2026-06-01T00:00:00"^^xsd:dateTime ;
     schema:publisher <https://www.sciencedirect.com/journal/clsr> ;
     schema:url ""^^xsd:anyURI ;
     schema:inSupportOf ""@en ;
@@ -2314,3 +2315,80 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/085-Semweb-AIAct.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
         ] .
+
+<https://harshp.com/research/publications/086-bridging-dpv-odrl-usage-data-spaces> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
+    schema:name "Bridging DPV and ODRL for Legally-Oriented Usage Control in Data Spaces"@en ;
+    schema:description "Addressing the gap of systematic alignment between legal vocabularies and enforceable policy language in data spaces"@en ;
+    hpcom:tag hptag:semantic-web ;
+    hpcom:tag hptag:semantics ;
+    hpcom:tag hptag:data-spaces ;
+    hpcom:tag hptag:DPV ;
+    hpcom:tag hptag:ODRL ;
+    hpcom:author_lead <http://example.com/BeatrizEsteves> ;
+    hpcom:author_other ( <https://harshp.com/me> ) ;
+    schema:datePublished "2026-05-31T00:00:00"^^xsd:dateTime ;
+    schema:publication <http://example.com/workshops/SDS2026> ;
+    #schema:url "https://doi.org/10.1109/EuroSPW54576.2021.00038"^^xsd:anyURI ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/96757"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.5111539"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "project" ; schema:url "https://protect.oeg.fi.upm.es/solid-consent/"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "ODRL profile" ; schema:url "https://w3id.org/oac/"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/besteves4/odrl-access-control-profile"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2021-ConsentW-Solid-ODRL-ACP> ;
+    hpcom:peer_reviewed true ;
+    schema:status "to be presented"@en ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/086-bridging-dpv-odrl-usage-data-spaces"^^xsd:anyURI ] ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/086-bridging-dpv-odrl-usage-data-spaces.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+        ] .
+
+<https://harshp.com/research/publications/drafts/087-impact-assessments-GDPR-AIAct-overlaps> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
+    schema:name "Impact Assessment Requirements in the GDPR vs the AI Act: Overlaps, Divergence, and Implications"@en ;
+    hpcom:author_lead <http://example.com/TyttiRintamaki> ;
+    hpcom:author_other ( <https://www.scss.tcd.ie/personnel/golpayes> <https://www.scss.tcd.ie/dave.lewis/> <http://example.com/EdoardoCeleste> <https://harshp.com/me> ) ;
+    schema:description "In this paper we analysed DPIA requirements from all 30 EU/EEA DPAs and found variance. We then aligned the DPIA required conditions with Annex III High-Risk cases in the AI Act and found that there is a large overlap between GDPR and AI Act."@en ;
+    hpcom:tag hptag:AI-Act ;
+    hpcom:tag hptag:GDPR ;
+    hpcom:tag hptag:DPIA ;
+    hpcom:tag hptag:risk ;
+    schema:datePublished "2026-04-22T00:00:00"^^xsd:dateTime ;
+    schema:identifier "10.1016/j.clsr.2026.106317"^^xsd:anyURI ;
+    schema:url "https://doi.org/10.1016/j.clsr.2026.106317"^^xsd:anyURI ;
+    schema:publisher <https://www.sciencedirect.com/journal/clsr> ;
+    schema:funder <http://example.com/ADAPT> ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/087-impact-assessments-GDPR-AIAct-overlaps"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "OSF" ; schema:url "https://doi.org/10.31219/osf.io/6qhzj"^^xsd:anyURI ] ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/087-impact-assessments-GDPR-AIAct-overlaps.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+    ] ;
+    schema:status "published"@en ;
+    hpcom:peer_reviewed true .
+
+
+<https://harshp.com/research/publications/088-GPC-consent-banners-EU> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
+    schema:name "Can the GPC standard eliminate consent banners in the EU?"@en ;
+    hpcom:author_lead <http://example.com/SebastianZimmeck> ;
+    hpcom:author_other ( <https://harshp.com/me> <http://example.com/FrederikZuiderveenBorgesius> <http://example.com/CristianaSantos> <http://example.com/KonradKollnig> <http://example.com/RobinBerjon> ) ;
+    schema:description "The GPC signal is being standardised by the W3C. Assessing if it will be helpful for the EU to deal with consent popups under current laws."@en ;
+    hpcom:tag hptag:consent ;
+    hpcom:tag hptag:GDPR, hptag:signal ;
+    schema:datePublished "2026-05-15T00:00:00"^^xsd:dateTime ;
+    schema:identifier ""^^xsd:anyURI ;
+    schema:url ""^^xsd:anyURI ;
+    schema:publisher <https://www.sciencedirect.com/journal/clsr> ;
+    schema:funder <http://example.com/ADAPT> ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/088-GPC-consent-banners-EU"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "OSF" ; schema:url "https://doi.org/10.31235/osf.io/fekcg_v1"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "arXiv" ; schema:url "https://doi.org/10.48550/arXiv.2512.08856"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "published version" ; schema:url "https://harshp.com/research/publications/088-GPC-consent-banners-EU"^^xsd:anyURI ] ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/088-GPC-consent-banners-EU.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+    ] ;
+    schema:status "published"@en ;
+    hpcom:peer_reviewed true .
