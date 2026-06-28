@@ -16057,7 +16057,7 @@ book:745 a hpcom:Book,
     hpcom:book_id hpcom:745 ;
     hpcom:book_read_medium hpcom:EBook ;
     hpcom:book_status hpcom:book-read ;
-    hpcom:date_book_read "2026-06-23T00:00:00"^^xsd:dateTime ;
+    hpcom:date_book_read "2026-05-23T00:00:00"^^xsd:dateTime ;
     schema:aggregatedRating hpcom:Rating2 ;
     schema:author "Jesse Q. Sutanto" ;
     schema:dateCreated "2021"^^xsd:int ;
