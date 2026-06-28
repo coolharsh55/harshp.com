@@ -72,6 +72,21 @@ def load_graphs(content_write):
         DEBUG(f"{filelist}")
         for file in filelist:
             _load(graph, file)
+
+    # Prints recent books read with dates
+    # query = '''
+    #     prefix hpcom: <https://harshp.com/code/vocab#>
+    #     prefix schema: <https://schema.org/>  
+    #     SELECT ?id ?date_read WHERE {
+    #         ?book a schema:Book . 
+    #         ?book hpcom:book_id ?id .
+    #         ?book hpcom:book_status hpcom:book-read .
+    #         ?book hpcom:date_book_read ?date_read .
+    #     } ORDER BY DESC(?date_read) LIMIT 20
+    # '''
+    # results = graph.query(query)
+    # for row in results:
+    #     print(f"{row[0]} {row[1]}")
         
     validate_constraints(graph)
 
@@ -91,7 +106,7 @@ def validate_constraints(graph):
     # validate using PySHACL
     from config import FLAG_VALIDATE_CONSTRAINTS
     # FIXME: manual override
-    FLAG_VALIDATE_CONSTRAINTS = False
+    # FLAG_VALIDATE_CONSTRAINTS = False
     if FLAG_VALIDATE_CONSTRAINTS:
         logging.info("Validating data...")
         from pyshacl import validate
@@ -110,7 +125,25 @@ def validate_constraints(graph):
               debug=False)
         conforms, results_graph, results_text = validation_results
         if conforms is False:
-            logging.error(results_text)
+            # logging.error(results_text)
+            # for error in results_graph:
+            #     print(error)
+            sparql_error = """
+                PREFIX sh: <http://www.w3.org/ns/shacl#>
+
+                SELECT ?bookId ?message
+                WHERE {
+                    ?result a sh:ValidationResult ;
+                            sh:focusNode ?book ;
+                            sh:resultMessage ?message .
+
+                    BIND(REPLACE(STR(?book), "^.*/", "") AS ?bookId)
+                }
+                ORDER BY ?bookId
+                """
+
+            for row in results_graph.query(sparql_error):
+                print(row.bookId, row.message)
             raise AssertionError("Validation of RDF graph FAILED")
         else:
             INFO("Validation PASSED")
