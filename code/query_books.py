@@ -196,7 +196,7 @@ def write_ttl():
         g.add((iri, HPCOM.book_status, HPCOM[f"book-{book.status}"]))
         if book.status == 'read':
             # schema:aggregatedRating hptag:Rating5 ;
-            g.add((iri, SCHEMA.aggregatedRating, HPCOM[f"Rating{book.rating}"]))
+            g.add((iri, SCHEMA.aggregatedRating, HPTAG[f"Rating{book.rating}"]))
             # hpcom:date_book_read "2025-11-23T12:00:00"^^xsd:dateTime ;
             if book.date_read:
                 g.add((iri, HPCOM.date_book_read, Literal(book.date_read, datatype=XSD.dateTime)))

@@ -43,7 +43,13 @@
         {{genre}}{{' & ' if not loop.last}}
         {% endfor %}{% else %}
         {{ book.schema_genre }}
-        {% endif %} by <i>{{book.schema_author}} ({{book.schema_dateCreated}})</i></small></li>
+        {% endif %} by <i>{{book.schema_author}} ({{book.schema_dateCreated}})</i>
+        {% if book.schema_isPartOf %}<br/>{% if book.schema_isPartOf is sequence %}<br/>featured in lists:
+            {% for list in book.schema_isPartOf | sort(attribute='schema_identifier') %}<a href="{{list.iri}}">{{list.schema_identifier}}</a>{{ ", " if not loop.last }}{% endfor %}
+        {% else %}featured in list:
+            <a href="{{book.schema_isPartOf.iri}}">{{book.schema_isPartOf.schema_identifier}}</a>
+        {% endif %}{% endif %}
+    </small></li>
     {% endfor %}
 </ol>
 </section>

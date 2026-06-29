@@ -25,6 +25,10 @@ list:scifi a <https://harshp.com/hobbies/books/lists>, hpcom:RenderedItem ;
         schema:name "Exciting Sci-Fi"@en ;
         schema:identifier "scifi"@en .
 
+list:DublinLibrary a <https://harshp.com/hobbies/books/lists>, hpcom:RenderedItem ;
+        schema:name "Dublin Library"@en ;
+        schema:identifier "DublinLibrary"@en .
+
 list:fantasy a <https://harshp.com/hobbies/books/lists>, hpcom:RenderedItem ;
         schema:name "Fantastic Fantasy"@en ;
         schema:identifier "fantasy"@en .
