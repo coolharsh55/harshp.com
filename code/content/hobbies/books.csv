@@ -34,7 +34,7 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 33,Ilium,Dan Simmons,2003,PhysicalBook,,to-read,,,,,
 34,Cosmos,Carl Sagan,1980,,PhysicalBook,read,2021-11-04 00:00:00,5,BookNonFiction,educational,
 35,"Lap Dancing for Mommy: Tender Stories of Disgust, Blame and Inspiration",Erika Lopez,1997,PhysicalBook,PhysicalBook,read,2021-12-04 22:30:00,4,BookFiction,,
-36,Death with Interruptions,José Saramago,2005,,,to-read,,,,,
+36,Death with Interruptions,José Saramago,2005,,,to-read,,,,DublinLibrary,
 37,The Loser,Thomas Bernhard,1983,,,to-read,,,,,
 38,"Quicksilver (The Baroque Cycle, Vol. 1, Book 1)",Neal Stephenson,2003,,,to-read,,,,,
 39,The Rise and Fall of D.O.D.O.,Neal Stephenson,2017,EBook,EBook,read,2026-01-20 00:00:00,2,,,"I don't like Stephenson anymore. While this is an okay read, the ideas keep clunking ahead and it feel forced and just unsavoury. This is some of his earlier work. Okay, magic and some governmental shenanigans. Okay, some time travelling mischief. But then the ending just feels a stereotypical chase and I didn not like how it ended into a shoehorning situation."
@@ -71,7 +71,7 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 70,Critique of Pure Reason,Immanuel Kant,1781,,,to-read,,,,,
 71,A History of Western Philosophy,Bertrand Russell,1945,PhysicalBook,,to-read,,,,DCU,
 72,Meditations,Marcus Aurelius,180,PhysicalBook,,currently-reading,,,BookNonFiction,,
-73,Coraline,Neil Gaiman,2002,,,to-read,,,,DublinLibrary,
+73,Coraline,Neil Gaiman,2002,,EBook,read,2026-07-01 00:00,4,BookFiction;BookSciFi,DublinLibrary,"A sweet little story about a girl who discovers a hidden world, but with sinister things. Clearly inspired by the Alice in Wonderland and the Chronicles of Naria amongst others. But I just couldn't get it out of head that the author is an abuser and exploiter and that made enjoying the art very much a problem. Its difficult to know sometimes how people who write wonderful things have such dark shadows."
 74,The System of the World,Neal Stephenson,2004,,,to-read,,,,,
 75,The Confusion,Neal Stephenson,2004,,,to-read,,,,,
 76,Quicksilver,Neal Stephenson,2003,,,to-read,,,,,
@@ -1043,11 +1043,11 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1041,Four-sided Triangle,William F. Temple,1966,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
 1042,Perspectives,Laurent Binet,2023,PhysicalBook,PhysicalBook,read,2026-06-20 00:00:00,5,BookFiction,DublinLibrary,A historical fiction that is clever in its presentation and alternate perspectives. Letters tell the story.
 1043,Lili is Crying,Hélène Bessette,2025,PhysicalBook,PhysicalBook,read,2026-05-05 00:00:00,3,BookFiction,,"A series of stories that tell the story of Lili, in a way that really shows the power of restraint in language, and the nuance of things in life."
-1044,Altered Carbon,Richard K. Morgan,2002,PhysicalBook,PhysicalBook,read,2026-03-10 00:00:00,5,"BookFiction,BookSciFi",,"I remembered enjoying the TV show quite a lot, but I always felt a lot of that was Joel Kinnaman's charm on the screen. Still, the book felt enticing, if only because the second season felt trash and the books promised redemption. Suffice to say that that book is excellent sci-fi and is enjoyable on its own. Went and purchased the next two books as well."
+1044,Altered Carbon,Richard K. Morgan,2002,PhysicalBook,PhysicalBook,read,2026-03-10 00:00:00,5,BookFiction;BookSciFi,,"I remembered enjoying the TV show quite a lot, but I always felt a lot of that was Joel Kinnaman's charm on the screen. Still, the book felt enticing, if only because the second season felt trash and the books promised redemption. Suffice to say that that book is excellent sci-fi and is enjoyable on its own. Went and purchased the next two books as well."
 1045,Broken Angels,Richard K. Morgan,2003,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
 1046,Woken Furies,Richard K. Morgan,2005,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
-1047,Inversions,Iain M. Banks,1998,PhysicalBook,PhysicalBook,read,2026-04-10 00:00:00,4,"BookFiction,BookSciFi",,"Culture novel but set in a world that doesn't even know the rest of the universe exists. And through this medieval lens, the author makes interesting arguments about socieity, intervention, morals, and most important of all - stories and what choices we make."
-1048,Titanium Noir,Nick Harkaway,2023,PhysicalBook,PhysicalBook,read,2026-03-31 00:00:00,3,"BookFiction,BookSciFi",,"Since the author always comes up with some bizzare twist on things, this felt enticing. It was, and the noir part does hold up to some extent. Overall a bit long, and the story doesn't get pulled as tightly as it could. "
+1047,Inversions,Iain M. Banks,1998,PhysicalBook,PhysicalBook,read,2026-04-10 00:00:00,4,BookFiction;BookSciFi,,"Culture novel but set in a world that doesn't even know the rest of the universe exists. And through this medieval lens, the author makes interesting arguments about socieity, intervention, morals, and most important of all - stories and what choices we make."
+1048,Titanium Noir,Nick Harkaway,2023,PhysicalBook,PhysicalBook,read,2026-03-31 00:00:00,3,BookFiction;BookSciFi,,"Since the author always comes up with some bizzare twist on things, this felt enticing. It was, and the noir part does hold up to some extent. Overall a bit long, and the story doesn't get pulled as tightly as it could. "
 1049,Love Machines: How Artificial Intelligence is Transforming Our Relationships,James Muldoon,2026,PhysicalBook,PhysicalBook,read,2026-05-20 00:00:00,3,BookNonFiction,,"Since I'm working in a project on AI companions, this was an essential read. The book does seem interesting but the end result is shallow. There are several aspects where it felt that there isn't enough exploration or nuance. End result: maybe the book helps someone who barely knows about the subject. "
 1050,Green City Wars,Adrian Tchaikovsky,2026,,,to-read,,,BookFiction;BookSciFi,,
 1051,Mushrooms: A guide to fungi and toadstools,Liz O'Keefe,2024,PhysicalBook,,to-read,,,,,
@@ -1059,10 +1059,14 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1057,The Hungry Gods,Adrian Tchaikovsky,2025,,,to-read,,,,,
 1058,Quantum of Nightmares,Charles Stross,2022,,,to-read,,,,,
 1059,Lost in Work: Escaping Capitalism,Amelia Horgan,2021,,,to-read,,,,,
-1060,When the Moon Hits Your Eye,John Scalzi,2025,,EBook,read,2026-06-17 00:00,3,"BookFiction,BookSciFi",DublinLibrary,"A whacky story about what would happen if one day the moon suddenly turned to cheese. This is more of a commentary on the responses of the government, the internet bloggers, and other forms of poking fun at how we live absurd lives"
-1061,Thirteen ways to kill Lulabelle Rock,Maud Woolf,2024,,EBook,read,2026-06-10 00:00,2,"BookFiction,BookSciFi",DublinLibrary,"A story about hiring your clone to kill other (consensual) clones because, what?, you got bored of them? So much promise in this one, and yet it felt forced, cliched, and just not satisfying. Also felt derivated, as in to the extreme."
-1062,Run,Blake Crouch,2011,,EBook,read,2026-06-08 00:00,2,"BookFiction,BookSciFi",DublinLibrary,"Things happen, they sound dangerous and globally threatening, so run. This was not as entertaining as other books, and in fact, felt very forced and artificial."
-1063,Starter Villain,John Scalzi,2023,,EBook,read,2026-05-30 00:00,3,"BookFiction,BookSciFi",DublinLibrary,"Inherit a villainish empire, have fun doing all the bond villain stuff. Entertaining, but nothing special otherwise. "
-1064,The Census Taker,China Miéville,2016,,EBook,read,2025-05-29 00:00,4,BookFiction,DublinLibrary,"Deep story that demands thoughtfulness. But also difficult to read and understand the many many layers of thought behind each action, and the subtlety of shaping the story in a certain way. Are we sure we understood things correctly? Or do we just prefer to have a happy ending after all?"
-1065,The Kaiju Preservation Society,John Scalzi,2022,,EBook,currently-reading,,,"BookFiction,BookSciFi",DublinLibrary,
-1066,Nettle & Bone,T. Kingfisher,2022,,,to-read,,,"BookFiction,BookSciFi",DublinLibrary,
+1060,When the Moon Hits Your Eye,John Scalzi,2025,,EBook,read,2026-06-17 00:00,3,BookFiction;BookSciFi,DublinLibrary,"A whacky story about what would happen if one day the moon suddenly turned to cheese. This is more of a commentary on the responses of the government, the internet bloggers, and other forms of poking fun at how we live absurd lives"
+1061,Thirteen ways to kill Lulabelle Rock,Maud Woolf,2024,,EBook,read,2026-06-10 00:00,2,BookFiction;BookSciFi,DublinLibrary,"A story about hiring your clone to kill other (consensual) clones because, what?, you got bored of them? So much promise in this one, and yet it felt forced, cliched, and just not satisfying. Also felt derivated, as in to the extreme."
+1062,Run,Blake Crouch,2011,,EBook,read,2026-06-08 00:00,2,BookFiction;BookSciFi,DublinLibrary,"Things happen, they sound dangerous and globally threatening, so run. This was not as entertaining as other books, and in fact, felt very forced and artificial."
+1063,Starter Villain,John Scalzi,2023,,EBook,read,2026-05-30 00:00,3,BookFiction;BookSciFi,DublinLibrary,"Inherit a villainish empire, have fun doing all the bond villain stuff. Entertaining, but nothing special otherwise. "
+1064,The Census Taker,China Miéville,2016,,EBook,read,2026-05-29 00:00,4,BookFiction,DublinLibrary,"Deep story that demands thoughtfulness. But also difficult to read and understand the many many layers of thought behind each action, and the subtlety of shaping the story in a certain way. Are we sure we understood things correctly? Or do we just prefer to have a happy ending after all?"
+1065,The Kaiju Preservation Society,John Scalzi,2022,,EBook,read,2026-06-30 00:00,4,BookFiction;BookSciFi,DublinLibrary,Not all books have to be deep complex stories and full of amazing world-building. Sometimes a book is like a good snack -- it is just enough to get you through a flight or a beach day. This is a good book for that sort of thing. There's that silly bit of pushing the plot along and then there;s some sprinkled bits about modernity - like mentioning the president since this book was written during covid. The overall pace moves along just well enough to not delve too deep nor bore you. 
+1066,Nettle & Bone,T. Kingfisher,2022,,EBook,currently-reading,,,BookFiction;BookSciFi,DublinLibrary,
+1067,Metronome,Tom Watson,2022,,EBook,to-read,,,,DublinLibrary,
+1068,Piranesi,Susanna Clarke,2020,,EBook,to-read,,,,DublinLibrary,
+1069,The Vanished Birds,Simon Jimenez,2020,,EBook,to-read,,,,DublinLibrary,
+1070,Vagabonds,Hao Jingfang,2020,,EBook,to-read,,,,DublinLibrary,

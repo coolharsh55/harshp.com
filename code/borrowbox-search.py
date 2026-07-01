@@ -254,10 +254,10 @@ if __name__ == '__main__':
         "The City We Became": "N. K. Jemisin",
         "The Doors of Eden": "Adrian Tchaikovsky"
     }
-    # books.update(hugo)
-    # books.update(arthurcclarke)
-    # books.update(nebula)
-    # books.update(locus)
+    books.update(hugo)
+    books.update(arthurcclarke)
+    books.update(nebula)
+    books.update(locus)
     # pprint(books)
     for title, author in books.items():
         response = send_request(headers, create_payload(author, title))

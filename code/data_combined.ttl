@@ -4228,7 +4228,8 @@ book:1044 a hpcom:Book,
     schema:aggregatedRating hptag:Rating5 ;
     schema:author "Richard K. Morgan" ;
     schema:dateCreated "2002"^^xsd:int ;
-    schema:genre <https://harshp.com/code/vocab#BookFiction,BookSciFi> ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Altered Carbon" ;
     schema:review "I remembered enjoying the TV show quite a lot, but I always felt a lot of that was Joel Kinnaman's charm on the screen. Still, the book felt enticing, if only because the second season felt trash and the books promised redemption. Suffice to say that that book is excellent sci-fi and is enjoyable on its own. Went and purchased the next two books as well."@en ;
     schema:url "https://harshp.com/hobbies/books/1044"^^xsd:anyURI .
@@ -4273,7 +4274,8 @@ book:1047 a hpcom:Book,
     schema:aggregatedRating hptag:Rating4 ;
     schema:author "Iain M. Banks" ;
     schema:dateCreated "1998"^^xsd:int ;
-    schema:genre <https://harshp.com/code/vocab#BookFiction,BookSciFi> ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Inversions" ;
     schema:review "Culture novel but set in a world that doesn't even know the rest of the universe exists. And through this medieval lens, the author makes interesting arguments about socieity, intervention, morals, and most important of all - stories and what choices we make."@en ;
     schema:url "https://harshp.com/hobbies/books/1047"^^xsd:anyURI .
@@ -4290,7 +4292,8 @@ book:1048 a hpcom:Book,
     schema:aggregatedRating hptag:Rating3 ;
     schema:author "Nick Harkaway" ;
     schema:dateCreated "2023"^^xsd:int ;
-    schema:genre <https://harshp.com/code/vocab#BookFiction,BookSciFi> ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Titanium Noir" ;
     schema:review "Since the author always comes up with some bizzare twist on things, this felt enticing. It was, and the noir part does hold up to some extent. Overall a bit long, and the story doesn't get pulled as tightly as it could. "@en ;
     schema:url "https://harshp.com/hobbies/books/1048"^^xsd:anyURI .
@@ -4495,7 +4498,8 @@ book:1060 a hpcom:Book,
     schema:aggregatedRating hptag:Rating3 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2025"^^xsd:int ;
-    schema:genre <https://harshp.com/code/vocab#BookFiction,BookSciFi> ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "When the Moon Hits Your Eye" ;
     schema:review "A whacky story about what would happen if one day the moon suddenly turned to cheese. This is more of a commentary on the responses of the government, the internet bloggers, and other forms of poking fun at how we live absurd lives"@en ;
@@ -4512,7 +4516,8 @@ book:1061 a hpcom:Book,
     schema:aggregatedRating hptag:Rating2 ;
     schema:author "Maud Woolf" ;
     schema:dateCreated "2024"^^xsd:int ;
-    schema:genre <https://harshp.com/code/vocab#BookFiction,BookSciFi> ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Thirteen ways to kill Lulabelle Rock" ;
     schema:review "A story about hiring your clone to kill other (consensual) clones because, what?, you got bored of them? So much promise in this one, and yet it felt forced, cliched, and just not satisfying. Also felt derivated, as in to the extreme."@en ;
@@ -4529,7 +4534,8 @@ book:1062 a hpcom:Book,
     schema:aggregatedRating hptag:Rating2 ;
     schema:author "Blake Crouch" ;
     schema:dateCreated "2011"^^xsd:int ;
-    schema:genre <https://harshp.com/code/vocab#BookFiction,BookSciFi> ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Run" ;
     schema:review "Things happen, they sound dangerous and globally threatening, so run. This was not as entertaining as other books, and in fact, felt very forced and artificial."@en ;
@@ -4546,7 +4552,8 @@ book:1063 a hpcom:Book,
     schema:aggregatedRating hptag:Rating3 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2023"^^xsd:int ;
-    schema:genre <https://harshp.com/code/vocab#BookFiction,BookSciFi> ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Starter Villain" ;
     schema:review "Inherit a villainish empire, have fun doing all the bond villain stuff. Entertaining, but nothing special otherwise. "@en ;
@@ -4559,7 +4566,7 @@ book:1064 a hpcom:Book,
     hpcom:book_id hpcom:1064 ;
     hpcom:book_read_medium hpcom:EBook ;
     hpcom:book_status hpcom:book-read ;
-    hpcom:date_book_read "2025-05-29T00:00:00"^^xsd:dateTime ;
+    hpcom:date_book_read "2026-05-29T00:00:00"^^xsd:dateTime ;
     schema:aggregatedRating hptag:Rating4 ;
     schema:author "China Miéville" ;
     schema:dateCreated "2016"^^xsd:int ;
@@ -4574,12 +4581,17 @@ book:1065 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1065 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-06-30T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2022"^^xsd:int ;
-    schema:genre <https://harshp.com/code/vocab#BookFiction,BookSciFi> ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Kaiju Preservation Society" ;
+    schema:review "Not all books have to be deep complex stories and full of amazing world-building. Sometimes a book is like a good snack -- it is just enough to get you through a flight or a beach day. This is a good book for that sort of thing. There's that silly bit of pushing the plot along and then there;s some sprinkled bits about modernity - like mentioning the president since this book was written during covid. The overall pace moves along just well enough to not delve too deep nor bore you. "@en ;
     schema:url "https://harshp.com/hobbies/books/1065"^^xsd:anyURI .
 
 book:1066 a hpcom:Book,
@@ -4587,13 +4599,53 @@ book:1066 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1066 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "T. Kingfisher" ;
     schema:dateCreated "2022"^^xsd:int ;
-    schema:genre <https://harshp.com/code/vocab#BookFiction,BookSciFi> ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Nettle & Bone" ;
     schema:url "https://harshp.com/hobbies/books/1066"^^xsd:anyURI .
+
+book:1067 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1067 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Tom Watson" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom: ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Metronome" ;
+    schema:url "https://harshp.com/hobbies/books/1067"^^xsd:anyURI .
+
+book:1068 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1068 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Susanna Clarke" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom: ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Piranesi" ;
+    schema:url "https://harshp.com/hobbies/books/1068"^^xsd:anyURI .
+
+book:1069 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1069 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Simon Jimenez" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom: ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Vanished Birds" ;
+    schema:url "https://harshp.com/hobbies/books/1069"^^xsd:anyURI .
 
 book:107 a hpcom:Book,
         hpcom:BookReading,
@@ -4611,6 +4663,19 @@ book:107 a hpcom:Book,
         list:fantasy ;
     schema:name "A Connecticut Yankee in King Arthur's Court" ;
     schema:url "https://harshp.com/hobbies/books/107"^^xsd:anyURI .
+
+book:1070 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1070 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Hao Jingfang" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom: ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Vagabonds" ;
+    schema:url "https://harshp.com/hobbies/books/1070"^^xsd:anyURI .
 
 book:108 a hpcom:Book,
         hpcom:BookReading,
@@ -8985,6 +9050,7 @@ book:36 a hpcom:Book,
     schema:author "José Saramago" ;
     schema:dateCreated "2005"^^xsd:int ;
     schema:genre hpcom: ;
+    schema:isPartOf list:DublinLibrary ;
     schema:name "Death with Interruptions" ;
     schema:url "https://harshp.com/hobbies/books/36"^^xsd:anyURI .
 
@@ -15841,12 +15907,17 @@ book:73 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:73 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-01T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Neil Gaiman" ;
     schema:dateCreated "2002"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Coraline" ;
+    schema:review "A sweet little story about a girl who discovers a hidden world, but with sinister things. Clearly inspired by the Alice in Wonderland and the Chronicles of Naria amongst others. But I just couldn't get it out of head that the author is an abuser and exploiter and that made enjoying the art very much a problem. Its difficult to know sometimes how people who write wonderful things have such dark shadows."@en ;
     schema:url "https://harshp.com/hobbies/books/73"^^xsd:anyURI .
 
 book:730 a hpcom:Book,
@@ -31779,11 +31850,6 @@ hptag:drama a hpcom:RenderedItem,
     schema:name "drama" ;
     schema:url "https://harshp.com/tags/drama"^^xsd:anyURI .
 
-list:DublinLibrary a hpcom:RenderedItem,
-        book:lists ;
-    schema:identifier "DublinLibrary"@en ;
-    schema:name "Dublin Library"@en .
-
 hptag:article a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "article" ;
@@ -31839,6 +31905,11 @@ hptag:data-governance a hpcom:RenderedItem,
             hpcom:renderWith hpview:DevProjectView ] ;
     schema:name "Data Privacy Vocabulary (DPV)"@en ;
     schema:url "https://harshp.com/dev/dpv"^^xsd:anyURI .
+
+list:DublinLibrary a hpcom:RenderedItem,
+        book:lists ;
+    schema:identifier "DublinLibrary"@en ;
+    schema:name "Dublin Library"@en .
 
 book:lists a owl:Class,
         hpcom:RenderedItem ;
