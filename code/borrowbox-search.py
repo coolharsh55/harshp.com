@@ -262,7 +262,11 @@ if __name__ == '__main__':
     for title, author in books.items():
         response = send_request(headers, create_payload(author, title))
         match, status, available, link = parse_response(response, title)
+        if status == 'ON_LOAN':
+            status = '[R]' # reserve
+        else:
+            status = '[A]' # available
         if match:
-            print(f"{title} - {author} :: {match} {status} {available} {link}")
+            print(f"{status} :: {title} :: {author} :: {available} :: {link}")
         # else:
             # print(f"{title} - {author} :: no match")

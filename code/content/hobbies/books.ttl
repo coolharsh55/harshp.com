@@ -1217,13 +1217,52 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1070 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Hao Jingfang" ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom: ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Vagabonds" ;
     schema:url "https://harshp.com/hobbies/books/1070"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1071> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1071 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Courttia Newland" ;
+    schema:dateCreated "2021"^^xsd:int ;
+    schema:genre hpcom: ;
+    schema:isPartOf hplist:DublinLibrary ;
+    schema:name "A River Called Time" ;
+    schema:url "https://harshp.com/hobbies/books/1071"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1072> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1072 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Julia Armfield" ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom: ;
+    schema:isPartOf hplist:DublinLibrary ;
+    schema:name "Private Rites" ;
+    schema:url "https://harshp.com/hobbies/books/1072"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1073> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1073 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Travis Baldree" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom: ;
+    schema:isPartOf hplist:DublinLibrary ;
+    schema:name "Legends & Lattes" ;
+    schema:url "https://harshp.com/hobbies/books/1073"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/108> a hpcom:Book,
         hpcom:BookReading,
@@ -12737,12 +12776,16 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:746 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-02T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Sara Nisha Adams" ;
     schema:dateCreated "2021"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Reading List" ;
+    schema:review "A book about reading and readling lists sounds intriguing. And it is. But the writing style and the predictableness of emotional string pulling was not something to enjoy."@en ;
     schema:url "https://harshp.com/hobbies/books/746"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/747> a hpcom:Book,
@@ -14867,6 +14910,19 @@
     schema:genre hpcom:BookNonFiction ;
     schema:name "Data and Goliath" ;
     schema:url "https://harshp.com/hobbies/books/865"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/866> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:866 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Hervé Le Tellier" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom: ;
+    schema:isPartOf hplist:DublinLibrary ;
+    schema:name "The Anomaly" ;
+    schema:url "https://harshp.com/hobbies/books/866"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/867> a hpcom:Book,
         hpcom:BookReading,
