@@ -43,6 +43,17 @@
     ] ;
     sh:sparql [
         a sh:SPARQLConstraint ;
+        sh:message "Books with status read should have a genre"@en ;
+        sh:prefixes :Prefixes ;
+        sh:select """
+            SELECT $this WHERE {
+                $this hpcom:book_status hpcom:book-read .
+                FILTER NOT EXISTS {$this schema:genre ?genre}
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
         sh:message "Books with status read should have a rating"@en ;
         sh:prefixes :Prefixes ;
         sh:select """

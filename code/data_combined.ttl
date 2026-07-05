@@ -4039,11 +4039,15 @@ book:1032 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1032 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-05T11:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Alejandro Zambra" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:name "Bonsai" ;
+    schema:review "The patent blue Fitzcaraldo edition cover having caught my eye, I flicked the book open to see what new experiences might await me. The opening paragraph of this book hooked me immediately. A short book, I purchased it immediately. On a sunday morning, between coffee and breakfast, I finished all of it. It could have been 1000 pages to tell the same story, but the author reminded us with every few pages -- some things don't matter. Rarely can a talent cut across the essence of that story and deliver it like this. And that is what you are left with after -- just the essence. Not the body, which gives you a feeling of being full or having done a lot nor tiredness. This is the second book from the author and I think I will definitely want to serendipitously come across another some years in the future."@en ;
     schema:url "https://harshp.com/hobbies/books/1032"^^xsd:anyURI .
 
 book:1033 a hpcom:Book,
@@ -4173,12 +4177,16 @@ book:1041 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1041 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-05T14:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "William F. Temple" ;
     schema:dateCreated "1966"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Four-sided Triangle" ;
+    schema:review "This was supposed to be old, as in really old WW era, science fiction. And while it was certainly slow, what came across was a story. Something that preceded many other ideas. A clone of your loved one who doesn't love you back, and what might that clone then do -- won't it love you? A simple premise that plays out as a social drama. Yes, there are elements of science fiction still in there, nearly half a century past. The sexism of the times does come across in places, sometimes strongly, such as when referring to asking permission from 'him' about 'her', but there is not a lot of it beyond the phrasing. I picked up a cheap copy - hardly 3 euros courtesy of the British Library. So this was a good exercercise in reading some older literature with a still interesting story."@en ;
     schema:url "https://harshp.com/hobbies/books/1041"^^xsd:anyURI .
 
 book:1042 a hpcom:Book,
@@ -4643,10 +4651,11 @@ book:1069 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1069 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Simon Jimenez" ;
     schema:dateCreated "2020"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Vanished Birds" ;
     schema:url "https://harshp.com/hobbies/books/1069"^^xsd:anyURI .
@@ -4673,12 +4682,17 @@ book:1070 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1070 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-05T23:55:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Hao Jingfang" ;
     schema:dateCreated "2020"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Vagabonds" ;
+    schema:review "The basic premise is that Mars has a colony that is a stand-in for China, and Earth for western ethos. Amidst this, we get some cultural exchange discussions which are supposed to discuss the egalitarian and moral values of both sides, their contrasts, and the necessities as justified by each, while also being biased to continue propogandeering their own side for continued existence. Intriguing in theory. But the book itself, which was quite long - twice as much, was filled with too much information, not an easy flowing story, and sometimes felt like a textbook with the characters being so flat and difficult to keep up with. Important events happen but we get no characterisations but the amount of information about cultural associations in even minor lessons is given several pages. This was a difficult read. Reminded me of Robinson and Le Guin in some of their works, which felt at least like they knew what they were after and you could feel the story take you there."@en ;
     schema:url "https://harshp.com/hobbies/books/1070"^^xsd:anyURI .
 
 book:1071 a hpcom:Book,
@@ -31177,6 +31191,9 @@ hptag:work a hpcom:RenderedItem,
     schema:startDate "2023-06-25T00:00:00"^^xsd:dateTime ;
     schema:url "https://facctconference.org/2026/"^^xsd:anyURI .
 
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
+
 <https://harshp.com/dev/webdev> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -31399,9 +31416,6 @@ hpview:GenericJinja2View a hpcom:View ;
 
 hpcom:ExtendedAbstract rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Extended Abstract"@en .
-
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
 
 <https://harshp.com/dev/harshp.com> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
