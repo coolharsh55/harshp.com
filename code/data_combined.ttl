@@ -4134,10 +4134,11 @@ book:1039 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1039 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "China Miéville" ;
     schema:dateCreated "2005"^^xsd:int ;
-    schema:genre hpcom:BookFiction ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Looking for Jake" ;
     schema:url "https://harshp.com/hobbies/books/1039"^^xsd:anyURI .
 
@@ -4638,10 +4639,11 @@ book:1068 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1068 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Susanna Clarke" ;
     schema:dateCreated "2020"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Piranesi" ;
     schema:url "https://harshp.com/hobbies/books/1068"^^xsd:anyURI .
@@ -4651,13 +4653,17 @@ book:1069 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1069 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-06T14:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Simon Jimenez" ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Vanished Birds" ;
+    schema:review "The setting of the book is definitely within the bounds of scifi, what with the ability of a boy to teleport to any place he wants. But the core of the book is what it means to be a human in a society -- especially one that functions capitalistically. The boy is now a resource, for the benefit of mankind's progress of course, and the characters lives and decisions are all invisibly moved by the hand that takes things with an immeasurably invisible force and is reluctant to return any of it. There are colonies, corporations, subservient governments, and humans stuck in this way of life. The writing could have been better, the story does move at a very slow pace. But its undeniable what the book is."@en ;
     schema:url "https://harshp.com/hobbies/books/1069"^^xsd:anyURI .
 
 book:107 a hpcom:Book,
@@ -31191,9 +31197,6 @@ hptag:work a hpcom:RenderedItem,
     schema:startDate "2023-06-25T00:00:00"^^xsd:dateTime ;
     schema:url "https://facctconference.org/2026/"^^xsd:anyURI .
 
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
-
 <https://harshp.com/dev/webdev> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -31416,6 +31419,9 @@ hpview:GenericJinja2View a hpcom:View ;
 
 hpcom:ExtendedAbstract rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Extended Abstract"@en .
+
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
 
 <https://harshp.com/dev/harshp.com> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
