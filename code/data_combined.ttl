@@ -4639,13 +4639,17 @@ book:1068 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1068 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-07T20:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Susanna Clarke" ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Piranesi" ;
+    schema:review "The opening segment blasts you straight into a familiar feeling. Its a house with seemingly infinite rooms. There are variations, things of interest, and explorations. Hidden knowledge. Biomes. Wonders. What it reminded me of immediately was it someone had taken Borges' works and decided to really get into it. But there's more to this than just that. Towards the end, things collapse down into more predictable fantasies. But the writing is sharp, the nature of wonder and innocence and being human, that draws itself out in the confines of the House, is really the highlight. Can we see the wonders that pass by us everyday? Sometimes it takes another world to realise that."@en ;
     schema:url "https://harshp.com/hobbies/books/1068"^^xsd:anyURI .
 
 book:1069 a hpcom:Book,
@@ -4706,10 +4710,11 @@ book:1071 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1071 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Courttia Newland" ;
     schema:dateCreated "2021"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "A River Called Time" ;
     schema:url "https://harshp.com/hobbies/books/1071"^^xsd:anyURI .
