@@ -4626,7 +4626,7 @@ book:1067 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1067 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Tom Watson" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom: ;
@@ -4710,13 +4710,17 @@ book:1071 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1071 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-08T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Courttia Newland" ;
     schema:dateCreated "2021"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "A River Called Time" ;
+    schema:review "This was a rather difficult book to read because it constantly felt like I was missing some context, some necessary background and understanding that would have made me realise the story and the events. The writing was not enjoyable and kept making me re-read things that I thought I had understood. The story itself seemed interesting, but the pacing and the characters felt underexplored. The themes, of capitalism, social discriminations, and revolution, were not particularly new nor novel."@en ;
     schema:url "https://harshp.com/hobbies/books/1071"^^xsd:anyURI .
 
 book:1072 a hpcom:Book,
@@ -4737,13 +4741,31 @@ book:1073 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1073 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-09T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Travis Baldree" ;
     schema:dateCreated "2022"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Legends & Lattes" ;
+    schema:review "Comfort read in the style of DnD campaign shenanigans and cozy games where you level up a coffee shop (you've invented pastries! chocolate!) Set in a fantasy setting, this reminded me of the time I tried to introduce pizza in a remote setting and it was nice. The story itself is intentionally light and stress-free. Read it, relax, enjoy a cup of coffee."@en ;
     schema:url "https://harshp.com/hobbies/books/1073"^^xsd:anyURI .
+
+book:1074 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1074 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Tim Marshall" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Prisoners of Geography" ;
+    schema:url "https://harshp.com/hobbies/books/1074"^^xsd:anyURI .
 
 book:108 a hpcom:Book,
         hpcom:BookReading,
@@ -32103,17 +32125,17 @@ list:classics a hpcom:RenderedItem,
 hpcom:FullPaper rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Full Paper"@en .
 
+hptag:semantic-web a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "semantic-web" ;
+    schema:url "https://harshp.com/tags/semantic-web"^^xsd:anyURI .
+
 hptag:Rating2 a hpcom:Rating,
         hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "🙁bad (2/5)"@en ;
     schema:ratingValue "2"^^xsd:int ;
     schema:url "https://harshp.com/tags/Rating2"^^xsd:anyURI .
-
-hptag:semantic-web a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "semantic-web" ;
-    schema:url "https://harshp.com/tags/semantic-web"^^xsd:anyURI .
 
 <http://example.com/ADAPT> a schema:Project ;
     schema:endDate "2020-12-31T00:00:00"^^xsd:dateTime ;
