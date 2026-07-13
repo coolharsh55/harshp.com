@@ -600,10 +600,11 @@
         schema:Book ;
     hpcom:book_id hpcom:1033 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "R. F. Kuang" ;
     schema:dateCreated "2022"^^xsd:int ;
-    schema:genre hpcom:BookFiction ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Babel, or the Necessity of Violence" ;
     schema:url "https://harshp.com/hobbies/books/1033"^^xsd:anyURI .
 
@@ -678,12 +679,16 @@
         schema:Book ;
     hpcom:book_id hpcom:1039 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-13T06:30:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "China Miéville" ;
     schema:dateCreated "2005"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
-    schema:name "Looking for Jake" ;
+    schema:name "Looking for Jake and Other Stories" ;
+    schema:review "If there is one thing that is certain when reading China Mieville's stories, it is to expect the weirdness, the differentness, and sheer creativity. This is a collection of short stories that offer glimpses of ideas. The Tain was my favourite, but others felt like snippets of novels I have already read, which made me nostalgic. I also discovered that there is a new novel coming out later this year, so good timing I suppose."@en ;
     schema:url "https://harshp.com/hobbies/books/1039"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/104> a hpcom:Book,
@@ -1310,6 +1315,19 @@
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Prisoners of Geography" ;
     schema:url "https://harshp.com/hobbies/books/1074"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1075> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1075 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "James Islington" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The Will of the Many" ;
+    schema:url "https://harshp.com/hobbies/books/1075"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/108> a hpcom:Book,
         hpcom:BookReading,
