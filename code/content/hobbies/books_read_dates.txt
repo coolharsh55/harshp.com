@@ -31,12 +31,12 @@ Summary of Reading History
 2022 ::       91
 2023 ::       72
 2024 ::       56
-2025 ::       44
-2026 ::       31
+2025 ::       43
+2026 ::       47
  --- 
-books read per week this year: 1.19
-books read per month this year: 4.77
-projected books read this year: 64.26
+books read per week this year: 1.62
+books read per month this year: 6.48
+projected books read this year: 87.48
  --- 
 books in DCU:  100  
 books in TCD:  2    

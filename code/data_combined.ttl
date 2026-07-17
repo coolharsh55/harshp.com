@@ -4631,12 +4631,16 @@ book:1067 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1067 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-17T17:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Tom Watson" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Metronome" ;
+    schema:review "A well written book with a simple premise, though I felt that some things were not as well developed. For example, without spoilers, there were plot devices that 'just worked' and had to work for the story to progress. That felt unrealistic. Apart from that this is a well written book and the two characters felt well thought out. Aside, this book should not be classified as sci-fi because there is a very little soft touch of actual science fiction here. It is still a good fiction book."@en ;
     schema:url "https://harshp.com/hobbies/books/1067"^^xsd:anyURI .
 
 book:1068 a hpcom:Book,
@@ -9336,10 +9340,11 @@ book:37 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:37 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Thomas Bernhard" ;
     schema:dateCreated "1983"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
+    schema:isPartOf list:DublinLibrary ;
     schema:name "The Loser" ;
     schema:url "https://harshp.com/hobbies/books/37"^^xsd:anyURI .
 
@@ -32053,15 +32058,15 @@ hptag:DPVCG a hpcom:RenderedItem,
 <https://www.scss.tcd.ie/declan.osullivan/> a schema:Person ;
     schema:name "Declan O'Sullivan" .
 
-list:DublinLibrary a hpcom:RenderedItem,
-        book:lists ;
-    schema:identifier "DublinLibrary"@en ;
-    schema:name "Dublin Library"@en .
-
 hptag:privacy a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "privacy" ;
     schema:url "https://harshp.com/tags/privacy"^^xsd:anyURI .
+
+list:DublinLibrary a hpcom:RenderedItem,
+        book:lists ;
+    schema:identifier "DublinLibrary"@en ;
+    schema:name "Dublin Library"@en .
 
 hptag:DPV a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -32191,19 +32196,19 @@ hpcom:book-to-read a hpcom:BookStatus ;
 hpcom:BookNonFiction a hpcom:BookGenre ;
     rdfs:label "non-fiction"@en .
 
-hptag:Rating4 a hpcom:Rating,
-        hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "😁good (4/5)"@en ;
-    schema:ratingValue "4"^^xsd:int ;
-    schema:url "https://harshp.com/tags/Rating4"^^xsd:anyURI .
-
 hptag:Rating5 a hpcom:Rating,
         hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "😍awesome (5/5)"@en ;
     schema:ratingValue "5"^^xsd:int ;
     schema:url "https://harshp.com/tags/Rating5"^^xsd:anyURI .
+
+hptag:Rating4 a hpcom:Rating,
+        hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "😁good (4/5)"@en ;
+    schema:ratingValue "4"^^xsd:int ;
+    schema:url "https://harshp.com/tags/Rating4"^^xsd:anyURI .
 
 hptag:Rating3 a hpcom:Rating,
         hpcom:RenderedItem,

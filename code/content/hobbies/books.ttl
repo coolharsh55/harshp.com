@@ -1175,12 +1175,16 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1067 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-17T17:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Tom Watson" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Metronome" ;
+    schema:review "A well written book with a simple premise, though I felt that some things were not as well developed. For example, without spoilers, there were plot devices that 'just worked' and had to work for the story to progress. That felt unrealistic. Apart from that this is a well written book and the two characters felt well thought out. Aside, this book should not be classified as sci-fi because there is a very little soft touch of actual science fiction here. It is still a good fiction book."@en ;
     schema:url "https://harshp.com/hobbies/books/1067"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1068> a hpcom:Book,
@@ -5880,10 +5884,11 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:37 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Thomas Bernhard" ;
     schema:dateCreated "1983"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
+    schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Loser" ;
     schema:url "https://harshp.com/hobbies/books/37"^^xsd:anyURI .
 
