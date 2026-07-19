@@ -8,6 +8,7 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 
 @prefix hpcom: <https://harshp.com/code/vocab#> .
+@prefix hptag: <https://harshp.com/tags/> .
 @prefix hpview: <https://harshp.com/code/views#> .
 
 @prefix : <https://harshp.com/code/shacl_constraints#> .
@@ -41,39 +42,7 @@
             }
         """
     ] ;
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "Books with status read should have a genre"@en ;
-        sh:prefixes :Prefixes ;
-        sh:select """
-            SELECT $this WHERE {
-                $this hpcom:book_status hpcom:book-read .
-                FILTER NOT EXISTS {$this schema:genre ?genre}
-            }
-        """
-    ] ;
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "Books with status read should have a rating"@en ;
-        sh:prefixes :Prefixes ;
-        sh:select """
-            SELECT $this WHERE {
-                $this hpcom:book_status hpcom:book-read .
-                FILTER NOT EXISTS {$this schema:aggregatedRating ?rating}
-            }
-        """
-    ] ;
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "Books with status read should have a read-medium"@en ;
-        sh:prefixes :Prefixes ;
-        sh:select """
-            SELECT $this WHERE {
-                $this hpcom:book_status hpcom:book-read .
-                FILTER NOT EXISTS {$this hpcom:book_read_medium ?medium}
-            }
-        """
-    ] ;
+    sh:node :BookRatingShape ;
     sh:property [
         sh:path hpcom:book_read_medium ;
         sh:in ( hpcom:PhysicalBook hpcom:EBook ) ;
@@ -97,9 +66,25 @@
         sh:maxCount 1 ;
         sh:minCount 1 ;
     ] ;
-    #sh:property [
-    #    sh:path schema:genre ;
-    #    sh:minCount 1 ;
-    #] ;
+    sh:property [
+        sh:path schema:genre ;
+        sh:in ( hpcom:BookNonFiction hpcom:BookFiction hpcom:BookSciFi ) ;
+    ] ;
     rdfs:comment "Validates book instances"@en .
 
+:BookRatingShape a sh:NodeShape ;
+    sh:or (
+        [
+            sh:property [
+                sh:path hpcom:book_status ;
+                sh:in ( hpcom:book-to-read hpcom:book-currently-reading ) ;
+            ] ;
+        ]
+        [
+            sh:property [
+                sh:path schema:aggregatedRating ; sh:minCount 1 ; 
+                sh:in ( hptag:Rating1 hptag:Rating2 hptag:Rating3 hptag:Rating4 hptag:Rating5 ) ;
+            ] ;
+        ]
+    ) ;
+    sh:message "Books with status read should have the correct rating"@en .

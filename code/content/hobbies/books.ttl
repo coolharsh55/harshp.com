@@ -309,7 +309,7 @@
         schema:Book ;
     hpcom:book_id hpcom:1015 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Iain M. Banks" ;
     schema:dateCreated "1988"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -323,11 +323,15 @@
         schema:Book ;
     hpcom:book_id hpcom:1016 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-17T17:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Arvind Narayanan, Sayash Kapoor" ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:name "AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference" ;
+    schema:review "A well put together book by notable academics. Much of the book is the titular premise: that AI can be 'snake oil' and give false impressions or just not work despite the claims. The book seemed interesting for cases where one might not know the area, but otherwise it comes across as very surface level and not an actual foray into the topic itself. The later chapters about economic models felt incomplete by comparison. Still a good read for some of the references and to understand the style of explanation of when AI is not appropriate or does not work."@en ;
     schema:url "https://harshp.com/hobbies/books/1016"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1017> a hpcom:Book,
@@ -600,12 +604,16 @@
         schema:Book ;
     hpcom:book_id hpcom:1033 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-19T09:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "R. F. Kuang" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Babel, or the Necessity of Violence" ;
+    schema:review "I am conflicted about how to think of this book. On the one hand there is no question that this is a clever book with the way that it draws allegories between language, magic, and colonialism. On the other hand, the story and the characters felt very much YA and superficial. The text was too dense in places, there was an avalanche of exposition. And there was no actual meaning to any of the story elements. I suspect this was very much a teenage story than an adult's foray into what colonialism does. While there is nothing wrong with it, and I would very much have enjoyed this book 20 years ago, I think it comes across as being much more sophisticated and for adults than warranted."@en ;
     schema:url "https://harshp.com/hobbies/books/1033"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1034> a hpcom:Book,
@@ -614,10 +622,10 @@
         schema:Book ;
     hpcom:book_id hpcom:1034 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Brad Stone" ;
     schema:dateCreated "2022"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Amazon Unbound" ;
     schema:url "https://harshp.com/hobbies/books/1034"^^xsd:anyURI .
 
@@ -630,7 +638,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Richard Fortey" ;
     schema:dateCreated "2025"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Close Encounters of the Fungal Kind" ;
     schema:url "https://harshp.com/hobbies/books/1035"^^xsd:anyURI .
 
@@ -643,7 +651,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "James Clear" ;
     schema:dateCreated "2025"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Atomic Habits Workbook" ;
     schema:url "https://harshp.com/hobbies/books/1036"^^xsd:anyURI .
 
@@ -656,7 +664,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Mary Kenny" ;
     schema:dateCreated "1997"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Goodbye to Catholic Ireland" ;
     schema:url "https://harshp.com/hobbies/books/1037"^^xsd:anyURI .
 
@@ -669,7 +677,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Ying Ang" ;
     schema:dateCreated "2000"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Fruiting Bodies" ;
     schema:url "https://harshp.com/hobbies/books/1038"^^xsd:anyURI .
 
@@ -912,7 +920,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Liz O'Keefe" ;
     schema:dateCreated "2024"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Mushrooms: A guide to fungi and toadstools" ;
     schema:url "https://harshp.com/hobbies/books/1051"^^xsd:anyURI .
 
@@ -959,7 +967,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Simon Hils" ;
     schema:dateCreated "1999"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Political System of the European Union" ;
     schema:url "https://harshp.com/hobbies/books/1054"^^xsd:anyURI .
 
@@ -988,7 +996,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Adrian Tchaikovsky" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Made Things" ;
     schema:url "https://harshp.com/hobbies/books/1056"^^xsd:anyURI .
 
@@ -1000,7 +1009,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Adrian Tchaikovsky" ;
     schema:dateCreated "2025"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "The Hungry Gods" ;
     schema:url "https://harshp.com/hobbies/books/1057"^^xsd:anyURI .
 
@@ -1012,7 +1022,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Charles Stross" ;
     schema:dateCreated "2022"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Quantum of Nightmares" ;
     schema:url "https://harshp.com/hobbies/books/1058"^^xsd:anyURI .
 
@@ -1024,7 +1035,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Amelia Horgan" ;
     schema:dateCreated "2021"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Lost in Work: Escaping Capitalism" ;
     schema:url "https://harshp.com/hobbies/books/1059"^^xsd:anyURI .
 
@@ -1284,7 +1295,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Julia Armfield" ;
     schema:dateCreated "2024"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Private Rites" ;
     schema:url "https://harshp.com/hobbies/books/1072"^^xsd:anyURI .
@@ -1337,6 +1348,44 @@
     schema:name "The Will of the Many" ;
     schema:review "A large book, at 700 pages, but thoroughly entertaining. It felt like a weird mash-up of hunger games, harry potter, Chronicles, and many others. Still intriguing. The most interesting part was the way that Will works and the necessity of its flow to maintain governance. The setting of the Roman empire was also interesting. It straddles science and without spoiling the end, quite a lot, but the book is based on fantasy tropes. The most annoying one is how the protagonist seems to simply 'level up' and can do everything better than everyone else with little practice and ability. "@en ;
     schema:url "https://harshp.com/hobbies/books/1075"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1076> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1076 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Iain M. Banks" ;
+    schema:dateCreated "2010"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Surface Detail" ;
+    schema:url "https://harshp.com/hobbies/books/1076"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1077> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1077 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Iain M. Banks" ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The Hydrogen Sonata" ;
+    schema:url "https://harshp.com/hobbies/books/1077"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1078> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1078 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Iain Banks" ;
+    schema:dateCreated "1984"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "The Wasp Factory" ;
+    schema:url "https://harshp.com/hobbies/books/1078"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/108> a hpcom:Book,
         hpcom:BookReading,
@@ -1893,11 +1942,15 @@
         schema:Book ;
     hpcom:book_id hpcom:14 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-02-24T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Alice Walker" ;
     schema:dateCreated "1982"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "The Color Purple" ;
+    schema:review "The book represents a Pulitzer winning insight into American culture and history but I felt that as an outsider I could not grasp nor appreciate the nuance of what makes it great. It is still a learning experience, to know the kinds and degrees of violence of all kinds that mankind has perpetuated, and how that has shaped the lives of women and the vulnerable over centuries."@en ;
     schema:url "https://harshp.com/hobbies/books/14"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/140> a hpcom:Book,
@@ -2406,7 +2459,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Nick Bostrom" ;
     schema:dateCreated "2014"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Superintelligence: Paths, Dangers, Strategies" ;
     schema:url "https://harshp.com/hobbies/books/17"^^xsd:anyURI .
 
@@ -2569,7 +2622,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Mihaly Csikszentmihalyi" ;
     schema:dateCreated "1990"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Flow: The Psychology of Optimal Experience" ;
     schema:url "https://harshp.com/hobbies/books/18"^^xsd:anyURI .
 
@@ -2733,7 +2786,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Eliezer Yudkowsky" ;
     schema:dateCreated "2015"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Rationality: From AI to Zombies" ;
     schema:url "https://harshp.com/hobbies/books/19"^^xsd:anyURI .
 
@@ -2915,7 +2968,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Richard Dawkins" ;
     schema:dateCreated "1976"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Selfish Gene" ;
     schema:url "https://harshp.com/hobbies/books/20"^^xsd:anyURI .
 
@@ -3084,7 +3137,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Casey McQuiston" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "Red, White & Royal Blue" ;
     schema:url "https://harshp.com/hobbies/books/21"^^xsd:anyURI .
 
@@ -3255,7 +3308,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Tom Salinsky" ;
     schema:dateCreated "2008"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Improv Handbook: The Ultimate Guide to Improvising in Comedy, Theatre, and Beyond" ;
     schema:url "https://harshp.com/hobbies/books/22"^^xsd:anyURI .
 
@@ -3424,7 +3477,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Alex Miller" ;
     schema:dateCreated "2003"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "An Introduction to Contemporary Metaethics" ;
     schema:url "https://harshp.com/hobbies/books/23"^^xsd:anyURI .
 
@@ -3591,7 +3644,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Wayne Weiten" ;
     schema:dateCreated "2000"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Psychology Applied to Modern Life: Adjustment in the 21st Century" ;
     schema:url "https://harshp.com/hobbies/books/24"^^xsd:anyURI .
 
@@ -3766,7 +3819,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Ernest Lepore" ;
     schema:dateCreated "2000"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:isPartOf hplist:DCU ;
     schema:name "Meaning and Argument: An Introduction to Logic Through Language" ;
     schema:url "https://harshp.com/hobbies/books/25"^^xsd:anyURI .
@@ -3942,7 +3995,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Norman Melchert" ;
     schema:dateCreated "1995"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Great Conversation: A Historical Introduction to Philosophy" ;
     schema:url "https://harshp.com/hobbies/books/26"^^xsd:anyURI .
 
@@ -4109,7 +4162,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Noam Chomsky" ;
     schema:dateCreated "2010"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Chomsky On Anarchism" ;
     schema:url "https://harshp.com/hobbies/books/27"^^xsd:anyURI .
 
@@ -4278,7 +4331,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Noam Chomsky" ;
     schema:dateCreated "1998"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Profit Over People: Neoliberalism and Global Order" ;
     schema:url "https://harshp.com/hobbies/books/28"^^xsd:anyURI .
 
@@ -4644,7 +4697,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Isaac Asimov" ;
     schema:dateCreated "1956"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "The Last Question" ;
     schema:url "https://harshp.com/hobbies/books/30"^^xsd:anyURI .
 
@@ -4816,7 +4870,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Shashi Tharoor" ;
     schema:dateCreated "1989"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "The Great Indian Novel" ;
     schema:url "https://harshp.com/hobbies/books/31"^^xsd:anyURI .
 
@@ -4994,7 +5048,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Dan Simmons" ;
     schema:dateCreated "2005"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf hplist:cork ;
     schema:name "Olympos" ;
     schema:url "https://harshp.com/hobbies/books/32"^^xsd:anyURI .
@@ -5166,7 +5221,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Dan Simmons" ;
     schema:dateCreated "2003"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Ilium" ;
     schema:url "https://harshp.com/hobbies/books/33"^^xsd:anyURI .
 
@@ -5710,7 +5766,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "José Saramago" ;
     schema:dateCreated "2005"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Death with Interruptions" ;
     schema:url "https://harshp.com/hobbies/books/36"^^xsd:anyURI .
@@ -6065,7 +6121,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Neal Stephenson" ;
     schema:dateCreated "2003"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "Quicksilver (The Baroque Cycle, Vol. 1, Book 1)" ;
     schema:url "https://harshp.com/hobbies/books/38"^^xsd:anyURI .
 
@@ -6248,7 +6304,7 @@
     schema:aggregatedRating hptag:Rating2 ;
     schema:author "Neal Stephenson" ;
     schema:dateCreated "2017"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "The Rise and Fall of D.O.D.O." ;
     schema:review "I don't like Stephenson anymore. While this is an okay read, the ideas keep clunking ahead and it feel forced and just unsavoury. This is some of his earlier work. Okay, magic and some governmental shenanigans. Okay, some time travelling mischief. But then the ending just feels a stereotypical chase and I didn not like how it ended into a shoehorning situation."@en ;
     schema:url "https://harshp.com/hobbies/books/39"^^xsd:anyURI .
@@ -6422,7 +6478,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Cory Doctorow" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "Unauthorized Bread" ;
     schema:url "https://harshp.com/hobbies/books/4"^^xsd:anyURI .
 
@@ -6619,7 +6675,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Esmé Weijun Wang" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Collected Schizophrenias: Essays" ;
     schema:url "https://harshp.com/hobbies/books/41"^^xsd:anyURI .
 
@@ -6800,7 +6856,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Tressie McMillan Cottom" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Thick: And Other Essays" ;
     schema:url "https://harshp.com/hobbies/books/42"^^xsd:anyURI .
 
@@ -7160,7 +7216,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Joanna Kavenna" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "Zed" ;
     schema:url "https://harshp.com/hobbies/books/44"^^xsd:anyURI .
 
@@ -7343,7 +7399,8 @@
     schema:aggregatedRating hptag:Rating4 ;
     schema:author "Jan Carson" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "The Fire Starters" ;
     schema:review "What starts off as a conventional conflict drama set in Belfast just after the troubles turns into an intensely personal conflict ravaged by magical realism. Shades of Midnight's Children shining through, the novel doesn't delve in to the horrors or the implications of the society around the story - but focuses with great precision on the analogous mindset of the two main characters whose children are weird - in both a magical and real way. Excellent writing, good pacing, and just the right amount of intensity."@en ;
     schema:url "https://harshp.com/hobbies/books/45"^^xsd:anyURI .
@@ -7514,7 +7571,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Bridget Collins" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Binding" ;
     schema:url "https://harshp.com/hobbies/books/46"^^xsd:anyURI .
@@ -7690,7 +7747,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Miriam Toews" ;
     schema:dateCreated "2018"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Women Talking" ;
     schema:url "https://harshp.com/hobbies/books/47"^^xsd:anyURI .
@@ -8426,7 +8483,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Tom Chivers" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World" ;
     schema:url "https://harshp.com/hobbies/books/51"^^xsd:anyURI .
 
@@ -8613,7 +8670,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Eugenia Cheng" ;
     schema:dateCreated "2018"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Art of Logic in an Illogical World" ;
     schema:url "https://harshp.com/hobbies/books/52"^^xsd:anyURI .
 
@@ -9113,7 +9170,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Bryce Kendrick" ;
     schema:dateCreated "1992"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Fifth Kingdom" ;
     schema:url "https://harshp.com/hobbies/books/548"^^xsd:anyURI .
 
@@ -9145,7 +9202,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Leo Tolstoy" ;
     schema:dateCreated "1867"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "War and Peace" ;
     schema:url "https://harshp.com/hobbies/books/55"^^xsd:anyURI .
 
@@ -9721,7 +9778,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Derek Parfit" ;
     schema:dateCreated "1984"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Reasons and Persons" ;
     schema:url "https://harshp.com/hobbies/books/58"^^xsd:anyURI .
 
@@ -9909,7 +9966,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Hannah Fry" ;
     schema:dateCreated "2018"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Hello World: Being Human in the Age of Algorithms" ;
     schema:url "https://harshp.com/hobbies/books/59"^^xsd:anyURI .
 
@@ -10279,7 +10336,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Luigi Serafini" ;
     schema:dateCreated "1981"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Codex Seraphinianus" ;
     schema:url "https://harshp.com/hobbies/books/61"^^xsd:anyURI .
 
@@ -10442,7 +10500,7 @@
     schema:aggregatedRating hptag:Rating5 ;
     schema:author "Olga Tokarczuk" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:storytelling ;
     schema:name "Drive your Plow over the Bones of the Dead" ;
     schema:url "https://harshp.com/hobbies/books/618"^^xsd:anyURI .
@@ -10859,7 +10917,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "P. L. Deshpande [ पु. ल. देशपांडे ]" ;
     schema:dateCreated "1964"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "Asa Mi Asami [असा मी असामी]" ;
     schema:url "https://harshp.com/hobbies/books/64"^^xsd:anyURI .
 
@@ -11044,7 +11102,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "P. L. Deshpande [ पु. ल. देशपांडे ]" ;
     schema:dateCreated "1958"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "Batatyachi Chal [बटाट्याची चाळ]" ;
     schema:url "https://harshp.com/hobbies/books/65"^^xsd:anyURI .
 
@@ -11230,7 +11288,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Shivaji Sawant" ;
     schema:dateCreated "1967"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "Mrutyunjay [मृत्युंजय]" ;
     schema:url "https://harshp.com/hobbies/books/66"^^xsd:anyURI .
 
@@ -11802,7 +11860,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Douglas R. Hofstadter" ;
     schema:dateCreated "1979"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:isPartOf hplist:DCU ;
     schema:name "Gödel, Escher, Bach: An Eternal Golden Braid" ;
     schema:url "https://harshp.com/hobbies/books/69"^^xsd:anyURI .
@@ -11987,7 +12045,7 @@
     schema:aggregatedRating hptag:Rating4 ;
     schema:author "Richard Dawkins" ;
     schema:dateCreated "2019"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Outgrowing God: A Beginner’s Guide" ;
     schema:review "A concise set of notes that really acts like an introduction on how to structure the mind in a logical and argument driven framework for understanding and escaping the dogma of religion. As I found later, much of it is a summarisation of The God Delusion - itself a much better explained and explored work."@en ;
     schema:url "https://harshp.com/hobbies/books/7"^^xsd:anyURI .
@@ -12000,7 +12058,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Immanuel Kant" ;
     schema:dateCreated "1781"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Critique of Pure Reason" ;
     schema:url "https://harshp.com/hobbies/books/70"^^xsd:anyURI .
 
@@ -12184,7 +12242,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Bertrand Russell" ;
     schema:dateCreated "1945"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:isPartOf hplist:DCU ;
     schema:name "A History of Western Philosophy" ;
     schema:url "https://harshp.com/hobbies/books/71"^^xsd:anyURI .
@@ -12747,7 +12805,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Neal Stephenson" ;
     schema:dateCreated "2004"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "The System of the World" ;
     schema:url "https://harshp.com/hobbies/books/74"^^xsd:anyURI .
 
@@ -12921,7 +12980,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Neal Stephenson" ;
     schema:dateCreated "2004"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "The Confusion" ;
     schema:url "https://harshp.com/hobbies/books/75"^^xsd:anyURI .
 
@@ -13094,7 +13154,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Neal Stephenson" ;
     schema:dateCreated "2003"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Quicksilver" ;
     schema:url "https://harshp.com/hobbies/books/76"^^xsd:anyURI .
 
@@ -13248,7 +13309,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "H.G. Wells" ;
     schema:dateCreated "1898"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "The War of the Worlds" ;
     schema:url "https://harshp.com/hobbies/books/77"^^xsd:anyURI .
 
@@ -13433,7 +13495,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Arthur C. Clarke" ;
     schema:dateCreated "1983"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "The Sentinel" ;
     schema:url "https://harshp.com/hobbies/books/78"^^xsd:anyURI .
 
@@ -13619,6 +13682,19 @@
     schema:name "Globalization and its Discontents" ;
     schema:review "I'm not an economist, nor do I have any formal training or background knowledge on this subject. Despite this, the book was remarkably easy to read and understand, and illuminating and how plain and simple the causal models of fiscal policies can be. Even before I had finished the first chapter, I knew more about the world, and could understand and appreciate better the way finances work. By the time I had finished the book, I had realised the immense huge machinery that is the global economy, and how increasingly it looks like economics = rich people. A narrative that *must* change if we are to progress."@en ;
     schema:url "https://harshp.com/hobbies/books/789"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/79> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:79 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Iain M. Banks" ;
+    schema:dateCreated "2008"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Matter" ;
+    schema:url "https://harshp.com/hobbies/books/79"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/790> a hpcom:Book,
         hpcom:BookReading,
@@ -13823,7 +13899,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Sandi Mann" ;
     schema:dateCreated "2016"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Psychology: A Complete Introduction" ;
     schema:url "https://harshp.com/hobbies/books/8"^^xsd:anyURI .
 
@@ -13836,7 +13912,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Friedrich Nietzsche" ;
     schema:dateCreated "1883"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "Thus Spoke Zarathustra" ;
     schema:url "https://harshp.com/hobbies/books/80"^^xsd:anyURI .
 
@@ -14007,7 +14083,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Lisa Cron" ;
     schema:dateCreated "2016"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Story Genius: How to Use Brain Science to Go Beyond Outlining and Write a Riveting Novel (Before You Waste Three Years Writing 327 Pages That Go Nowhere)" ;
     schema:url "https://harshp.com/hobbies/books/81"^^xsd:anyURI .
 
@@ -14388,7 +14464,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "James Joyce" ;
     schema:dateCreated "1916"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction ;
     schema:name "A Portrait of the Artist as a Young Man" ;
     schema:url "https://harshp.com/hobbies/books/83"^^xsd:anyURI .
 
@@ -14566,7 +14642,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Friedrich Nietzsche" ;
     schema:dateCreated "1887"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "On the Geneology of Morals" ;
     schema:url "https://harshp.com/hobbies/books/84"^^xsd:anyURI .
 
@@ -14639,6 +14715,19 @@
     schema:name "Restless Creatures" ;
     schema:review "Interesting way to present what is essentially a biological phenomenon - walking. There's physics, chemistry, biology - of course, but also lots of practical mix-match between these. Educational in the sense of presenting a way of thinking how disciplines flow into one another at the face of a problem. The writing was difficult and dry at times, but the overall pacing was good and the topic was handled well. At the end of it all, I did learn something new about walking, and its various forms such as flying, slithering, contracting, expanding, floating, and so on."@en ;
     schema:url "https://harshp.com/hobbies/books/843"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/844> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:844 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Iain M. Banks" ;
+    schema:dateCreated "1989"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The State of the Art" ;
+    schema:url "https://harshp.com/hobbies/books/844"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/845> a hpcom:Book,
         hpcom:BookReading,
@@ -14739,7 +14828,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Angela Saini" ;
     schema:dateCreated "2016"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Inferior: How Science Got Women Wrong—and the New Research That's Rewriting the Story" ;
     schema:url "https://harshp.com/hobbies/books/85"^^xsd:anyURI .
 
@@ -14894,7 +14983,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Jonathan Haidt" ;
     schema:dateCreated "2005"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom" ;
     schema:url "https://harshp.com/hobbies/books/86"^^xsd:anyURI .
 
@@ -14994,7 +15083,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Hervé Le Tellier" ;
     schema:dateCreated "2022"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Anomaly" ;
     schema:url "https://harshp.com/hobbies/books/866"^^xsd:anyURI .
@@ -15063,7 +15153,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Sarah Perry" ;
     schema:dateCreated "2013"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Every Cradle is a Grave: Rethinking the Ethics of Birth and Suicide" ;
     schema:url "https://harshp.com/hobbies/books/87"^^xsd:anyURI .
 
@@ -15249,7 +15339,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Epictetus" ;
     schema:dateCreated "2014"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Discourses and Enchiridion" ;
     schema:url "https://harshp.com/hobbies/books/88"^^xsd:anyURI .
 
@@ -15422,7 +15512,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Siddhartha Mukherjee" ;
     schema:dateCreated "2010"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Emperor of All Maladies: A Biography of Cancer" ;
     schema:url "https://harshp.com/hobbies/books/89"^^xsd:anyURI .
 
@@ -15616,7 +15706,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Charles Petzold" ;
     schema:dateCreated "1999"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Code: The Hidden Language of Computer Hardware and Software" ;
     schema:url "https://harshp.com/hobbies/books/90"^^xsd:anyURI .
 
@@ -15803,7 +15893,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Ernest Becker" ;
     schema:dateCreated "1962"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Birth and Death of Meaning: An Interdisciplinary Perspective on the Problem of Man" ;
     schema:url "https://harshp.com/hobbies/books/91"^^xsd:anyURI .
 
@@ -15991,7 +16081,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Friedrich Nietzsche" ;
     schema:dateCreated "1886"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Beyond Good and Evil" ;
     schema:url "https://harshp.com/hobbies/books/92"^^xsd:anyURI .
 
@@ -16184,7 +16274,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Indra Sinha" ;
     schema:dateCreated "2007"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Animal's People" ;
     schema:url "https://harshp.com/hobbies/books/93"^^xsd:anyURI .
 
@@ -16376,7 +16466,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "P.D. Ouspensky" ;
     schema:dateCreated "1951"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Psychology of Man's Possible Evolution" ;
     schema:url "https://harshp.com/hobbies/books/94"^^xsd:anyURI .
 
@@ -16557,7 +16647,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "K. Anders Ericsson" ;
     schema:dateCreated "2016"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Peak: Secrets from the New Science of Expertise" ;
     schema:url "https://harshp.com/hobbies/books/95"^^xsd:anyURI .
 
@@ -16748,7 +16838,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Carl Zimmer" ;
     schema:dateCreated "2000"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "Parasite Rex: Inside the Bizarre World of Nature's Most Dangerous Creatures" ;
     schema:url "https://harshp.com/hobbies/books/96"^^xsd:anyURI .
 
@@ -16933,7 +17023,7 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Nick Lane" ;
     schema:dateCreated "2015"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookNonFiction ;
     schema:name "The Vital Question: Energy, Evolution, and the Origins of Complex Life" ;
     schema:url "https://harshp.com/hobbies/books/97"^^xsd:anyURI .
 
@@ -17111,7 +17201,8 @@
     hpcom:book_status hpcom:book-to-read ;
     schema:author "David Mitchell" ;
     schema:dateCreated "2004"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "Cloud Atlas" ;
     schema:url "https://harshp.com/hobbies/books/98"^^xsd:anyURI .
 
@@ -17287,10 +17378,14 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:99 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2022-04-14T09:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Fredric Brown" ;
     schema:dateCreated "2002"^^xsd:int ;
-    schema:genre hpcom: ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
     schema:name "From These Ashes: The Complete Short SF of Fredric Brown" ;
     schema:url "https://harshp.com/hobbies/books/99"^^xsd:anyURI .
 

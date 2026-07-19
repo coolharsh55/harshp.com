@@ -3,7 +3,7 @@ logging.basicConfig(
     level=logging.INFO, format='%(levelname)s - %(funcName)s :: %(lineno)d - %(message)s')
 DEBUG = logging.debug
 INFO = logging.info
-logging.disable(logging.DEBUG)
+# logging.disable(logging.DEBUG)
 
 FLAG_VALIDATE_CONSTRAINTS = True
 LOCAL_PATH = '../'  # path where generated data will be stored

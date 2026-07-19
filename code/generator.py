@@ -120,30 +120,35 @@ def validate_constraints(graph):
               allow_infos=False,
               allow_warnings=False,
               meta_shacl=False,
-              advanced=False,
+              advanced=True,
               js=False,
               debug=False)
         conforms, results_graph, results_text = validation_results
+        # DEBUG(conforms)
+        # DEBUG(f"{results_text=}")
+        results_graph.serialize('validation_errors.ttl', format='turtle')
         if conforms is False:
             # logging.error(results_text)
             # for error in results_graph:
             #     print(error)
             sparql_error = """
                 PREFIX sh: <http://www.w3.org/ns/shacl#>
-
-                SELECT ?bookId ?message
+                SELECT ?book ?message
                 WHERE {
                     ?result a sh:ValidationResult ;
-                            sh:focusNode ?book ;
-                            sh:resultMessage ?message .
-
-                    BIND(REPLACE(STR(?book), "^.*/", "") AS ?bookId)
+                            sh:focusNode ?book .
+                    OPTIONAL { ?result sh:detail/sh:resultMessage ?detailMessage } .
+                    OPTIONAL { ?result sh:resultMessage ?resultMessage } .
+                    FILTER NOT EXISTS { ?parent sh:detail ?result } .
+                    BIND(COALESCE(?detailMessage, ?resultMessage) AS ?message)
                 }
-                ORDER BY ?bookId
                 """
-
-            for row in results_graph.query(sparql_error):
-                print(row.bookId, row.message)
+            # DEBUG(list(results_graph.query(sparql_error)))
+            results = list(results_graph.query(sparql_error))
+            results.sort(key=lambda x: int(x.book.split('/')[-1]))
+            for row in results:
+                book = row.book.split('/')[-1]
+                INFO(f"Error in Book#{book}: {row.message}")
             raise AssertionError("Validation of RDF graph FAILED")
         else:
             INFO("Validation PASSED")
@@ -199,11 +204,18 @@ def _parse_arguments():
     # - `-d` will download and extract ALL files
     parser.add_argument('-c', '--content', nargs='+', help="content to generate")
     parser.add_argument('-A', '--allcontents', action='store_true', help="generate all contents")
+    parser.add_argument('-D', '--debug', action='store_true', help="enable debug logs")
+    parser.add_argument('-V', '--validate', action='store_true', help="validation only")
     args = parser.parse_args()
     import sys
     if len(sys.argv) < 2:
         parser.print_usage()
         return
+    if args.debug:
+        logging.getLogger().setLevel(logging.DEBUG)
+    else:
+        # logging.disable(logging.DEBUG)
+        logging.getLogger().setLevel(logging.INFO)
     if args.content:
         content = ['site']
         content += [x.strip() for x in args.content[0].split(',')]
@@ -211,14 +223,17 @@ def _parse_arguments():
         from config import CONTENT
         content = CONTENT.keys()
     INFO(f"generator input: {content}")
-    return content
+    return args, content
 
 if __name__ == '__main__':
-    content_write = _parse_arguments()
+    args, content_write = _parse_arguments()
     if not content_write:
         INFO('No content specified to generate')
         import sys
         sys.exit(0)
     data = load_graphs(content_write)
-    rendered_items = get_rendered_items(data)
-    render_items(rendered_items)
+    if args.validate:
+        INFO("Skipping rendering due to validation only flag")
+    else:
+        rendered_items = get_rendered_items(data)
+        render_items(rendered_items)

@@ -2,101 +2,102 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1,Poor Economics,Abhijit V. Banerjee,2011,PhysicalBook,PhysicalBook,read,2021-04-29 00:00:00,5,BookNonFiction,educational;DCU;GiveAway,
 2,Permutation City,Greg Egan,1994,EBook;PhysicalBook,PhysicalBook,read,2023-03-14 00:00:00,5,BookFiction;BookSciFi,,"Permutation City is the book about multiverses, cyberspaces, and post-AI consciousness - all rolled into a physics and mathematical construct. The sheer scope of imagination here is immense - and that's what makes this a pleasure to read. I like hard sci-fi that also manages to push the boundaries of several things at once - and Greg Egan is an interesting person to read about this. I'm compelled to buy all his books and read through them."
 3,Secrets of a Devon Wood: My Nature Journal,Jo Brown,2020,PhysicalBook,PhysicalBook,read,2014-10-26 00:00:00,5,BookNonFiction,visually-stunning,Delightful illustrations. Worth being a collectible.
-4,Unauthorized Bread,Cory Doctorow,2019,,,to-read,,,,,
+4,Unauthorized Bread,Cory Doctorow,2019,,,to-read,,,BookFiction,,
 5,Blindsight,Peter Watts,2006,EBook,EBook,read,2020-10-10 00:00:00,5,BookFiction;BookSciFi,scifi;aliens,
 6,The Master and Margarita,Mikhail Bulgakov,1967,EBook,EBook,read,2020-10-04 00:00:00,3,BookFiction,classics,
-7,Outgrowing God: A Beginner’s Guide,Richard Dawkins,2019,EBook,EBook,read,2023-01-19 00:00:00,4,,,"A concise set of notes that really acts like an introduction on how to structure the mind in a logical and argument driven framework for understanding and escaping the dogma of religion. As I found later, much of it is a summarisation of The God Delusion - itself a much better explained and explored work."
-8,Psychology: A Complete Introduction,Sandi Mann,2016,EBook,,to-read,,,,,
+7,Outgrowing God: A Beginner’s Guide,Richard Dawkins,2019,EBook,EBook,read,2023-01-19 00:00:00,4,BookNonFiction,,"A concise set of notes that really acts like an introduction on how to structure the mind in a logical and argument driven framework for understanding and escaping the dogma of religion. As I found later, much of it is a summarisation of The God Delusion - itself a much better explained and explored work."
+8,Psychology: A Complete Introduction,Sandi Mann,2016,EBook,,to-read,,,BookNonFiction,,
 9,Antkind,Charlie Kaufman,2020,PhysicalBook,PhysicalBook,read,2022-06-05 09:00:00,3,BookFiction,DCU;GiveAway,"This is Kaufman, but 700 pages long."
 10,The Raven Tower,Ann Leckie,2019,PhysicalBook,PhysicalBook,read,2020-11-04 00:00:00,4,BookFiction;BookSciFi,best-fantasy,
 11,Provenance,Ann Leckie,2017,PhysicalBook,PhysicalBook,read,2020-10-22 00:00:00,3,BookFiction;BookSciFi,,
 12,Consentability: Consent and its Limits,Nancy S. Kim,2019,PhysicalBook,PhysicalBook,read,2021-08-22 00:00:00,5,BookNonFiction,educational;DCU,
 13,Children of Ruin,Adrian Tchaikovsky,2019,PhysicalBook,PhysicalBook,read,2021-01-31 00:00:00,5,BookFiction;BookSciFi,aliens,
-14,The Color Purple,Alice Walker,1982,EBook,,to-read,,,,,
+14,The Color Purple,Alice Walker,1982,EBook,EBook,read,2026-02-24 00:00:00,3,BookFiction,,"The book represents a Pulitzer winning insight into American culture and history but I felt that as an outsider I could not grasp nor appreciate the nuance of what makes it great. It is still a learning experience, to know the kinds and degrees of violence of all kinds that mankind has perpetuated, and how that has shaped the lives of women and the vulnerable over centuries."
 15,Dragon's Egg,Robert L. Forward,1980,EBook,EBook,read,2023-01-05 16:00:00,4,BookFiction;BookSciFi,,This was an interesting book - a physics lecture on Neutron stars masquerading as a story. I don't like anthromorphism because it stops the creativity from imagining truly alien and different stories.
 16,The Hilarious World of Depression,John Moe,2020,PhysicalBook,PhysicalBook,read,2021-10-31 00:00:00,3,BookNonFiction,,An autobiography of someone who has and overcame depression. Some gems to collect as you read
-17,"Superintelligence: Paths, Dangers, Strategies",Nick Bostrom,2014,,,to-read,,,,,
-18,Flow: The Psychology of Optimal Experience,Mihaly Csikszentmihalyi,1990,,,to-read,,,,,
-19,Rationality: From AI to Zombies,Eliezer Yudkowsky,2015,,,to-read,,,,,
-20,The Selfish Gene,Richard Dawkins,1976,,,to-read,,,,,
-21,"Red, White & Royal Blue",Casey McQuiston,2019,,,to-read,,,,,
-22,"The Improv Handbook: The Ultimate Guide to Improvising in Comedy, Theatre, and Beyond",Tom Salinsky,2008,,,to-read,,,,,
-23,An Introduction to Contemporary Metaethics,Alex Miller,2003,,,to-read,,,,,
-24,Psychology Applied to Modern Life: Adjustment in the 21st Century,Wayne Weiten,2000,,,to-read,,,,,
-25,Meaning and Argument: An Introduction to Logic Through Language,Ernest Lepore,2000,PhysicalBook,,to-read,,,,DCU,
-26,The Great Conversation: A Historical Introduction to Philosophy,Norman Melchert,1995,,,to-read,,,,,
-27,Chomsky On Anarchism,Noam Chomsky,2010,,,to-read,,,,,
-28,Profit Over People: Neoliberalism and Global Order,Noam Chomsky,1998,,,to-read,,,,,
+17,"Superintelligence: Paths, Dangers, Strategies",Nick Bostrom,2014,,,to-read,,,BookNonFiction,,
+18,Flow: The Psychology of Optimal Experience,Mihaly Csikszentmihalyi,1990,,,to-read,,,BookNonFiction,,
+19,Rationality: From AI to Zombies,Eliezer Yudkowsky,2015,,,to-read,,,BookNonFiction,,
+20,The Selfish Gene,Richard Dawkins,1976,,,to-read,,,BookNonFiction,,
+21,"Red, White & Royal Blue",Casey McQuiston,2019,,,to-read,,,BookFiction,,
+22,"The Improv Handbook: The Ultimate Guide to Improvising in Comedy, Theatre, and Beyond",Tom Salinsky,2008,,,to-read,,,BookNonFiction,,
+23,An Introduction to Contemporary Metaethics,Alex Miller,2003,,,to-read,,,BookNonFiction,,
+24,Psychology Applied to Modern Life: Adjustment in the 21st Century,Wayne Weiten,2000,,,to-read,,,BookNonFiction,,
+25,Meaning and Argument: An Introduction to Logic Through Language,Ernest Lepore,2000,PhysicalBook,,to-read,,,BookNonFiction,DCU,
+26,The Great Conversation: A Historical Introduction to Philosophy,Norman Melchert,1995,,,to-read,,,BookNonFiction,,
+27,Chomsky On Anarchism,Noam Chomsky,2010,,,to-read,,,BookNonFiction,,
+28,Profit Over People: Neoliberalism and Global Order,Noam Chomsky,1998,,,to-read,,,BookNonFiction,,
 29,Manufacturing Consent: The Political Economy of the Mass Media,"Edward S. Herman, Noam Chomsky",1988,PhysicalBook,PhysicalBook,read,2021-05-18 00:00:00,5,BookNonFiction,educational;DCU;GiveAway,
-30,The Last Question,Isaac Asimov,1956,,,to-read,,,,,
-31,The Great Indian Novel,Shashi Tharoor,1989,,,to-read,,,,,
-32,Olympos,Dan Simmons,2005,PhysicalBook,,to-read,,,,cork,
-33,Ilium,Dan Simmons,2003,PhysicalBook,,to-read,,,,,
+30,The Last Question,Isaac Asimov,1956,,,to-read,,,BookFiction;BookSciFi,,
+31,The Great Indian Novel,Shashi Tharoor,1989,,,to-read,,,BookFiction,,
+32,Olympos,Dan Simmons,2005,PhysicalBook,,to-read,,,BookFiction;BookSciFi,cork,
+33,Ilium,Dan Simmons,2003,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
 34,Cosmos,Carl Sagan,1980,,PhysicalBook,read,2021-11-04 00:00:00,5,BookNonFiction,educational,
 35,"Lap Dancing for Mommy: Tender Stories of Disgust, Blame and Inspiration",Erika Lopez,1997,PhysicalBook,PhysicalBook,read,2021-12-04 22:30:00,4,BookFiction,,
-36,Death with Interruptions,José Saramago,2005,,,to-read,,,,DublinLibrary,
+36,Death with Interruptions,José Saramago,2005,,,to-read,,,BookFiction,DublinLibrary,
 37,The Loser,Thomas Bernhard,1983,,,currently-reading,,,BookFiction,DublinLibrary,
-38,"Quicksilver (The Baroque Cycle, Vol. 1, Book 1)",Neal Stephenson,2003,,,to-read,,,,,
-39,The Rise and Fall of D.O.D.O.,Neal Stephenson,2017,EBook,EBook,read,2026-01-20 00:00:00,2,,,"I don't like Stephenson anymore. While this is an okay read, the ideas keep clunking ahead and it feel forced and just unsavoury. This is some of his earlier work. Okay, magic and some governmental shenanigans. Okay, some time travelling mischief. But then the ending just feels a stereotypical chase and I didn not like how it ended into a shoehorning situation."
+38,"Quicksilver (The Baroque Cycle, Vol. 1, Book 1)",Neal Stephenson,2003,,,to-read,,,BookFiction,,
+39,The Rise and Fall of D.O.D.O.,Neal Stephenson,2017,EBook,EBook,read,2026-01-20 00:00:00,2,BookFiction,,"I don't like Stephenson anymore. While this is an okay read, the ideas keep clunking ahead and it feel forced and just unsavoury. This is some of his earlier work. Okay, magic and some governmental shenanigans. Okay, some time travelling mischief. But then the ending just feels a stereotypical chase and I didn not like how it ended into a shoehorning situation."
 40,Reamde,Neal Stephenson,2011,EBook,EBook,read,2025-07-15 00:00:00,2,BookFiction;BookSciFi,,"Stephenson had some really crazy and intense ideas in the earlier books like Snow Crash and Cryptonomicon and Anathem. Then I found it less interesting in the later books, starting from Seven Eves and especially for Fall or Dodge in Hell. Reamde (I keep reading this as Readme!) is the previous book to Fall... I didn't like it. Its too abstract, too pretentious, and just goes too grandiose for the sake of it. I read the latest one (Termination Shock) before this, and I can see how the aspects that I didn't like are here and scattered but really amplified with each book. No more Stephenson for me."
-41,The Collected Schizophrenias: Essays,Esmé Weijun Wang,2019,,,to-read,,,,,
-42,Thick: And Other Essays,Tressie McMillan Cottom,2019,,,to-read,,,,,
+41,The Collected Schizophrenias: Essays,Esmé Weijun Wang,2019,,,to-read,,,BookNonFiction,,
+42,Thick: And Other Essays,Tressie McMillan Cottom,2019,,,to-read,,,BookNonFiction,,
 43,"Guns, Germs, and Steel: The Fates of Human Societies",Jared Diamond,1997,PhysicalBook,PhysicalBook,read,2022-06-14 00:00:00,4,BookNonFiction,DCU;educational,"An interesting book with a more scientific premise of social progress, and understandable why it is so highly awarded. Though it did tend to go off more on the anthropological and sociological side, which made the book quite difficult to read (as in entertaining) but its typical of books of this type. The title is anecdoctal, so the initial impression was quite misleading that the book would offer a historical perspective on the three things - guns, germs, and steel."
-44,Zed,Joanna Kavenna,2019,,,to-read,,,,,
-45,The Fire Starters,Jan Carson,2019,PhysicalBook,PhysicalBook,read,2024-07-24 00:00:00,4,,,"What starts off as a conventional conflict drama set in Belfast just after the troubles turns into an intensely personal conflict ravaged by magical realism. Shades of Midnight's Children shining through, the novel doesn't delve in to the horrors or the implications of the society around the story - but focuses with great precision on the analogous mindset of the two main characters whose children are weird - in both a magical and real way. Excellent writing, good pacing, and just the right amount of intensity."
-46,The Binding,Bridget Collins,2019,,,to-read,,,,DublinLibrary,
-47,Women Talking,Miriam Toews,2018,,,to-read,,,,DublinLibrary,
+44,Zed,Joanna Kavenna,2019,,,to-read,,,BookFiction,,
+45,The Fire Starters,Jan Carson,2019,PhysicalBook,PhysicalBook,read,2024-07-24 00:00:00,4,BookFiction;BookSciFi,,"What starts off as a conventional conflict drama set in Belfast just after the troubles turns into an intensely personal conflict ravaged by magical realism. Shades of Midnight's Children shining through, the novel doesn't delve in to the horrors or the implications of the society around the story - but focuses with great precision on the analogous mindset of the two main characters whose children are weird - in both a magical and real way. Excellent writing, good pacing, and just the right amount of intensity."
+46,The Binding,Bridget Collins,2019,,,to-read,,,BookFiction,DublinLibrary,
+47,Women Talking,Miriam Toews,2018,,,to-read,,,BookFiction,DublinLibrary,
 48,Lanny,Max Porter,2019,PhysicalBook,PhysicalBook,read,2023-04-04 00:00:00,4,BookFiction,,"I liked that this was an experimental book, more about exposition and conversations that are internal and external - and how there sometimes is no difference between them from our perspectives. The story was not overtly complicated, but the way it was presented added to the interesting writing style. A good, enjoyable read. Though I would have liked to see more of the magical realism the book started with, and to have it continue as part of the character's lives. So instead of relying only on internal perspectives of what one is thinking in a situation, we also would have had things happening (still normal, just written in the style). The illustrative writing felt cool to read through within the plot."
 49,Human Compatible: Artificial Intelligence and the Problem of Control,Stuart Russell,2019,PhysicalBook,PhysicalBook,read,2020-10-26 00:00:00,4,BookNonFiction,DCU,
 50,The Case Against Reality: Why Evolution Hid the Truth from Our Eyes,Donald D. Hoffman,2019,EBook,EBook,read,2022-04-26 12:00:00,2,BookNonFiction,,"This book was one of the most difficult reads so far. It definitely has valuable concepts and interesting perspectives. But reading it is just so painful that I wanted to give up in the first chapter itself. Things are excessively repetitive, often vague enough to make me browse back 10-15 pages to see if I had missed something explaining it, narratives jump across domains and seemingly unrelated topics that distracts immesely from what was being discussed, and to top it all - how designed jeans can make butts look bigger is used as an example of how our perception is not the 'objective reality'. Good topic, bad book."
-51,"The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World",Tom Chivers,2019,,,to-read,,,,,
-52,The Art of Logic in an Illogical World,Eugenia Cheng,2018,,,to-read,,,,,
+51,"The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World",Tom Chivers,2019,,,to-read,,,BookNonFiction,,
+52,The Art of Logic in an Illogical World,Eugenia Cheng,2018,,,to-read,,,BookNonFiction,,
 53,What Is Real?: The Unfinished Quest for the Meaning of Quantum Physics,Adam Becker,2018,EBook,EBook,read,2020-10-16 00:00:00,4,BookNonFiction,educational,
 54,The Witch Doesn't Burn in This One,Amanda Lovelace,2018,PhysicalBook,PhysicalBook,read,2022-05-29 09:00:00,5,BookFiction,,"Book 3 of the series, just as wonderful and evocative."
-55,War and Peace,Leo Tolstoy,1867,EBook,,to-read,,,,,
+55,War and Peace,Leo Tolstoy,1867,EBook,,to-read,,,BookFiction,,
 56,Parable of the Sower,Octavia E. Butler,1993,PhysicalBook,PhysicalBook,read,2020-12-07 00:00:00,5,BookFiction;BookSciFi,,
 57,Oryx and Crake,Margaret Atwood,2003,EBook,EBook,read,2023-06-01 00:00:00,5,BookFiction;BookSciFi,,"A brilliantly written book that has so many different themes and topics. From society to technology, personal relations and civilisations. Thoroughly enjoyed this. Looking forward to the other two books."
-58,Reasons and Persons,Derek Parfit,1984,,,to-read,,,,,
-59,Hello World: Being Human in the Age of Algorithms,Hannah Fry,2018,,,to-read,,,,,
+58,Reasons and Persons,Derek Parfit,1984,,,to-read,,,BookNonFiction,,
+59,Hello World: Being Human in the Age of Algorithms,Hannah Fry,2018,,,to-read,,,BookNonFiction,,
 60,Bullshit Jobs: A Theory,David Graeber,2018,,PhysicalBook,read,2023-03-26 00:00:00,2,BookNonFiction,,"I found a copy of this book lying around in the labs where I was teaching. Curious enough, I flipped through some pages to know what the fuss is all about. The impression was that this was something interesting, so I ended up reading the book to know more. I thinl I'm not the target audience for this book. It postulates that there are some jobs that are bullshit or useless. While the argument does make sense, I think it lacks a rigid social analysis and methodological analysis. Because an important consideration is the people doing the job - which could be saving time, effort, and so on. So are the jobs bullshit or is the job culture bullshit? The book nevers gets into it."
-61,Codex Seraphinianus,Luigi Serafini,1981,,,to-read,,,,,
+61,Codex Seraphinianus,Luigi Serafini,1981,,,to-read,,,BookFiction;BookSciFi,,
 62,S.,Doug Dorst and J.J. Abrams,2013,PhysicalBook,PhysicalBook,read,2020-11-01 00:00:00,3,BookFiction;BookSciFi,visually-stunning,
 63,Ham on Rye,Charles Bukowski,1982,PhysicalBook,PhysicalBook,read,2023-08-18 00:00:00,4,BookFiction,cork,"Bukowski has a style. An ugly degraded style. But that's also what we avoid thinking we look like in the mirror. In this case, Bukowski writes about childhood and how messed up growing typically is. I really liked reading this book, and seeing how the adult Henry Chinaski emerged from the younger version."
-64,Asa Mi Asami [असा मी असामी],P. L. Deshpande [ पु. ल. देशपांडे ],1964,,,to-read,,,,,
-65,Batatyachi Chal [बटाट्याची चाळ],P. L. Deshpande [ पु. ल. देशपांडे ],1958,,,to-read,,,,,
-66,Mrutyunjay [मृत्युंजय],Shivaji Sawant,1967,,,to-read,,,,,
+64,Asa Mi Asami [असा मी असामी],P. L. Deshpande [ पु. ल. देशपांडे ],1964,,,to-read,,,BookFiction,,
+65,Batatyachi Chal [बटाट्याची चाळ],P. L. Deshpande [ पु. ल. देशपांडे ],1958,,,to-read,,,BookFiction,,
+66,Mrutyunjay [मृत्युंजय],Shivaji Sawant,1967,,,to-read,,,BookFiction,,
 67,Mother Night,Kurt Vonnegut Jr.,1961,PhysicalBook,PhysicalBook,read,2022-01-13 23:00:00,3,BookFiction,,A darker and well concocted humour mixture from Vonnegut. Small and quick read.
 68,The Ministry of Utmost Happiness,Arundhati Roy,2017,PhysicalBook,PhysicalBook,read,2023-07-14 13:00:00,5,BookFiction,cork,"This book was an excellent experience of being immersed in the reading - not the world but the act and joys of reading a good book. Just as you know your experience of enjoying a good meal and are immersed in the tastes and feels of each morsel, this book was such an experience where every page, character, and setting was enjoyable. Set in the roots of Indian society, the book takes on a lot of unusual characters that simultaneously seem ludicrous to exist and yet would not be out of place or even noticeable amongst the other chaos of the society. There are subtle comments, leaps from personal to national topics, and a vivid writing style that is more about the journey than the goal. I found myself not caring overall about where the plot is going or what the overall story and its meaning was. Instead I simply enjoyed the things as they were presented."
-69,"Gödel, Escher, Bach: An Eternal Golden Braid",Douglas R. Hofstadter,1979,PhysicalBook,,to-read,,,,DCU,
-70,Critique of Pure Reason,Immanuel Kant,1781,,,to-read,,,,,
-71,A History of Western Philosophy,Bertrand Russell,1945,PhysicalBook,,to-read,,,,DCU,
+69,"Gödel, Escher, Bach: An Eternal Golden Braid",Douglas R. Hofstadter,1979,PhysicalBook,,to-read,,,BookNonFiction,DCU,
+70,Critique of Pure Reason,Immanuel Kant,1781,,,to-read,,,BookNonFiction,,
+71,A History of Western Philosophy,Bertrand Russell,1945,PhysicalBook,,to-read,,,BookNonFiction,DCU,
 72,Meditations,Marcus Aurelius,180,PhysicalBook,,currently-reading,,,BookNonFiction,,
 73,Coraline,Neil Gaiman,2002,,EBook,read,2026-07-01 00:00,4,BookFiction;BookSciFi,DublinLibrary,"A sweet little story about a girl who discovers a hidden world, but with sinister things. Clearly inspired by the Alice in Wonderland and the Chronicles of Naria amongst others. But I just couldn't get it out of head that the author is an abuser and exploiter and that made enjoying the art very much a problem. Its difficult to know sometimes how people who write wonderful things have such dark shadows."
-74,The System of the World,Neal Stephenson,2004,,,to-read,,,,,
-75,The Confusion,Neal Stephenson,2004,,,to-read,,,,,
-76,Quicksilver,Neal Stephenson,2003,,,to-read,,,,,
-77,The War of the Worlds,H.G. Wells,1898,,,to-read,,,,,
-78,The Sentinel,Arthur C. Clarke,1983,,,to-read,,,,,
-80,Thus Spoke Zarathustra,Friedrich Nietzsche,1883,PhysicalBook,,to-read,,,,,
-81,Story Genius: How to Use Brain Science to Go Beyond Outlining and Write a Riveting Novel (Before You Waste Three Years Writing 327 Pages That Go Nowhere),Lisa Cron,2016,,,to-read,,,,,
+74,The System of the World,Neal Stephenson,2004,,,to-read,,,BookFiction;BookSciFi,,
+75,The Confusion,Neal Stephenson,2004,,,to-read,,,BookFiction;BookSciFi,,
+76,Quicksilver,Neal Stephenson,2003,,,to-read,,,BookFiction;BookSciFi,,
+77,The War of the Worlds,H.G. Wells,1898,,,to-read,,,BookFiction;BookSciFi,,
+78,The Sentinel,Arthur C. Clarke,1983,,,to-read,,,BookFiction;BookSciFi,,
+79,Matter,Iain M. Banks,2008,,,to-read,,,BookFiction;BookSciFi,,
+80,Thus Spoke Zarathustra,Friedrich Nietzsche,1883,PhysicalBook,,to-read,,,BookFiction,,
+81,Story Genius: How to Use Brain Science to Go Beyond Outlining and Write a Riveting Novel (Before You Waste Three Years Writing 327 Pages That Go Nowhere),Lisa Cron,2016,,,to-read,,,BookNonFiction,,
 82,Siddhartha,Hermann Hesse,1922,EBook,EBook,read,2022-04-22 20:00:00,4,BookFiction,,A gentle but thoughtful rendition of meeting the Buddha and being the Buddha.
-83,A Portrait of the Artist as a Young Man,James Joyce,1916,,,to-read,,,,,
-84,On the Geneology of Morals,Friedrich Nietzsche,1887,,,to-read,,,,,
-85,Inferior: How Science Got Women Wrong—and the New Research That's Rewriting the Story,Angela Saini,2016,,,to-read,,,,,
-86,The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom,Jonathan Haidt,2005,,,to-read,,,,,
-87,Every Cradle is a Grave: Rethinking the Ethics of Birth and Suicide,Sarah Perry,2013,,,to-read,,,,,
-88,Discourses and Enchiridion,Epictetus,2014,,,to-read,,,,,
-89,The Emperor of All Maladies: A Biography of Cancer,Siddhartha Mukherjee,2010,,,to-read,,,,,
-90,Code: The Hidden Language of Computer Hardware and Software,Charles Petzold,1999,,,to-read,,,,,
-91,The Birth and Death of Meaning: An Interdisciplinary Perspective on the Problem of Man,Ernest Becker,1962,,,to-read,,,,,
-92,Beyond Good and Evil,Friedrich Nietzsche,1886,,,to-read,,,,,
-93,Animal's People,Indra Sinha,2007,,,to-read,,,,,
-94,The Psychology of Man's Possible Evolution,P.D. Ouspensky,1951,,,to-read,,,,,
-95,Peak: Secrets from the New Science of Expertise,K. Anders Ericsson,2016,,,to-read,,,,,
-96,Parasite Rex: Inside the Bizarre World of Nature's Most Dangerous Creatures,Carl Zimmer,2000,EBook,,to-read,,,,,
-97,"The Vital Question: Energy, Evolution, and the Origins of Complex Life",Nick Lane,2015,,,to-read,,,,,
-98,Cloud Atlas,David Mitchell,2004,,,to-read,,,,,
-99,From These Ashes: The Complete Short SF of Fredric Brown,Fredric Brown,2002,,,to-read,,,,,
+83,A Portrait of the Artist as a Young Man,James Joyce,1916,,,to-read,,,BookFiction,,
+84,On the Geneology of Morals,Friedrich Nietzsche,1887,,,to-read,,,BookNonFiction,,
+85,Inferior: How Science Got Women Wrong—and the New Research That's Rewriting the Story,Angela Saini,2016,,,to-read,,,BookNonFiction,,
+86,The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom,Jonathan Haidt,2005,,,to-read,,,BookNonFiction,,
+87,Every Cradle is a Grave: Rethinking the Ethics of Birth and Suicide,Sarah Perry,2013,,,to-read,,,BookNonFiction,,
+88,Discourses and Enchiridion,Epictetus,2014,,,to-read,,,BookNonFiction,,
+89,The Emperor of All Maladies: A Biography of Cancer,Siddhartha Mukherjee,2010,,,to-read,,,BookNonFiction,,
+90,Code: The Hidden Language of Computer Hardware and Software,Charles Petzold,1999,,,to-read,,,BookNonFiction,,
+91,The Birth and Death of Meaning: An Interdisciplinary Perspective on the Problem of Man,Ernest Becker,1962,,,to-read,,,BookNonFiction,,
+92,Beyond Good and Evil,Friedrich Nietzsche,1886,,,to-read,,,BookNonFiction,,
+93,Animal's People,Indra Sinha,2007,,,to-read,,,BookNonFiction,,
+94,The Psychology of Man's Possible Evolution,P.D. Ouspensky,1951,,,to-read,,,BookNonFiction,,
+95,Peak: Secrets from the New Science of Expertise,K. Anders Ericsson,2016,,,to-read,,,BookNonFiction,,
+96,Parasite Rex: Inside the Bizarre World of Nature's Most Dangerous Creatures,Carl Zimmer,2000,EBook,,to-read,,,BookNonFiction,,
+97,"The Vital Question: Energy, Evolution, and the Origins of Complex Life",Nick Lane,2015,,,to-read,,,BookNonFiction,,
+98,Cloud Atlas,David Mitchell,2004,,,to-read,,,BookFiction;BookSciFi,,
+99,From These Ashes: The Complete Short SF of Fredric Brown,Fredric Brown,2002,,EBook,read,2022-04-14 09:00:00,3,BookFiction;BookSciFi,,
 100,The Godfather,Mario Puzo,1969,,PhysicalBook,read,1995-01-01 00:00:00,5,BookFiction,classics,
 101,Harry Potter and the Sorcerer's Stone,J.K. Rowling,1997,,PhysicalBook,read,1995-04-08 00:00:00,5,BookFiction,classics;fantasy,
 102,Quidditch Through the Ages (Hogwarts Library),Kennilworthy Whisp,2001,,PhysicalBook,read,1995-05-11 00:00:00,3,BookFiction,,
@@ -545,7 +546,7 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 545,Stories of Your Life and Others,Ted Chiang,2002,EBook;PhysicalBook,EBook,read,2019-12-29 00:00:00,5,BookFiction;BookSciFi,scifi;books-changed-life;ai,
 546,Made to Stick: Why Some Ideas Survive and Others Die,Chip Heath,2006,EBook,EBook,read,2019-12-30 00:00:00,4,BookNonFiction,,
 547,The Field Guide to Dumb Birds of North America,Matt Kracht,2019,EBook,EBook,read,2019-12-31 00:00:00,2,BookFiction,,
-548,The Fifth Kingdom,Bryce Kendrick,1992,PhysicalBook,,to-read,,,,,
+548,The Fifth Kingdom,Bryce Kendrick,1992,PhysicalBook,,to-read,,,BookNonFiction,,
 549,Ancillary Justice,Ann Leckie,2013,PhysicalBook,PhysicalBook,read,2020-01-14 00:00:00,5,BookFiction;BookSciFi,scifi;ai,
 550,Ancillary Sword,Ann Leckie,2014,PhysicalBook,PhysicalBook,read,2020-01-17 00:00:00,5,BookFiction;BookSciFi,scifi;ai,
 551,A Fire Upon the Deep,Vernor Vinge,1992,EBook,EBook,read,2020-02-08 00:00:00,4,BookFiction;BookSciFi,scifi;ai,
@@ -615,7 +616,7 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 615,"How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers",Sönke Ahrens,2017,PhysicalBook,PhysicalBook,read,2021-12-19 00:00:00,4,BookNonFiction,educational,
 616,A Memory Called Empire,Arkady Martine,2019,PhysicalBook,PhysicalBook,read,2021-07-03 00:00:00,5,BookFiction;BookSciFi,scifi,
 617,Bloodchild,Octavia E. Butler,1984,EBook,EBook,read,2021-03-21 00:00:00,5,BookFiction;BookSciFi,scifi,
-618,Drive your Plow over the Bones of the Dead,Olga Tokarczuk,2019,PhysicalBook,PhysicalBook,read,2021-04-22 00:00:00,5,,storytelling,
+618,Drive your Plow over the Bones of the Dead,Olga Tokarczuk,2019,PhysicalBook,PhysicalBook,read,2021-04-22 00:00:00,5,BookFiction,storytelling,
 619,The Fifth Season,N. K. Jemisin,2015,PhysicalBook,PhysicalBook,read,2021-04-17 22:00:00,5,BookFiction;BookSciFi,scifi,
 620,The Obelisk Gate,N. K. Jemisin,2016,PhysicalBook,PhysicalBook,read,2021-04-18 14:00:00,5,BookFiction;BookSciFi,scifi,
 621,The Stone Sky,N. K. Jemisin,2017,PhysicalBook,PhysicalBook,read,2021-04-19 19:00:00,5,BookFiction;BookSciFi,scifi,
@@ -845,6 +846,7 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 841,Consciousness: A User's Guide,Adam Zeman,2002,PhysicalBook,PhysicalBook,read,2023-08-12 00:00:00,3,BookNonFiction,DCU;GiveAway,"I picked up this book because of the title stating it is ""a user's guide"" - which to me implied that I would be receiving some sort of primer or framework. To a certain extent, the book does provide different concepts and theories from philosophy, neurology, biology, and physics to discuss consciousness. This knowledge spans and skips domains in so many ways that the book became quite dense and at times it felt that the subject wasn't been explored in as much detail as possible. For example, the notion of neurons and the brain being evolutionary key pieces to discuss how consciousness evolved is a great topic to understand what consciousness actually is or means. But it is quite quickly glossed over. Similarly, how the brain exhibits consciousnes versus what is the 'feeling' of being conscios is mentioned throughout the book, but the conclusion never offers enough insight to think about it further. Even as a book providing 'here's what we know' type of collections, it didn't really tickle my neurons. Good to skim through and pick at pages that interest."
 842,What Do You Say After You Say Hello,Eric Berne,1964,,,to-read,,,BookNonFiction,,
 843,Restless Creatures,Matt Wilkinson,2015,PhysicalBook,PhysicalBook,read,2022-08-31 00:00:00,3,BookNonFiction,DCU;GiveAway,"Interesting way to present what is essentially a biological phenomenon - walking. There's physics, chemistry, biology - of course, but also lots of practical mix-match between these. Educational in the sense of presenting a way of thinking how disciplines flow into one another at the face of a problem. The writing was difficult and dry at times, but the overall pacing was good and the topic was handled well. At the end of it all, I did learn something new about walking, and its various forms such as flying, slithering, contracting, expanding, floating, and so on."
+844,The State of the Art,Iain M. Banks,1989,,,to-read,,,BookFiction;BookSciFi,,
 845,The Shape of Inner Space: String Theory and the Geometry of the Universe's Hidden Dimensions,Shing-Tung Yau & Steve Nadis,2010,PhysicalBook,PhysicalBook,read,2022-09-04 00:00:00,4,BookNonFiction,educational,"An excellent book that takes a slow but methodological approach to present mathematical concepts of geometry and topology and how they fit within the applications required by physics and more specifically quantum gravity and string theories. I think I barely understood 10% of what is covered, given that a lot of the mathematical theories require time to digest and ruminate and grasp, but the fact that the book really explains things from a simple approach first approach means I have both an appreciation as well as knowledge about what goes on inside the reseach in these areas. Illuminating, educational."
 846,The Book of Universes: Exploring the Limits of the Cosmos,John D. Barrow,2011,PhysicalBook,PhysicalBook,read,2022-12-06 00:00:00,4,BookNonFiction,DCU;GiveAway,A nice book describing how different solutions to a theoretical equation led to the modelling of how universes work and what may happen with the one we live in.
 847,Bear Head,Adrian Tchaikovsky,2021,EBook,EBook,read,2023-01-05 21:00:00,3,BookFiction;BookSciFi,,"I enjoyed Dogs of War because it had something different, but was annoyed with its anthromorphic storyline and characterisation. This is a sequel with the same outlines, though as a more techno-oriented thriller. It was okay, I read it because I was sitting in an airport and wanted to get this book out of the way."
@@ -866,7 +868,7 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 863,Walled Culture,Glyn Moody,2022,EBook,EBook,read,2023-06-11 11:00:00,3,BookNonFiction,,"A short history of sorts regarding copyright and its effect on digital technology, this book was a refresher on several moments I had known but had forgotten about. Like the upload filter, Megaupload, Napster, and so on. Moments where the internet changed as I was growing up. The book didn't offer much of anything new other than these except to emphasise how the copyright movement has been affecting things for a long time and to not forget these. It would have been better to have researched some more materials and to have detailed in-depth analysis instead of a blog-style rehash of things."
 864,Privacy in Context,Helen Nissembaum,2009,,,to-read,,,BookNonFiction,,
 865,Data and Goliath,Bruce Schneier,2015,,,to-read,,,BookNonFiction,,
-866,The Anomaly,Hervé Le Tellier,2022,,,to-read,,,,DublinLibrary,
+866,The Anomaly,Hervé Le Tellier,2022,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 867,Utopia is Creepy; and other provocations,Nicholas Carr,2016,PhysicalBook,PhysicalBook,read,2023-03-21 00:00:00,3,BookNonFiction,DCU;GiveAway,"Interesting book that contains few thought-provoking articles, but then most of the other times its just some person rambling on a topic. Sometimes its things that don't seem sensible because I'd see biases and prejudices for a particular technology or company (mostly Apple) that taint the other writings."
 868,Victory City,Salman Rushdie,2023,PhysicalBook,PhysicalBook,read,2023-04-01 00:00:00,4,BookFiction;BookSciFi,cork,"I didn't know a new book from Salman Rushdie had been published until I came across while walking through the book store. Bought it on an impulse - how could I resist. Looking forward to the mesmerising delight that is Rushdie's linguistic forte, I was quite surprised to discover that this was an incredibly clever and well-woven tale of modernity spun into the fabric of ancient Indian history. So much to easily miss, not notice, and realise that this is a really well written story. I missed the poetic language that evoke a love for reading, but the story itself being set in parallels to India mythologies was intriguing in itself. Still a good read - but I want to go get another Rushdie book to satiate my appetite for the language from Midnight's Children and Shame - which I immensely enjoyed."
 869,Grass,Sheri S. Tepper,1989,PhysicalBook,PhysicalBook,read,2023-04-15 00:00:00,4,BookFiction;BookSciFi,,"This is a well-written book with characters that are multi-dimensional, a world and setting that is explored in depth, and a sci-fi narrative that has sociological ecological analogies. The only thing that felt out of place was the setting of social constructs based on aristrocatic fox hunting, though I understand how that setting made sense for the story. Enjoyable, though the novel is a bit long and takes its time to showcase the mysteries. I can imagine this as being an excellent TV series."
@@ -1015,8 +1017,8 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1012,Endymion II (The Rise of Endymion),Dan Simmons,1997,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
 1013,Mood Machine: The Rise of Spotify and the Costs of the Perfect Playlist,Liz Pelly,2025,PhysicalBook,PhysicalBook,read,2026-05-31 00:00:00,3,BookNonFiction,,"The book explains the story of Spotify, its capitalist background, and the impact it is having. While illuminating and educating (e.g. I didn't know the extent of spotify's ad origins) the book feels as if it has already selected the direction of what it wants to go towards and doesn't care if the reader wants to follow. Yes, I understand that companies like spotify have a huge amount of impact, and a lot of it may not be moral or good. So this is more a reflection on the structure and the writing."
 1014,Pet Sematary,Stephen King,1983,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
-1015,The Player of Games,Iain M. Banks,1988,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
-1016,"AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference","Arvind Narayanan, Sayash Kapoor",2024,PhysicalBook,PhysicalBook,currently-reading,,,BookNonFiction,,
+1015,The Player of Games,Iain M. Banks,1988,PhysicalBook,,currently-reading,,,BookFiction;BookSciFi,,
+1016,"AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference","Arvind Narayanan, Sayash Kapoor",2024,PhysicalBook,PhysicalBook,read,2026-07-17 17:00:00,3,BookNonFiction,,"A well put together book by notable academics. Much of the book is the titular premise: that AI can be 'snake oil' and give false impressions or just not work despite the claims. The book seemed interesting for cases where one might not know the area, but otherwise it comes across as very surface level and not an actual foray into the topic itself. The later chapters about economic models felt incomplete by comparison. Still a good read for some of the references and to understand the style of explanation of when AI is not appropriate or does not work."
 1017,Use of Weapons,Iain M. Banks,1990,,,to-read,,,BookFiction;BookSciFi,,
 1018,Sword of Destiny,Andrzej Sapkowski,1992,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
 1019,Blood of Elves,Andrzej Sapkowski,1994,,,to-read,,,BookFiction;BookSciFi,,
@@ -1033,12 +1035,12 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1030,Radiant Star,Ann Leckie,2026,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
 1031,Event Horizon,Balsam Karam,2026,PhysicalBook,,to-read,,,BookFiction,,
 1032,Bonsai,Alejandro Zambra,2026,PhysicalBook,PhysicalBook,read,2026-07-05 11:00:00,5,BookFiction,,"The patent blue Fitzcaraldo edition cover having caught my eye, I flicked the book open to see what new experiences might await me. The opening paragraph of this book hooked me immediately. A short book, I purchased it immediately. On a sunday morning, between coffee and breakfast, I finished all of it. It could have been 1000 pages to tell the same story, but the author reminded us with every few pages -- some things don't matter. Rarely can a talent cut across the essence of that story and deliver it like this. And that is what you are left with after -- just the essence. Not the body, which gives you a feeling of being full or having done a lot nor tiredness. This is the second book from the author and I think I will definitely want to serendipitously come across another some years in the future."
-1033,"Babel, or the Necessity of Violence",R. F. Kuang,2022,PhysicalBook,,currently-reading,,,BookFiction;BookSciFi,,
-1034,Amazon Unbound,Brad Stone,2022,PhysicalBook,,to-read,,,,,
-1035,Close Encounters of the Fungal Kind,Richard Fortey,2025,PhysicalBook,,to-read,,,,,
-1036,The Atomic Habits Workbook,James Clear,2025,PhysicalBook,,to-read,,,,,
-1037,Goodbye to Catholic Ireland,Mary Kenny,1997,PhysicalBook,,to-read,,,,,
-1038,Fruiting Bodies,Ying Ang,2000,PhysicalBook,,to-read,,,,,
+1033,"Babel, or the Necessity of Violence",R. F. Kuang,2022,PhysicalBook,PhysicalBook,read,2026-07-19 09:00:00,3,BookFiction;BookSciFi,,"I am conflicted about how to think of this book. On the one hand there is no question that this is a clever book with the way that it draws allegories between language, magic, and colonialism. On the other hand, the story and the characters felt very much YA and superficial. The text was too dense in places, there was an avalanche of exposition. And there was no actual meaning to any of the story elements. I suspect this was very much a teenage story than an adult's foray into what colonialism does. While there is nothing wrong with it, and I would very much have enjoyed this book 20 years ago, I think it comes across as being much more sophisticated and for adults than warranted."
+1034,Amazon Unbound,Brad Stone,2022,PhysicalBook,,currently-reading,,,BookNonFiction,,
+1035,Close Encounters of the Fungal Kind,Richard Fortey,2025,PhysicalBook,,to-read,,,BookNonFiction,,
+1036,The Atomic Habits Workbook,James Clear,2025,PhysicalBook,,to-read,,,BookNonFiction,,
+1037,Goodbye to Catholic Ireland,Mary Kenny,1997,PhysicalBook,,to-read,,,BookNonFiction,,
+1038,Fruiting Bodies,Ying Ang,2000,PhysicalBook,,to-read,,,BookNonFiction,,
 1039,Looking for Jake and Other Stories,China Miéville,2005,PhysicalBook,PhysicalBook,read,2026-07-13 06:30:00,4,BookFiction;BookSciFi,,"If there is one thing that is certain when reading China Mieville's stories, it is to expect the weirdness, the differentness, and sheer creativity. This is a collection of short stories that offer glimpses of ideas. The Tain was my favourite, but others felt like snippets of novels I have already read, which made me nostalgic. I also discovered that there is a new novel coming out later this year, so good timing I suppose."
 1040,Shoot at the Moon,William F. Temple,1949,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
 1041,Four-sided Triangle,William F. Temple,1966,PhysicalBook,PhysicalBook,read,2026-07-05 14:00:00,3,BookFiction;BookSciFi,,"This was supposed to be old, as in really old WW era, science fiction. And while it was certainly slow, what came across was a story. Something that preceded many other ideas. A clone of your loved one who doesn't love you back, and what might that clone then do -- won't it love you? A simple premise that plays out as a social drama. Yes, there are elements of science fiction still in there, nearly half a century past. The sexism of the times does come across in places, sometimes strongly, such as when referring to asking permission from 'him' about 'her', but there is not a lot of it beyond the phrasing. I picked up a cheap copy - hardly 3 euros courtesy of the British Library. So this was a good exercercise in reading some older literature with a still interesting story."
@@ -1051,15 +1053,15 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1048,Titanium Noir,Nick Harkaway,2023,PhysicalBook,PhysicalBook,read,2026-03-31 00:00:00,3,BookFiction;BookSciFi,,"Since the author always comes up with some bizzare twist on things, this felt enticing. It was, and the noir part does hold up to some extent. Overall a bit long, and the story doesn't get pulled as tightly as it could. "
 1049,Love Machines: How Artificial Intelligence is Transforming Our Relationships,James Muldoon,2026,PhysicalBook,PhysicalBook,read,2026-05-20 00:00:00,3,BookNonFiction,,"Since I'm working in a project on AI companions, this was an essential read. The book does seem interesting but the end result is shallow. There are several aspects where it felt that there isn't enough exploration or nuance. End result: maybe the book helps someone who barely knows about the subject. "
 1050,Green City Wars,Adrian Tchaikovsky,2026,,,to-read,,,BookFiction;BookSciFi,,
-1051,Mushrooms: A guide to fungi and toadstools,Liz O'Keefe,2024,PhysicalBook,,to-read,,,,,
+1051,Mushrooms: A guide to fungi and toadstools,Liz O'Keefe,2024,PhysicalBook,,to-read,,,BookNonFiction,,
 1052,Creation Lake,Rachel Kushner,2024,PhysicalBook,PhysicalBook,read,2026-06-28 23:59:00,4,BookFiction,,"The reactions to this book are interesting. It seems that a lot of people picked up this book because it promised to be a 'spy thriller' (misleading marketing?) and it is to do with spying but to call it a thriller is definitely inaccurate. This is a book about society and individuality, masquedering or rather set in a spy setting. The premise is simple. But the writing and elaborations are the highlight. It demanded to be read slowly and carefully to absord the tinest of things, sometimes that came as fully formed, for example observations on the situation. The book also contains a large amount of fictitous correspondence with a crazy guy living in a cave who goes on an on about Neanderthals (as a rejection of who we are today?) Good book, interesting writing."
 1053,Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI,Karen Hao,2025,PhysicalBook,PhysicalBook,read,2026-03-16 00:00:00,5,BookNonFiction,,"A seminal work from a reputed journalist, this book really explores the rise of OpenAI and tells a story that bares the reality of chaos. Essential reading for those working in this field."
-1054,The Political System of the European Union,Simon Hils,1999,PhysicalBook,,to-read,,,,,
+1054,The Political System of the European Union,Simon Hils,1999,PhysicalBook,,to-read,,,BookNonFiction,,
 1055,The Power of One: How I Found the Strength to Tell the Truth and Why I Blew the Whistle on Facebook,Frances Haugen,2023,PhysicalBook,PhysicalBook,read,2026-05-15 00:00:00,4,BookNonFiction,,"The infamous facebook whistleblower story. I picked up because the book showed some technical discussions from the author's own experiences. It was a good read, more for the amount of details put in and for the courage it took to come forward and expose things."
-1056,Made Things,Adrian Tchaikovsky,2019,,,to-read,,,,,
-1057,The Hungry Gods,Adrian Tchaikovsky,2025,,,to-read,,,,,
-1058,Quantum of Nightmares,Charles Stross,2022,,,to-read,,,,,
-1059,Lost in Work: Escaping Capitalism,Amelia Horgan,2021,,,to-read,,,,,
+1056,Made Things,Adrian Tchaikovsky,2019,,,to-read,,,BookFiction;BookSciFi,,
+1057,The Hungry Gods,Adrian Tchaikovsky,2025,,,to-read,,,BookFiction;BookSciFi,,
+1058,Quantum of Nightmares,Charles Stross,2022,,,to-read,,,BookFiction;BookSciFi,,
+1059,Lost in Work: Escaping Capitalism,Amelia Horgan,2021,,,to-read,,,BookNonFiction,,
 1060,When the Moon Hits Your Eye,John Scalzi,2025,,EBook,read,2026-06-17 00:00,3,BookFiction;BookSciFi,DublinLibrary,"A whacky story about what would happen if one day the moon suddenly turned to cheese. This is more of a commentary on the responses of the government, the internet bloggers, and other forms of poking fun at how we live absurd lives"
 1061,Thirteen ways to kill Lulabelle Rock,Maud Woolf,2024,,EBook,read,2026-06-10 00:00,2,BookFiction;BookSciFi,DublinLibrary,"A story about hiring your clone to kill other (consensual) clones because, what?, you got bored of them? So much promise in this one, and yet it felt forced, cliched, and just not satisfying. Also felt derivated, as in to the extreme."
 1062,Run,Blake Crouch,2011,,EBook,read,2026-06-08 00:00,2,BookFiction;BookSciFi,DublinLibrary,"Things happen, they sound dangerous and globally threatening, so run. This was not as entertaining as other books, and in fact, felt very forced and artificial."
@@ -1072,7 +1074,10 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1069,The Vanished Birds,Simon Jimenez,2020,,EBook,read,2026-07-06 14:00:00,4,BookFiction;BookSciFi,DublinLibrary,"The setting of the book is definitely within the bounds of scifi, what with the ability of a boy to teleport to any place he wants. But the core of the book is what it means to be a human in a society -- especially one that functions capitalistically. The boy is now a resource, for the benefit of mankind's progress of course, and the characters lives and decisions are all invisibly moved by the hand that takes things with an immeasurably invisible force and is reluctant to return any of it. There are colonies, corporations, subservient governments, and humans stuck in this way of life. The writing could have been better, the story does move at a very slow pace. But its undeniable what the book is."
 1070,Vagabonds,Hao Jingfang,2020,,EBook,read,2026-07-05 23:55:00,2,BookFiction;BookSciFi,DublinLibrary,"The basic premise is that Mars has a colony that is a stand-in for China, and Earth for western ethos. Amidst this, we get some cultural exchange discussions which are supposed to discuss the egalitarian and moral values of both sides, their contrasts, and the necessities as justified by each, while also being biased to continue propogandeering their own side for continued existence. Intriguing in theory. But the book itself, which was quite long - twice as much, was filled with too much information, not an easy flowing story, and sometimes felt like a textbook with the characters being so flat and difficult to keep up with. Important events happen but we get no characterisations but the amount of information about cultural associations in even minor lessons is given several pages. This was a difficult read. Reminded me of Robinson and Le Guin in some of their works, which felt at least like they knew what they were after and you could feel the story take you there."
 1071,A River Called Time,Courttia Newland,2021,,EBook,read,2026-07-08 23:00:00,2,BookFiction;BookSciFi,DublinLibrary,"This was a rather difficult book to read because it constantly felt like I was missing some context, some necessary background and understanding that would have made me realise the story and the events. The writing was not enjoyable and kept making me re-read things that I thought I had understood. The story itself seemed interesting, but the pacing and the characters felt underexplored. The themes, of capitalism, social discriminations, and revolution, were not particularly new nor novel."
-1072,Private Rites,Julia Armfield,2024,,,to-read,,,,DublinLibrary,
+1072,Private Rites,Julia Armfield,2024,,,to-read,,,BookFiction,DublinLibrary,
 1073,Legends & Lattes,Travis Baldree,2022,,EBook,read,2026-07-09 23:00,4,BookFiction;BookSciFi,DublinLibrary,"Comfort read in the style of DnD campaign shenanigans and cozy games where you level up a coffee shop (you've invented pastries! chocolate!) Set in a fantasy setting, this reminded me of the time I tried to introduce pizza in a remote setting and it was nice. The story itself is intentionally light and stress-free. Read it, relax, enjoy a cup of coffee."
 1074,Prisoners of Geography,Tim Marshall,2015,,,to-read,,,BookNonFiction,DublinLibrary,
 1075,The Will of the Many,James Islington,2023,PhysicalBook,PhysicalBook,read,2026-07-16 04:00:00,4,BookFiction;BookSciFi,,"A large book, at 700 pages, but thoroughly entertaining. It felt like a weird mash-up of hunger games, harry potter, Chronicles, and many others. Still intriguing. The most interesting part was the way that Will works and the necessity of its flow to maintain governance. The setting of the Roman empire was also interesting. It straddles science and without spoiling the end, quite a lot, but the book is based on fantasy tropes. The most annoying one is how the protagonist seems to simply 'level up' and can do everything better than everyone else with little practice and ability. "
+1076,Surface Detail,Iain M. Banks,2010,,,to-read,,,BookFiction;BookSciFi,,
+1077,The Hydrogen Sonata,Iain M. Banks,2012,,,to-read,,,BookFiction;BookSciFi,,
+1078,The Wasp Factory,Iain Banks,1984,,,to-read,,,BookFiction,,

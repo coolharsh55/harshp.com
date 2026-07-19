@@ -227,3 +227,25 @@ list:loaned a <https://harshp.com/hobbies/books/lists>, hpcom:RenderedItem ;
                     """ ;
             ] ;
         ] .
+
+list:owned-unread-nonfiction a <https://harshp.com/hobbies/books/lists>, hpcom:RenderedItem ;
+        schema:name "Owned Unread Non-Fiction"@en ;
+        schema:identifier "owned-unread nonfiction"@en ;
+        hpcom:renderWith [ a hpcom:View ;
+            hpcom:view_template "https://harshp.com/code/templates/template_hobbies_book_list.jinja2" ;
+            hpcom:view_renderer hpcom:Jinja2 ;
+            hpcom:sparql [
+                a hpcom:SparqlQuery ;
+                rdfs:label "books" ;
+                hpcom:queryString """
+                    SELECT DISTINCT ?book ?name (MAX(?date) as ?dt) WHERE {
+                        ?book a schema:Book .
+                        ?book schema:name ?name .
+                        ?book hpcom:book_status hpcom:book-to-read .
+                        ?book hpcom:book_owned_medium ?medium .
+                        ?book schema:genre hpcom:BookNonFiction .
+                        BIND(?datePublished as ?date) .
+                    } GROUP BY ?book ORDER By DESC(?dt) ASC(?name) 
+                    """ ;
+            ] ;
+        ] .
