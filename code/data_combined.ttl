@@ -3946,12 +3946,16 @@ book:1026 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1026 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-05-07T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Adrian Tchaikovsky" ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Saturation Point" ;
+    schema:review "A short novella about eco-action. Nothing special to write. A lot of ideas seemed unsatisfactorily fleshed out. But the premise and the work itself was okay."@en ;
     schema:url "https://harshp.com/hobbies/books/1026"^^xsd:anyURI .
 
 book:1027 a hpcom:Book,
@@ -3987,11 +3991,15 @@ book:1029 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1029 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-05-22T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Cory Doctorow" ;
     schema:dateCreated "2025"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:name "Enshittification: Why Everything Suddenly Got Worse and What to Do About It" ;
+    schema:review "Doctorow coined the term enshittification. So it made sense that I had to read what he has to say about it. The book lays out the premise of a step-by-step intentional process with plenty of case studies. If nothing else, the book offers clear evidence of this being a market ploy and tactic. It is also clear about where things can be pointed to and what options could address it. Definitely will influence my work."@en ;
     schema:url "https://harshp.com/hobbies/books/1029"^^xsd:anyURI .
 
 book:103 a hpcom:Book,
@@ -32311,19 +32319,19 @@ hpcom:book-to-read a hpcom:BookStatus ;
 hpcom:BookNonFiction a hpcom:BookGenre ;
     rdfs:label "non-fiction"@en .
 
-hptag:Rating5 a hpcom:Rating,
-        hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "😍awesome (5/5)"@en ;
-    schema:ratingValue "5"^^xsd:int ;
-    schema:url "https://harshp.com/tags/Rating5"^^xsd:anyURI .
-
 hptag:Rating4 a hpcom:Rating,
         hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "😁good (4/5)"@en ;
     schema:ratingValue "4"^^xsd:int ;
     schema:url "https://harshp.com/tags/Rating4"^^xsd:anyURI .
+
+hptag:Rating5 a hpcom:Rating,
+        hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "😍awesome (5/5)"@en ;
+    schema:ratingValue "5"^^xsd:int ;
+    schema:url "https://harshp.com/tags/Rating5"^^xsd:anyURI .
 
 hptag:Rating3 a hpcom:Rating,
         hpcom:RenderedItem,

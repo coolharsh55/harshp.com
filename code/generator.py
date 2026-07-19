@@ -126,7 +126,7 @@ def validate_constraints(graph):
         conforms, results_graph, results_text = validation_results
         # DEBUG(conforms)
         # DEBUG(f"{results_text=}")
-        results_graph.serialize('validation_errors.ttl', format='turtle')
+        # results_graph.serialize('validation_errors.ttl', format='turtle')
         if conforms is False:
             # logging.error(results_text)
             # for error in results_graph:
