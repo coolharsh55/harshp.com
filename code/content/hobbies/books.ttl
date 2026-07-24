@@ -309,12 +309,16 @@
         schema:Book ;
     hpcom:book_id hpcom:1015 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-21T11:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Iain M. Banks" ;
     schema:dateCreated "1988"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "The Player of Games" ;
+    schema:review "Another Culture book and another adventure that stretches the meaning of human civilisation and society. I was expecting a typical adventure of games, but instead, the story is a character study on games themselves as a proxy for society. What a weirdly wonderful book. I know for sure now that I will read each Culture book."@en ;
     schema:url "https://harshp.com/hobbies/books/1015"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1016> a hpcom:Book,
@@ -729,7 +733,7 @@
         schema:Book ;
     hpcom:book_id hpcom:1040 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "William F. Temple" ;
     schema:dateCreated "1949"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -1331,7 +1335,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1074 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Tim Marshall" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
@@ -5948,12 +5952,16 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:37 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-21T20:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Thomas Bernhard" ;
     schema:dateCreated "1983"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Loser" ;
+    schema:review "You know those movies where it looks like the whole thing is a single scene done in one big take? That's what this felt like. An incomparable style, this book was equal parts mesmerising because of its sheer differentness and also depressing because the way it probed into the psyche of a human who by all accounts would have done well in life were it not for the painful self-awareness of their own limitations in comparison. Tough read."@en ;
     schema:url "https://harshp.com/hobbies/books/37"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/370> a hpcom:Book,
@@ -10200,13 +10208,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:601 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-24T08:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Stephen King" ;
     schema:dateCreated "1978"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Stand" ;
+    schema:review "A mammoth of a book but because I knew a lot of the story and characters, I could speed run through it pausing occasionally to enjoy the lurid descriptions and the villainy introduced by King. Though I do not think of this book as an epic as its too American focused and I always feel that epics have to transcend the boundaries of what is out there today."@en ;
     schema:url "https://harshp.com/hobbies/books/601"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/602> a hpcom:Book,
