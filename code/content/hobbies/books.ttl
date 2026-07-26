@@ -14201,13 +14201,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:815 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-21T12:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "T. Kingfisher" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "What Moves The Dead" ;
+    schema:review "One of the first horror stories I read was Poe's collection, with The Fall of The House of Usher being I think the third story in that anthology. It stayed with me. So when I saw this was a retelling of this classic tale, and with fungi, how could I resist! Everything was wonderful, respectful, and original. Loved it."@en ;
     schema:url "https://harshp.com/hobbies/books/815"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/816> a hpcom:Book,

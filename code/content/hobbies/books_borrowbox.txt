@@ -1,0 +1,22 @@
+900 books already read from my list
+101 books to read from awards list
+74 books to read after removing already read books
+119 books unread that I do not own from my list
+191 books to read after adding unread books
+************************
+Searching Dublin Library...
+************************
+[A] :: A Sorceress Comes to Call :: T. Kingfisher :: 0 :: https://dublin.borrowbox.com/product/BWR_5783953/
+[R] :: She Who Became the Sun :: Shelley Parker-Chan :: 2026-07-27 :: https://dublin.borrowbox.com/product/MCU_1535898/
+[R] :: Private Rites :: Julia Armfield :: 2026-11-04 :: https://dublin.borrowbox.com/product/HCU_5550982/
+[A] :: Thirteen Ways to Kill Lulabelle Rock :: Maud Woolf :: 0 :: https://dublin.borrowbox.com/product/PRC_5151984/
+[R] :: The Anomaly :: Hervé Le Tellier :: 2026-08-27 :: https://dublin.borrowbox.com/product/RDH_3707033/
+[R] :: Katabasis :: R.F. Kuang :: 2026-07-27 :: https://dublin.borrowbox.com/product/HCU_7108661/
+[R] :: Absolution :: Jeff VanderMeer :: 2026-09-02 :: https://dublin.borrowbox.com/product/HCU_6115395/
+[R] :: The Last Emperox :: John Scalzi :: 2026-08-28 :: https://dublin.borrowbox.com/product/MCU_776366/
+[R] :: Pretenders to the Throne of God :: Adrian Tchaikovsky :: 2026-11-17 :: https://dublin.borrowbox.com/product/BLM_7859585/
+[R] :: Green City Wars :: Adrian Tchaikovsky :: 2026-11-18 :: https://dublin.borrowbox.com/product/MCU_8449194/
+[R] :: The Binding :: Bridget Collins :: 2026-09-29 :: https://dublin.borrowbox.com/product/HCU_523109/
+[R] :: Women Talking :: Miriam Toews :: 2026-09-24 :: https://dublin.borrowbox.com/product/FFP_519247/
+[R] :: The Comfort Book :: Matt Haig :: 2027-02-23 :: https://dublin.borrowbox.com/product/CGB_1673298/
+[R] :: The Android's Dream :: John Scalzi :: 2026-08-05 :: https://dublin.borrowbox.com/product/MCU_3969604/
