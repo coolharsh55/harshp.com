@@ -84,170 +84,169 @@ def parse_response(rawdata, title):
 
 
 session, headers = create_session()
-hugo = {
-    "Alien Clay": "Adrian Tchaikovsky",
-    "Service Model": "Adrian Tchaikovsky",
-    "The Ministry of Time": "Kaliane Bradley",
-    "Someone You Can Build a Nest In": "John Wiswell",
-    "A Sorceress Comes to Call": "T. Kingfisher",
-    "The Tainted Cup": "Robert Jackson Bennett",
-    "Some Desperate Glory": "Emily Tesh",
-    "The Adventures of Amina al-Sirafi": "Shannon Chakraborty",
-    "The Saint of Bright Doors": "Vajra Chandrasekera",
-    "Starter Villain": "John Scalzi",
-    "Translation State": "Ann Leckie",
-    "Witch King": "Martha Wells",
-    "Nettle & Bone": "T. Kingfisher",
-    "The Daughter of Doctor Moreau": "Silvia Moreno-Garcia",
-    "The Kaiju Preservation Society": "John Scalzi",
-    "Legends & Lattes": "Travis Baldree",
-    "Nona the Ninth": "Tamsyn Muir",
-    "The Spare Man": "Mary Robinette Kowal",
-    "A Desolation Called Peace": "Arkady Martine",
-    "The Galaxy, and the Ground Within": "Becky Chambers",
-    "Light From Uncommon Stars": "Ryka Aoki",
-    "A Master of Djinn": "P. Djèlí Clark",
-    "Project Hail Mary": "Andy Weir",
-    "She Who Became the Sun": "Shelley Parker-Chan",
-    "Network Effect": "Martha Wells",
-    "The City We Became": "N. K. Jemisin",
-    "Piranesi": "Susanna Clarke",
-    "Black Sun": "Rebecca Roanhorse",
-    "The Relentless Moon": "Mary Robinette Kowal",
-    "Harrow the Ninth": "Tamsyn Muir"
+HUGO = {
+    "ALIEN CLAY": "ADRIAN TCHAIKOVSKY",
+    "SERVICE MODEL": "ADRIAN TCHAIKOVSKY",
+    "THE MINISTRY OF TIME": "KALIANE BRADLEY",
+    "SOMEONE YOU CAN BUILD A NEST IN": "JOHN WISWELL",
+    "A SORCERESS COMES TO CALL": "T. KINGFISHER",
+    "THE TAINTED CUP": "ROBERT JACKSON BENNETT",
+    "SOME DESPERATE GLORY": "EMILY TESH",
+    "THE ADVENTURES OF AMINA AL-SIRAFI": "SHANNON CHAKRABORTY",
+    "THE SAINT OF BRIGHT DOORS": "VAJRA CHANDRASEKERA",
+    "STARTER VILLAIN": "JOHN SCALZI",
+    "TRANSLATION STATE": "ANN LECKIE",
+    "WITCH KING": "MARTHA WELLS",
+    "NETTLE & BONE": "T. KINGFISHER",
+    "THE DAUGHTER OF DOCTOR MOREAU": "SILVIA MORENO-GARCIA",
+    "THE KAIJU PRESERVATION SOCIETY": "JOHN SCALZI",
+    "LEGENDS & LATTES": "TRAVIS BALDREE",
+    "NONA THE NINTH": "TAMSYN MUIR",
+    "THE SPARE MAN": "MARY ROBINETTE KOWAL",
+    "A DESOLATION CALLED PEACE": "ARKADY MARTINE",
+    "THE GALAXY, AND THE GROUND WITHIN": "BECKY CHAMBERS",
+    "LIGHT FROM UNCOMMON STARS": "RYKA AOKI",
+    "A MASTER OF DJINN": "P. DJÈLÍ CLARK",
+    "PROJECT HAIL MARY": "ANDY WEIR",
+    "SHE WHO BECAME THE SUN": "SHELLEY PARKER-CHAN",
+    "NETWORK EFFECT": "MARTHA WELLS",
+    "THE CITY WE BECAME": "N. K. JEMISIN",
+    "PIRANESI": "SUSANNA CLARKE",
+    "BLACK SUN": "REBECCA ROANHORSE",
+    "THE RELENTLESS MOON": "MARY ROBINETTE KOWAL",
+    "HARROW THE NINTH": "TAMSYN MUIR"
 }
-arthurcclarke = {
-    "Annie Bot": "Sierra Greer",
-    "Private Rites": "Julia Armfield",
-    "The Ministry of Time": "Kaliane Bradley",
-    "Extremophile": "Ian Green",
-    "Service Model": "Adrian Tchaikovsky",
-    "Thirteen Ways to Kill Lulabelle Rock": "Maud Woolf",
+ARTHURCCLARKE = {
+    "ANNIE BOT": "SIERRA GREER",
+    "PRIVATE RITES": "JULIA ARMFIELD",
+    "THE MINISTRY OF TIME": "KALIANE BRADLEY",
+    "EXTREMOPHILE": "IAN GREEN",
+    "SERVICE MODEL": "ADRIAN TCHAIKOVSKY",
+    "THIRTEEN WAYS TO KILL LULABELLE ROCK": "MAUD WOOLF",
+    "IN ASCENSION": "MARTIN MACINNES",
+    "CHAIN-GANG ALL-STARS": "NANA KWAME ADJEI-BRENYAH",
+    "THE TEN PERCENT THIEF": "LAVANYA LAKSHMINARAYAN",
+    "THE MOUNTAIN IN THE SEA": "RAY NAYLER",
+    "SOME DESPERATE GLORY": "EMILY TESH",
+    "COREY FAH DOES SOCIAL MOBILITY": "ISABEL WAIDNER",
 
-    "In Ascension": "Martin MacInnes",
-    "Chain-Gang All-Stars": "Nana Kwame Adjei-Brenyah",
-    "The Ten Percent Thief": "Lavanya Lakshminarayan",
-    "The Mountain in the Sea": "Ray Nayler",
-    "Some Desperate Glory": "Emily Tesh",
-    "Corey Fah Does Social Mobility": "Isabel Waidner",
+    "VENOMOUS LUMPSUCKER": "NED BEAUMAN",
+    "THE RED SCHOLAR'S WAKE": "ALIETTE DE BODARD",
+    "PLUTOSHINE": "LUCY KISSICK",
+    "THE ANOMALY": "HERVÉ LE TELLIER",
+    "THE CORAL BONES": "E.J. SWIFT",
+    "METRONOME": "TOM WATSON",
 
-    "Venomous Lumpsucker": "Ned Beauman",
-    "The Red Scholar's Wake": "Aliette de Bodard",
-    "Plutoshine": "Lucy Kissick",
-    "The Anomaly": "Hervé Le Tellier",
-    "The Coral Bones": "E.J. Swift",
-    "Metronome": "Tom Watson",
+    "DEEP WHEEL ORCADIA": "HARRY JOSEPHINE GILES",
+    "KLARA AND THE SUN": "KAZUO ISHIGURO",
+    "A DESOLATION CALLED PEACE": "ARKADY MARTINE",
+    "A RIVER CALLED TIME": "COURTTIA NEWLAND",
+    "WERGEN: THE ALIEN LOVE WAR": "MERCURIO D. RIVERA",
+    "SKYWARD INN": "ALIYA WHITELEY",
 
-    "Deep Wheel Orcadia": "Harry Josephine Giles",
-    "Klara and the Sun": "Kazuo Ishiguro",
-    "A Desolation Called Peace": "Arkady Martine",
-    "A River Called Time": "Courttia Newland",
-    "Wergen: The Alien Love War": "Mercurio D. Rivera",
-    "Skyward Inn": "Aliya Whiteley",
-
-    "The Animals in That Country": "Laura Jean McKay",
-    "The City We Became": "N. K. Jemisin",
-    "Edge of Heaven": "R. B. Kelly",
-    "Vagabonds": "Hao Jingfang",
-    "The Vanished Birds": "Simon Jimenez",
-    "The Infinite": "Patience Agbabi"
+    "THE ANIMALS IN THAT COUNTRY": "LAURA JEAN MCKAY",
+    "THE CITY WE BECAME": "N. K. JEMISIN",
+    "EDGE OF HEAVEN": "R. B. KELLY",
+    "VAGABONDS": "HAO JINGFANG",
+    "THE VANISHED BIRDS": "SIMON JIMENEZ",
+    "THE INFINITE": "PATIENCE AGBABI"
 }
-nebula = {
-    "When We Were Real": "Daryl Gregory",
-    "The Buffalo Hunter Hunter": "Stephen Graham Jones",
-    "Katabasis": "R.F. Kuang",
-    "Death of the Author": "Nnedi Okorafor",
-    "The Incandescent": "Emily Tesh",
-    "Sour Cherry": "Natalia Theodoridou",
-    "Wearing the Lion": "John Wiswell",
+NEBULA = {
+    "WHEN WE WERE REAL": "DARYL GREGORY",
+    "THE BUFFALO HUNTER HUNTER": "STEPHEN GRAHAM JONES",
+    # "KATABASIS": "R.F. KUANG",
+    "DEATH OF THE AUTHOR": "NNEDI OKORAFOR",
+    "THE INCANDESCENT": "EMILY TESH",
+    "SOUR CHERRY": "NATALIA THEODORIDOU",
+    "WEARING THE LION": "JOHN WISWELL",
 
-    "Someone You Can Build a Nest In": "John Wiswell",
-    "The Book of Love": "Kelly Link",
-    "A Sorceress Comes to Call": "T. Kingfisher",
-    "Sleeping Worlds Have No Memory": "Yaroslav Barsukov",
-    "Asunder": "Kerstin Hall",
-    "Rakesfall": "Vajra Chandrasekera",
+    "SOMEONE YOU CAN BUILD A NEST IN": "JOHN WISWELL",
+    "THE BOOK OF LOVE": "KELLY LINK",
+    "A SORCERESS COMES TO CALL": "T. KINGFISHER",
+    "SLEEPING WORLDS HAVE NO MEMORY": "YAROSLAV BARSUKOV",
+    "ASUNDER": "KERSTIN HALL",
+    "RAKESFALL": "VAJRA CHANDRASEKERA",
 
-    "The Saint of Bright Doors": "Vajra Chandrasekera",
-    "The Water Outlaws": "S.L. Huang",
-    "Translation State": "Ann Leckie",
-    "The Terraformers": "Annalee Newitz",
-    "Shigidi and the Brass Head of Obalufon": "Wole Talabi",
-    "Witch King": "Martha Wells",
+    "THE SAINT OF BRIGHT DOORS": "VAJRA CHANDRASEKERA",
+    "THE WATER OUTLAWS": "S.L. HUANG",
+    "TRANSLATION STATE": "ANN LECKIE",
+    "THE TERRAFORMERS": "ANNALEE NEWITZ",
+    "SHIGIDI AND THE BRASS HEAD OF OBALUFON": "WOLE TALABI",
+    "WITCH KING": "MARTHA WELLS",
 
-    "Legends & Lattes": "Travis Baldree",
-    "Spear": "Nicola Griffith",
-    "Nettle and Bone": "T. Kingfisher",
-    "Babel": "R.F. Kuang",
-    "Nona the Ninth": "Tamsyn Muir",
-    "The Mountain in the Sea": "Ray Nayler",
+    "LEGENDS & LATTES": "TRAVIS BALDREE",
+    "SPEAR": "NICOLA GRIFFITH",
+    "NETTLE AND BONE": "T. KINGFISHER",
+    "BABEL": "R.F. KUANG",
+    "NONA THE NINTH": "TAMSYN MUIR",
+    "THE MOUNTAIN IN THE SEA": "RAY NAYLER",
 
-    "The Unbroken": "C.L. Clark",
-    "A Master of Djinn": "P. Djèlí Clark",
-    "Machinehood": "S.B. Divya",
-    "A Desolation Called Peace": "Arkady Martine",
-    "Plague Birds": "Jason Sanford"
+    "THE UNBROKEN": "C.L. CLARK",
+    "A MASTER OF DJINN": "P. DJÈLÍ CLARK",
+    "MACHINEHOOD": "S.B. DIVYA",
+    "A DESOLATION CALLED PEACE": "ARKADY MARTINE",
+    "PLAGUE BIRDS": "JASON SANFORD"
 }
-locus = {
-    "The Man Who Saw Seconds": "Alexander Boldizar",
-    "Rakesfall": "Vajra Chandrasekera",
-    "The Mercy of Gods": "James S. A. Corey",
-    "The Bezzle": "Cory Doctorow",
-    "The Imposition of Unnecessary Obstacles": "Malka Older",
-    "Kinning": "Nisi Shawl",
-    "Alien Clay": "Adrian Tchaikovsky",
-    "Service Model": "Adrian Tchaikovsky",
-    "Space Oddity": "Catherynne M. Valente",
-    "Absolution": "Jeff VanderMeer",
+LOCUS = {
+    "THE MAN WHO SAW SECONDS": "ALEXANDER BOLDIZAR",
+    "RAKESFALL": "VAJRA CHANDRASEKERA",
+    "THE MERCY OF GODS": "JAMES S. A. COREY",
+    "THE BEZZLE": "CORY DOCTOROW",
+    "THE IMPOSITION OF UNNECESSARY OBSTACLES": "MALKA OLDER",
+    "KINNING": "NISI SHAWL",
+    "ALIEN CLAY": "ADRIAN TCHAIKOVSKY",
+    "SERVICE MODEL": "ADRIAN TCHAIKOVSKY",
+    "SPACE ODDITY": "CATHERYNNE M. VALENTE",
+    "ABSOLUTION": "JEFF VANDERMEER",
 
-    "The Jinn-Bot of Shantiport": "Samit Basu",
-    "A Fire Born of Exile": "Aliette de Bodard",
-    "Red Team Blues": "Cory Doctorow",
-    "Furious Heaven": "Kate Elliott",
-    "Translation State": "Ann Leckie",
-    "The Terraformers": "Annalee Newitz",
-    "Starter Villain": "John Scalzi",
-    "Lords of Uncreation": "Adrian Tchaikovsky",
-    "System Collapse": "Martha Wells",
-    "The Road to Roswell": "Connie Willis",
+    "THE JINN-BOT OF SHANTIPORT": "SAMIT BASU",
+    "A FIRE BORN OF EXILE": "ALIETTE DE BODARD",
+    "RED TEAM BLUES": "CORY DOCTOROW",
+    "FURIOUS HEAVEN": "KATE ELLIOTT",
+    "TRANSLATION STATE": "ANN LECKIE",
+    "THE TERRAFORMERS": "ANNALEE NEWITZ",
+    "STARTER VILLAIN": "JOHN SCALZI",
+    "LORDS OF UNCREATION": "ADRIAN TCHAIKOVSKY",
+    "SYSTEM COLLAPSE": "MARTHA WELLS",
+    "THE ROAD TO ROSWELL": "CONNIE WILLIS",
 
-    "A Desolation Called Peace": "Arkady Martine",
-    "Light From Uncommon Stars": "Ryka Aoki",
-    "Shards of Earth": "Adrian Tchaikovsky",
-    "Project Hail Mary": "Andy Weir",
-    "The Galaxy, and the Ground Within": "Becky Chambers",
-    "Machinehood": "S.B. Divya",
-    "Klara and the Sun": "Kazuo Ishiguro",
-    "Leviathan Falls": "James S. A. Corey",
-    "Termination Shock": "Neal Stephenson",
-    "A Psalm for the Wild-Built": "Becky Chambers",
+    "A DESOLATION CALLED PEACE": "ARKADY MARTINE",
+    "LIGHT FROM UNCOMMON STARS": "RYKA AOKI",
+    "SHARDS OF EARTH": "ADRIAN TCHAIKOVSKY",
+    "PROJECT HAIL MARY": "ANDY WEIR",
+    "THE GALAXY, AND THE GROUND WITHIN": "BECKY CHAMBERS",
+    "MACHINEHOOD": "S.B. DIVYA",
+    "KLARA AND THE SUN": "KAZUO ISHIGURO",
+    "LEVIATHAN FALLS": "JAMES S. A. COREY",
+    "TERMINATION SHOCK": "NEAL STEPHENSON",
+    "A PSALM FOR THE WILD-BUILT": "BECKY CHAMBERS",
 
-    "Network Effect": "Martha Wells",
-    "Piranesi": "Susanna Clarke",
-    "The City We Became": "N. K. Jemisin",
-    "The Relentless Moon": "Mary Robinette Kowal",
-    "Harrow the Ninth": "Tamsyn Muir",
-    "The Last Emperox": "John Scalzi",
-    "The Doors of Eden": "Adrian Tchaikovsky",
-    "Black Sun": "Rebecca Roanhorse",
-    "Axiom's End": "Lindsay Ellis",
-    "The Vanished Birds": "Simon Jimenez",
+    "NETWORK EFFECT": "MARTHA WELLS",
+    "PIRANESI": "SUSANNA CLARKE",
+    "THE CITY WE BECAME": "N. K. JEMISIN",
+    "THE RELENTLESS MOON": "MARY ROBINETTE KOWAL",
+    "HARROW THE NINTH": "TAMSYN MUIR",
+    "THE LAST EMPEROX": "JOHN SCALZI",
+    "THE DOORS OF EDEN": "ADRIAN TCHAIKOVSKY",
+    "BLACK SUN": "REBECCA ROANHORSE",
+    "AXIOM'S END": "LINDSAY ELLIS",
+    "THE VANISHED BIRDS": "SIMON JIMENEZ",
 
-    "The Space Between Worlds": "Micaiah Johnson",
-    "The Ministry for the Future": "Kim Stanley Robinson",
-    "Mexican Gothic": "Silvia Moreno-Garcia",
-    "The Once and Future Witches": "Alix E. Harrow",
-    "Black Sun": "Rebecca Roanhorse",
-    "Piranesi": "Susanna Clarke",
-    "The Invisible Life of Addie LaRue": "V.E. Schwab",
-    "Network Effect": "Martha Wells",
-    "The City We Became": "N. K. Jemisin",
-    "The Doors of Eden": "Adrian Tchaikovsky"
+    "THE SPACE BETWEEN WORLDS": "MICAIAH JOHNSON",
+    "THE MINISTRY FOR THE FUTURE": "KIM STANLEY ROBINSON",
+    "MEXICAN GOTHIC": "SILVIA MORENO-GARCIA",
+    "THE ONCE AND FUTURE WITCHES": "ALIX E. HARROW",
+    "BLACK SUN": "REBECCA ROANHORSE",
+    "PIRANESI": "SUSANNA CLARKE",
+    "THE INVISIBLE LIFE OF ADDIE LARUE": "V.E. SCHWAB",
+    "NETWORK EFFECT": "MARTHA WELLS",
+    "THE CITY WE BECAME": "N. K. JEMISIN",
+    "THE DOORS OF EDEN": "ADRIAN TCHAIKOVSKY"
 }
-books.update(hugo)
-books.update(arthurcclarke)
-books.update(nebula)
-books.update(locus)
+books.update(HUGO)
+books.update(ARTHURCCLARKE)
+books.update(NEBULA)
+books.update(LOCUS)
 
 from rdflib import Graph
 graph = Graph()
@@ -299,7 +298,7 @@ booksread = graph.query('''
         ?iri hpcom:book_status hpcom:book-read .
     }
     ''')
-booksread = [(str(name), str(author)) for name, author in booksread]
+booksread = [(str(name).upper(), str(author).upper()) for name, author in booksread]
 print(f"{len(booksread)} books already read from my list")
 print(f"{len(books)} books to read from awards list")
 for name, author in booksread:
@@ -308,7 +307,7 @@ for name, author in booksread:
         # print(f"Duplicate: {name=} {author=}")
         del books[name]
 print(f"{len(books)} books to read after removing already read books")
-bookstoread = [(str(name), str(author)) for name, author in bookstoread]
+bookstoread = [(str(name).upper(), str(author).upper()) for name, author in bookstoread]
 print(f"{len(bookstoread)} books unread that I do not own from my list")
 for name, author in bookstoread:
     if name not in books:
@@ -322,6 +321,7 @@ print('Searching Dublin Library...')
 print('*' * 24)
 # pprint(books)
 for title, author in books.items():
+    # print(f"{title=} {author=}")
     response = send_request(headers, create_payload(author, title))
     match, status, available, link = parse_response(response, title)
     if status == 'ON_LOAN':

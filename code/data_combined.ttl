@@ -4863,6 +4863,20 @@ book:1078 a hpcom:Book,
     schema:name "The Wasp Factory" ;
     schema:url "https://harshp.com/hobbies/books/1078"^^xsd:anyURI .
 
+book:1079 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1079 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Jeff Vandermeer" ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Absolution" ;
+    schema:url "https://harshp.com/hobbies/books/1079"^^xsd:anyURI .
+
 book:108 a hpcom:Book,
         hpcom:BookReading,
         hpcom:RenderedItem,
@@ -4878,6 +4892,34 @@ book:108 a hpcom:Book,
     schema:isPartOf list:classics ;
     schema:name "Aesop's Fables" ;
     schema:url "https://harshp.com/hobbies/books/108"^^xsd:anyURI .
+
+book:1080 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1080 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Shelley Parker-Chan" ;
+    schema:dateCreated "2021"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "She Who Became the Sun" ;
+    schema:url "https://harshp.com/hobbies/books/1080"^^xsd:anyURI .
+
+book:1081 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1081 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "T. Kingfisher" ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "A Sorceress Comes to Call" ;
+    schema:url "https://harshp.com/hobbies/books/1081"^^xsd:anyURI .
 
 book:109 a hpcom:Book,
         hpcom:BookReading,
@@ -20066,12 +20108,16 @@ book:946 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:946 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-06-17T13:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2006"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "The Android's Dream" ;
+    schema:review "Highly absurd and entertaining with dashes of The Hitchhiker's Guide, this was a good read on the plane and on a trip. Good beach read type book."@en ;
     schema:url "https://harshp.com/hobbies/books/946"^^xsd:anyURI .
 
 book:947 a hpcom:Book,
@@ -32210,11 +32256,6 @@ hptag:privacy a hpcom:RenderedItem,
     schema:name "privacy" ;
     schema:url "https://harshp.com/tags/privacy"^^xsd:anyURI .
 
-list:DublinLibrary a hpcom:RenderedItem,
-        book:lists ;
-    schema:identifier "DublinLibrary"@en ;
-    schema:name "Dublin Library"@en .
-
 hptag:DPV a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "DPV"@en ;
@@ -32229,6 +32270,11 @@ list:books-changed-life a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "books-changed-life"@en ;
     schema:name "Books that changed my life"@en .
+
+list:DublinLibrary a hpcom:RenderedItem,
+        book:lists ;
+    schema:identifier "DublinLibrary"@en ;
+    schema:name "Dublin Library"@en .
 
 list:cork a hpcom:RenderedItem,
         book:lists ;
@@ -32343,19 +32389,19 @@ hpcom:book-to-read a hpcom:BookStatus ;
 hpcom:BookNonFiction a hpcom:BookGenre ;
     rdfs:label "non-fiction"@en .
 
-hptag:Rating4 a hpcom:Rating,
-        hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "😁good (4/5)"@en ;
-    schema:ratingValue "4"^^xsd:int ;
-    schema:url "https://harshp.com/tags/Rating4"^^xsd:anyURI .
-
 hptag:Rating5 a hpcom:Rating,
         hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "😍awesome (5/5)"@en ;
     schema:ratingValue "5"^^xsd:int ;
     schema:url "https://harshp.com/tags/Rating5"^^xsd:anyURI .
+
+hptag:Rating4 a hpcom:Rating,
+        hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "😁good (4/5)"@en ;
+    schema:ratingValue "4"^^xsd:int ;
+    schema:url "https://harshp.com/tags/Rating4"^^xsd:anyURI .
 
 hptag:Rating3 a hpcom:Rating,
         hpcom:RenderedItem,
