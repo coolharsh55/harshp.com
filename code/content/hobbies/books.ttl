@@ -733,12 +733,16 @@
         schema:Book ;
     hpcom:book_id hpcom:1040 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-26T17:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "William F. Temple" ;
     schema:dateCreated "1949"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Shoot at the Moon" ;
+    schema:review "This is a book from the 60s and it shows. It has sexist, classicist, and other stereotypes of what things were. Though the author also showed some 'appreciation' which went against the trend. Much of the book is spent on the characters, which are well fleshed out, and typically they would have beena good thing were it not for the outdated views. The story itself is a decent one, though in this day and age it might seem predictable, I can imagine that for its time it was something novel. Were it that the sci-fi elements had more emphasis, it might have been more suitably recognised."@en ;
     schema:url "https://harshp.com/hobbies/books/1040"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1041> a hpcom:Book,
@@ -818,7 +822,7 @@
         schema:Book ;
     hpcom:book_id hpcom:1045 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Richard K. Morgan" ;
     schema:dateCreated "2003"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -1335,12 +1339,16 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1074 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-25T11:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating1 ;
     schema:author "Tim Marshall" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Prisoners of Geography" ;
+    schema:review "There is nothing in this book that is interesting or new, and all the knowledge could have been gleaned from following the news or even bothering to look up events. The title itself is deceptive - this is a book about geopolitics and trying to put the geo back into it. But rather than actually talking about how geography influenced other decisions and was one influence, it ends up stating how important geography was as a factor on its own. To make things worse, the first chapter seemed to justify Russo-propoganda on the importance of Ukraine for 'national security interests'. It does this a lot. For all countries and conflicts. Not suitable for an educating read at all."@en ;
     schema:url "https://harshp.com/hobbies/books/1074"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1075> a hpcom:Book,
