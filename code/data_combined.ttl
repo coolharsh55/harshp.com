@@ -3663,7 +3663,7 @@ book:1009 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1009 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Salman Rushdie" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
@@ -4278,12 +4278,16 @@ book:1045 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1045 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-28T21:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Richard K. Morgan" ;
     schema:dateCreated "2003"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Broken Angels" ;
+    schema:review "In continuation of the first book, this one too is filled with stack-based sci-fi adventures. But unlike the charm and careful world building of the former, this one goes hard into elements of military/mercenary conscription and alien-ism. Okay to read but not a classic like the first"@en ;
     schema:url "https://harshp.com/hobbies/books/1045"^^xsd:anyURI .
 
 book:1046 a hpcom:Book,
@@ -4292,12 +4296,16 @@ book:1046 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1046 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-31T11:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Richard K. Morgan" ;
     schema:dateCreated "2005"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Woken Furies" ;
+    schema:review "Third book in the series, and a slight mixture of the first two, but more of the second. Which means there are things of interest, but by this point, it feels like a continuation without the wonder of the first. Okay read."@en ;
     schema:url "https://harshp.com/hobbies/books/1046"^^xsd:anyURI .
 
 book:1047 a hpcom:Book,
@@ -4898,7 +4906,7 @@ book:1080 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1080 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Shelley Parker-Chan" ;
     schema:dateCreated "2021"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -4912,14 +4920,99 @@ book:1081 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1081 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-07-30T12:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "T. Kingfisher" ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "A Sorceress Comes to Call" ;
+    schema:review "A retelling of the Goose Girl by Brothers Grimm, I was surprised by how much of hte original dark and gore-specific aspects are retained, while the story and the characters have been fleshed out in original ways but without losing thread of the original it bases itself on. This is the second book after What moves the dead based on House of the Usher, and T. Kingfisher seems to have a talent for turning known stories into new retellings. Though at this point the book also reminded me much of Nettle & Bone in terms of the author's style and tendencies. I also discovered there's a retelling of Rapunzel, but from the witch's perspective who is just trying to keep her oath to protect. So maybe I'll also try to read that someday."@en ;
     schema:url "https://harshp.com/hobbies/books/1081"^^xsd:anyURI .
+
+book:1082 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1082 ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Cory Doctorow" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "The Reverse Centaur's Guide to Life After AI: How to Think About Artificial Intelligence—Before It's Too Late" ;
+    schema:url "https://harshp.com/hobbies/books/1082"^^xsd:anyURI .
+
+book:1083 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1083 ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Rebecca Giblin and Cory Doctorow" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We'll Win Them Back" ;
+    schema:url "https://harshp.com/hobbies/books/1083"^^xsd:anyURI .
+
+book:1084 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1084 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "John Scalzi" ;
+    schema:dateCreated "2008"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Ghost Brigades" ;
+    schema:url "https://harshp.com/hobbies/books/1084"^^xsd:anyURI .
+
+book:1085 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1085 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "John Scalzi" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Collapsing Empire" ;
+    schema:url "https://harshp.com/hobbies/books/1085"^^xsd:anyURI .
+
+book:1086 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1086 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "John Scalzi" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Agent to the Stars" ;
+    schema:url "https://harshp.com/hobbies/books/1086"^^xsd:anyURI .
+
+book:1087 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1087 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Salman Rushdie" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Eleventh Hour" ;
+    schema:url "https://harshp.com/hobbies/books/1087"^^xsd:anyURI .
 
 book:109 a hpcom:Book,
         hpcom:BookReading,
@@ -31445,9 +31538,6 @@ hptag:work a hpcom:RenderedItem,
     schema:startDate "2023-06-25T00:00:00"^^xsd:dateTime ;
     schema:url "https://facctconference.org/2026/"^^xsd:anyURI .
 
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
-
 <https://harshp.com/dev/webdev> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -31670,6 +31760,9 @@ hpview:GenericJinja2View a hpcom:View ;
 
 hpcom:ExtendedAbstract rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Extended Abstract"@en .
+
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
 
 <https://harshp.com/dev/harshp.com> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
@@ -32271,11 +32364,6 @@ list:books-changed-life a hpcom:RenderedItem,
     schema:identifier "books-changed-life"@en ;
     schema:name "Books that changed my life"@en .
 
-list:DublinLibrary a hpcom:RenderedItem,
-        book:lists ;
-    schema:identifier "DublinLibrary"@en ;
-    schema:name "Dublin Library"@en .
-
 list:cork a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "cork"@en ;
@@ -32295,6 +32383,11 @@ hptag:consent a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "consent" ;
     schema:url "https://harshp.com/tags/consent"^^xsd:anyURI .
+
+list:DublinLibrary a hpcom:RenderedItem,
+        book:lists ;
+    schema:identifier "DublinLibrary"@en ;
+    schema:name "Dublin Library"@en .
 
 hpcom:Jinja2 a hpcom:Renderer ;
     rdfs:label "Jinaj2"@en ;

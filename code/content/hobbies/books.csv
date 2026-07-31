@@ -1011,7 +1011,7 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1006,"House of Day, House of Night",Olga Tokarczuk,1998,PhysicalBook,PhysicalBook,read,2026-06-05 00:00:00,5,BookFiction,,"Short stories by Olga Tokarczuk - yes please! Reminded me of flights in the most pleasant ways. But these stories are also about society, supersition, humour, and many other things. Delightful."
 1007,Fury,Salman Rushdie,2001,PhysicalBook,PhysicalBook,read,2026-03-03 00:00:00,4,BookFiction,,"Rushdie spins a tale of fury emerging from a man's psychie. Good writing, but not as sharp as other books. A bit whimsical, and having read his later works, almost feels like the start of an obsession with America."
 1008,Two Years Eight Months and Twenty-Eight Nights,Salman Rushdie,2015,PhysicalBook,,to-read,,,BookFiction,,
-1009,The Golden House,Salman Rushdie,2017,PhysicalBook,,to-read,,,BookFiction,,
+1009,The Golden House,Salman Rushdie,2017,PhysicalBook,,currently-reading,,,BookFiction,,
 1010,The Bee Sting,Paul Murray,2023,PhysicalBook,,to-read,,,BookFiction,,
 1011,The Mercy of Gods,James S. A. Corey,2024,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
 1012,Endymion II (The Rise of Endymion),Dan Simmons,1997,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
@@ -1047,8 +1047,8 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1042,Perspectives,Laurent Binet,2023,PhysicalBook,PhysicalBook,read,2026-06-20 00:00:00,5,BookFiction,DublinLibrary,A historical fiction that is clever in its presentation and alternate perspectives. Letters tell the story.
 1043,Lili is Crying,Hélène Bessette,2025,PhysicalBook,PhysicalBook,read,2026-05-05 00:00:00,3,BookFiction,,"A series of stories that tell the story of Lili, in a way that really shows the power of restraint in language, and the nuance of things in life."
 1044,Altered Carbon,Richard K. Morgan,2002,PhysicalBook,PhysicalBook,read,2026-03-10 00:00:00,5,BookFiction;BookSciFi,,"I remembered enjoying the TV show quite a lot, but I always felt a lot of that was Joel Kinnaman's charm on the screen. Still, the book felt enticing, if only because the second season felt trash and the books promised redemption. Suffice to say that that book is excellent sci-fi and is enjoyable on its own. Went and purchased the next two books as well."
-1045,Broken Angels,Richard K. Morgan,2003,PhysicalBook,,currently-reading,,,BookFiction;BookSciFi,,
-1046,Woken Furies,Richard K. Morgan,2005,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
+1045,Broken Angels,Richard K. Morgan,2003,PhysicalBook,PhysicalBook,read,2026-07-28 21:00:00,3,BookFiction;BookSciFi,,"In continuation of the first book, this one too is filled with stack-based sci-fi adventures. But unlike the charm and careful world building of the former, this one goes hard into elements of military/mercenary conscription and alien-ism. Okay to read but not a classic like the first"
+1046,Woken Furies,Richard K. Morgan,2005,PhysicalBook,PhysicalBook,read,2026-07-31 11:00:00,3,BookFiction;BookSciFi,,"Third book in the series, and a slight mixture of the first two, but more of the second. Which means there are things of interest, but by this point, it feels like a continuation without the wonder of the first. Okay read."
 1047,Inversions,Iain M. Banks,1998,PhysicalBook,PhysicalBook,read,2026-04-10 00:00:00,4,BookFiction;BookSciFi,,"Culture novel but set in a world that doesn't even know the rest of the universe exists. And through this medieval lens, the author makes interesting arguments about socieity, intervention, morals, and most important of all - stories and what choices we make."
 1048,Titanium Noir,Nick Harkaway,2023,PhysicalBook,PhysicalBook,read,2026-03-31 00:00:00,3,BookFiction;BookSciFi,,"Since the author always comes up with some bizzare twist on things, this felt enticing. It was, and the noir part does hold up to some extent. Overall a bit long, and the story doesn't get pulled as tightly as it could. "
 1049,Love Machines: How Artificial Intelligence is Transforming Our Relationships,James Muldoon,2026,PhysicalBook,PhysicalBook,read,2026-05-20 00:00:00,3,BookNonFiction,,"Since I'm working in a project on AI companions, this was an essential read. The book does seem interesting but the end result is shallow. There are several aspects where it felt that there isn't enough exploration or nuance. End result: maybe the book helps someone who barely knows about the subject. "
@@ -1082,5 +1082,11 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1077,The Hydrogen Sonata,Iain M. Banks,2012,,,to-read,,,BookFiction;BookSciFi,,
 1078,The Wasp Factory,Iain Banks,1984,,,to-read,,,BookFiction,,
 1079,Absolution,Jeff Vandermeer,2024,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
-1080,She Who Became the Sun,Shelley Parker-Chan,2021,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
-1081,A Sorceress Comes to Call,T. Kingfisher,2024,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
+1080,She Who Became the Sun,Shelley Parker-Chan,2021,,,currently-reading,,,BookFiction;BookSciFi,DublinLibrary,
+1081,A Sorceress Comes to Call,T. Kingfisher,2024,,EBook,read,2026-07-30 12:00:00,4,BookFiction;BookSciFi,DublinLibrary,"A retelling of the Goose Girl by Brothers Grimm, I was surprised by how much of hte original dark and gore-specific aspects are retained, while the story and the characters have been fleshed out in original ways but without losing thread of the original it bases itself on. This is the second book after What moves the dead based on House of the Usher, and T. Kingfisher seems to have a talent for turning known stories into new retellings. Though at this point the book also reminded me much of Nettle & Bone in terms of the author's style and tendencies. I also discovered there's a retelling of Rapunzel, but from the witch's perspective who is just trying to keep her oath to protect. So maybe I'll also try to read that someday."
+1082,The Reverse Centaur's Guide to Life After AI: How to Think About Artificial Intelligence—Before It's Too Late,Cory Doctorow,2026,EBook,,to-read,,,BookNonFiction,,
+1083,Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How We'll Win Them Back,Rebecca Giblin and Cory Doctorow,2022,EBook,,to-read,,,BookNonFiction,,
+1084,The Ghost Brigades,John Scalzi,2008,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
+1085,The Collapsing Empire,John Scalzi,2017,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
+1086,Agent to the Stars,John Scalzi,2022,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
+1087,The Eleventh Hour,Salman Rushdie,2026,,,to-read,,,BookFiction,DublinLibrary,
