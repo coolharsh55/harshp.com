@@ -1558,6 +1558,20 @@
     schema:name "The Eleventh Hour" ;
     schema:url "https://harshp.com/hobbies/books/1087"^^xsd:anyURI .
 
+<https://harshp.com/hobbies/books/1088> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1088 ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "T. Kingfisher" ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "What Feasts at Night" ;
+    schema:url "https://harshp.com/hobbies/books/1088"^^xsd:anyURI .
+
 <https://harshp.com/hobbies/books/109> a hpcom:Book,
         hpcom:BookReading,
         hpcom:RenderedItem,
