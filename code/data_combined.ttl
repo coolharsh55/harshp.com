@@ -4906,13 +4906,17 @@ book:1080 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1080 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-01T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Shelley Parker-Chan" ;
     schema:dateCreated "2021"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "She Who Became the Sun" ;
+    schema:review "I was instantly reminded of Mulan, and the folk-tale behind it. Though in this case the appeal was the mixing of it with real history, something that I'm not as familiar with for China. The writing itself is clear, and the style seems familiar to how a lot of Chinese tales would go (or maybe that's the stereotype?) The main character has a single facet with the world sort of happening around them. I liked that this tackled gender, sexuality, the norms that have continued to persist. But then at the end of the day this itself didn't seem to affect the story itself in any way. Which would be necessary for historical continuity I guess. An okay read for this reason."@en ;
     schema:url "https://harshp.com/hobbies/books/1080"^^xsd:anyURI .
 
 book:1081 a hpcom:Book,
@@ -5020,7 +5024,7 @@ book:1088 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1088 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "T. Kingfisher" ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookFiction,
