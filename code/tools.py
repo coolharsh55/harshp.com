@@ -1,5 +1,6 @@
 import datetime
 import os
+import types
 # RDFlib is used to interact with RDF data
 from rdflib import Graph
 from rdflib import Namespace
@@ -452,6 +453,14 @@ def find_missing_tags(data):
                     """, file=fd)
         logging.warning(f'found {len(results)} missing tags, check tags_missing.ttl')
 
+
+def xjoin(data):
+    if type(data) is not list:
+        return data
+    data.sort()
+    return ', '.join([str(x) for x in data])
+
+
 VIEW_DICT = {
     'https://harshp.com/code/vocab#FileCopy': _view_filecopy,
     'https://harshp.com/code/vocab#Jinja2': _view_jinja2,
@@ -471,6 +480,7 @@ JINJA2_FILTERS = {
     'in_past': in_past,
     'format_amount': format_amount,
     'publication_is_draft': publication_is_draft,
+    'xjoin': xjoin
 }
 
 

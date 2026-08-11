@@ -1,0 +1,226 @@
+id,name,developer,publisher,owned,status,played_platform,played_year,genre,rating
+1,Wolfenstein 3D,id,1992,,played,"DOS,Windows",1999,FPS,5
+2,Dangerous Dave,John Romero,1988,,played,"DOS,Windows",1998,Platformer,4
+3,Bio Menace,Apogee,1993,gog,played,"DOS,Windows",1999,Platformer,4
+4,Duke Nukem,Apogee,1991,,played,"DOS,Windows",2000,Platformer,4
+5,Duke Nukem 3D,3D Realms,1996,,played,Windows,2003,FPS,5
+6,Dangerous Dave in the Haunted Mansion,id,1991,,played,"DOS,Windows",2000,FPS,2
+7,Doom,id,1993,gog,played,"DOS,Windows,Linux","2001,2002,2003,2009,2012,2013,2014,2016,2019",FPS,5
+8,Doom II,id,1994,gog,played,"DOS,Windows,Linux","2004,2008,2013,2019",FPS,5
+9,Quake,id,1996,gog,played,Windows,2005,FPS,5
+10,Quake II,id,1997,gog,played,"Windows,Linux","2002,2009,2015",FPS,5
+11,Quake III Arena,id,1999,gog,played,"Windows,Linux","2004,2005,2009,2012,2013,2016",FPS,5
+12,Doom 3,id,2004,,played,"Windows,Linux",2009,FPS,3
+13,Doom,id,2016,Steam,played,Linux,2016,FPS,5
+14,Doom Eternal,id,2020,Steam,played,Linux,2020,FPS,5
+15,Borderlands 2,Gearbox,2012,Steam,played,Linux,"2014,2015,2016",FPS,5
+16,Borderlands: The Pre-Sequel,Gearbox,2014,Steam,played,Linux,2016,FPS,2
+17,Borderlands 3,Gearbox,2019,Steam,played,Linux,2019,FPS,2
+18,Tales from the Borderlands,Telltale,2014,Steam,played,Linux,2016,Interactive,4
+19,Unreal,Epic,1998,"gog,Steam",played,Windows,2002,FPS,5
+20,Unreal Tournament,Epic,1999,gog,played,"Windows,Linux","2004,2005,2006,2009,2012,2013,2014,2016",FPS,5
+21,Unreal Tournament 2003,Epic,2002,,played,Windows,2009,FPS,3
+22,Unreal Tournament 2004,Epic,2004,gog,played,Windows,2009,FPS,4
+23,Unreal Tournament 3,Epic,2007,,played,Windows,2010,FPS,4
+24,Painkiller,People Can Fly,2004,Steam,played,"Windows,Linux","2010,2017",FPS,4
+25,Painkiller Hell & Damnation,The Farm 51,2012,Steam,played,"Windows,Linux","2010,2017",FPS,2
+26,Bulletstorm,People Can Fly,2011,Steam,played,"Windows,Linux","2011,2021",FPS,4
+27,Call of Duty: Modern Warfare 2,Infinity Ward,2009,,played,Windows,2011,FPS,5
+28,Call of Duty: Modern Warfare 3,Infinity Ward,2011,,played,Windows,2012,FPS,3
+29,Far Cry 2,Ubisoft,2008,,played,Windows,2009,FPS,4
+30,Far Cry 3,Ubisoft,2012,,played,Windows,2010,FPS,3
+31,Far Cry 3: Blood Dragon,Ubisoft,2013,Steam,played,Linux,2021,FPS,3
+32,Assassin's Creed,Ubisoft,2007,,played,Windows,2009,FPS,4
+33,Prince of Persia,Brøderbund,1991,,played,Windows,1999,FPS,5
+34,Prince of Persia 2: The Shadow and the Flame,Brøderbund,1993,,played,Windows,2000,FPS,4
+35,Prince of Persia: The Sands of Time,Ubisoft,2003,,played,Windows,2008,FPS,4
+36,Prince of Persia: Warrior Within,Ubisoft,2004,,played,Windows,2009,FPS,4
+37,Prince of Persia: The Two Thrones,Ubisoft,2005,,played,Windows,2010,FPS,4
+38,Prince of Persia: The Forgotten Sands,Ubisoft,2010,,played,Windows,2012,FPS,3
+39,Crysis,Crytek,2007,gog,played,"Windows,Linux","2008,2020",FPS,5
+40,Crysis Warhead,Crytek,2008,,played,Windows,2009,FPS,5
+41,Crysis 2,Crytek,2011,,played,Windows,2012,FPS,3
+42,Crysis 3,Crytek,2013,Steam,played,Linux,2020,FPS,3
+43,What Remains of Edith Finch,Giant Sparrow,2017,"gog,Steam",played,Linux,2022,FPS,5
+44,Avernum,Spiderweb,2000,,played,Windows,2002,FPS,5
+45,Avernum: Escape from the Pit,Spiderweb,2011,"gog,iOS",played,"Windows,Linux,iOS",2019,FPS,5
+46,Avernum II: Crystal Souls,Spiderweb,2015,"gog,iOS",played,"Windows,Linux,iOS",2020,FPS,5
+47,Avernum III: Ruined World,Spiderweb,2018,"gog,iOS",played,"Windows,Linux,iOS",2021,FPS,5
+48,Queen's Wish: The Conqueror,Spiderweb,2019,gog,played,Linux,2022,FPS,3
+49,Geneforge 1 – Mutagen,Spiderweb,2021,gog,unplayed,,,FPS,
+50,The Witcher 3: Wild Hunt,CD Projekt Red,2015,gog,played,Linux,"2019,2020",FPS,5
+51,Thronebreaker: The Witcher Tales,CD Projekt Red,2018,gog,played,Linux,2021,FPS,3
+52,Cyberpunk 2077,CD Projekt Red,2020,,played,Linux,2025,FPS,
+53,Wolfenstein: The New Order,MachineGames,2014,Steam,played,Linux,2019,FPS,4
+54,Wolfenstein: The Old Blood,MachineGames,2015,gog,played,Linux,2020,FPS,3
+55,Nox,Westwood,2000,gog,played,Linux,2020,FPS,3
+56,Serious Sam: The First Encounter,Croteam,2009,"gog,Steam",played,Linux,2020,FPS,3
+57,Serious Sam 3: BFE,Croteam,2011,Steam,played,Linux,2020,FPS,3
+58,The Talos Principle,Croteam,2014,Steam,played,Linux,2019,FPS,5
+59,XIII,Ubisoft,2003,gog,played,Windows,2005,FPS,3
+60,Into the Breach,Subset,2018,"gog,Steam",played,Linux,"2021,2022,2023",FPS,5
+61,FTL: Faster than Light,Subset,2012,iOS,played,"Linux,iOS","2017,2018,2019",FPS,5
+62,Trek to Yomi,Flying Wild Hog,2022,gog,played,Linux,2022,FPS,3
+63,Baldur's Gate,BioWare,1998,gog,played,Linux,2025,FPS,
+64,Baldur's Gate II: Shadows of Amn,BioWare,2000,gog,played,Linux,2025,FPS,
+65,Baldur's Gate 3,Larian,2023,Steam,played,Linux,"2023,2024",FPS,5
+66,Divinity: Original Sin II,Larian,2017,Steam,played,Linux,"2021,2022,2023,2024",FPS,5
+67,Disco Elysium,ZA/UM,2019,gog,played,Linux,2020,FPS,2
+68,Fallout: New Vegas,Obsidian,2010,Steam,played,Linux,2021,FPS,5
+69,Tyranny,Obsidian,2016,gog,played,Linux,"2023,2024",FPS,4
+70,Pillars of Eternity,Obsidian,2015,Steam,played,Linux,2023,FPS,5
+71,Pillars of Eternity II: Deadfire,Obsidian,2018,Steam,played,Linux,2023,FPS,5
+72,The Outer Worlds,Obsidian,2019,gog,played,Linux,2022,FPS,4
+73,Grounded,Obsidian,2022,Steam,played,Linux,2023,FPS,5
+74,Pentiment,Obsidian,2022,,played,SteamDeck,2023,FPS,
+75,Fallout,Interplay,1997,gog,played,Linux,2024,FPS,
+76,Fallout 2,Black Isle,1998,gog,played,Linnux,2024,FPS,
+77,Fallout 4,Bethesda,2015,Steam,played,Linux,2023,FPS,3
+78,Prey,Arkane,2017,,played,Linux,"2019,2021",FPS,4
+79,Prey,Human Head,2006,Steam,played,Windows,2009,FPS,4
+80,System Shock 2,Nightdive,1999,Steam,played,Linux,2021,FPS,4
+81,System Shock,Nightdive,2023,,unplayed,,,FPS,
+82,Icewind Dale,Black Isle,2000,,unplayed,,,FPS,
+83,Florence,Mountains,2020,gog,played,Linux,2020,FPS,3
+84,Contra,Konami,1987,gog,played,NES,"1996,1997,1998",FPS,4
+85,Observation,No Code,2019,gog,played,Linux,2023,FPS,2
+86,Finding Paradise,Freebird,2017,gog,unplayed,,,FPS,
+87,To The Moon,Freebird,2011,Steam,played,Linux,2015,FPS,5
+88,A Bird Story,Freebird,2014,Steam,unplayed,,,FPS,
+89,The Mirror Lied,Freebird,2008,Steam,unplayed,,,FPS,
+90,Lacuna,DigiTales,2021,gog,unplayed,,,FPS,
+91,Mirror's Edge,DICE,2008,gog,played,Linux,2024,FPS,4
+92,Battlefield 3,DICE,2011,,played,Windows,2010,FPS,5
+93,Eliza,Zachtronics,2019,gog,unplayed,,,FPS,
+94,Dusk,David Szymanski,2018,gog,played,,2025,FPS,
+95,7 Days to Die,The Fun Pimps,2013,Steam,played,"Windows,Linux","2020,2021,2022,2023",FPS,4
+96,Red Dead Redemption 2,Rockstar,2018,Steam,played,Linux,2023,FPS,5
+97,Diablo 2,Blizzard,2000,,played,"Windows,Linux","2009,2010,2014,2016",FPS,5
+98,Grand Theft Auto,Rockstar,1997,,played,"Windows,Linux","2009,2013,2015",FPS,4
+99,Grand Theft Auto 2,Rockstar,1999,,played,"Windows,Linux","2009,2013,2015",FPS,4
+100,Don't Starve,Klei,2013,Steam,played,Linux,"2016,2017,2020,2024",FPS,5
+101,Don't Starve Together,Klei,2016,Steam,played,Linux,2018,FPS,4
+102,N,Metanet,2004,,played,"Windows,Linux","2005,2006,2008",FPS,4
+103,N++,Metanet,2016,Steam,played,Linux,"2018,2019,2021",FPS,4
+104,Mark of the Ninja,Klei,2012,,played,"Windows,Linux",2009,FPS,3
+105,Dying Light,Techland,2015,Steam,played,Linux,2022,FPS,4
+106,Enter the Gungeon,Dodge Roll,2016,Steam,played,Linux,"2019,2020,2021",FPS,5
+107,The Elder Scrolls V: Skyrim,Bethesda,2011,Steam,played,Linux,2021,FPS,5
+108,Gloomhaven,Flaming Fowl,2021,Steam,played,Linux,2022,FPS,3
+109,Stardew Valley,ConcernedAge,2016,Steam,played,Linux,"2020,2021,2022",FPS,5
+110,Risk of Rain 2,Hopoo,2020,Steam,played,Linux,"2022,2023",FPS,5
+111,Valheim,Iron Gate,2021,Steam,played,Linux,2021,FPS,3
+112,Ark: Survival Evolved,Studio Wildcard,2017,Steam,played,Linux,2023,FPS,3
+113,Deep Rock Galactic,Ghost Ship,2020,Steam,played,Linux,2023,FPS,4
+114,Half-Life,Valve,1998,Steam,played,"Windows,Linux",2007,FPS,5
+115,Counter-Strike,Valve,2000,Steam,played,"Windows,Linux,macOS",2007,FPS,5
+116,Counter-Strike: Condition Zero,Valve,2004,Steam,played,"Windows,Linux,macOS","2010,2011,2012,2013,2014,2015,2016,2017,2018,2019",FPS,5
+117,Half-Life 2,Valve,2004,Steam,played,"Windows,Linux","2012,2019",FPS,5
+118,Half-Life 2: Episode One,Valve,2006,Steam,played,"Windows,Linux",2019,FPS,5
+119,Half-Life 2: Episode Two,Valve,2007,Steam,played,"Windows,Linux",2019,FPS,5
+120,Portal,Valve,2007,Steam,played,"Windows,Linux",2019,FPS,5
+121,Team Fortress 2,Valve,2007,Steam,played,"Windows,Linux",2015,FPS,5
+122,Left 4 Dead 2,Valve,2009,Steam,played,Linux,"2016,2017,2021",FPS,5
+123,Portal 2,Valve,2011,Steam,played,Linux,2021,FPS,5
+124,Counter-Strike: Global Offensive,Valve,2012,Steam,played,Linux,2020,FPS,5
+125,Dota 2,Valve,2013,Steam,played,Linux,2015,FPS,3
+126,Black Mesa,Crowbar Collective,2020,Steam,played,Linux,2021,FPS,5
+127,Blacklight: Retribution,Hardsuit Labs,2012,Steam,played,Windows,"2014,2015",FPS,4
+128,Hotline Miami,Dennaton,2012,Steam,played,Linux,2018,FPS,5
+129,Hotline Miami 2: Wrong Number,Dennaton,2015,Steam,played,Linux,2019,FPS,5
+130,Void Bastards,Blue Manchu,2019,Steam,played,Linux,2020,FPS,4
+131,Life is Strange,Dontnod,2015,Steam,played,Linux,2018,FPS,5
+132,Life Is Strange: Before the Storm,Deck Nine,2017,,played,Linux,2019,FPS,3
+133,Life Is Strange 2,Dontnod,2018,,unplayed,,,FPS,
+134,Killing Floor,Tripwire,2009,Steam,played,"Windows,Linux",2017,FPS,3
+135,Killing Floor 2,Tripwire,2016,Steam,played,"Windows,Linux",2017,FPS,3
+136,BioShock,Irrational,2007,Steam,played,"Windows,Linux",2021,FPS,5
+137,BioShock 2,Irrational,2010,Steam,played,"Windows,Linux",2022,FPS,4
+138,BioShock Infinite,Irrational,2013,Steam,played,Linux,2024,FPS,5
+139,The Forest,Endnight,2018,Steam,played,Linux,2021,FPS,2
+140,Raft,Redbeet,2022,Steam,played,Linux,2024,FPS,3
+141,Hyper Light Drifter,Heart Machine,2016,Steam,played,Linux,2018,FPS,4
+142,Post Void,YCJY,2020,Steam,played,Linux,2021,FPS,4
+143,F.E.A.R.,Monolith,2005,Steam,played,Linux,"2012,2019",FPS,5
+144,F.E.A.R. 2: Project Origin,Monolith,2009,Steam,played,Linux,2013,FPS,3
+145,Payday 2,Overkill,2013,Steam,played,Linux,2021,FPS,2
+146,Broforce,Free Lives,2015,Steam,played,Linux,2021,FPS,4
+147,Bastion,Supergiant,2011,Steam,played,Linux,2016,FPS,4
+148,Transistor,Supergiant,2014,Steam,played,Linux,2017,FPS,4
+149,Hades,Supergiant,2020,,played,,,FPS,
+150,Devil Daggers,Sorath,2016,Steam,played,Linux,2017,FPS,5
+151,Oxenfree,Night School,2016,Steam,played,Linux,2017,FPS,4
+152,Oxenfree II: Lost Signals,Night School,2023,,played,,,FPS,
+153,Outer Wilds,Mobius,2019,Steam,played,Linux,2022,FPS,5
+154,Flower,Thatgamecompany,2017,,played,Linux,2019,FPS,4
+155,Gorogoa,Buried Signal,2017,Steam,played,iOS,2020,FPS,4
+156,Donut County,Ben Esposito,2018,,played,iOS,2020,FPS,3
+157,Journey,Thatgamecompany,2019,Steam,played,"PS3,Linux",2022,FPS,5
+158,Sayonara Wild Hearts,Simogo,2019,,played,iOS,2021,FPS,3
+159,If Found,Dreamfeel,2020,Steam,played,iOS,2022,FPS,3
+160,The Unfinished Swan,Giant Sparrow,2012,,played,PS3,2013,FPS,4
+161,flOw,Thatgamecompany,2006,,played,"Windows,Linux","2009,2011,2013",FPS,4
+162,Brothers: A Tale of Two Sons,Starbreeze,2013,Steam,played,"Windows,Linux",2021,FPS,4
+163,Antichamber,Demruth,2013,Steam,played,Windows,2014,FPS,3
+164,"Papers, Please",Lucas Pope,2013,Steam,played,"Linux,iOS",2016,FPS,5
+165,Return of the Obra Dinn,Lucas Pope,2018,gog,played,Linux,2023,FPS,5
+166,Firewatch,Campo Santo,2016,Steam,played,Linux,2018,FPS,5
+167,Limbo,Playdead,2010,,played,"Windows,Linux",2012,FPS,5
+168,Inside,Playdead,2016,Steam,played,Linux,2017,FPS,5
+169,Never Alone,Upper One,2014,Steam,played,Linux,2017,FPS,4
+170,Gris,Nomada,2018,Steam,played,Linux,2021,FPS,4
+171,Kathy Rain,Clifftop,2016,Steam,played,Linux,2021,FPS,3
+172,Gunpoint,Suspicious Developments,2013,Steam,played,Linux,2022,FPS,3
+173,Superhot,Superhot Team,2016,Steam,played,Linux,2021,FPS,4
+174,The Vanishing of Ethan Carter,The Astronauts,2014,Steam,played,Linux,2020,FPS,2
+175,Knock-Knock,Ice-Pick Lodge,2013,Steam,played,Linux,2017,FPS,3
+176,Super Meat Boy,Team Meat,2010,Steam,played,Linux,2018,FPS,3
+177,Spelunky,Mossmouth,2008,Steam,played,Linux,2021,FPS,3
+178,Kairo,Locked Door Puzzle,2013,Steam,played,Linux,2017,FPS,2
+179,Warhammer: Vermintide 2,Fatshark,2018,Steam,played,Linux,2020,FPS,2
+180,LISA: The Painful,Dingaling,2014,Steam,played,Linux,2017,FPS,2
+181,Undertale,tobyfox,2015,Steam,played,Linux,2024,FPS,3
+182,Tacoma,Fullbright,2017,Steam,played,Linux,2022,FPS,4
+183,Ori and the Blind Forest,Moon,2016,Steam,played,Linux,2020,FPS,4
+184,Bit Blaster XL,Adamvision,2016,Steam,played,Linux,2017,FPS,3
+185,Replica,Somi,2016,Steam,played,Linux,2021,FPS,3
+186,Gone In November,Florastamine,2016,Steam,played,Linux,2017,FPS,3
+187,Pathologic,Ice-Pick Lodge,2005,Steam,played,Linux,2017,FPS,3
+188,Her Story,Sam Barlow,2015,Steam,played,iOS,"2016,2017",FPS,5
+189,The Beginner's Guide,Everything Unlimited,2015,Steam,played,Linux,2022,FPS,5
+190,The Stanley Parable,Galactic Cafe,2013,Steam,played,Linux,"2017,2018",FPS,5
+191,The Stanley Parable: Ultra Deluxe,Crows Crows Crows,2022,Steam,played,Linux,2022,FPS,5
+192,"Dr. Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist",Crows Crows Crows,2015,Steam,played,Linux,2017,FPS,5
+193,Axiom Verge,Thomas Happ,2015,Steam,played,Linux,2021,FPS,4
+194,Minit,"Jan Willem Nijman, Kitty Calis, Jukio Kallio, and Dominik Johann",2018,Steam,played,Linux,2020,FPS,4
+195,Machinarium,Amanita,2009,Steam,played,Linux,2024,FPS,3
+196,Beholder,Warm Lamp,2016,Steam,played,Linux,2022,FPS,3
+197,Cibele,Star Maid,2015,Steam,played,Linux,2017,FPS,3
+198,Genital Jousting,Free Lives,2018,Steam,played,Linux,2022,FPS,3
+199,RONIN,Tomasz Wacławek,2015,Steam,played,Linux,2019,FPS,3
+200,Tomb Raider,Core Design,1996,,played,Windows,2005,FPS,5
+201,Tomb Raider II,Core Design,1997,,played,Windows,2005,FPS,4
+202,Tomb Raider,Crystal Dynamics,2013,Steam,played,Linux,2022,FPS,3
+203,Batman - The Telltale Series,Telltale,2016,Steam,played,Linux,2022,FPS,3
+204,Downwell,Moppin,2015,Steam,played,Linux,2017,FPS,3
+205,Braid,Number None,2009,Steam,played,Linux,2012,FPS,5
+206,The Witness,Thekla,2016,Steam,unplayed,,,FPS,
+207,Hollow Knight,Team Cherry,2017,Steam,unplayed,,,FPS,4
+208,Injustice: Gods Among Us,NetherRealm,2013,Steam,played,Linux,2015,FPS,3
+209,Little Nightmares,Tarsier,2017,Steam,unplayed,,,FPS,3
+210,Moon Hunters,Kitfox,2016,Steam,played,Linux,2017,FPS,2
+211,SOMA,Frictional,2015,Steam,unplayed,,,FPS,
+212,Amnesia: The Dark Descent,Frictional,2010,,played,Windows,2011,FPS,4
+213,Penumbra: Black Plague,Frictional,2008,,played,Windows,2011,FPS,4
+214,Myst,Cyan,2003,,played,Windows,2006,FPS,4
+215,"I Have No Mouth, and I Must Scream",Cyberdreams and The Dreamers Guild,1995,gog,unplayed,,,FPS,
+216,Alan Wake,Remedy,2010,gog,unplayed,,,FPS,
+217,Super Mario Bros,Nintendo,1985,,played,NES,"1995,1996,1997,1998",FPS,5
+218,Street Fighter II,Capcom,1991,,played,"Windows,Linux","2000,2001,2002,2009,2013",FPS,5
+219,Need for Speed II,EA,1997,,played,Windows,"2002,2003,2004",FPS,3
+220,Need for Speed: Underground,EA,2003,,played,Windows,2004,FPS,3
+221,Need for Speed: Underground 2,EA,2004,,played,Windows,2005,FPS,3
+222,Need for Speed: Most Wanted,EA,2005,,played,Windows,2006,FPS,3
+223,Snake,Nokia,1998,,played,Nokia,"2004,2005,2006,2007,2008,2009",FPS,4
+224,Antiyoy,Yiotro,2015,iOS,currently-playing,iOS,2026,platformer,
+225,Avowed,Obsidian,2025,Steam,played,Linus,2026,FPS,4

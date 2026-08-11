@@ -4,13 +4,15 @@
 {% block title_body %}hobbies{% endblock title_body %}
 {% block desc %}{% endblock desc %}
 {% block content %}
-<blockquote>Work in Progress</blockquote>
 <section id="currently-playing">
   <h2>Games I'm Currently Playing</h2>
   <ol>
     {% for game, title in currently_playing %}
     <li>
       <a href="{{game.iri}}">{{game.schema_name}}</a>
+      <small>
+        <i>{% if game.hpcom_game_owned_platform%}📦 {{ game.hpcom_game_owned_platform|xjoin }}</i>{% endif %}
+      </small>
     </li>
     {% endfor %}
   </ol>
@@ -19,9 +21,12 @@
 <section id="played">
   <h2>Games I've Played</h2>
   <ol>
-    {% for game, title, year in played %}
+    {% for game, title, years in played %}
     <li>
-      <a href="{{game.iri}}">{{game.schema_name}}</a>
+      <a href="/hobbies/games/{{game['hpcom_game_id']}}">{{ title }}</a> <br/>
+      <small>
+        <i>🕐 {{ years }} | 🎮 {{game.hpcom_game_platform_played|xjoin}}{% if game.hpcom_game_owned_platform%} | 📦 {{ game.hpcom_game_owned_platform|xjoin }}</i>{% endif %}</i>
+      </small>
     </li>
     {% endfor %}
   </ol>

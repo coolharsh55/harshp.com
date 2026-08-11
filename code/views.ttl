@@ -626,18 +626,22 @@ hpview:GameIndexView a hpcom:View ;
             SELECT ?game ?title WHERE {
                 ?game a hpcom:VideoGame .
                 ?game schema:name ?title .
-                ?game hpcom:game_status hpcom:game-currently-playing .
+                ?game hpcom:game-status hpcom:game-currently-playing .
             }
         """ ; ] ;
     hpcom:sparql [
         a hpcom:SparqlQuery ;
         rdfs:label "played" ;
         hpcom:queryString """
-            SELECT ?game ?title ?year WHERE {
-                ?game a hpcom:VideoGame .
-                ?game schema:name ?title .
-                ?game hpcom:date_game_played ?year .
-            }
+            SELECT ?game ?title (GROUP_CONCAT(DISTINCT ?year; separator=", ") as ?years) WHERE {
+                { 
+                    SELECT DISTINCT ?game ?title ?year WHERE {
+                        ?game a hpcom:VideoGame .
+                        ?game schema:name ?title .
+                        ?game hpcom:date-game-played ?year .
+                    } ORDER BY DESC(?year)
+                }
+            } GROUP BY ?game ORDER BY DESC(MAX(?year))
         """ ; ] .
 
 hpview:BookIndexView a hpcom:View ;

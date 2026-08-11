@@ -1,43 +1,3659 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix time: <http://www.w3.org/2006/time#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix schema: <https://schema.org/> .
-
 @prefix hpcom: <https://harshp.com/code/vocab#> .
+@prefix hptag: <https://harshp.com/tags/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
-@prefix list: <https://harshp.com/hobbies/games/lists/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix : <https://harshp.com/hobbies/games/> .
-
-<https://harshp.com/hobbies/games> a rdfs:Class, hpcom:RenderedItem, schema:BlogPosting ;
-    schema:name "Video Games"@en ;
+<https://harshp.com/hobbies/games> a rdfs:Class,
+        hpcom:RenderedItem,
+        schema:BlogPosting ;
+    schema:name "Games"@en ;
     schema:url "https://harshp.com/hobbies/games"^^xsd:anyURI .
 
-<https://harshp.com/hobbies/games/doom-1993> a hpcom:RenderedItem, schema:VideoGame, hpcom:VideoGame ;
-    hpcom:game_id "doom-1993" ;
-    hpcom:game_owned_platform hpcom:MS-DOS ;
-    hpcom:game_played_platform hpcom:MS-DOS ;
-    hpcom:game_status hpcom:game-played ;
-    hpcom:date_game_played "2002"^^xsd:int ;
-    schema:aggregatedRating hpcom:Rating5 ;
-    schema:publisher "id"^^xsd:string ;
-    schema:dateCreated "1993"^^xsd:int ;
-    schema:genre hpcom:FPS, hpcom:SinglePlayer ;
-    schema:name "Doom"@en ;
-    schema:url "https://harshp.com/hobbies/games/doom-1993"^^xsd:anyURI .
+<https://harshp.com/hobbies/games/1> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "1999"^^xsd:int ;
+    hpcom:game-id "1"^^xsd:int ;
+    hpcom:game-platform-played hpcom:DOS,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "id" ;
+    schema:dateCreated "1992"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Wolfenstein 3D" ;
+    schema:publisher "1992" ;
+    schema:url "https://harshp.com/hobbies/games/1"^^xsd:anyURI .
 
-<https://harshp.com/hobbies/games/tyranny-2016> a hpcom:RenderedItem, schema:VideoGame, hpcom:VideoGame ;
-    hpcom:game_id "tyranny-2016" ;
-    hpcom:game_owned_platform hpcom:Linux ;
-    hpcom:game_played_platform hpcom:Linux ;
-    hpcom:game_status hpcom:game-currently-playing ;
-    hpcom:date_game_played "2023"^^xsd:int ;
-    schema:aggregatedRating hpcom:Rating4 ;
-    schema:publisher "Obsidian"^^xsd:string ;
+<https://harshp.com/hobbies/games/10> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2002"^^xsd:int,
+        "2009"^^xsd:int,
+        "2015"^^xsd:int ;
+    hpcom:game-id "10"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "id" ;
+    schema:dateCreated "1997"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Quake II" ;
+    schema:publisher "1997" ;
+    schema:url "https://harshp.com/hobbies/games/10"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/100> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2016"^^xsd:int,
+        "2017"^^xsd:int,
+        "2020"^^xsd:int,
+        "2024"^^xsd:int ;
+    hpcom:game-id "100"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Klei" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Don't Starve" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/100"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/101> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2018"^^xsd:int ;
+    hpcom:game-id "101"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Klei" ;
     schema:dateCreated "2016"^^xsd:int ;
-    schema:genre hpcom:RPG, hpcom:SinglePlayer ;
-    schema:name "Tyranny"@en ;
-    schema:url "https://harshp.com/hobbies/games/tyranny-2016"^^xsd:anyURI .
+    schema:genre hpcom:FPS ;
+    schema:name "Don't Starve Together" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/101"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/102> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2005"^^xsd:int,
+        "2006"^^xsd:int,
+        "2008"^^xsd:int ;
+    hpcom:game-id "102"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Metanet" ;
+    schema:dateCreated "2004"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "N" ;
+    schema:publisher "2004" ;
+    schema:url "https://harshp.com/hobbies/games/102"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/103> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2018"^^xsd:int,
+        "2019"^^xsd:int,
+        "2021"^^xsd:int ;
+    hpcom:game-id "103"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Metanet" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "N++" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/103"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/104> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int ;
+    hpcom:game-id "104"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Klei" ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Mark of the Ninja" ;
+    schema:publisher "2012" ;
+    schema:url "https://harshp.com/hobbies/games/104"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/105> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "105"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Techland" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Dying Light" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/105"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/106> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int,
+        "2020"^^xsd:int,
+        "2021"^^xsd:int ;
+    hpcom:game-id "106"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Dodge Roll" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Enter the Gungeon" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/106"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/107> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "107"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Bethesda" ;
+    schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Elder Scrolls V: Skyrim" ;
+    schema:publisher "2011" ;
+    schema:url "https://harshp.com/hobbies/games/107"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/108> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "108"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Flaming Fowl" ;
+    schema:dateCreated "2021"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Gloomhaven" ;
+    schema:publisher "2021" ;
+    schema:url "https://harshp.com/hobbies/games/108"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/109> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int,
+        "2021"^^xsd:int,
+        "2022"^^xsd:int ;
+    hpcom:game-id "109"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "ConcernedAge" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Stardew Valley" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/109"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/11> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2004"^^xsd:int,
+        "2005"^^xsd:int,
+        "2009"^^xsd:int,
+        "2012"^^xsd:int,
+        "2013"^^xsd:int,
+        "2016"^^xsd:int ;
+    hpcom:game-id "11"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "id" ;
+    schema:dateCreated "1999"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Quake III Arena" ;
+    schema:publisher "1999" ;
+    schema:url "https://harshp.com/hobbies/games/11"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/110> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int,
+        "2023"^^xsd:int ;
+    hpcom:game-id "110"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Hopoo" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Risk of Rain 2" ;
+    schema:publisher "2020" ;
+    schema:url "https://harshp.com/hobbies/games/110"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/111> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "111"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Iron Gate" ;
+    schema:dateCreated "2021"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Valheim" ;
+    schema:publisher "2021" ;
+    schema:url "https://harshp.com/hobbies/games/111"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/112> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int ;
+    hpcom:game-id "112"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Studio Wildcard" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Ark: Survival Evolved" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/112"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/113> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int ;
+    hpcom:game-id "113"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Ghost Ship" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Deep Rock Galactic" ;
+    schema:publisher "2020" ;
+    schema:url "https://harshp.com/hobbies/games/113"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/114> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2007"^^xsd:int ;
+    hpcom:game-id "114"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "1998"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Half-Life" ;
+    schema:publisher "1998" ;
+    schema:url "https://harshp.com/hobbies/games/114"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/115> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2007"^^xsd:int ;
+    hpcom:game-id "115"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows,
+        hpcom:macOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2000"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Counter-Strike" ;
+    schema:publisher "2000" ;
+    schema:url "https://harshp.com/hobbies/games/115"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/116> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2010"^^xsd:int,
+        "2011"^^xsd:int,
+        "2012"^^xsd:int,
+        "2013"^^xsd:int,
+        "2014"^^xsd:int,
+        "2015"^^xsd:int,
+        "2016"^^xsd:int,
+        "2017"^^xsd:int,
+        "2018"^^xsd:int,
+        "2019"^^xsd:int ;
+    hpcom:game-id "116"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows,
+        hpcom:macOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2004"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Counter-Strike: Condition Zero" ;
+    schema:publisher "2004" ;
+    schema:url "https://harshp.com/hobbies/games/116"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/117> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2012"^^xsd:int,
+        "2019"^^xsd:int ;
+    hpcom:game-id "117"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2004"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Half-Life 2" ;
+    schema:publisher "2004" ;
+    schema:url "https://harshp.com/hobbies/games/117"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/118> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "118"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2006"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Half-Life 2: Episode One" ;
+    schema:publisher "2006" ;
+    schema:url "https://harshp.com/hobbies/games/118"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/119> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "119"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2007"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Half-Life 2: Episode Two" ;
+    schema:publisher "2007" ;
+    schema:url "https://harshp.com/hobbies/games/119"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/12> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int ;
+    hpcom:game-id "12"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "id" ;
+    schema:dateCreated "2004"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Doom 3" ;
+    schema:publisher "2004" ;
+    schema:url "https://harshp.com/hobbies/games/12"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/120> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "120"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2007"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Portal" ;
+    schema:publisher "2007" ;
+    schema:url "https://harshp.com/hobbies/games/120"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/121> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2015"^^xsd:int ;
+    hpcom:game-id "121"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2007"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Team Fortress 2" ;
+    schema:publisher "2007" ;
+    schema:url "https://harshp.com/hobbies/games/121"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/122> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2016"^^xsd:int,
+        "2017"^^xsd:int,
+        "2021"^^xsd:int ;
+    hpcom:game-id "122"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2009"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Left 4 Dead 2" ;
+    schema:publisher "2009" ;
+    schema:url "https://harshp.com/hobbies/games/122"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/123> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "123"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Portal 2" ;
+    schema:publisher "2011" ;
+    schema:url "https://harshp.com/hobbies/games/123"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/124> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "124"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Counter-Strike: Global Offensive" ;
+    schema:publisher "2012" ;
+    schema:url "https://harshp.com/hobbies/games/124"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/125> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2015"^^xsd:int ;
+    hpcom:game-id "125"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Valve" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Dota 2" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/125"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/126> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "126"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Crowbar Collective" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Black Mesa" ;
+    schema:publisher "2020" ;
+    schema:url "https://harshp.com/hobbies/games/126"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/127> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2014"^^xsd:int,
+        "2015"^^xsd:int ;
+    hpcom:game-id "127"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Hardsuit Labs" ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Blacklight: Retribution" ;
+    schema:publisher "2012" ;
+    schema:url "https://harshp.com/hobbies/games/127"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/128> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2018"^^xsd:int ;
+    hpcom:game-id "128"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Dennaton" ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Hotline Miami" ;
+    schema:publisher "2012" ;
+    schema:url "https://harshp.com/hobbies/games/128"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/129> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "129"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Dennaton" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Hotline Miami 2: Wrong Number" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/129"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/13> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2016"^^xsd:int ;
+    hpcom:game-id "13"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "id" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Doom" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/13"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/130> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "130"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Blue Manchu" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Void Bastards" ;
+    schema:publisher "2019" ;
+    schema:url "https://harshp.com/hobbies/games/130"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/131> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2018"^^xsd:int ;
+    hpcom:game-id "131"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Dontnod" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Life is Strange" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/131"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/132> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "132"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Deck Nine" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Life Is Strange: Before the Storm" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/132"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/133> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "133"^^xsd:int ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Dontnod" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Life Is Strange 2" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/133"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/134> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "134"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Tripwire" ;
+    schema:dateCreated "2009"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Killing Floor" ;
+    schema:publisher "2009" ;
+    schema:url "https://harshp.com/hobbies/games/134"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/135> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "135"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Tripwire" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Killing Floor 2" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/135"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/136> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "136"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Irrational" ;
+    schema:dateCreated "2007"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "BioShock" ;
+    schema:publisher "2007" ;
+    schema:url "https://harshp.com/hobbies/games/136"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/137> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "137"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Irrational" ;
+    schema:dateCreated "2010"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "BioShock 2" ;
+    schema:publisher "2010" ;
+    schema:url "https://harshp.com/hobbies/games/137"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/138> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2024"^^xsd:int ;
+    hpcom:game-id "138"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Irrational" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "BioShock Infinite" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/138"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/139> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "139"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "Endnight" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Forest" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/139"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/14> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "14"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "id" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Doom Eternal" ;
+    schema:publisher "2020" ;
+    schema:url "https://harshp.com/hobbies/games/14"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/140> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2024"^^xsd:int ;
+    hpcom:game-id "140"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Redbeet" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Raft" ;
+    schema:publisher "2022" ;
+    schema:url "https://harshp.com/hobbies/games/140"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/141> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2018"^^xsd:int ;
+    hpcom:game-id "141"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Heart Machine" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Hyper Light Drifter" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/141"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/142> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "142"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "YCJY" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Post Void" ;
+    schema:publisher "2020" ;
+    schema:url "https://harshp.com/hobbies/games/142"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/143> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2012"^^xsd:int,
+        "2019"^^xsd:int ;
+    hpcom:game-id "143"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Monolith" ;
+    schema:dateCreated "2005"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "F.E.A.R." ;
+    schema:publisher "2005" ;
+    schema:url "https://harshp.com/hobbies/games/143"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/144> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2013"^^xsd:int ;
+    hpcom:game-id "144"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Monolith" ;
+    schema:dateCreated "2009"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "F.E.A.R. 2: Project Origin" ;
+    schema:publisher "2009" ;
+    schema:url "https://harshp.com/hobbies/games/144"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/145> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "145"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "Overkill" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Payday 2" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/145"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/146> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "146"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Free Lives" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Broforce" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/146"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/147> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2016"^^xsd:int ;
+    hpcom:game-id "147"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Supergiant" ;
+    schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Bastion" ;
+    schema:publisher "2011" ;
+    schema:url "https://harshp.com/hobbies/games/147"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/148> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "148"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Supergiant" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Transistor" ;
+    schema:publisher "2014" ;
+    schema:url "https://harshp.com/hobbies/games/148"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/149> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "149"^^xsd:int ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating ;
+    schema:author "Supergiant" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Hades" ;
+    schema:publisher "2020" ;
+    schema:url "https://harshp.com/hobbies/games/149"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/15> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2014"^^xsd:int,
+        "2015"^^xsd:int,
+        "2016"^^xsd:int ;
+    hpcom:game-id "15"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Gearbox" ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Borderlands 2" ;
+    schema:publisher "2012" ;
+    schema:url "https://harshp.com/hobbies/games/15"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/150> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "150"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Sorath" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Devil Daggers" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/150"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/151> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "151"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Night School" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Oxenfree" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/151"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/152> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "152"^^xsd:int ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating ;
+    schema:author "Night School" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Oxenfree II: Lost Signals" ;
+    schema:publisher "2023" ;
+    schema:url "https://harshp.com/hobbies/games/152"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/153> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "153"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Mobius" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Outer Wilds" ;
+    schema:publisher "2019" ;
+    schema:url "https://harshp.com/hobbies/games/153"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/154> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "154"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Thatgamecompany" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Flower" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/154"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/155> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "155"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Buried Signal" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Gorogoa" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/155"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/156> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "156"^^xsd:int ;
+    hpcom:game-platform-played hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Ben Esposito" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Donut County" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/156"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/157> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "157"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:PS3 ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Thatgamecompany" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Journey" ;
+    schema:publisher "2019" ;
+    schema:url "https://harshp.com/hobbies/games/157"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/158> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "158"^^xsd:int ;
+    hpcom:game-platform-played hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Simogo" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Sayonara Wild Hearts" ;
+    schema:publisher "2019" ;
+    schema:url "https://harshp.com/hobbies/games/158"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/159> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "159"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Dreamfeel" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "If Found" ;
+    schema:publisher "2020" ;
+    schema:url "https://harshp.com/hobbies/games/159"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/16> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2016"^^xsd:int ;
+    hpcom:game-id "16"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "Gearbox" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Borderlands: The Pre-Sequel" ;
+    schema:publisher "2014" ;
+    schema:url "https://harshp.com/hobbies/games/16"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/160> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2013"^^xsd:int ;
+    hpcom:game-id "160"^^xsd:int ;
+    hpcom:game-platform-played hpcom:PS3 ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Giant Sparrow" ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Unfinished Swan" ;
+    schema:publisher "2012" ;
+    schema:url "https://harshp.com/hobbies/games/160"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/161> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int,
+        "2011"^^xsd:int,
+        "2013"^^xsd:int ;
+    hpcom:game-id "161"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Thatgamecompany" ;
+    schema:dateCreated "2006"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "flOw" ;
+    schema:publisher "2006" ;
+    schema:url "https://harshp.com/hobbies/games/161"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/162> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "162"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Starbreeze" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Brothers: A Tale of Two Sons" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/162"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/163> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2014"^^xsd:int ;
+    hpcom:game-id "163"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Demruth" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Antichamber" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/163"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/164> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2016"^^xsd:int ;
+    hpcom:game-id "164"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Lucas Pope" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Papers, Please" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/164"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/165> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int ;
+    hpcom:game-id "165"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Lucas Pope" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Return of the Obra Dinn" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/165"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/166> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2018"^^xsd:int ;
+    hpcom:game-id "166"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Campo Santo" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Firewatch" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/166"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/167> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2012"^^xsd:int ;
+    hpcom:game-id "167"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Playdead" ;
+    schema:dateCreated "2010"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Limbo" ;
+    schema:publisher "2010" ;
+    schema:url "https://harshp.com/hobbies/games/167"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/168> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "168"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Playdead" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Inside" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/168"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/169> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "169"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Upper One" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Never Alone" ;
+    schema:publisher "2014" ;
+    schema:url "https://harshp.com/hobbies/games/169"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/17> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "17"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "Gearbox" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Borderlands 3" ;
+    schema:publisher "2019" ;
+    schema:url "https://harshp.com/hobbies/games/17"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/170> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "170"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Nomada" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Gris" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/170"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/171> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "171"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Clifftop" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Kathy Rain" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/171"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/172> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "172"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Suspicious Developments" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Gunpoint" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/172"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/173> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "173"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Superhot Team" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Superhot" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/173"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/174> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "174"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "The Astronauts" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Vanishing of Ethan Carter" ;
+    schema:publisher "2014" ;
+    schema:url "https://harshp.com/hobbies/games/174"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/175> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "175"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Ice-Pick Lodge" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Knock-Knock" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/175"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/176> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2018"^^xsd:int ;
+    hpcom:game-id "176"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Team Meat" ;
+    schema:dateCreated "2010"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Super Meat Boy" ;
+    schema:publisher "2010" ;
+    schema:url "https://harshp.com/hobbies/games/176"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/177> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "177"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Mossmouth" ;
+    schema:dateCreated "2008"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Spelunky" ;
+    schema:publisher "2008" ;
+    schema:url "https://harshp.com/hobbies/games/177"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/178> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "178"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "Locked Door Puzzle" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Kairo" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/178"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/179> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "179"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "Fatshark" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Warhammer: Vermintide 2" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/179"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/18> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2016"^^xsd:int ;
+    hpcom:game-id "18"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Telltale" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:Interactive ;
+    schema:name "Tales from the Borderlands" ;
+    schema:publisher "2014" ;
+    schema:url "https://harshp.com/hobbies/games/18"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/180> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "180"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "Dingaling" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "LISA: The Painful" ;
+    schema:publisher "2014" ;
+    schema:url "https://harshp.com/hobbies/games/180"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/181> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2024"^^xsd:int ;
+    hpcom:game-id "181"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "tobyfox" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Undertale" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/181"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/182> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "182"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Fullbright" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Tacoma" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/182"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/183> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "183"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Moon" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Ori and the Blind Forest" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/183"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/184> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "184"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Adamvision" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Bit Blaster XL" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/184"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/185> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "185"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Somi" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Replica" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/185"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/186> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "186"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Florastamine" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Gone In November" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/186"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/187> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "187"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Ice-Pick Lodge" ;
+    schema:dateCreated "2005"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Pathologic" ;
+    schema:publisher "2005" ;
+    schema:url "https://harshp.com/hobbies/games/187"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/188> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2016"^^xsd:int,
+        "2017"^^xsd:int ;
+    hpcom:game-id "188"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Sam Barlow" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Her Story" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/188"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/189> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "189"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Everything Unlimited" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Beginner's Guide" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/189"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/19> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2002"^^xsd:int ;
+    hpcom:game-id "19"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam,
+        hpcom:gog ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Epic" ;
+    schema:dateCreated "1998"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Unreal" ;
+    schema:publisher "1998" ;
+    schema:url "https://harshp.com/hobbies/games/19"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/190> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int,
+        "2018"^^xsd:int ;
+    hpcom:game-id "190"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Galactic Cafe" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Stanley Parable" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/190"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/191> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "191"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Crows Crows Crows" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Stanley Parable: Ultra Deluxe" ;
+    schema:publisher "2022" ;
+    schema:url "https://harshp.com/hobbies/games/191"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/192> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "192"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Crows Crows Crows" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Dr. Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/192"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/193> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "193"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Thomas Happ" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Axiom Verge" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/193"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/194> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "194"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Jan Willem Nijman, Kitty Calis, Jukio Kallio, and Dominik Johann" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Minit" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/194"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/195> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2024"^^xsd:int ;
+    hpcom:game-id "195"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Amanita" ;
+    schema:dateCreated "2009"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Machinarium" ;
+    schema:publisher "2009" ;
+    schema:url "https://harshp.com/hobbies/games/195"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/196> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "196"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Warm Lamp" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Beholder" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/196"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/197> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "197"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Star Maid" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Cibele" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/197"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/198> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "198"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Free Lives" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Genital Jousting" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/198"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/199> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "199"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Tomasz Wacławek" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "RONIN" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/199"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/2> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "1998"^^xsd:int ;
+    hpcom:game-id "2"^^xsd:int ;
+    hpcom:game-platform-played hpcom:DOS,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "John Romero" ;
+    schema:dateCreated "1988"^^xsd:int ;
+    schema:genre hpcom:Platformer ;
+    schema:name "Dangerous Dave" ;
+    schema:publisher "1988" ;
+    schema:url "https://harshp.com/hobbies/games/2"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/20> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2004"^^xsd:int,
+        "2005"^^xsd:int,
+        "2006"^^xsd:int,
+        "2009"^^xsd:int,
+        "2012"^^xsd:int,
+        "2013"^^xsd:int,
+        "2014"^^xsd:int,
+        "2016"^^xsd:int ;
+    hpcom:game-id "20"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Epic" ;
+    schema:dateCreated "1999"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Unreal Tournament" ;
+    schema:publisher "1999" ;
+    schema:url "https://harshp.com/hobbies/games/20"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/200> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2005"^^xsd:int ;
+    hpcom:game-id "200"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Core Design" ;
+    schema:dateCreated "1996"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Tomb Raider" ;
+    schema:publisher "1996" ;
+    schema:url "https://harshp.com/hobbies/games/200"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/201> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2005"^^xsd:int ;
+    hpcom:game-id "201"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Core Design" ;
+    schema:dateCreated "1997"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Tomb Raider II" ;
+    schema:publisher "1997" ;
+    schema:url "https://harshp.com/hobbies/games/201"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/202> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "202"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Crystal Dynamics" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Tomb Raider" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/202"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/203> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "203"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Telltale" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Batman - The Telltale Series" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/203"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/204> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "204"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Moppin" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Downwell" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/204"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/205> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2012"^^xsd:int ;
+    hpcom:game-id "205"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Number None" ;
+    schema:dateCreated "2009"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Braid" ;
+    schema:publisher "2009" ;
+    schema:url "https://harshp.com/hobbies/games/205"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/206> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "206"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Thekla" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Witness" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/206"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/207> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "207"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Team Cherry" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Hollow Knight" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/207"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/208> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2015"^^xsd:int ;
+    hpcom:game-id "208"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "NetherRealm" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Injustice: Gods Among Us" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/208"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/209> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "209"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Tarsier" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Little Nightmares" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/209"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/21> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int ;
+    hpcom:game-id "21"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Epic" ;
+    schema:dateCreated "2002"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Unreal Tournament 2003" ;
+    schema:publisher "2002" ;
+    schema:url "https://harshp.com/hobbies/games/21"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/210> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int ;
+    hpcom:game-id "210"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "Kitfox" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Moon Hunters" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/210"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/211> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "211"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Frictional" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "SOMA" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/211"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/212> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2011"^^xsd:int ;
+    hpcom:game-id "212"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Frictional" ;
+    schema:dateCreated "2010"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Amnesia: The Dark Descent" ;
+    schema:publisher "2010" ;
+    schema:url "https://harshp.com/hobbies/games/212"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/213> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2011"^^xsd:int ;
+    hpcom:game-id "213"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Frictional" ;
+    schema:dateCreated "2008"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Penumbra: Black Plague" ;
+    schema:publisher "2008" ;
+    schema:url "https://harshp.com/hobbies/games/213"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/214> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2006"^^xsd:int ;
+    hpcom:game-id "214"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Cyan" ;
+    schema:dateCreated "2003"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Myst" ;
+    schema:publisher "2003" ;
+    schema:url "https://harshp.com/hobbies/games/214"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/215> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "215"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Cyberdreams and The Dreamers Guild" ;
+    schema:dateCreated "1995"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "I Have No Mouth, and I Must Scream" ;
+    schema:publisher "1995" ;
+    schema:url "https://harshp.com/hobbies/games/215"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/216> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "216"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Remedy" ;
+    schema:dateCreated "2010"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Alan Wake" ;
+    schema:publisher "2010" ;
+    schema:url "https://harshp.com/hobbies/games/216"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/217> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "1995"^^xsd:int,
+        "1996"^^xsd:int,
+        "1997"^^xsd:int,
+        "1998"^^xsd:int ;
+    hpcom:game-id "217"^^xsd:int ;
+    hpcom:game-platform-played hpcom:NES ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Nintendo" ;
+    schema:dateCreated "1985"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Super Mario Bros" ;
+    schema:publisher "1985" ;
+    schema:url "https://harshp.com/hobbies/games/217"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/218> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2000"^^xsd:int,
+        "2001"^^xsd:int,
+        "2002"^^xsd:int,
+        "2009"^^xsd:int,
+        "2013"^^xsd:int ;
+    hpcom:game-id "218"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Capcom" ;
+    schema:dateCreated "1991"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Street Fighter II" ;
+    schema:publisher "1991" ;
+    schema:url "https://harshp.com/hobbies/games/218"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/219> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2002"^^xsd:int,
+        "2003"^^xsd:int,
+        "2004"^^xsd:int ;
+    hpcom:game-id "219"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "EA" ;
+    schema:dateCreated "1997"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Need for Speed II" ;
+    schema:publisher "1997" ;
+    schema:url "https://harshp.com/hobbies/games/219"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/22> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int ;
+    hpcom:game-id "22"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Epic" ;
+    schema:dateCreated "2004"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Unreal Tournament 2004" ;
+    schema:publisher "2004" ;
+    schema:url "https://harshp.com/hobbies/games/22"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/220> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2004"^^xsd:int ;
+    hpcom:game-id "220"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "EA" ;
+    schema:dateCreated "2003"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Need for Speed: Underground" ;
+    schema:publisher "2003" ;
+    schema:url "https://harshp.com/hobbies/games/220"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/221> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2005"^^xsd:int ;
+    hpcom:game-id "221"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "EA" ;
+    schema:dateCreated "2004"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Need for Speed: Underground 2" ;
+    schema:publisher "2004" ;
+    schema:url "https://harshp.com/hobbies/games/221"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/222> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2006"^^xsd:int ;
+    hpcom:game-id "222"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "EA" ;
+    schema:dateCreated "2005"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Need for Speed: Most Wanted" ;
+    schema:publisher "2005" ;
+    schema:url "https://harshp.com/hobbies/games/222"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/223> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2004"^^xsd:int,
+        "2005"^^xsd:int,
+        "2006"^^xsd:int,
+        "2007"^^xsd:int,
+        "2008"^^xsd:int,
+        "2009"^^xsd:int ;
+    hpcom:game-id "223"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Nokia ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Nokia" ;
+    schema:dateCreated "1998"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Snake" ;
+    schema:publisher "1998" ;
+    schema:url "https://harshp.com/hobbies/games/223"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/224> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "224"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:iOS ;
+    hpcom:game-status hpcom:game-currently-playing ;
+    schema:author "Yiotro" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:platformer ;
+    schema:name "Antiyoy" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/224"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/225> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
+    hpcom:game-id "225"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Obsidian" ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Avowed" ;
+    schema:publisher "2025" ;
+    schema:url "https://harshp.com/hobbies/games/225"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/23> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2010"^^xsd:int ;
+    hpcom:game-id "23"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Epic" ;
+    schema:dateCreated "2007"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Unreal Tournament 3" ;
+    schema:publisher "2007" ;
+    schema:url "https://harshp.com/hobbies/games/23"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/24> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2010"^^xsd:int,
+        "2017"^^xsd:int ;
+    hpcom:game-id "24"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "People Can Fly" ;
+    schema:dateCreated "2004"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Painkiller" ;
+    schema:publisher "2004" ;
+    schema:url "https://harshp.com/hobbies/games/24"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/25> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2010"^^xsd:int,
+        "2017"^^xsd:int ;
+    hpcom:game-id "25"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "The Farm 51" ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Painkiller Hell & Damnation" ;
+    schema:publisher "2012" ;
+    schema:url "https://harshp.com/hobbies/games/25"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/26> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2011"^^xsd:int,
+        "2021"^^xsd:int ;
+    hpcom:game-id "26"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "People Can Fly" ;
+    schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Bulletstorm" ;
+    schema:publisher "2011" ;
+    schema:url "https://harshp.com/hobbies/games/26"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/27> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2011"^^xsd:int ;
+    hpcom:game-id "27"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Infinity Ward" ;
+    schema:dateCreated "2009"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Call of Duty: Modern Warfare 2" ;
+    schema:publisher "2009" ;
+    schema:url "https://harshp.com/hobbies/games/27"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/28> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2012"^^xsd:int ;
+    hpcom:game-id "28"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Infinity Ward" ;
+    schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Call of Duty: Modern Warfare 3" ;
+    schema:publisher "2011" ;
+    schema:url "https://harshp.com/hobbies/games/28"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/29> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int ;
+    hpcom:game-id "29"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Ubisoft" ;
+    schema:dateCreated "2008"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Far Cry 2" ;
+    schema:publisher "2008" ;
+    schema:url "https://harshp.com/hobbies/games/29"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/3> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "1999"^^xsd:int ;
+    hpcom:game-id "3"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:DOS,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Apogee" ;
+    schema:dateCreated "1993"^^xsd:int ;
+    schema:genre hpcom:Platformer ;
+    schema:name "Bio Menace" ;
+    schema:publisher "1993" ;
+    schema:url "https://harshp.com/hobbies/games/3"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/30> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2010"^^xsd:int ;
+    hpcom:game-id "30"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Ubisoft" ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Far Cry 3" ;
+    schema:publisher "2012" ;
+    schema:url "https://harshp.com/hobbies/games/30"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/31> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "31"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Ubisoft" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Far Cry 3: Blood Dragon" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/31"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/32> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int ;
+    hpcom:game-id "32"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Ubisoft" ;
+    schema:dateCreated "2007"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Assassin's Creed" ;
+    schema:publisher "2007" ;
+    schema:url "https://harshp.com/hobbies/games/32"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/33> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "1999"^^xsd:int ;
+    hpcom:game-id "33"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Brøderbund" ;
+    schema:dateCreated "1991"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Prince of Persia" ;
+    schema:publisher "1991" ;
+    schema:url "https://harshp.com/hobbies/games/33"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/34> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2000"^^xsd:int ;
+    hpcom:game-id "34"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Brøderbund" ;
+    schema:dateCreated "1993"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Prince of Persia 2: The Shadow and the Flame" ;
+    schema:publisher "1993" ;
+    schema:url "https://harshp.com/hobbies/games/34"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/35> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2008"^^xsd:int ;
+    hpcom:game-id "35"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Ubisoft" ;
+    schema:dateCreated "2003"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Prince of Persia: The Sands of Time" ;
+    schema:publisher "2003" ;
+    schema:url "https://harshp.com/hobbies/games/35"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/36> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int ;
+    hpcom:game-id "36"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Ubisoft" ;
+    schema:dateCreated "2004"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Prince of Persia: Warrior Within" ;
+    schema:publisher "2004" ;
+    schema:url "https://harshp.com/hobbies/games/36"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/37> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2010"^^xsd:int ;
+    hpcom:game-id "37"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Ubisoft" ;
+    schema:dateCreated "2005"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Prince of Persia: The Two Thrones" ;
+    schema:publisher "2005" ;
+    schema:url "https://harshp.com/hobbies/games/37"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/38> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2012"^^xsd:int ;
+    hpcom:game-id "38"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Ubisoft" ;
+    schema:dateCreated "2010"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Prince of Persia: The Forgotten Sands" ;
+    schema:publisher "2010" ;
+    schema:url "https://harshp.com/hobbies/games/38"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/39> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2008"^^xsd:int,
+        "2020"^^xsd:int ;
+    hpcom:game-id "39"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Crytek" ;
+    schema:dateCreated "2007"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Crysis" ;
+    schema:publisher "2007" ;
+    schema:url "https://harshp.com/hobbies/games/39"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/4> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2000"^^xsd:int ;
+    hpcom:game-id "4"^^xsd:int ;
+    hpcom:game-platform-played hpcom:DOS,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Apogee" ;
+    schema:dateCreated "1991"^^xsd:int ;
+    schema:genre hpcom:Platformer ;
+    schema:name "Duke Nukem" ;
+    schema:publisher "1991" ;
+    schema:url "https://harshp.com/hobbies/games/4"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/40> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int ;
+    hpcom:game-id "40"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Crytek" ;
+    schema:dateCreated "2008"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Crysis Warhead" ;
+    schema:publisher "2008" ;
+    schema:url "https://harshp.com/hobbies/games/40"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/41> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2012"^^xsd:int ;
+    hpcom:game-id "41"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Crytek" ;
+    schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Crysis 2" ;
+    schema:publisher "2011" ;
+    schema:url "https://harshp.com/hobbies/games/41"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/42> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "42"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Crytek" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Crysis 3" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/42"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/43> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "43"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam,
+        hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Giant Sparrow" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "What Remains of Edith Finch" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/43"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/44> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2002"^^xsd:int ;
+    hpcom:game-id "44"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Spiderweb" ;
+    schema:dateCreated "2000"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Avernum" ;
+    schema:publisher "2000" ;
+    schema:url "https://harshp.com/hobbies/games/44"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/45> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "45"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog,
+        hpcom:iOS ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows,
+        hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Spiderweb" ;
+    schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Avernum: Escape from the Pit" ;
+    schema:publisher "2011" ;
+    schema:url "https://harshp.com/hobbies/games/45"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/46> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "46"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog,
+        hpcom:iOS ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows,
+        hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Spiderweb" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Avernum II: Crystal Souls" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/46"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/47> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "47"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog,
+        hpcom:iOS ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows,
+        hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Spiderweb" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Avernum III: Ruined World" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/47"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/48> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "48"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Spiderweb" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Queen's Wish: The Conqueror" ;
+    schema:publisher "2019" ;
+    schema:url "https://harshp.com/hobbies/games/48"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/49> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "49"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Spiderweb" ;
+    schema:dateCreated "2021"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Geneforge 1 – Mutagen" ;
+    schema:publisher "2021" ;
+    schema:url "https://harshp.com/hobbies/games/49"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/5> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2003"^^xsd:int ;
+    hpcom:game-id "5"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "3D Realms" ;
+    schema:dateCreated "1996"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Duke Nukem 3D" ;
+    schema:publisher "1996" ;
+    schema:url "https://harshp.com/hobbies/games/5"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/50> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int,
+        "2020"^^xsd:int ;
+    hpcom:game-id "50"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "CD Projekt Red" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Witcher 3: Wild Hunt" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/50"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/51> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "51"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "CD Projekt Red" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Thronebreaker: The Witcher Tales" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/51"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/52> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2025"^^xsd:int ;
+    hpcom:game-id "52"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating ;
+    schema:author "CD Projekt Red" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Cyberpunk 2077" ;
+    schema:publisher "2020" ;
+    schema:url "https://harshp.com/hobbies/games/52"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/53> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "53"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "MachineGames" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Wolfenstein: The New Order" ;
+    schema:publisher "2014" ;
+    schema:url "https://harshp.com/hobbies/games/53"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/54> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "54"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "MachineGames" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Wolfenstein: The Old Blood" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/54"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/55> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "55"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Westwood" ;
+    schema:dateCreated "2000"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Nox" ;
+    schema:publisher "2000" ;
+    schema:url "https://harshp.com/hobbies/games/55"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/56> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "56"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam,
+        hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Croteam" ;
+    schema:dateCreated "2009"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Serious Sam: The First Encounter" ;
+    schema:publisher "2009" ;
+    schema:url "https://harshp.com/hobbies/games/56"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/57> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "57"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Croteam" ;
+    schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Serious Sam 3: BFE" ;
+    schema:publisher "2011" ;
+    schema:url "https://harshp.com/hobbies/games/57"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/58> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int ;
+    hpcom:game-id "58"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Croteam" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Talos Principle" ;
+    schema:publisher "2014" ;
+    schema:url "https://harshp.com/hobbies/games/58"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/59> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2005"^^xsd:int ;
+    hpcom:game-id "59"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Ubisoft" ;
+    schema:dateCreated "2003"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "XIII" ;
+    schema:publisher "2003" ;
+    schema:url "https://harshp.com/hobbies/games/59"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/6> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2000"^^xsd:int ;
+    hpcom:game-id "6"^^xsd:int ;
+    hpcom:game-platform-played hpcom:DOS,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "id" ;
+    schema:dateCreated "1991"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Dangerous Dave in the Haunted Mansion" ;
+    schema:publisher "1991" ;
+    schema:url "https://harshp.com/hobbies/games/6"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/60> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int,
+        "2022"^^xsd:int,
+        "2023"^^xsd:int ;
+    hpcom:game-id "60"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam,
+        hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Subset" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Into the Breach" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/60"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/61> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2017"^^xsd:int,
+        "2018"^^xsd:int,
+        "2019"^^xsd:int ;
+    hpcom:game-id "61"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:iOS ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Subset" ;
+    schema:dateCreated "2012"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "FTL: Faster than Light" ;
+    schema:publisher "2012" ;
+    schema:url "https://harshp.com/hobbies/games/61"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/62> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "62"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Flying Wild Hog" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Trek to Yomi" ;
+    schema:publisher "2022" ;
+    schema:url "https://harshp.com/hobbies/games/62"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/63> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2025"^^xsd:int ;
+    hpcom:game-id "63"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating ;
+    schema:author "BioWare" ;
+    schema:dateCreated "1998"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Baldur's Gate" ;
+    schema:publisher "1998" ;
+    schema:url "https://harshp.com/hobbies/games/63"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/64> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2025"^^xsd:int ;
+    hpcom:game-id "64"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating ;
+    schema:author "BioWare" ;
+    schema:dateCreated "2000"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Baldur's Gate II: Shadows of Amn" ;
+    schema:publisher "2000" ;
+    schema:url "https://harshp.com/hobbies/games/64"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/65> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int,
+        "2024"^^xsd:int ;
+    hpcom:game-id "65"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Larian" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Baldur's Gate 3" ;
+    schema:publisher "2023" ;
+    schema:url "https://harshp.com/hobbies/games/65"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/66> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int,
+        "2022"^^xsd:int,
+        "2023"^^xsd:int,
+        "2024"^^xsd:int ;
+    hpcom:game-id "66"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Larian" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Divinity: Original Sin II" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/66"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/67> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "67"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "ZA/UM" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Disco Elysium" ;
+    schema:publisher "2019" ;
+    schema:url "https://harshp.com/hobbies/games/67"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/68> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "68"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Obsidian" ;
+    schema:dateCreated "2010"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Fallout: New Vegas" ;
+    schema:publisher "2010" ;
+    schema:url "https://harshp.com/hobbies/games/68"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/69> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int,
+        "2024"^^xsd:int ;
+    hpcom:game-id "69"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Obsidian" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Tyranny" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/69"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/7> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2001"^^xsd:int,
+        "2002"^^xsd:int,
+        "2003"^^xsd:int,
+        "2009"^^xsd:int,
+        "2012"^^xsd:int,
+        "2013"^^xsd:int,
+        "2014"^^xsd:int,
+        "2016"^^xsd:int,
+        "2019"^^xsd:int ;
+    hpcom:game-id "7"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:DOS,
+        hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "id" ;
+    schema:dateCreated "1993"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Doom" ;
+    schema:publisher "1993" ;
+    schema:url "https://harshp.com/hobbies/games/7"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/70> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int ;
+    hpcom:game-id "70"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Obsidian" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Pillars of Eternity" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/70"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/71> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int ;
+    hpcom:game-id "71"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Obsidian" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Pillars of Eternity II: Deadfire" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/71"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/72> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2022"^^xsd:int ;
+    hpcom:game-id "72"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Obsidian" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Outer Worlds" ;
+    schema:publisher "2019" ;
+    schema:url "https://harshp.com/hobbies/games/72"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/73> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int ;
+    hpcom:game-id "73"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Obsidian" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Grounded" ;
+    schema:publisher "2022" ;
+    schema:url "https://harshp.com/hobbies/games/73"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/74> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int ;
+    hpcom:game-id "74"^^xsd:int ;
+    hpcom:game-platform-played hpcom:SteamDeck ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating ;
+    schema:author "Obsidian" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Pentiment" ;
+    schema:publisher "2022" ;
+    schema:url "https://harshp.com/hobbies/games/74"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/75> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2024"^^xsd:int ;
+    hpcom:game-id "75"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating ;
+    schema:author "Interplay" ;
+    schema:dateCreated "1997"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Fallout" ;
+    schema:publisher "1997" ;
+    schema:url "https://harshp.com/hobbies/games/75"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/76> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2024"^^xsd:int ;
+    hpcom:game-id "76"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linnux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating ;
+    schema:author "Black Isle" ;
+    schema:dateCreated "1998"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Fallout 2" ;
+    schema:publisher "1998" ;
+    schema:url "https://harshp.com/hobbies/games/76"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/77> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int ;
+    hpcom:game-id "77"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Bethesda" ;
+    schema:dateCreated "2015"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Fallout 4" ;
+    schema:publisher "2015" ;
+    schema:url "https://harshp.com/hobbies/games/77"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/78> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2019"^^xsd:int,
+        "2021"^^xsd:int ;
+    hpcom:game-id "78"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Arkane" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Prey" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/78"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/79> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int ;
+    hpcom:game-id "79"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Human Head" ;
+    schema:dateCreated "2006"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Prey" ;
+    schema:publisher "2006" ;
+    schema:url "https://harshp.com/hobbies/games/79"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/8> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2004"^^xsd:int,
+        "2008"^^xsd:int,
+        "2013"^^xsd:int,
+        "2019"^^xsd:int ;
+    hpcom:game-id "8"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:DOS,
+        hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "id" ;
+    schema:dateCreated "1994"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Doom II" ;
+    schema:publisher "1994" ;
+    schema:url "https://harshp.com/hobbies/games/8"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/80> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2021"^^xsd:int ;
+    hpcom:game-id "80"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Nightdive" ;
+    schema:dateCreated "1999"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "System Shock 2" ;
+    schema:publisher "1999" ;
+    schema:url "https://harshp.com/hobbies/games/80"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/81> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "81"^^xsd:int ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Nightdive" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "System Shock" ;
+    schema:publisher "2023" ;
+    schema:url "https://harshp.com/hobbies/games/81"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/82> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "82"^^xsd:int ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Black Isle" ;
+    schema:dateCreated "2000"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Icewind Dale" ;
+    schema:publisher "2000" ;
+    schema:url "https://harshp.com/hobbies/games/82"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/83> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int ;
+    hpcom:game-id "83"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Mountains" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Florence" ;
+    schema:publisher "2020" ;
+    schema:url "https://harshp.com/hobbies/games/83"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/84> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "1996"^^xsd:int,
+        "1997"^^xsd:int,
+        "1998"^^xsd:int ;
+    hpcom:game-id "84"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:NES ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Konami" ;
+    schema:dateCreated "1987"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Contra" ;
+    schema:publisher "1987" ;
+    schema:url "https://harshp.com/hobbies/games/84"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/85> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int ;
+    hpcom:game-id "85"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating2 ;
+    schema:author "No Code" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Observation" ;
+    schema:publisher "2019" ;
+    schema:url "https://harshp.com/hobbies/games/85"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/86> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "86"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Freebird" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Finding Paradise" ;
+    schema:publisher "2017" ;
+    schema:url "https://harshp.com/hobbies/games/86"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/87> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2015"^^xsd:int ;
+    hpcom:game-id "87"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Freebird" ;
+    schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "To The Moon" ;
+    schema:publisher "2011" ;
+    schema:url "https://harshp.com/hobbies/games/87"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/88> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "88"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Freebird" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "A Bird Story" ;
+    schema:publisher "2014" ;
+    schema:url "https://harshp.com/hobbies/games/88"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/89> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "89"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Freebird" ;
+    schema:dateCreated "2008"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "The Mirror Lied" ;
+    schema:publisher "2008" ;
+    schema:url "https://harshp.com/hobbies/games/89"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/9> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2005"^^xsd:int ;
+    hpcom:game-id "9"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "id" ;
+    schema:dateCreated "1996"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Quake" ;
+    schema:publisher "1996" ;
+    schema:url "https://harshp.com/hobbies/games/9"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/90> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "90"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "DigiTales" ;
+    schema:dateCreated "2021"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Lacuna" ;
+    schema:publisher "2021" ;
+    schema:url "https://harshp.com/hobbies/games/90"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/91> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2024"^^xsd:int ;
+    hpcom:game-id "91"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "DICE" ;
+    schema:dateCreated "2008"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Mirror's Edge" ;
+    schema:publisher "2008" ;
+    schema:url "https://harshp.com/hobbies/games/91"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/92> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2010"^^xsd:int ;
+    hpcom:game-id "92"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "DICE" ;
+    schema:dateCreated "2011"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Battlefield 3" ;
+    schema:publisher "2011" ;
+    schema:url "https://harshp.com/hobbies/games/92"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/93> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "93"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Zachtronics" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Eliza" ;
+    schema:publisher "2019" ;
+    schema:url "https://harshp.com/hobbies/games/93"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/94> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2025"^^xsd:int ;
+    hpcom:game-id "94"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:gog ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating ;
+    schema:author "David Szymanski" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Dusk" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/94"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/95> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int,
+        "2021"^^xsd:int,
+        "2022"^^xsd:int,
+        "2023"^^xsd:int ;
+    hpcom:game-id "95"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "The Fun Pimps" ;
+    schema:dateCreated "2013"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "7 Days to Die" ;
+    schema:publisher "2013" ;
+    schema:url "https://harshp.com/hobbies/games/95"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/96> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int ;
+    hpcom:game-id "96"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Rockstar" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Red Dead Redemption 2" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/96"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/97> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int,
+        "2010"^^xsd:int,
+        "2014"^^xsd:int,
+        "2016"^^xsd:int ;
+    hpcom:game-id "97"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Blizzard" ;
+    schema:dateCreated "2000"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Diablo 2" ;
+    schema:publisher "2000" ;
+    schema:url "https://harshp.com/hobbies/games/97"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/98> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int,
+        "2013"^^xsd:int,
+        "2015"^^xsd:int ;
+    hpcom:game-id "98"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Rockstar" ;
+    schema:dateCreated "1997"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Grand Theft Auto" ;
+    schema:publisher "1997" ;
+    schema:url "https://harshp.com/hobbies/games/98"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/99> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2009"^^xsd:int,
+        "2013"^^xsd:int,
+        "2015"^^xsd:int ;
+    hpcom:game-id "99"^^xsd:int ;
+    hpcom:game-platform-played hpcom:Linux,
+        hpcom:Windows ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Rockstar" ;
+    schema:dateCreated "1999"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Grand Theft Auto 2" ;
+    schema:publisher "1999" ;
+    schema:url "https://harshp.com/hobbies/games/99"^^xsd:anyURI .
+

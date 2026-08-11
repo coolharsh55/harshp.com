@@ -41,7 +41,7 @@ import tools
 from config import logging, DEBUG, INFO
 
 
-def load_graphs(content_write):
+def load_graphs(content_write, skiplist):
     def _load(graph, path):
         try:
             # TODO: check format by extension, it assumed as ttl now
@@ -60,6 +60,10 @@ def load_graphs(content_write):
             raise AttributeError(f"No content called {content}")
         contentlist.remove(content)
         filelist = CONTENT[content]['files']
+        # DEBUG(f"resulting {filelist=}")
+        filelist = [f for f in filelist if not any(s in f for s in skiplist)]
+        # DEBUG(f"skipping {skiplist=}")
+        # DEBUG(f"resulting {filelist=}")
         tools.CheckRW.add_write(CONTENT[content]['iripath'])
         DEBUG(f"following files will be loaded for content {content}")
         DEBUG(f"{filelist}")
@@ -206,6 +210,7 @@ def _parse_arguments():
     parser.add_argument('-A', '--allcontents', action='store_true', help="generate all contents")
     parser.add_argument('-D', '--debug', action='store_true', help="enable debug logs")
     parser.add_argument('-V', '--validate', action='store_true', help="validation only")
+    parser.add_argument('-S', '--skip', nargs='?', help="content to skip generating")
     args = parser.parse_args()
     import sys
     if len(sys.argv) < 2:
@@ -222,16 +227,20 @@ def _parse_arguments():
     if args.allcontents:
         from config import CONTENT
         content = CONTENT.keys()
+    if args.skip:
+        skiplist = args.skip.split(',')
+    else:
+        skiplist = []
     INFO(f"generator input: {content}")
-    return args, content
+    return args, content, skiplist
 
 if __name__ == '__main__':
-    args, content_write = _parse_arguments()
+    args, content_write, skiplist = _parse_arguments()
     if not content_write:
         INFO('No content specified to generate')
         import sys
         sys.exit(0)
-    data = load_graphs(content_write)
+    data = load_graphs(content_write, skiplist)
     if args.validate:
         INFO("Skipping rendering due to validation only flag")
     else:

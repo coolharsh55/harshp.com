@@ -198,15 +198,27 @@ hpcom:book-currently-reading a hpcom:BookStatus ; rdfs:label "currently reading"
 
 # Video Games
 hpcom:VideoGame a rdfs:Class ; rdfs:label "Video Game"@en ; rdfs:subClassOf schema:VideoGame .
-hpcom:game_id a rdf:Property ; rdfs:label "game id"@en .
-hpcom:game_owned_platform a rdf:Property ; rdfs:label "game owned platform"@en .
-hpcom:game_played_platform a rdf:Property ; rdfs:label "game played platform"@en .
-hpcom:game_status a rdf:Property ; rdfs:label "game status"@en .
-hpcom:date_game_played a rdf:Property ; rdfs:label "date game played"@en .
+hpcom:game-id a rdf:Property ; rdfs:label "game id"@en .
+hpcom:game-owned-platform a rdf:Property ; rdfs:label "game owned platform"@en .
+hpcom:game-played-platform a rdf:Property ; rdfs:label "game played platform"@en .
+hpcom:game-status a rdf:Property ; rdfs:label "game status"@en .
+hpcom:date-game-played a rdf:Property ; rdfs:label "date game played"@en .
+hpcom:GameStatus a rdfs:Class ; rdfs:label "Game Status"@en .
+hpcom:game-played a hpcom:GameStatus ; rdfs:label "played"@en .
+hpcom:game-unplayed a hpcom:GameStatus ; rdfs:label "unplayed"@en .
+hpcom:game-currently-playing a hpcom:GameStatus ; rdfs:label "currently playing"@en .
+
 # Platforms
 hpcom:Platform a rdfs:Class ; rdfs:label "Platform"@en .
-hpcom:MS-DOS a hpcom:Platform ; rdfs:label "MS-DOS" .
+hpcom:DOS a hpcom:Platform ; rdfs:label "MS-DOS" .
 hpcom:Linux a hpcom:Platform ; rdfs:label "Linux" .
+hpcom:Windows a hpcom:Platform ; rdfs:label "Windows" .
+hpcom:SteamDeck a rdfs:Class ; rdfs:label "Steam Deck"@en .
+hpcom:Steam a hpcom:Platform ; rdfs:label "Steam" .
+hpcom:gog a hpcom:Platform ; rdfs:label "GOG" .
+hpcom:iOS a hpcom:Platform ; rdfs:label "iOS" .
+hpcom:macOS a hpcom:Platform ; rdfs:label "macOS" .
+hpcom:NES a hpcom:Platform ; rdfs:label "NES" .
 # Video Game Genre
 hpcom:VideoGameGenre a rdfs:Class ; rdfs:label "Video Game Genre"@en ; rdfs:subClassOf schema:Genre .
 hpcom:FPS a hpcom:VideoGameGenre ; rdfs:label "FPS" .
