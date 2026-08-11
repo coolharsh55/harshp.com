@@ -3678,11 +3678,15 @@ book:1009 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1009 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-06T12:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Salman Rushdie" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:name "The Golden House" ;
+    schema:review "A dense plethora with hot flashes of flavour. It was difficult to complete this book because I could never stop feeling that I'm missing the point or the plot. Ploughing through it somehow, the sheer clowning of a certain someone in the last part did sort of make up for things, but this was not fun nor something that I would want to repeat again."@en ;
     schema:url "https://harshp.com/hobbies/books/1009"^^xsd:anyURI .
 
 book:101 a hpcom:Book,
@@ -4043,7 +4047,7 @@ book:1030 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1030 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Ann Leckie" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -4787,12 +4791,16 @@ book:1072 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1072 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-09T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Julia Armfield" ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Private Rites" ;
+    schema:review "Three lives, three sisters, three ways to mess up parenting and growing up. While an apocalypse is happening - just plain rain. The world drowns, the sisters live their lives. Family drama happens. This was a rather good piece of writing, though perhaps on the I need to get my head sorted first type of reading lists."@en ;
     schema:url "https://harshp.com/hobbies/books/1072"^^xsd:anyURI .
 
 book:1073 a hpcom:Book,
@@ -4958,7 +4966,7 @@ book:1082 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1082 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Cory Doctorow" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
@@ -5039,13 +5047,32 @@ book:1088 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1088 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-05T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "T. Kingfisher" ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "What Feasts at Night" ;
+    schema:review "Bought because this was the sequel to What moves the dead (and the clever clever clever retelling of the house of usher by Poe). The book itself is nice but slow. Things happen, there is maybe one or two moments of terror, and then otherwise things resolve in a very subtle fashion. Wouldn't have read this -- though the writing and characters are quite well sketched."@en ;
     schema:url "https://harshp.com/hobbies/books/1088"^^xsd:anyURI .
+
+book:1089 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1089 ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "David Brin" ;
+    schema:dateCreated "1980"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Sundiver" ;
+    schema:url "https://harshp.com/hobbies/books/1089"^^xsd:anyURI .
 
 book:109 a hpcom:Book,
         hpcom:BookReading,
@@ -5061,6 +5088,146 @@ book:109 a hpcom:Book,
     schema:genre hpcom:BookFiction ;
     schema:name "Baalbahaddar Faster Fene (बालबहाद्धर फास्टर फेणे)" ;
     schema:url "https://harshp.com/hobbies/books/109"^^xsd:anyURI .
+
+book:1090 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1090 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Nnedi Okorafor" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Who Fears Death" ;
+    schema:url "https://harshp.com/hobbies/books/1090"^^xsd:anyURI .
+
+book:1091 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1091 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Karen Joy Fowler" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "We Are All Completely Beside Ourselves" ;
+    schema:url "https://harshp.com/hobbies/books/1091"^^xsd:anyURI .
+
+book:1092 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1092 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Namwali Serpell" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Old Drift" ;
+    schema:url "https://harshp.com/hobbies/books/1092"^^xsd:anyURI .
+
+book:1093 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1093 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Michel Faber" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Book of Strange New Things" ;
+    schema:url "https://harshp.com/hobbies/books/1093"^^xsd:anyURI .
+
+book:1094 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1094 ;
+    hpcom:book_status hpcom:book-currently-reading ;
+    schema:author "Jeff VanderMeer" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Borne" ;
+    schema:url "https://harshp.com/hobbies/books/1094"^^xsd:anyURI .
+
+book:1095 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1095 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Greg Bear" ;
+    schema:dateCreated "2014"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Blood Music" ;
+    schema:url "https://harshp.com/hobbies/books/1095"^^xsd:anyURI .
+
+book:1096 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1096 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Naomi Novik" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Spinning Silver" ;
+    schema:url "https://harshp.com/hobbies/books/1096"^^xsd:anyURI .
+
+book:1097 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1097 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Alix E. Harrow" ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Everlasting" ;
+    schema:url "https://harshp.com/hobbies/books/1097"^^xsd:anyURI .
+
+book:1098 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1098 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Ada Palmer" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Too Like the Lightning" ;
+    schema:url "https://harshp.com/hobbies/books/1098"^^xsd:anyURI .
+
+book:1099 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1099 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "John Scalzi" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Fuzzy Nation" ;
+    schema:url "https://harshp.com/hobbies/books/1099"^^xsd:anyURI .
 
 book:11 a hpcom:Book,
         hpcom:BookReading,
@@ -18736,7 +18903,7 @@ book:866 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:866 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Hervé Le Tellier" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -23645,7 +23812,7 @@ list:owned_unread a hpcom:RenderedItem,
     hpcom:date-game-played "2026"^^xsd:int ;
     hpcom:game-id "225"^^xsd:int ;
     hpcom:game-owned-platform hpcom:Steam ;
-    hpcom:game-platform-played hpcom:Linus ;
+    hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
     schema:aggregatedRating hptag:Rating4 ;
     schema:author "Obsidian" ;
@@ -35403,9 +35570,6 @@ hpview:GenericJinja2View a hpcom:View ;
 hpcom:ExtendedAbstract rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Extended Abstract"@en .
 
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
-
 <https://harshp.com/dev/harshp.com> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -35580,6 +35744,9 @@ hptag:website a hpcom:RenderedItem,
 
 hpcom:BookChapter rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Book Chapter"@en .
+
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
 
 list:visually-stunning a hpcom:RenderedItem,
         book:lists ;
@@ -36035,11 +36202,6 @@ hptag:consent a hpcom:RenderedItem,
     schema:name "consent" ;
     schema:url "https://harshp.com/tags/consent"^^xsd:anyURI .
 
-list:DublinLibrary a hpcom:RenderedItem,
-        book:lists ;
-    schema:identifier "DublinLibrary"@en ;
-    schema:name "Dublin Library"@en .
-
 hpcom:Jinja2 a hpcom:Renderer ;
     rdfs:label "Jinaj2"@en ;
     rdfs:comment "Renders a view using Jinja2 to create HTML filese from a template"@en .
@@ -36051,6 +36213,11 @@ list:educational a hpcom:RenderedItem,
 
 hpcom:gog a hpcom:Platform ;
     rdfs:label "GOG" .
+
+list:DublinLibrary a hpcom:RenderedItem,
+        book:lists ;
+    schema:identifier "DublinLibrary"@en ;
+    schema:name "Dublin Library"@en .
 
 <https://www.scss.tcd.ie/dave.lewis/> a schema:Person ;
     schema:name "Dave Lewis" .

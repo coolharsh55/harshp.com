@@ -1,0 +1,39 @@
+------------------------------------------------------------------------------
+Books in Dublin Library
+******************************************************************************
+908 books already read from my list
+818 books to read from awards list
+657 books to read after removing already read books
+121 books unread that I do not own from my list
+770 books to read after adding unread books
+27 books found in library
+20 books are on loan
+7 books books are available
+******************************************************************************
+[R] :: BLOOD MUSIC :: GREG BEAR :: 2026-08-28 :: https://dublin.borrowbox.com/product/ORM_340090/
+[R] :: SPINNING SILVER :: NAOMI NOVIK :: 2026-08-29 :: https://dublin.borrowbox.com/product/MCU_512632/
+[A] :: THE CITY IN THE MIDDLE OF THE NIGHT :: CHARLIE JANE ANDERS :: 0 :: https://dublin.borrowbox.com/product/LSB_587396/
+[R] :: THE COLLAPSING EMPIRE :: JOHN SCALZI :: 2026-10-09 :: https://dublin.borrowbox.com/product/MCU_564168/
+[R] :: THE EVERLASTING :: ALIX E. HARROW :: 2027-01-30 :: https://dublin.borrowbox.com/product/MCU_7348100/
+[R] :: THE LAST COLONY :: JOHN SCALZI :: 2026-10-12 :: https://dublin.borrowbox.com/product/MCU_074583/
+[A] :: TOO LIKE THE LIGHTNING :: ADA PALMER :: 0 :: https://dublin.borrowbox.com/product/EPD_424470/
+[A] :: BORNE :: JEFF VANDERMEER :: 0 :: https://dublin.borrowbox.com/product/HCU_423994/
+[A] :: MONSTERS OF MEN :: PATRICK NESS :: 0 :: https://dublin.borrowbox.com/product/WBA_474600/
+[R] :: THE ANOMALY :: HERVÉ LE TELLIER :: 2026-10-29 :: https://dublin.borrowbox.com/product/RDH_3707033/
+[A] :: THE BOOK OF STRANGE NEW THINGS :: MICHEL FABER :: 0 :: https://dublin.borrowbox.com/product/CGB_088166/
+[A] :: THE OLD DRIFT :: NAMWALI SERPELL :: 0 :: https://dublin.borrowbox.com/product/RDH_635953/
+[R] :: GOING POSTAL :: TERRY PRATCHETT :: 2026-10-29 :: https://dublin.borrowbox.com/product/RDH_082955/
+[R] :: MAKING MONEY :: TERRY PRATCHETT :: 2026-08-29 :: https://dublin.borrowbox.com/product/RDH_083114/
+[R] :: THE POPPY WAR :: R. F. KUANG :: 2026-10-03 :: https://dublin.borrowbox.com/product/HCU_486395/
+[R] :: WE ARE ALL COMPLETELY BESIDE OURSELVES :: KAREN JOY FOWLER :: 2026-08-28 :: https://dublin.borrowbox.com/product/EPD_133896/
+[A] :: WHO FEARS DEATH :: NNEDI OKORAFOR :: 0 :: https://dublin.borrowbox.com/product/HCU_472372/
+[R] :: ABSOLUTION :: JEFF VANDERMEER :: 2026-09-04 :: https://dublin.borrowbox.com/product/HCU_6115395/
+[R] :: THE LAST EMPEROX :: JOHN SCALZI :: 2026-10-20 :: https://dublin.borrowbox.com/product/MCU_776366/
+[R] :: PRETENDERS TO THE THRONE OF GOD :: ADRIAN TCHAIKOVSKY :: 2026-11-17 :: https://dublin.borrowbox.com/product/BLM_7859585/
+[R] :: GREEN CITY WARS :: ADRIAN TCHAIKOVSKY :: 2026-12-03 :: https://dublin.borrowbox.com/product/MCU_8449194/
+[R] :: THE GHOST BRIGADES :: JOHN SCALZI :: 2026-11-02 :: https://dublin.borrowbox.com/product/MCU_076259/
+[R] :: AGENT TO THE STARS :: JOHN SCALZI :: 2026-10-13 :: https://dublin.borrowbox.com/product/MCU_3987837/
+[R] :: THE ELEVENTH HOUR :: SALMAN RUSHDIE :: 2027-01-19 :: https://dublin.borrowbox.com/product/RDH_8360067/
+[R] :: THE BINDING :: BRIDGET COLLINS :: 2026-10-20 :: https://dublin.borrowbox.com/product/HCU_523109/
+[R] :: WOMEN TALKING :: MIRIAM TOEWS :: 2026-09-29 :: https://dublin.borrowbox.com/product/FFP_519247/
+[R] :: THE COMFORT BOOK :: MATT HAIG :: 2027-02-27 :: https://dublin.borrowbox.com/product/CGB_1673298/
