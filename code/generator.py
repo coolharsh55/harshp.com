@@ -229,6 +229,7 @@ def _parse_arguments():
         content = CONTENT.keys()
     if args.skip:
         skiplist = args.skip.split(',')
+        INFO(f"{skiplist=}")
     else:
         skiplist = []
     INFO(f"generator input: {content}")

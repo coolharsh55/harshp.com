@@ -90,6 +90,17 @@ def write_ttl():
             if game.played_platform:
                 for platform in game.played_platform.split(','):
                     g.add((iri, HPCOM["game-platform-played"], HPCOM[platform]))
+
+            if game.list_repeat:
+                g.add((iri, SCHEMA.isPartOf, HPLIST['repeat']))
+            if game.list_story:
+                g.add((iri, SCHEMA.isPartOf, HPLIST['story']))
+            if game.list_recommended:
+                g.add((iri, SCHEMA.isPartOf, HPLIST['recommended']))
+            if game.list_mechanics:
+                g.add((iri, SCHEMA.isPartOf, HPLIST['mechanics']))
+            if game.list_classic:
+                g.add((iri, SCHEMA.isPartOf, HPLIST['classic']))
             # schema:review """..."""
             # if game.review: # TODO: review
             #     g.add((iri, SCHEMA.review, Literal(game.review, lang='en')))

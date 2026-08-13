@@ -12,6 +12,7 @@
       <a href="{{game.iri}}">{{game.schema_name}}</a>
       <small>
         <i>{% if game.hpcom_game_owned_platform%}📦 {{ game.hpcom_game_owned_platform|xjoin }}</i>{% endif %}
+        {% if game.hpcom_game_platform_played %} 🎮 {{game.hpcom_game_platform_played|xjoin}}{% endif %}
       </small>
     </li>
     {% endfor %}
@@ -26,6 +27,11 @@
       <a href="/hobbies/games/{{game['hpcom_game_id']}}">{{ title }}</a> <br/>
       <small>
         <i>🕐 {{ years }} | 🎮 {{game.hpcom_game_platform_played|xjoin}}{% if game.hpcom_game_owned_platform%} | 📦 {{ game.hpcom_game_owned_platform|xjoin }}</i>{% endif %}</i>
+          {% if game.schema_isPartOf %}<br/>{% if game.schema_isPartOf is sequence %}featured in lists:
+            {% for list in game.schema_isPartOf | sort(attribute='schema_identifier') %}<a href="{{list.iri}}">{{list.schema_identifier}}</a>{{ ", " if not loop.last }}{% endfor %}
+          {% else %}featured in list:
+              <a href="{{game.schema_isPartOf.iri}}">{{game.schema_isPartOf.schema_identifier}}</a>
+          {% endif %}{% endif %}
       </small>
     </li>
     {% endfor %}

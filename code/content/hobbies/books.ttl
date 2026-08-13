@@ -1790,6 +1790,87 @@
     schema:name "The Tales of Beedle the Bard (Hogwarts Library)" ;
     schema:url "https://harshp.com/hobbies/books/110"^^xsd:anyURI .
 
+<https://harshp.com/hobbies/books/1100> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1100 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Vincenzo Latronico" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "Perfection" ;
+    schema:url "https://harshp.com/hobbies/books/1100"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1101> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1101 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Ray Nayler" ;
+    schema:dateCreated "2022"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The Mountain in the Sea" ;
+    schema:url "https://harshp.com/hobbies/books/1101"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1102> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1102 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Amal El-Mohtar and Max Gladstone" ;
+    schema:dateCreated "2019"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "This Is How You Lose the Time War" ;
+    schema:url "https://harshp.com/hobbies/books/1102"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1103> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1103 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Ray Nayler" ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Where the Axe Is Buried" ;
+    schema:url "https://harshp.com/hobbies/books/1103"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1104> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1104 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Rachel Barr" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "How to Make Your Brain Your Best Friend: A Neuroscientist's Guide to a Healthier, Happier Life" ;
+    schema:url "https://harshp.com/hobbies/books/1104"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1105> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1105 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Peter Godfrey-Smith" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Metazoa: Animal Life and the Birth of the Mind" ;
+    schema:url "https://harshp.com/hobbies/books/1105"^^xsd:anyURI .
+
 <https://harshp.com/hobbies/books/111> a hpcom:Book,
         hpcom:BookReading,
         hpcom:RenderedItem,

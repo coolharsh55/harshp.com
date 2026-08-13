@@ -74,6 +74,7 @@ CONTENT = {
             'content/hobbies/books.ttl',
             'content/hobbies/book_lists.ttl',
             'content/hobbies/games.ttl',
+            'content/hobbies/games_lists.ttl',
             'content/hobbies/tea.ttl'
         ]
     }

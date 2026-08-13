@@ -1,4 +1,5 @@
 @prefix hpcom: <https://harshp.com/code/vocab#> .
+@prefix hplist: <https://harshp.com/hobbies/games/lists/> .
 @prefix hptag: <https://harshp.com/tags/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
@@ -22,6 +23,9 @@
     schema:author "id" ;
     schema:dateCreated "1992"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Wolfenstein 3D" ;
     schema:publisher "1992" ;
     schema:url "https://harshp.com/hobbies/games/1"^^xsd:anyURI .
@@ -41,6 +45,10 @@
     schema:author "id" ;
     schema:dateCreated "1997"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Quake II" ;
     schema:publisher "1997" ;
     schema:url "https://harshp.com/hobbies/games/10"^^xsd:anyURI .
@@ -60,6 +68,10 @@
     schema:author "Klei" ;
     schema:dateCreated "2013"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Don't Starve" ;
     schema:publisher "2013" ;
     schema:url "https://harshp.com/hobbies/games/100"^^xsd:anyURI .
@@ -76,6 +88,9 @@
     schema:author "Klei" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Don't Starve Together" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/101"^^xsd:anyURI .
@@ -144,6 +159,7 @@
     schema:author "Techland" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Dying Light" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/105"^^xsd:anyURI .
@@ -158,10 +174,11 @@
     hpcom:game-owned-platform hpcom:Steam ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating5 ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Dodge Roll" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Enter the Gungeon" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/106"^^xsd:anyURI .
@@ -178,6 +195,9 @@
     schema:author "Bethesda" ;
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "The Elder Scrolls V: Skyrim" ;
     schema:publisher "2011" ;
     schema:url "https://harshp.com/hobbies/games/107"^^xsd:anyURI .
@@ -212,6 +232,11 @@
     schema:author "ConcernedAge" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Stardew Valley" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/109"^^xsd:anyURI .
@@ -234,6 +259,10 @@
     schema:author "id" ;
     schema:dateCreated "1999"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Quake III Arena" ;
     schema:publisher "1999" ;
     schema:url "https://harshp.com/hobbies/games/11"^^xsd:anyURI .
@@ -251,6 +280,9 @@
     schema:author "Hopoo" ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Risk of Rain 2" ;
     schema:publisher "2020" ;
     schema:url "https://harshp.com/hobbies/games/110"^^xsd:anyURI .
@@ -279,7 +311,7 @@
     hpcom:game-owned-platform hpcom:Steam ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating3 ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Studio Wildcard" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -299,6 +331,7 @@
     schema:author "Ghost Ship" ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Deep Rock Galactic" ;
     schema:publisher "2020" ;
     schema:url "https://harshp.com/hobbies/games/113"^^xsd:anyURI .
@@ -316,6 +349,10 @@
     schema:author "Valve" ;
     schema:dateCreated "1998"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Half-Life" ;
     schema:publisher "1998" ;
     schema:url "https://harshp.com/hobbies/games/114"^^xsd:anyURI .
@@ -334,6 +371,9 @@
     schema:author "Valve" ;
     schema:dateCreated "2000"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Counter-Strike" ;
     schema:publisher "2000" ;
     schema:url "https://harshp.com/hobbies/games/115"^^xsd:anyURI .
@@ -361,6 +401,9 @@
     schema:author "Valve" ;
     schema:dateCreated "2004"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Counter-Strike: Condition Zero" ;
     schema:publisher "2004" ;
     schema:url "https://harshp.com/hobbies/games/116"^^xsd:anyURI .
@@ -379,6 +422,10 @@
     schema:author "Valve" ;
     schema:dateCreated "2004"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Half-Life 2" ;
     schema:publisher "2004" ;
     schema:url "https://harshp.com/hobbies/games/117"^^xsd:anyURI .
@@ -396,6 +443,10 @@
     schema:author "Valve" ;
     schema:dateCreated "2006"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Half-Life 2: Episode One" ;
     schema:publisher "2006" ;
     schema:url "https://harshp.com/hobbies/games/118"^^xsd:anyURI .
@@ -413,6 +464,10 @@
     schema:author "Valve" ;
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Half-Life 2: Episode Two" ;
     schema:publisher "2007" ;
     schema:url "https://harshp.com/hobbies/games/119"^^xsd:anyURI .
@@ -446,6 +501,10 @@
     schema:author "Valve" ;
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Portal" ;
     schema:publisher "2007" ;
     schema:url "https://harshp.com/hobbies/games/120"^^xsd:anyURI .
@@ -463,6 +522,9 @@
     schema:author "Valve" ;
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Team Fortress 2" ;
     schema:publisher "2007" ;
     schema:url "https://harshp.com/hobbies/games/121"^^xsd:anyURI .
@@ -481,6 +543,9 @@
     schema:author "Valve" ;
     schema:dateCreated "2009"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Left 4 Dead 2" ;
     schema:publisher "2009" ;
     schema:url "https://harshp.com/hobbies/games/122"^^xsd:anyURI .
@@ -497,6 +562,10 @@
     schema:author "Valve" ;
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Portal 2" ;
     schema:publisher "2011" ;
     schema:url "https://harshp.com/hobbies/games/123"^^xsd:anyURI .
@@ -513,6 +582,9 @@
     schema:author "Valve" ;
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Counter-Strike: Global Offensive" ;
     schema:publisher "2012" ;
     schema:url "https://harshp.com/hobbies/games/124"^^xsd:anyURI .
@@ -529,6 +601,8 @@
     schema:author "Valve" ;
     schema:dateCreated "2013"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics ;
     schema:name "Dota 2" ;
     schema:publisher "2013" ;
     schema:url "https://harshp.com/hobbies/games/125"^^xsd:anyURI .
@@ -545,6 +619,10 @@
     schema:author "Crowbar Collective" ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Black Mesa" ;
     schema:publisher "2020" ;
     schema:url "https://harshp.com/hobbies/games/126"^^xsd:anyURI .
@@ -558,10 +636,11 @@
     hpcom:game-owned-platform hpcom:Steam ;
     hpcom:game-platform-played hpcom:Windows ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating4 ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Hardsuit Labs" ;
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Blacklight: Retribution" ;
     schema:publisher "2012" ;
     schema:url "https://harshp.com/hobbies/games/127"^^xsd:anyURI .
@@ -578,6 +657,10 @@
     schema:author "Dennaton" ;
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Hotline Miami" ;
     schema:publisher "2012" ;
     schema:url "https://harshp.com/hobbies/games/128"^^xsd:anyURI .
@@ -594,6 +677,10 @@
     schema:author "Dennaton" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Hotline Miami 2: Wrong Number" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/129"^^xsd:anyURI .
@@ -610,7 +697,9 @@
     schema:author "id" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
-    schema:name "Doom" ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended ;
+    schema:name "Doom (2016)" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/13"^^xsd:anyURI .
 
@@ -626,6 +715,7 @@
     schema:author "Blue Manchu" ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Void Bastards" ;
     schema:publisher "2019" ;
     schema:url "https://harshp.com/hobbies/games/130"^^xsd:anyURI .
@@ -642,6 +732,10 @@
     schema:author "Dontnod" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Life is Strange" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/131"^^xsd:anyURI .
@@ -720,6 +814,10 @@
     schema:author "Irrational" ;
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "BioShock" ;
     schema:publisher "2007" ;
     schema:url "https://harshp.com/hobbies/games/136"^^xsd:anyURI .
@@ -737,6 +835,7 @@
     schema:author "Irrational" ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "BioShock 2" ;
     schema:publisher "2010" ;
     schema:url "https://harshp.com/hobbies/games/137"^^xsd:anyURI .
@@ -753,6 +852,10 @@
     schema:author "Irrational" ;
     schema:dateCreated "2013"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "BioShock Infinite" ;
     schema:publisher "2013" ;
     schema:url "https://harshp.com/hobbies/games/138"^^xsd:anyURI .
@@ -769,6 +872,7 @@
     schema:author "Endnight" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "The Forest" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/139"^^xsd:anyURI .
@@ -785,6 +889,8 @@
     schema:author "id" ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended ;
     schema:name "Doom Eternal" ;
     schema:publisher "2020" ;
     schema:url "https://harshp.com/hobbies/games/14"^^xsd:anyURI .
@@ -797,10 +903,12 @@
     hpcom:game-owned-platform hpcom:Steam ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating3 ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Redbeet" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics,
+        hplist:recommended ;
     schema:name "Raft" ;
     schema:publisher "2022" ;
     schema:url "https://harshp.com/hobbies/games/140"^^xsd:anyURI .
@@ -833,6 +941,7 @@
     schema:author "YCJY" ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Post Void" ;
     schema:publisher "2020" ;
     schema:url "https://harshp.com/hobbies/games/142"^^xsd:anyURI .
@@ -850,6 +959,9 @@
     schema:author "Monolith" ;
     schema:dateCreated "2005"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "F.E.A.R." ;
     schema:publisher "2005" ;
     schema:url "https://harshp.com/hobbies/games/143"^^xsd:anyURI .
@@ -914,6 +1026,9 @@
     schema:author "Supergiant" ;
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Bastion" ;
     schema:publisher "2011" ;
     schema:url "https://harshp.com/hobbies/games/147"^^xsd:anyURI .
@@ -930,6 +1045,9 @@
     schema:author "Supergiant" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Transistor" ;
     schema:publisher "2014" ;
     schema:url "https://harshp.com/hobbies/games/148"^^xsd:anyURI .
@@ -939,7 +1057,7 @@
         schema:VideoGame ;
     hpcom:game-id "149"^^xsd:int ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Supergiant" ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -961,6 +1079,10 @@
     schema:author "Gearbox" ;
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Borderlands 2" ;
     schema:publisher "2012" ;
     schema:url "https://harshp.com/hobbies/games/15"^^xsd:anyURI .
@@ -977,6 +1099,8 @@
     schema:author "Sorath" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics ;
     schema:name "Devil Daggers" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/150"^^xsd:anyURI .
@@ -989,10 +1113,13 @@
     hpcom:game-owned-platform hpcom:Steam ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating4 ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Night School" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Oxenfree" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/151"^^xsd:anyURI .
@@ -1002,7 +1129,7 @@
         schema:VideoGame ;
     hpcom:game-id "152"^^xsd:int ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Night School" ;
     schema:dateCreated "2023"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -1022,6 +1149,11 @@
     schema:author "Mobius" ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Outer Wilds" ;
     schema:publisher "2019" ;
     schema:url "https://harshp.com/hobbies/games/153"^^xsd:anyURI .
@@ -1037,6 +1169,7 @@
     schema:author "Thatgamecompany" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Flower" ;
     schema:publisher "2017" ;
     schema:url "https://harshp.com/hobbies/games/154"^^xsd:anyURI .
@@ -1085,6 +1218,11 @@
     schema:author "Thatgamecompany" ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Journey" ;
     schema:publisher "2019" ;
     schema:url "https://harshp.com/hobbies/games/157"^^xsd:anyURI .
@@ -1147,6 +1285,9 @@
     schema:author "Giant Sparrow" ;
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "The Unfinished Swan" ;
     schema:publisher "2012" ;
     schema:url "https://harshp.com/hobbies/games/160"^^xsd:anyURI .
@@ -1165,6 +1306,9 @@
     schema:author "Thatgamecompany" ;
     schema:dateCreated "2006"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "flOw" ;
     schema:publisher "2006" ;
     schema:url "https://harshp.com/hobbies/games/161"^^xsd:anyURI .
@@ -1182,6 +1326,8 @@
     schema:author "Starbreeze" ;
     schema:dateCreated "2013"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics,
+        hplist:recommended ;
     schema:name "Brothers: A Tale of Two Sons" ;
     schema:publisher "2013" ;
     schema:url "https://harshp.com/hobbies/games/162"^^xsd:anyURI .
@@ -1198,6 +1344,7 @@
     schema:author "Demruth" ;
     schema:dateCreated "2013"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Antichamber" ;
     schema:publisher "2013" ;
     schema:url "https://harshp.com/hobbies/games/163"^^xsd:anyURI .
@@ -1215,6 +1362,10 @@
     schema:author "Lucas Pope" ;
     schema:dateCreated "2013"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Papers, Please" ;
     schema:publisher "2013" ;
     schema:url "https://harshp.com/hobbies/games/164"^^xsd:anyURI .
@@ -1231,6 +1382,10 @@
     schema:author "Lucas Pope" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Return of the Obra Dinn" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/165"^^xsd:anyURI .
@@ -1247,6 +1402,10 @@
     schema:author "Campo Santo" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Firewatch" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/166"^^xsd:anyURI .
@@ -1263,6 +1422,10 @@
     schema:author "Playdead" ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Limbo" ;
     schema:publisher "2010" ;
     schema:url "https://harshp.com/hobbies/games/167"^^xsd:anyURI .
@@ -1279,6 +1442,10 @@
     schema:author "Playdead" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Inside" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/168"^^xsd:anyURI .
@@ -1375,6 +1542,9 @@
     schema:author "Superhot Team" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Superhot" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/173"^^xsd:anyURI .
@@ -1423,6 +1593,7 @@
     schema:author "Team Meat" ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Super Meat Boy" ;
     schema:publisher "2010" ;
     schema:url "https://harshp.com/hobbies/games/176"^^xsd:anyURI .
@@ -1439,6 +1610,7 @@
     schema:author "Mossmouth" ;
     schema:dateCreated "2008"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Spelunky" ;
     schema:publisher "2008" ;
     schema:url "https://harshp.com/hobbies/games/177"^^xsd:anyURI .
@@ -1519,6 +1691,8 @@
     schema:author "tobyfox" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics ;
     schema:name "Undertale" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/181"^^xsd:anyURI .
@@ -1535,6 +1709,8 @@
     schema:author "Fullbright" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics,
+        hplist:story ;
     schema:name "Tacoma" ;
     schema:publisher "2017" ;
     schema:url "https://harshp.com/hobbies/games/182"^^xsd:anyURI .
@@ -1632,6 +1808,10 @@
     schema:author "Sam Barlow" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Her Story" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/188"^^xsd:anyURI .
@@ -1648,6 +1828,9 @@
     schema:author "Everything Unlimited" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "The Beginner's Guide" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/189"^^xsd:anyURI .
@@ -1665,6 +1848,9 @@
     schema:author "Epic" ;
     schema:dateCreated "1998"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Unreal" ;
     schema:publisher "1998" ;
     schema:url "https://harshp.com/hobbies/games/19"^^xsd:anyURI .
@@ -1682,6 +1868,10 @@
     schema:author "Galactic Cafe" ;
     schema:dateCreated "2013"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "The Stanley Parable" ;
     schema:publisher "2013" ;
     schema:url "https://harshp.com/hobbies/games/190"^^xsd:anyURI .
@@ -1698,6 +1888,9 @@
     schema:author "Crows Crows Crows" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "The Stanley Parable: Ultra Deluxe" ;
     schema:publisher "2022" ;
     schema:url "https://harshp.com/hobbies/games/191"^^xsd:anyURI .
@@ -1714,6 +1907,9 @@
     schema:author "Crows Crows Crows" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Dr. Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/192"^^xsd:anyURI .
@@ -1746,6 +1942,7 @@
     schema:author "Jan Willem Nijman, Kitty Calis, Jukio Kallio, and Dominik Johann" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Minit" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/194"^^xsd:anyURI .
@@ -1762,6 +1959,7 @@
     schema:author "Amanita" ;
     schema:dateCreated "2009"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Machinarium" ;
     schema:publisher "2009" ;
     schema:url "https://harshp.com/hobbies/games/195"^^xsd:anyURI .
@@ -1810,6 +2008,7 @@
     schema:author "Free Lives" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Genital Jousting" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/198"^^xsd:anyURI .
@@ -1866,6 +2065,10 @@
     schema:author "Epic" ;
     schema:dateCreated "1999"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Unreal Tournament" ;
     schema:publisher "1999" ;
     schema:url "https://harshp.com/hobbies/games/20"^^xsd:anyURI .
@@ -1881,6 +2084,7 @@
     schema:author "Core Design" ;
     schema:dateCreated "1996"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Tomb Raider" ;
     schema:publisher "1996" ;
     schema:url "https://harshp.com/hobbies/games/200"^^xsd:anyURI .
@@ -1896,6 +2100,8 @@
     schema:author "Core Design" ;
     schema:dateCreated "1997"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics ;
     schema:name "Tomb Raider II" ;
     schema:publisher "1997" ;
     schema:url "https://harshp.com/hobbies/games/201"^^xsd:anyURI .
@@ -1912,7 +2118,8 @@
     schema:author "Crystal Dynamics" ;
     schema:dateCreated "2013"^^xsd:int ;
     schema:genre hpcom:FPS ;
-    schema:name "Tomb Raider" ;
+    schema:isPartOf hplist:classic ;
+    schema:name "Tomb Raider (2022)" ;
     schema:publisher "2013" ;
     schema:url "https://harshp.com/hobbies/games/202"^^xsd:anyURI .
 
@@ -1960,6 +2167,8 @@
     schema:author "Number None" ;
     schema:dateCreated "2009"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended ;
     schema:name "Braid" ;
     schema:publisher "2009" ;
     schema:url "https://harshp.com/hobbies/games/205"^^xsd:anyURI .
@@ -2074,6 +2283,7 @@
     schema:author "Frictional" ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Amnesia: The Dark Descent" ;
     schema:publisher "2010" ;
     schema:url "https://harshp.com/hobbies/games/212"^^xsd:anyURI .
@@ -2089,6 +2299,7 @@
     schema:author "Frictional" ;
     schema:dateCreated "2008"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Penumbra: Black Plague" ;
     schema:publisher "2008" ;
     schema:url "https://harshp.com/hobbies/games/213"^^xsd:anyURI .
@@ -2104,6 +2315,7 @@
     schema:author "Cyan" ;
     schema:dateCreated "2003"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Myst" ;
     schema:publisher "2003" ;
     schema:url "https://harshp.com/hobbies/games/214"^^xsd:anyURI .
@@ -2148,6 +2360,9 @@
     schema:author "Nintendo" ;
     schema:dateCreated "1985"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Super Mario Bros" ;
     schema:publisher "1985" ;
     schema:url "https://harshp.com/hobbies/games/217"^^xsd:anyURI .
@@ -2168,6 +2383,10 @@
     schema:author "Capcom" ;
     schema:dateCreated "1991"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Street Fighter II" ;
     schema:publisher "1991" ;
     schema:url "https://harshp.com/hobbies/games/218"^^xsd:anyURI .
@@ -2185,6 +2404,7 @@
     schema:author "EA" ;
     schema:dateCreated "1997"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Need for Speed II" ;
     schema:publisher "1997" ;
     schema:url "https://harshp.com/hobbies/games/219"^^xsd:anyURI .
@@ -2246,6 +2466,7 @@
     schema:author "EA" ;
     schema:dateCreated "2005"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Need for Speed: Most Wanted" ;
     schema:publisher "2005" ;
     schema:url "https://harshp.com/hobbies/games/222"^^xsd:anyURI .
@@ -2266,6 +2487,10 @@
     schema:author "Nokia" ;
     schema:dateCreated "1998"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Snake" ;
     schema:publisher "1998" ;
     schema:url "https://harshp.com/hobbies/games/223"^^xsd:anyURI .
@@ -2328,6 +2553,7 @@
     schema:author "People Can Fly" ;
     schema:dateCreated "2004"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Painkiller" ;
     schema:publisher "2004" ;
     schema:url "https://harshp.com/hobbies/games/24"^^xsd:anyURI .
@@ -2364,6 +2590,7 @@
     schema:author "People Can Fly" ;
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Bulletstorm" ;
     schema:publisher "2011" ;
     schema:url "https://harshp.com/hobbies/games/26"^^xsd:anyURI .
@@ -2379,6 +2606,9 @@
     schema:author "Infinity Ward" ;
     schema:dateCreated "2009"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Call of Duty: Modern Warfare 2" ;
     schema:publisher "2009" ;
     schema:url "https://harshp.com/hobbies/games/27"^^xsd:anyURI .
@@ -2426,6 +2656,7 @@
     schema:author "Apogee" ;
     schema:dateCreated "1993"^^xsd:int ;
     schema:genre hpcom:Platformer ;
+    schema:isPartOf hplist:classic ;
     schema:name "Bio Menace" ;
     schema:publisher "1993" ;
     schema:url "https://harshp.com/hobbies/games/3"^^xsd:anyURI .
@@ -2472,6 +2703,9 @@
     schema:author "Ubisoft" ;
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Assassin's Creed" ;
     schema:publisher "2007" ;
     schema:url "https://harshp.com/hobbies/games/32"^^xsd:anyURI .
@@ -2483,10 +2717,12 @@
     hpcom:game-id "33"^^xsd:int ;
     hpcom:game-platform-played hpcom:Windows ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating5 ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Brøderbund" ;
     schema:dateCreated "1991"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics ;
     schema:name "Prince of Persia" ;
     schema:publisher "1991" ;
     schema:url "https://harshp.com/hobbies/games/33"^^xsd:anyURI .
@@ -2517,6 +2753,9 @@
     schema:author "Ubisoft" ;
     schema:dateCreated "2003"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Prince of Persia: The Sands of Time" ;
     schema:publisher "2003" ;
     schema:url "https://harshp.com/hobbies/games/35"^^xsd:anyURI .
@@ -2532,6 +2771,9 @@
     schema:author "Ubisoft" ;
     schema:dateCreated "2004"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Prince of Persia: Warrior Within" ;
     schema:publisher "2004" ;
     schema:url "https://harshp.com/hobbies/games/36"^^xsd:anyURI .
@@ -2547,6 +2789,9 @@
     schema:author "Ubisoft" ;
     schema:dateCreated "2005"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Prince of Persia: The Two Thrones" ;
     schema:publisher "2005" ;
     schema:url "https://harshp.com/hobbies/games/37"^^xsd:anyURI .
@@ -2580,6 +2825,9 @@
     schema:author "Crytek" ;
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Crysis" ;
     schema:publisher "2007" ;
     schema:url "https://harshp.com/hobbies/games/39"^^xsd:anyURI .
@@ -2596,6 +2844,7 @@
     schema:author "Apogee" ;
     schema:dateCreated "1991"^^xsd:int ;
     schema:genre hpcom:Platformer ;
+    schema:isPartOf hplist:classic ;
     schema:name "Duke Nukem" ;
     schema:publisher "1991" ;
     schema:url "https://harshp.com/hobbies/games/4"^^xsd:anyURI .
@@ -2607,7 +2856,7 @@
     hpcom:game-id "40"^^xsd:int ;
     hpcom:game-platform-played hpcom:Windows ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating5 ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Crytek" ;
     schema:dateCreated "2008"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -2659,6 +2908,10 @@
     schema:author "Giant Sparrow" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "What Remains of Edith Finch" ;
     schema:publisher "2017" ;
     schema:url "https://harshp.com/hobbies/games/43"^^xsd:anyURI .
@@ -2674,6 +2927,7 @@
     schema:author "Spiderweb" ;
     schema:dateCreated "2000"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic ;
     schema:name "Avernum" ;
     schema:publisher "2000" ;
     schema:url "https://harshp.com/hobbies/games/44"^^xsd:anyURI .
@@ -2693,6 +2947,8 @@
     schema:author "Spiderweb" ;
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended ;
     schema:name "Avernum: Escape from the Pit" ;
     schema:publisher "2011" ;
     schema:url "https://harshp.com/hobbies/games/45"^^xsd:anyURI .
@@ -2712,6 +2968,8 @@
     schema:author "Spiderweb" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended ;
     schema:name "Avernum II: Crystal Souls" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/46"^^xsd:anyURI .
@@ -2731,6 +2989,8 @@
     schema:author "Spiderweb" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended ;
     schema:name "Avernum III: Ruined World" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/47"^^xsd:anyURI .
@@ -2775,6 +3035,9 @@
     schema:author "3D Realms" ;
     schema:dateCreated "1996"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended ;
     schema:name "Duke Nukem 3D" ;
     schema:publisher "1996" ;
     schema:url "https://harshp.com/hobbies/games/5"^^xsd:anyURI .
@@ -2792,6 +3055,11 @@
     schema:author "CD Projekt Red" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "The Witcher 3: Wild Hunt" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/50"^^xsd:anyURI .
@@ -2819,10 +3087,11 @@
     hpcom:game-id "52"^^xsd:int ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "CD Projekt Red" ;
     schema:dateCreated "2020"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Cyberpunk 2077" ;
     schema:publisher "2020" ;
     schema:url "https://harshp.com/hobbies/games/52"^^xsd:anyURI .
@@ -2835,7 +3104,7 @@
     hpcom:game-owned-platform hpcom:Steam ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating4 ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "MachineGames" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -2920,6 +3189,10 @@
     schema:author "Croteam" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "The Talos Principle" ;
     schema:publisher "2014" ;
     schema:url "https://harshp.com/hobbies/games/58"^^xsd:anyURI .
@@ -2971,6 +3244,10 @@
     schema:author "Subset" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Into the Breach" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/60"^^xsd:anyURI .
@@ -2990,6 +3267,10 @@
     schema:author "Subset" ;
     schema:dateCreated "2012"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "FTL: Faster than Light" ;
     schema:publisher "2012" ;
     schema:url "https://harshp.com/hobbies/games/61"^^xsd:anyURI .
@@ -3018,10 +3299,14 @@
     hpcom:game-owned-platform hpcom:gog ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "BioWare" ;
     schema:dateCreated "1998"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Baldur's Gate" ;
     schema:publisher "1998" ;
     schema:url "https://harshp.com/hobbies/games/63"^^xsd:anyURI .
@@ -3034,10 +3319,14 @@
     hpcom:game-owned-platform hpcom:gog ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "BioWare" ;
     schema:dateCreated "2000"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Baldur's Gate II: Shadows of Amn" ;
     schema:publisher "2000" ;
     schema:url "https://harshp.com/hobbies/games/64"^^xsd:anyURI .
@@ -3055,6 +3344,11 @@
     schema:author "Larian" ;
     schema:dateCreated "2023"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Baldur's Gate 3" ;
     schema:publisher "2023" ;
     schema:url "https://harshp.com/hobbies/games/65"^^xsd:anyURI .
@@ -3074,6 +3368,11 @@
     schema:author "Larian" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Divinity: Original Sin II" ;
     schema:publisher "2017" ;
     schema:url "https://harshp.com/hobbies/games/66"^^xsd:anyURI .
@@ -3090,6 +3389,9 @@
     schema:author "ZA/UM" ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Disco Elysium" ;
     schema:publisher "2019" ;
     schema:url "https://harshp.com/hobbies/games/67"^^xsd:anyURI .
@@ -3106,6 +3408,11 @@
     schema:author "Obsidian" ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Fallout: New Vegas" ;
     schema:publisher "2010" ;
     schema:url "https://harshp.com/hobbies/games/68"^^xsd:anyURI .
@@ -3119,10 +3426,15 @@
     hpcom:game-owned-platform hpcom:gog ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating4 ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Obsidian" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Tyranny" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/69"^^xsd:anyURI .
@@ -3149,6 +3461,10 @@
     schema:author "id" ;
     schema:dateCreated "1993"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Doom" ;
     schema:publisher "1993" ;
     schema:url "https://harshp.com/hobbies/games/7"^^xsd:anyURI .
@@ -3165,6 +3481,11 @@
     schema:author "Obsidian" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Pillars of Eternity" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/70"^^xsd:anyURI .
@@ -3181,6 +3502,11 @@
     schema:author "Obsidian" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Pillars of Eternity II: Deadfire" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/71"^^xsd:anyURI .
@@ -3213,6 +3539,9 @@
     schema:author "Obsidian" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Grounded" ;
     schema:publisher "2022" ;
     schema:url "https://harshp.com/hobbies/games/73"^^xsd:anyURI .
@@ -3224,10 +3553,15 @@
     hpcom:game-id "74"^^xsd:int ;
     hpcom:game-platform-played hpcom:SteamDeck ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Obsidian" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Pentiment" ;
     schema:publisher "2022" ;
     schema:url "https://harshp.com/hobbies/games/74"^^xsd:anyURI .
@@ -3240,10 +3574,15 @@
     hpcom:game-owned-platform hpcom:gog ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Interplay" ;
     schema:dateCreated "1997"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Fallout" ;
     schema:publisher "1997" ;
     schema:url "https://harshp.com/hobbies/games/75"^^xsd:anyURI .
@@ -3256,10 +3595,15 @@
     hpcom:game-owned-platform hpcom:gog ;
     hpcom:game-platform-played hpcom:Linnux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Black Isle" ;
     schema:dateCreated "1998"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Fallout 2" ;
     schema:publisher "1998" ;
     schema:url "https://harshp.com/hobbies/games/76"^^xsd:anyURI .
@@ -3292,7 +3636,8 @@
     schema:author "Arkane" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:FPS ;
-    schema:name "Prey" ;
+    schema:isPartOf hplist:mechanics ;
+    schema:name "Prey (2017)" ;
     schema:publisher "2017" ;
     schema:url "https://harshp.com/hobbies/games/78"^^xsd:anyURI .
 
@@ -3308,6 +3653,7 @@
     schema:author "Human Head" ;
     schema:dateCreated "2006"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics ;
     schema:name "Prey" ;
     schema:publisher "2006" ;
     schema:url "https://harshp.com/hobbies/games/79"^^xsd:anyURI .
@@ -3329,6 +3675,9 @@
     schema:author "id" ;
     schema:dateCreated "1994"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Doom II" ;
     schema:publisher "1994" ;
     schema:url "https://harshp.com/hobbies/games/8"^^xsd:anyURI .
@@ -3345,6 +3694,8 @@
     schema:author "Nightdive" ;
     schema:dateCreated "1999"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics ;
     schema:name "System Shock 2" ;
     schema:publisher "1999" ;
     schema:url "https://harshp.com/hobbies/games/80"^^xsd:anyURI .
@@ -3357,7 +3708,7 @@
     schema:author "Nightdive" ;
     schema:dateCreated "2023"^^xsd:int ;
     schema:genre hpcom:FPS ;
-    schema:name "System Shock" ;
+    schema:name "System Shock (2023)" ;
     schema:publisher "2023" ;
     schema:url "https://harshp.com/hobbies/games/81"^^xsd:anyURI .
 
@@ -3403,6 +3754,8 @@
     schema:author "Konami" ;
     schema:dateCreated "1987"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics ;
     schema:name "Contra" ;
     schema:publisher "1987" ;
     schema:url "https://harshp.com/hobbies/games/84"^^xsd:anyURI .
@@ -3448,6 +3801,9 @@
     schema:author "Freebird" ;
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended,
+        hplist:story ;
     schema:name "To The Moon" ;
     schema:publisher "2011" ;
     schema:url "https://harshp.com/hobbies/games/87"^^xsd:anyURI .
@@ -3490,6 +3846,9 @@
     schema:author "id" ;
     schema:dateCreated "1996"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Quake" ;
     schema:publisher "1996" ;
     schema:url "https://harshp.com/hobbies/games/9"^^xsd:anyURI .
@@ -3519,6 +3878,8 @@
     schema:author "DICE" ;
     schema:dateCreated "2008"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics ;
     schema:name "Mirror's Edge" ;
     schema:publisher "2008" ;
     schema:url "https://harshp.com/hobbies/games/91"^^xsd:anyURI .
@@ -3530,7 +3891,7 @@
     hpcom:game-id "92"^^xsd:int ;
     hpcom:game-platform-played hpcom:Windows ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating5 ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "DICE" ;
     schema:dateCreated "2011"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -3558,7 +3919,7 @@
     hpcom:game-id "94"^^xsd:int ;
     hpcom:game-owned-platform hpcom:gog ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "David Szymanski" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -3578,10 +3939,13 @@
     hpcom:game-platform-played hpcom:Linux,
         hpcom:Windows ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating4 ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "The Fun Pimps" ;
     schema:dateCreated "2013"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "7 Days to Die" ;
     schema:publisher "2013" ;
     schema:url "https://harshp.com/hobbies/games/95"^^xsd:anyURI .
@@ -3598,6 +3962,11 @@
     schema:author "Rockstar" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat,
+        hplist:story ;
     schema:name "Red Dead Redemption 2" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/96"^^xsd:anyURI .
@@ -3617,6 +3986,10 @@
     schema:author "Blizzard" ;
     schema:dateCreated "2000"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
     schema:name "Diablo 2" ;
     schema:publisher "2000" ;
     schema:url "https://harshp.com/hobbies/games/97"^^xsd:anyURI .
@@ -3635,6 +4008,8 @@
     schema:author "Rockstar" ;
     schema:dateCreated "1997"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics ;
     schema:name "Grand Theft Auto" ;
     schema:publisher "1997" ;
     schema:url "https://harshp.com/hobbies/games/98"^^xsd:anyURI .
@@ -3653,6 +4028,8 @@
     schema:author "Rockstar" ;
     schema:dateCreated "1999"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics ;
     schema:name "Grand Theft Auto 2" ;
     schema:publisher "1999" ;
     schema:url "https://harshp.com/hobbies/games/99"^^xsd:anyURI .

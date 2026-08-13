@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+@prefix hpcom: <https://harshp.com/code/vocab#> .
+@prefix hpview: <https://harshp.com/code/views#> .
+@prefix game: <https://harshp.com/hobbies/games/> .
+@prefix list: <https://harshp.com/hobbies/games/lists/> .
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://harshp.com/hobbies/games/lists> a hpcom:RenderedItem, owl:Class ;
+        rdfs:subClassOf schema:CreativeWork, schema:ItemList ;
+        schema:name "Video Game Lists"@en ;
+    schema:url "https://harshp.com/hobbies/games/lists"^^xsd:anyURI ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:renderWith hpview:BookListIndexView ;
+    ] .
+
+list:repeat a <https://harshp.com/hobbies/games/lists>, hpcom:RenderedItem ;
+        schema:name "Repeat Playthroughs"@en ;
+        schema:identifier "repeat"@en .
+
+list:story a <https://harshp.com/hobbies/games/lists>, hpcom:RenderedItem ;
+        schema:name "Play for the Story"@en ;
+        schema:identifier "story"@en .
+
+list:recommended a <https://harshp.com/hobbies/games/lists>, hpcom:RenderedItem ;
+        schema:name "Recommended"@en ;
+        schema:identifier "recommended"@en .
+
+list:mechanics a <https://harshp.com/hobbies/games/lists>, hpcom:RenderedItem ;
+        schema:name "Innovative Mechanics"@en ;
+        schema:identifier "mechanics"@en .
+
+list:classic a <https://harshp.com/hobbies/games/lists>, hpcom:RenderedItem ;
+        schema:name "It's a Classic"@en ;
+        schema:identifier "classic"@en .
