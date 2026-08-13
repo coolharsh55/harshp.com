@@ -631,6 +631,16 @@ hpview:GameIndexView a hpcom:View ;
         """ ; ] ;
     hpcom:sparql [
         a hpcom:SparqlQuery ;
+        rdfs:label "unplayed" ;
+        hpcom:queryString """
+            SELECT ?game ?title WHERE {
+                ?game a hpcom:VideoGame .
+                ?game schema:name ?title .
+                ?game hpcom:game-status hpcom:game-unplayed .
+            }
+        """ ; ] ;
+    hpcom:sparql [
+        a hpcom:SparqlQuery ;
         rdfs:label "played" ;
         hpcom:queryString """
             SELECT ?game ?title (GROUP_CONCAT(DISTINCT ?year; separator=", ") as ?years) WHERE {

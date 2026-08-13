@@ -1928,6 +1928,15 @@ hpview:GameIndexView a hpcom:View ;
             }
         """ ],
         [ a hpcom:SparqlQuery ;
+            rdfs:label "unplayed" ;
+            hpcom:queryString """
+            SELECT ?game ?title WHERE {
+                ?game a hpcom:VideoGame .
+                ?game schema:name ?title .
+                ?game hpcom:game-status hpcom:game-unplayed .
+            }
+        """ ],
+        [ a hpcom:SparqlQuery ;
             rdfs:label "played" ;
             hpcom:queryString """
             SELECT ?game ?title (GROUP_CONCAT(DISTINCT ?year; separator=", ") as ?years) WHERE {
@@ -24129,6 +24138,18 @@ game:225 a hpcom:RenderedItem,
     schema:publisher "2025" ;
     schema:url "https://harshp.com/hobbies/games/225"^^xsd:anyURI .
 
+game:226 a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "226"^^xsd:int ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Team FOLON" ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Fallout: London" ;
+    schema:publisher "2024" ;
+    schema:url "https://harshp.com/hobbies/games/226"^^xsd:anyURI .
+
 game:23 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
@@ -36519,9 +36540,6 @@ hptag:humor a hpcom:RenderedItem,
     schema:name "Delaram Golpayegani" ;
     schema:url "https://www.scss.tcd.ie/personnel/golpayes"^^xsd:anyURI .
 
-hpcom:game-unplayed a hpcom:GameStatus ;
-    rdfs:label "unplayed"@en .
-
 hpcom:iOS a hpcom:Platform ;
     rdfs:label "iOS" .
 
@@ -36541,6 +36559,9 @@ hptag:risk a hpcom:RenderedItem,
 
 hpcom:ShortPaper rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Short Paper"@en .
+
+hpcom:game-unplayed a hpcom:GameStatus ;
+    rdfs:label "unplayed"@en .
 
 hptag:AI-Act a hpcom:RenderedItem,
         hpcom:Tag ;

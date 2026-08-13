@@ -2524,6 +2524,18 @@
     schema:publisher "2025" ;
     schema:url "https://harshp.com/hobbies/games/225"^^xsd:anyURI .
 
+<https://harshp.com/hobbies/games/226> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "226"^^xsd:int ;
+    hpcom:game-status hpcom:game-unplayed ;
+    schema:author "Team FOLON" ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:FPS ;
+    schema:name "Fallout: London" ;
+    schema:publisher "2024" ;
+    schema:url "https://harshp.com/hobbies/games/226"^^xsd:anyURI .
+
 <https://harshp.com/hobbies/games/23> a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
