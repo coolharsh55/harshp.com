@@ -4058,12 +4058,16 @@ book:1030 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1030 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-13T18:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Ann Leckie" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Radiant Star" ;
+    schema:review "Not as epic in scope or story or characters as the other books, but instead there is depth in subtle worldbuilding that is seductively immersive. From religion, titles, sects, to pronouncs, customs, and even food habits - there is amazing attention to detail that seems consistent and allows you to be the visitor to a strange alien planet. Compared to the other books set in the same universe, nothing here changes the course of history, nothing matters to the larger story. At one point, a Justice was called eccentric, and I was immediately reminded of the Culture series, and just like it, this book also serves to provide stories arising from other stories, where not everything is action and drama and intensity. A good read, takes a while to appreciate the nuances and restrain."@en ;
     schema:url "https://harshp.com/hobbies/books/1030"^^xsd:anyURI .
 
 book:1031 a hpcom:Book,
@@ -5161,13 +5165,17 @@ book:1094 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1094 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-14T12:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Jeff VanderMeer" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Borne" ;
+    schema:review "Strange biopocalyptic world, with a giant bear called Mord, and a strange all-assimilating slime called Borne. The world was interesting, though still felt under-explored because of the mentions that were never followed. Much of the novel also focuses on hiding and interactions with Borne. Fun, but way too long, and way too much limitations on Borne itself in terms of the story. The aspects of growing up and being like a kid and a teenager were interesting, but not really followed through. "@en ;
     schema:url "https://harshp.com/hobbies/books/1094"^^xsd:anyURI .
 
 book:1095 a hpcom:Book,
@@ -5305,12 +5313,16 @@ book:1102 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1102 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-15T02:30:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Amal El-Mohtar and Max Gladstone" ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "This Is How You Lose the Time War" ;
+    schema:review "Two time travellers on opposing sides end up corresponding themselves into a battle of taunts that turns into romance. Amidst this is a tour of time, two factions utterly alien and incompatible. Two authors write the letters, which are communicated using all sorts of means, which was cool. A lot of times, it was never clear was exactly was the causal relation - like how did one person realise this is where the letter was. But the charm of the story is such that its taking you on a tour and you have to keep moving. So I took it simply as the person knowing them so well enough that they can find the subtlest things that to us would seem totally random. Afterall, they eluded their entire factions. Short novel, interesting premise and structure, and heavy on sci-fi with literary bonuses."@en ;
     schema:url "https://harshp.com/hobbies/books/1102"^^xsd:anyURI .
 
 book:1103 a hpcom:Book,
@@ -5352,6 +5364,45 @@ book:1105 a hpcom:Book,
     schema:genre hpcom:BookNonFiction ;
     schema:name "Metazoa: Animal Life and the Birth of the Mind" ;
     schema:url "https://harshp.com/hobbies/books/1105"^^xsd:anyURI .
+
+book:1106 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1106 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Martha Wells" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Witch King" ;
+    schema:url "https://harshp.com/hobbies/books/1106"^^xsd:anyURI .
+
+book:1107 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1107 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Martha Wells" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "All Systems Red" ;
+    schema:url "https://harshp.com/hobbies/books/1107"^^xsd:anyURI .
+
+book:1108 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1108 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Christopher Ruocchio" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Empire of Silence" ;
+    schema:url "https://harshp.com/hobbies/books/1108"^^xsd:anyURI .
 
 book:111 a hpcom:Book,
         hpcom:BookReading,
@@ -36050,6 +36101,9 @@ hpview:GenericJinja2View a hpcom:View ;
 hpcom:ExtendedAbstract rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Extended Abstract"@en .
 
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
+
 <https://harshp.com/dev/harshp.com> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -36233,9 +36287,6 @@ hptag:website a hpcom:RenderedItem,
 
 hpcom:BookChapter rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Book Chapter"@en .
-
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
 
 list:visually-stunning a hpcom:RenderedItem,
         book:lists ;
