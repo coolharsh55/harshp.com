@@ -2338,7 +2338,7 @@
         schema:VideoGame ;
     hpcom:game-id "216"^^xsd:int ;
     hpcom:game-owned-platform hpcom:gog ;
-    hpcom:game-status hpcom:game-unplayed ;
+    hpcom:game-status hpcom:game-currently-playing ;
     schema:author "Remedy" ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -2535,6 +2535,39 @@
     schema:name "Fallout: London" ;
     schema:publisher "2024" ;
     schema:url "https://harshp.com/hobbies/games/226"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/227> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
+    hpcom:game-id "227"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Unknown Worlds Entertainment" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:survival ;
+    schema:isPartOf hplist:classic,
+        hplist:mechanics,
+        hplist:recommended,
+        hplist:repeat ;
+    schema:name "Subnautica" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/227"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/228> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "228"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:iOS ;
+    hpcom:game-status hpcom:game-currently-playing ;
+    schema:author "Midjiwan AB" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:strategy ;
+    schema:name "Polytopia" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/228"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/games/23> a hpcom:RenderedItem,
         hpcom:VideoGame,

@@ -214,7 +214,7 @@ id,name,developer,publisher,owned,status,played_platform,played_year,genre,ratin
 213,Penumbra: Black Plague,Frictional,2008,,played,Windows,2011,FPS,4,,,,,x
 214,Myst,Cyan,2003,,played,Windows,2006,FPS,4,,,,,x
 215,"I Have No Mouth, and I Must Scream",Cyberdreams and The Dreamers Guild,1995,gog,unplayed,,,FPS,,,,,,
-216,Alan Wake,Remedy,2010,gog,unplayed,,,FPS,,,,,,
+216,Alan Wake,Remedy,2010,gog,currently-playing,Linux,2026,FPS,,,,,,
 217,Super Mario Bros,Nintendo,1985,,played,NES,"1995,1996,1997,1998",FPS,5,,,x,x,x
 218,Street Fighter II,Capcom,1991,,played,"Windows,Linux","2000,2001,2002,2009,2013",FPS,5,x,,x,x,x
 219,Need for Speed II,EA,1997,,played,Windows,"2002,2003,2004",FPS,3,,,,,x
@@ -225,3 +225,5 @@ id,name,developer,publisher,owned,status,played_platform,played_year,genre,ratin
 224,Antiyoy,Yiotro,2015,iOS,currently-playing,iOS,2026,platformer,,,,,,
 225,Avowed,Obsidian,2025,Steam,played,Linux,2026,FPS,4,,,,,
 226,Fallout: London,Team FOLON,2024,,unplayed,,,FPS,,,,,,
+227,Subnautica,Unknown Worlds Entertainment,2018,Steam,played,Linux,2026,survival,5,x,,x,x,x
+228,Polytopia,Midjiwan AB,2016,iOS,currently-playing,iOS,"2025,2026",strategy,,,,,,

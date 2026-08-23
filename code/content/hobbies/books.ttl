@@ -1552,13 +1552,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1086 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-22T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Agent to the Stars" ;
+    schema:review "Ludicrous premise - a Hollywood agent has to figure out how to introduce first contact with aliens, who are already here on Earth, by presenting them through films. What starts as a lighthearted campy 70s//80s script quickly turns into places that seem icky. Like taking over bodies after little plot even though its said to be anathema to the aliens, or the total lack of reasonable response from any other humans. This was Scalzi's first novel, so I'm wondering if all this was deliberate, as he has said he was testing whether he could write."@en ;
     schema:url "https://harshp.com/hobbies/books/1086"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1087> a hpcom:Book,
@@ -1669,7 +1673,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1093 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Michel Faber" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -1921,6 +1925,18 @@
         hpcom:BookSciFi ;
     schema:name "Empire of Silence" ;
     schema:url "https://harshp.com/hobbies/books/1108"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1109> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1109 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Robert Glover" ;
+    schema:dateCreated "2003"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "No More Mr. Nice Guy" ;
+    schema:url "https://harshp.com/hobbies/books/1109"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/111> a hpcom:Book,
         hpcom:BookReading,
@@ -15564,13 +15580,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:866 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-19T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Hervé Le Tellier" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Anomaly" ;
+    schema:review "Though presented in fragments, this book has sharp writings, stories, and the flow of things. One thing that seems out of place is how many stories are presented upfront before the anomaly itself, and then after that they are different stories. So why spend so much time I wonder. Though several were quite interesting to boot. And yes, the ending is a delicious mystery, though the answer is already given I felt."@en ;
     schema:url "https://harshp.com/hobbies/books/866"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/867> a hpcom:Book,

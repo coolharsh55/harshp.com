@@ -5034,13 +5034,17 @@ book:1086 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1086 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-22T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Agent to the Stars" ;
+    schema:review "Ludicrous premise - a Hollywood agent has to figure out how to introduce first contact with aliens, who are already here on Earth, by presenting them through films. What starts as a lighthearted campy 70s//80s script quickly turns into places that seem icky. Like taking over bodies after little plot even though its said to be anathema to the aliens, or the total lack of reasonable response from any other humans. This was Scalzi's first novel, so I'm wondering if all this was deliberate, as he has said he was testing whether he could write."@en ;
     schema:url "https://harshp.com/hobbies/books/1086"^^xsd:anyURI .
 
 book:1087 a hpcom:Book,
@@ -5151,7 +5155,7 @@ book:1093 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1093 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Michel Faber" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -5403,6 +5407,18 @@ book:1108 a hpcom:Book,
         hpcom:BookSciFi ;
     schema:name "Empire of Silence" ;
     schema:url "https://harshp.com/hobbies/books/1108"^^xsd:anyURI .
+
+book:1109 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1109 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Robert Glover" ;
+    schema:dateCreated "2003"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "No More Mr. Nice Guy" ;
+    schema:url "https://harshp.com/hobbies/books/1109"^^xsd:anyURI .
 
 book:111 a hpcom:Book,
         hpcom:BookReading,
@@ -19046,13 +19062,17 @@ book:866 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:866 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-19T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Hervé Le Tellier" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Anomaly" ;
+    schema:review "Though presented in fragments, this book has sharp writings, stories, and the flow of things. One thing that seems out of place is how many stories are presented upfront before the anomaly itself, and then after that they are different stories. So why spend so much time I wonder. Though several were quite interesting to boot. And yes, the ending is a delicious mystery, though the answer is already given I felt."@en ;
     schema:url "https://harshp.com/hobbies/books/866"^^xsd:anyURI .
 
 book:867 a hpcom:Book,
@@ -24003,7 +24023,7 @@ game:216 a hpcom:RenderedItem,
         schema:VideoGame ;
     hpcom:game-id "216"^^xsd:int ;
     hpcom:game-owned-platform hpcom:gog ;
-    hpcom:game-status hpcom:game-unplayed ;
+    hpcom:game-status hpcom:game-currently-playing ;
     schema:author "Remedy" ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -24200,6 +24220,39 @@ game:226 a hpcom:RenderedItem,
     schema:name "Fallout: London" ;
     schema:publisher "2024" ;
     schema:url "https://harshp.com/hobbies/games/226"^^xsd:anyURI .
+
+game:227 a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
+    hpcom:game-id "227"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
+    schema:author "Unknown Worlds Entertainment" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:survival ;
+    schema:isPartOf list1:classic,
+        list1:mechanics,
+        list1:recommended,
+        list1:repeat ;
+    schema:name "Subnautica" ;
+    schema:publisher "2018" ;
+    schema:url "https://harshp.com/hobbies/games/227"^^xsd:anyURI .
+
+game:228 a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "228"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:iOS ;
+    hpcom:game-status hpcom:game-currently-playing ;
+    schema:author "Midjiwan AB" ;
+    schema:dateCreated "2016"^^xsd:int ;
+    schema:genre hpcom:strategy ;
+    schema:name "Polytopia" ;
+    schema:publisher "2016" ;
+    schema:url "https://harshp.com/hobbies/games/228"^^xsd:anyURI .
 
 game:23 a hpcom:RenderedItem,
         hpcom:VideoGame,
@@ -32070,9 +32123,6 @@ hpview:StoryView a hpcom:View ;
     hpcom:view_target <https://harshp.com/stories> ;
     hpcom:view_template "https://harshp.com/code/templates/template_stories_post.jinja2" .
 
-hpcom:game-currently-playing a hpcom:GameStatus ;
-    rdfs:label "currently playing"@en .
-
 <https://harshp.com/contact> a hpcom:RenderedItem,
         schema:BlogPosting ;
     schema:name "Contact Me"@en ;
@@ -35878,6 +35928,9 @@ hptag:work a hpcom:RenderedItem,
     schema:startDate "2023-06-25T00:00:00"^^xsd:dateTime ;
     schema:url "https://facctconference.org/2026/"^^xsd:anyURI .
 
+hpcom:game-currently-playing a hpcom:GameStatus ;
+    rdfs:label "currently playing"@en .
+
 <https://harshp.com/dev/webdev> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -36591,8 +36644,8 @@ hptag:humor a hpcom:RenderedItem,
     schema:name "Delaram Golpayegani" ;
     schema:url "https://www.scss.tcd.ie/personnel/golpayes"^^xsd:anyURI .
 
-hpcom:iOS a hpcom:Platform ;
-    rdfs:label "iOS" .
+hpcom:game-unplayed a hpcom:GameStatus ;
+    rdfs:label "unplayed"@en .
 
 <https://harshp.com/research/projects> a owl:Class,
         hpcom:RenderedItem ;
@@ -36611,8 +36664,8 @@ hptag:risk a hpcom:RenderedItem,
 hpcom:ShortPaper rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Short Paper"@en .
 
-hpcom:game-unplayed a hpcom:GameStatus ;
-    rdfs:label "unplayed"@en .
+hpcom:iOS a hpcom:Platform ;
+    rdfs:label "iOS" .
 
 hptag:AI-Act a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -36707,11 +36760,6 @@ hptag:privacy a hpcom:RenderedItem,
     schema:name "privacy" ;
     schema:url "https://harshp.com/tags/privacy"^^xsd:anyURI .
 
-list1:repeat a hpcom:RenderedItem,
-        game:lists ;
-    schema:identifier "repeat"@en ;
-    schema:name "Repeat Playthroughs"@en .
-
 hptag:DPV a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "DPV"@en ;
@@ -36726,6 +36774,11 @@ list:books-changed-life a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "books-changed-life"@en ;
     schema:name "Books that changed my life"@en .
+
+list1:repeat a hpcom:RenderedItem,
+        game:lists ;
+    schema:identifier "repeat"@en ;
+    schema:name "Repeat Playthroughs"@en .
 
 list:cork a hpcom:RenderedItem,
         book:lists ;
