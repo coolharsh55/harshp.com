@@ -221,22 +221,12 @@
 <https://harshp.com/hobbies/games/109> a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
-    hpcom:date-game-played "2020"^^xsd:int,
-        "2021"^^xsd:int,
-        "2022"^^xsd:int ;
     hpcom:game-id "109"^^xsd:int ;
     hpcom:game-owned-platform hpcom:Steam ;
-    hpcom:game-platform-played hpcom:Linux ;
-    hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating5 ;
+    hpcom:game-status hpcom:game-currently-playing ;
     schema:author "ConcernedAge" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
-    schema:isPartOf hplist:classic,
-        hplist:mechanics,
-        hplist:recommended,
-        hplist:repeat,
-        hplist:story ;
     schema:name "Stardew Valley" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/109"^^xsd:anyURI .
@@ -2336,12 +2326,18 @@
 <https://harshp.com/hobbies/games/216> a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
     hpcom:game-id "216"^^xsd:int ;
     hpcom:game-owned-platform hpcom:gog ;
-    hpcom:game-status hpcom:game-currently-playing ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Remedy" ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf hplist:classic,
+        hplist:recommended,
+        hplist:story ;
     schema:name "Alan Wake" ;
     schema:publisher "2010" ;
     schema:url "https://harshp.com/hobbies/games/216"^^xsd:anyURI .

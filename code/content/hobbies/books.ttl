@@ -194,7 +194,7 @@
         schema:Book ;
     hpcom:book_id hpcom:1008 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Salman Rushdie" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
@@ -1659,13 +1659,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1092 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-29T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Namwali Serpell" ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Old Drift" ;
+    schema:review "This book is probably not for me, mostly because I think I did not have some needed context to appreciate what is evidently an ambitious and meticulous effort. It started in an interesting way, though more magical realism than the advertised science fiction, but there was no hook, no greater depth or flavour to the stories. Over generations, as progenies evoked more modern woes, my interest continued to wane, until at last I simply could not wait to finish the book in a rush just to be done with it. The setting of Zambia was novel and interesting, but somehow that did not end up being as much entertaining or imaginative as I had hoped. It is undoubtedly clear that the author has made an effort in assembling this barrage of stories though, so that's credit due."@en ;
     schema:url "https://harshp.com/hobbies/books/1092"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1093> a hpcom:Book,
@@ -1673,13 +1677,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1093 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-25T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Michel Faber" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Book of Strange New Things" ;
+    schema:review "The premise is familiar having read the Sparrow. A Christian priest goes to an alien planet and interacts with the natives. The start was rough, felt icky. The book itself is quite slow and nothing really happens. The big philosophical and religious ideas being discussed aren't also that interesting. Just go read the Sparrow tbh."@en ;
     schema:url "https://harshp.com/hobbies/books/1093"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1094> a hpcom:Book,
@@ -1953,6 +1961,31 @@
         hpcom:BookSciFi ;
     schema:name "The Mysterious Island" ;
     schema:url "https://harshp.com/hobbies/books/111"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1110> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1110 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Stanisław Lem" ;
+    schema:dateCreated "1964"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The Invincible" ;
+    schema:url "https://harshp.com/hobbies/books/1110"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1111> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1111 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Brian Merchant" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Blood in the Machine: The Origins of the Rebellion Against Big Tech" ;
+    schema:url "https://harshp.com/hobbies/books/1111"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/112> a hpcom:Book,
         hpcom:BookReading,

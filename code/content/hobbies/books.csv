@@ -1010,7 +1010,7 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1005,The Age of Extraction: How Tech Platforms Conquered the Economy and Threaten Our Future Prosperity,Tim Wu,2025,PhysicalBook,,to-read,,,BookNonFiction,,
 1006,"House of Day, House of Night",Olga Tokarczuk,1998,PhysicalBook,PhysicalBook,read,2026-06-05 00:00:00,5,BookFiction,,"Short stories by Olga Tokarczuk - yes please! Reminded me of flights in the most pleasant ways. But these stories are also about society, supersition, humour, and many other things. Delightful."
 1007,Fury,Salman Rushdie,2001,PhysicalBook,PhysicalBook,read,2026-03-03 00:00:00,4,BookFiction,,"Rushdie spins a tale of fury emerging from a man's psychie. Good writing, but not as sharp as other books. A bit whimsical, and having read his later works, almost feels like the start of an obsession with America."
-1008,Two Years Eight Months and Twenty-Eight Nights,Salman Rushdie,2015,PhysicalBook,,to-read,,,BookFiction,,
+1008,Two Years Eight Months and Twenty-Eight Nights,Salman Rushdie,2015,PhysicalBook,,currently-reading,,,BookFiction,,
 1009,The Golden House,Salman Rushdie,2017,PhysicalBook,PhysicalBook,read,2026-08-06 12:00:00,2,BookFiction,,"A dense plethora with hot flashes of flavour. It was difficult to complete this book because I could never stop feeling that I'm missing the point or the plot. Ploughing through it somehow, the sheer clowning of a certain someone in the last part did sort of make up for things, but this was not fun nor something that I would want to repeat again."
 1010,The Bee Sting,Paul Murray,2023,PhysicalBook,,to-read,,,BookFiction,,
 1011,The Mercy of Gods,James S. A. Corey,2024,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
@@ -1094,8 +1094,8 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1089,Sundiver,David Brin,1980,EBook,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1090,Who Fears Death,Nnedi Okorafor,2018,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1091,We Are All Completely Beside Ourselves,Karen Joy Fowler,2014,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
-1092,The Old Drift,Namwali Serpell,2019,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
-1093,The Book of Strange New Things,Michel Faber,2014,,,currently-reading,,,BookFiction;BookSciFi,DublinLibrary,
+1092,The Old Drift,Namwali Serpell,2019,,EBook,read,2026-08-29 23:00:00,3,BookFiction;BookSciFi,DublinLibrary,"This book is probably not for me, mostly because I think I did not have some needed context to appreciate what is evidently an ambitious and meticulous effort. It started in an interesting way, though more magical realism than the advertised science fiction, but there was no hook, no greater depth or flavour to the stories. Over generations, as progenies evoked more modern woes, my interest continued to wane, until at last I simply could not wait to finish the book in a rush just to be done with it. The setting of Zambia was novel and interesting, but somehow that did not end up being as much entertaining or imaginative as I had hoped. It is undoubtedly clear that the author has made an effort in assembling this barrage of stories though, so that's credit due."
+1093,The Book of Strange New Things,Michel Faber,2014,,EBook,read,2026-08-25 23:00:00,2,BookFiction;BookSciFi,DublinLibrary,"The premise is familiar having read the Sparrow. A Christian priest goes to an alien planet and interacts with the natives. The start was rough, felt icky. The book itself is quite slow and nothing really happens. The big philosophical and religious ideas being discussed aren't also that interesting. Just go read the Sparrow tbh."
 1094,Borne,Jeff VanderMeer,2017,,EBook,read,2026-08-14 12:00:00,3,BookFiction;BookSciFi,DublinLibrary,"Strange biopocalyptic world, with a giant bear called Mord, and a strange all-assimilating slime called Borne. The world was interesting, though still felt under-explored because of the mentions that were never followed. Much of the novel also focuses on hiding and interactions with Borne. Fun, but way too long, and way too much limitations on Borne itself in terms of the story. The aspects of growing up and being like a kid and a teenager were interesting, but not really followed through. "
 1095,Blood Music,Greg Bear,2014,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1096,Spinning Silver,Naomi Novik,2018,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
@@ -1112,3 +1112,5 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1107,All Systems Red,Martha Wells,2017,,,to-read,,,BookFiction;BookSciFi,,
 1108,Empire of Silence,Christopher Ruocchio,2018,,,to-read,,,BookFiction;BookSciFi,,
 1109,No More Mr. Nice Guy,Robert Glover,2003,,,to-read,,,BookNonFiction,,
+1110,The Invincible,Stanisław Lem,1964,,,to-read,,,BookFiction;BookSciFi,,
+1111,Blood in the Machine: The Origins of the Rebellion Against Big Tech,Brian Merchant,2023,,,to-read,,,BookNonFiction,,

@@ -3676,7 +3676,7 @@ book:1008 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1008 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Salman Rushdie" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
@@ -5141,13 +5141,17 @@ book:1092 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1092 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-29T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Namwali Serpell" ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Old Drift" ;
+    schema:review "This book is probably not for me, mostly because I think I did not have some needed context to appreciate what is evidently an ambitious and meticulous effort. It started in an interesting way, though more magical realism than the advertised science fiction, but there was no hook, no greater depth or flavour to the stories. Over generations, as progenies evoked more modern woes, my interest continued to wane, until at last I simply could not wait to finish the book in a rush just to be done with it. The setting of Zambia was novel and interesting, but somehow that did not end up being as much entertaining or imaginative as I had hoped. It is undoubtedly clear that the author has made an effort in assembling this barrage of stories though, so that's credit due."@en ;
     schema:url "https://harshp.com/hobbies/books/1092"^^xsd:anyURI .
 
 book:1093 a hpcom:Book,
@@ -5155,13 +5159,17 @@ book:1093 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1093 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-08-25T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Michel Faber" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Book of Strange New Things" ;
+    schema:review "The premise is familiar having read the Sparrow. A Christian priest goes to an alien planet and interacts with the natives. The start was rough, felt icky. The book itself is quite slow and nothing really happens. The big philosophical and religious ideas being discussed aren't also that interesting. Just go read the Sparrow tbh."@en ;
     schema:url "https://harshp.com/hobbies/books/1093"^^xsd:anyURI .
 
 book:1094 a hpcom:Book,
@@ -5435,6 +5443,31 @@ book:111 a hpcom:Book,
         hpcom:BookSciFi ;
     schema:name "The Mysterious Island" ;
     schema:url "https://harshp.com/hobbies/books/111"^^xsd:anyURI .
+
+book:1110 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1110 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Stanisław Lem" ;
+    schema:dateCreated "1964"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The Invincible" ;
+    schema:url "https://harshp.com/hobbies/books/1110"^^xsd:anyURI .
+
+book:1111 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1111 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Brian Merchant" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookNonFiction ;
+    schema:name "Blood in the Machine: The Origins of the Rebellion Against Big Tech" ;
+    schema:url "https://harshp.com/hobbies/books/1111"^^xsd:anyURI .
 
 book:112 a hpcom:Book,
         hpcom:BookReading,
@@ -21906,22 +21939,12 @@ game:108 a hpcom:RenderedItem,
 game:109 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
-    hpcom:date-game-played "2020"^^xsd:int,
-        "2021"^^xsd:int,
-        "2022"^^xsd:int ;
     hpcom:game-id "109"^^xsd:int ;
     hpcom:game-owned-platform hpcom:Steam ;
-    hpcom:game-platform-played hpcom:Linux ;
-    hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating5 ;
+    hpcom:game-status hpcom:game-currently-playing ;
     schema:author "ConcernedAge" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
-    schema:isPartOf list1:classic,
-        list1:mechanics,
-        list1:recommended,
-        list1:repeat,
-        list1:story ;
     schema:name "Stardew Valley" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/109"^^xsd:anyURI .
@@ -24021,12 +24044,18 @@ game:215 a hpcom:RenderedItem,
 game:216 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
     hpcom:game-id "216"^^xsd:int ;
     hpcom:game-owned-platform hpcom:gog ;
-    hpcom:game-status hpcom:game-currently-playing ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Remedy" ;
     schema:dateCreated "2010"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf list1:classic,
+        list1:recommended,
+        list1:story ;
     schema:name "Alan Wake" ;
     schema:publisher "2010" ;
     schema:url "https://harshp.com/hobbies/games/216"^^xsd:anyURI .
@@ -36760,6 +36789,11 @@ hptag:privacy a hpcom:RenderedItem,
     schema:name "privacy" ;
     schema:url "https://harshp.com/tags/privacy"^^xsd:anyURI .
 
+list1:repeat a hpcom:RenderedItem,
+        game:lists ;
+    schema:identifier "repeat"@en ;
+    schema:name "Repeat Playthroughs"@en .
+
 hptag:DPV a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "DPV"@en ;
@@ -36774,11 +36808,6 @@ list:books-changed-life a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "books-changed-life"@en ;
     schema:name "Books that changed my life"@en .
-
-list1:repeat a hpcom:RenderedItem,
-        game:lists ;
-    schema:identifier "repeat"@en ;
-    schema:name "Repeat Playthroughs"@en .
 
 list:cork a hpcom:RenderedItem,
         book:lists ;
@@ -36896,17 +36925,17 @@ list:scifi a hpcom:RenderedItem,
     schema:identifier "scifi"@en ;
     schema:name "Exciting Sci-Fi"@en .
 
+list:DCU a hpcom:RenderedItem,
+        book:lists ;
+    schema:identifier "DCU"@en ;
+    schema:name "Books in DCU"@en .
+
 hptag:Rating2 a hpcom:Rating,
         hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "🙁bad (2/5)"@en ;
     schema:ratingValue "2"^^xsd:int ;
     schema:url "https://harshp.com/tags/Rating2"^^xsd:anyURI .
-
-list:DCU a hpcom:RenderedItem,
-        book:lists ;
-    schema:identifier "DCU"@en ;
-    schema:name "Books in DCU"@en .
 
 list1:mechanics a hpcom:RenderedItem,
         game:lists ;

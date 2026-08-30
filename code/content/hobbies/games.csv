@@ -107,7 +107,7 @@ id,name,developer,publisher,owned,status,played_platform,played_year,genre,ratin
 106,Enter the Gungeon,Dodge Roll,2016,Steam,played,Linux,"2019,2020,2021",FPS,4,,,,x,
 107,The Elder Scrolls V: Skyrim,Bethesda,2011,Steam,played,Linux,2021,FPS,5,,,x,x,x
 108,Gloomhaven,Flaming Fowl,2021,Steam,played,Linux,2022,FPS,3,,,,,
-109,Stardew Valley,ConcernedAge,2016,Steam,played,Linux,"2020,2021,2022",FPS,5,x,x,x,x,x
+109,Stardew Valley,ConcernedAge,2016,Steam,currently-playing,Linux,"2020,2021,2022,2023,2024,2025,2026",FPS,5,x,x,x,x,x
 110,Risk of Rain 2,Hopoo,2020,Steam,played,Linux,"2022,2023",FPS,5,,,x,x,x
 111,Valheim,Iron Gate,2021,Steam,played,Linux,2021,FPS,3,,,,,
 112,Ark: Survival Evolved,Studio Wildcard,2017,Steam,played,Linux,2023,FPS,2,,,,,
@@ -214,7 +214,7 @@ id,name,developer,publisher,owned,status,played_platform,played_year,genre,ratin
 213,Penumbra: Black Plague,Frictional,2008,,played,Windows,2011,FPS,4,,,,,x
 214,Myst,Cyan,2003,,played,Windows,2006,FPS,4,,,,,x
 215,"I Have No Mouth, and I Must Scream",Cyberdreams and The Dreamers Guild,1995,gog,unplayed,,,FPS,,,,,,
-216,Alan Wake,Remedy,2010,gog,currently-playing,Linux,2026,FPS,,,,,,
+216,Alan Wake,Remedy,2010,gog,played,Linux,2026,FPS,5,,x,x,,x
 217,Super Mario Bros,Nintendo,1985,,played,NES,"1995,1996,1997,1998",FPS,5,,,x,x,x
 218,Street Fighter II,Capcom,1991,,played,"Windows,Linux","2000,2001,2002,2009,2013",FPS,5,x,,x,x,x
 219,Need for Speed II,EA,1997,,played,Windows,"2002,2003,2004",FPS,3,,,,,x
