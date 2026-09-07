@@ -1436,13 +1436,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1079 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-07T10:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Jeff Vandermeer" ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Absolution" ;
+    schema:review "Promised resolution of stories regarding the weird Area X are never given. Instead we get some 'creepy stories' because just vibe and hint at things, why bother actually making an intelligent story when you can course on 'atmosphere' and 'feels'. Annihilation was genre-defining because it had both the atmosphere while giving hints of an underlying thing. Even if we never fully understand it, there are mechanisms at play. Much like Lovecraft's unknowable eldritch horrors, our limits are on display. The third book in this series did give hints but also exposed inconsistencies in the narrative. This book digs that ditch deeper. Did not enjoy."@en ;
     schema:url "https://harshp.com/hobbies/books/1079"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/108> a hpcom:Book,
@@ -1528,13 +1532,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1084 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-05T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2008"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Ghost Brigades" ;
+    schema:review "A sequel to Old Man's War, this is a different story set in the same universe. There are interesting themes and topics, a bit of bio-tech and alien-ism, but nothing is tackled in depth. A decent book to get through on a beach or on a plane. Bonus point for also dealing with consciousness and making aliens actually alien rather than anthopomorphised beings."@en ;
     schema:url "https://harshp.com/hobbies/books/1084"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1085> a hpcom:Book,
@@ -1990,6 +1998,34 @@
     schema:genre hpcom:BookNonFiction ;
     schema:name "Blood in the Machine: The Origins of the Rebellion Against Big Tech" ;
     schema:url "https://harshp.com/hobbies/books/1111"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1112> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1112 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-currently-reading ;
+    schema:author "James Islington" ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The Strength of the Few" ;
+    schema:url "https://harshp.com/hobbies/books/1112"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1113> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1113 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "John Scalzi" ;
+    schema:dateCreated "2007"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf hplist:DublinLibrary ;
+    schema:name "The Last Colony" ;
+    schema:url "https://harshp.com/hobbies/books/1113"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/112> a hpcom:Book,
         hpcom:BookReading,
@@ -8273,7 +8309,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:47 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Miriam Toews" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:BookFiction ;

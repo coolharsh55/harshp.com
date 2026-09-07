@@ -2494,9 +2494,12 @@
 <https://harshp.com/hobbies/games/224> a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
     hpcom:game-id "224"^^xsd:int ;
     hpcom:game-owned-platform hpcom:iOS ;
-    hpcom:game-status hpcom:game-currently-playing ;
+    hpcom:game-platform-played hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Yiotro" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:platformer ;
@@ -2512,7 +2515,7 @@
     hpcom:game-owned-platform hpcom:Steam ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating4 ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Obsidian" ;
     schema:dateCreated "2025"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -2555,15 +2558,33 @@
 <https://harshp.com/hobbies/games/228> a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
+    hpcom:date-game-played "2025"^^xsd:int,
+        "2026"^^xsd:int ;
     hpcom:game-id "228"^^xsd:int ;
     hpcom:game-owned-platform hpcom:iOS ;
-    hpcom:game-status hpcom:game-currently-playing ;
+    hpcom:game-platform-played hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Midjiwan AB" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:strategy ;
+    schema:isPartOf hplist:repeat ;
     schema:name "Polytopia" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/228"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/games/229> a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "229"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-status hpcom:game-currently-playing ;
+    schema:author "Pocketpair" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:survival ;
+    schema:name "Palworld" ;
+    schema:publisher "2026" ;
+    schema:url "https://harshp.com/hobbies/games/229"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/games/23> a hpcom:RenderedItem,
         hpcom:VideoGame,

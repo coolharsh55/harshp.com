@@ -222,8 +222,9 @@ id,name,developer,publisher,owned,status,played_platform,played_year,genre,ratin
 221,Need for Speed: Underground 2,EA,2004,,played,Windows,2005,FPS,3,,,,,
 222,Need for Speed: Most Wanted,EA,2005,,played,Windows,2006,FPS,3,,,,,x
 223,Snake,Nokia,1998,,played,Nokia,"2004,2005,2006,2007,2008,2009",FPS,4,x,,x,x,x
-224,Antiyoy,Yiotro,2015,iOS,currently-playing,iOS,2026,platformer,,,,,,
-225,Avowed,Obsidian,2025,Steam,played,Linux,2026,FPS,4,,,,,
+224,Antiyoy,Yiotro,2015,iOS,played,iOS,2026,platformer,4,,,,,
+225,Avowed,Obsidian,2025,Steam,played,Linux,2026,FPS,3,,,,,
 226,Fallout: London,Team FOLON,2024,,unplayed,,,FPS,,,,,,
 227,Subnautica,Unknown Worlds Entertainment,2018,Steam,played,Linux,2026,survival,5,x,,x,x,x
-228,Polytopia,Midjiwan AB,2016,iOS,currently-playing,iOS,"2025,2026",strategy,,,,,,
+228,Polytopia,Midjiwan AB,2016,iOS,played,iOS,"2025,2026",strategy,4,x,,,,
+229,Palworld,Pocketpair,2026,Steam,currently-playing,Linux,2026,survival,,,,,,

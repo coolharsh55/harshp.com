@@ -4918,13 +4918,17 @@ book:1079 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1079 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-07T10:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Jeff Vandermeer" ;
     schema:dateCreated "2024"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Absolution" ;
+    schema:review "Promised resolution of stories regarding the weird Area X are never given. Instead we get some 'creepy stories' because just vibe and hint at things, why bother actually making an intelligent story when you can course on 'atmosphere' and 'feels'. Annihilation was genre-defining because it had both the atmosphere while giving hints of an underlying thing. Even if we never fully understand it, there are mechanisms at play. Much like Lovecraft's unknowable eldritch horrors, our limits are on display. The third book in this series did give hints but also exposed inconsistencies in the narrative. This book digs that ditch deeper. Did not enjoy."@en ;
     schema:url "https://harshp.com/hobbies/books/1079"^^xsd:anyURI .
 
 book:108 a hpcom:Book,
@@ -5010,13 +5014,17 @@ book:1084 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1084 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-05T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2008"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Ghost Brigades" ;
+    schema:review "A sequel to Old Man's War, this is a different story set in the same universe. There are interesting themes and topics, a bit of bio-tech and alien-ism, but nothing is tackled in depth. A decent book to get through on a beach or on a plane. Bonus point for also dealing with consciousness and making aliens actually alien rather than anthopomorphised beings."@en ;
     schema:url "https://harshp.com/hobbies/books/1084"^^xsd:anyURI .
 
 book:1085 a hpcom:Book,
@@ -5472,6 +5480,34 @@ book:1111 a hpcom:Book,
     schema:genre hpcom:BookNonFiction ;
     schema:name "Blood in the Machine: The Origins of the Rebellion Against Big Tech" ;
     schema:url "https://harshp.com/hobbies/books/1111"^^xsd:anyURI .
+
+book:1112 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1112 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-currently-reading ;
+    schema:author "James Islington" ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The Strength of the Few" ;
+    schema:url "https://harshp.com/hobbies/books/1112"^^xsd:anyURI .
+
+book:1113 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1113 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "John Scalzi" ;
+    schema:dateCreated "2007"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Last Colony" ;
+    schema:url "https://harshp.com/hobbies/books/1113"^^xsd:anyURI .
 
 book:112 a hpcom:Book,
         hpcom:BookReading,
@@ -11755,7 +11791,7 @@ book:47 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:47 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Miriam Toews" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
@@ -24216,9 +24252,12 @@ game:223 a hpcom:RenderedItem,
 game:224 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
     hpcom:game-id "224"^^xsd:int ;
     hpcom:game-owned-platform hpcom:iOS ;
-    hpcom:game-status hpcom:game-currently-playing ;
+    hpcom:game-platform-played hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Yiotro" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:platformer ;
@@ -24234,7 +24273,7 @@ game:225 a hpcom:RenderedItem,
     hpcom:game-owned-platform hpcom:Steam ;
     hpcom:game-platform-played hpcom:Linux ;
     hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating4 ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Obsidian" ;
     schema:dateCreated "2025"^^xsd:int ;
     schema:genre hpcom:FPS ;
@@ -24277,15 +24316,33 @@ game:227 a hpcom:RenderedItem,
 game:228 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
+    hpcom:date-game-played "2025"^^xsd:int,
+        "2026"^^xsd:int ;
     hpcom:game-id "228"^^xsd:int ;
     hpcom:game-owned-platform hpcom:iOS ;
-    hpcom:game-status hpcom:game-currently-playing ;
+    hpcom:game-platform-played hpcom:iOS ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Midjiwan AB" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:strategy ;
+    schema:isPartOf list1:repeat ;
     schema:name "Polytopia" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/228"^^xsd:anyURI .
+
+game:229 a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "229"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-status hpcom:game-currently-playing ;
+    schema:author "Pocketpair" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:survival ;
+    schema:name "Palworld" ;
+    schema:publisher "2026" ;
+    schema:url "https://harshp.com/hobbies/games/229"^^xsd:anyURI .
 
 game:23 a hpcom:RenderedItem,
         hpcom:VideoGame,
@@ -35682,6 +35739,9 @@ hpcom:Thesis rdfs:subClassOf schema:ScholarlyArticle,
         schema:Thesis ;
     schema:name "Thesis"@en .
 
+hpcom:game-currently-playing a hpcom:GameStatus ;
+    rdfs:label "currently playing"@en .
+
 hpcom:macOS a hpcom:Platform ;
     rdfs:label "macOS" .
 
@@ -35961,9 +36021,6 @@ hptag:work a hpcom:RenderedItem,
     schema:startDate "2023-06-25T00:00:00"^^xsd:dateTime ;
     schema:url "https://facctconference.org/2026/"^^xsd:anyURI .
 
-hpcom:game-currently-playing a hpcom:GameStatus ;
-    rdfs:label "currently playing"@en .
-
 <https://harshp.com/dev/webdev> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -36187,9 +36244,6 @@ hpview:GenericJinja2View a hpcom:View ;
 hpcom:ExtendedAbstract rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Extended Abstract"@en .
 
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
-
 <https://harshp.com/dev/harshp.com> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -36321,6 +36375,9 @@ hptag:trains a hpcom:RenderedItem,
     schema:name "International Conference on Semantic Systems"@en ;
     schema:startDate "2022-09-13T00:00:00"^^xsd:dateTime ;
     schema:url "https://2022-eu.semantics.cc"^^xsd:anyURI .
+
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
 
 game:lists a owl:Class,
         hpcom:RenderedItem ;
@@ -36697,9 +36754,6 @@ hptag:risk a hpcom:RenderedItem,
 hpcom:ShortPaper rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Short Paper"@en .
 
-hpcom:iOS a hpcom:Platform ;
-    rdfs:label "iOS" .
-
 hptag:AI-Act a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "AI-Act"@en ;
@@ -36724,6 +36778,9 @@ hptag:philosophy a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "philosophy" ;
     schema:url "https://harshp.com/tags/philosophy"^^xsd:anyURI .
+
+hpcom:iOS a hpcom:Platform ;
+    rdfs:label "iOS" .
 
 <https://harshp.com/research/projects/risky> a hpcom:RenderedItem,
         <https://harshp.com/research/projects>,
@@ -36793,11 +36850,6 @@ hptag:privacy a hpcom:RenderedItem,
     schema:name "privacy" ;
     schema:url "https://harshp.com/tags/privacy"^^xsd:anyURI .
 
-list1:repeat a hpcom:RenderedItem,
-        game:lists ;
-    schema:identifier "repeat"@en ;
-    schema:name "Repeat Playthroughs"@en .
-
 hptag:DPV a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "DPV"@en ;
@@ -36812,6 +36864,11 @@ list:books-changed-life a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "books-changed-life"@en ;
     schema:name "Books that changed my life"@en .
+
+list1:repeat a hpcom:RenderedItem,
+        game:lists ;
+    schema:identifier "repeat"@en ;
+    schema:name "Repeat Playthroughs"@en .
 
 list:cork a hpcom:RenderedItem,
         book:lists ;
