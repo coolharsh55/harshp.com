@@ -4001,7 +4001,8 @@ book:1027 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1027 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Adrian Tchaikovsky" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -4421,6 +4422,7 @@ book:1050 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1050 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Adrian Tchaikovsky" ;
     schema:dateCreated "2026"^^xsd:int ;
@@ -4989,11 +4991,15 @@ book:1082 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1082 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-14T09:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Cory Doctorow" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:name "The Reverse Centaur's Guide to Life After AI: How to Think About Artificial Intelligence—Before It's Too Late" ;
+    schema:review "While this is not a comprehensive thesis or guide, it does push the boundaries of knowledge and understanding to explain how AI economy is going to affect work and workers. This wsa useful for my work, and the whole notion of 'reverse centaur', which I came across in one of Doctorow's blog, is expanded with some examples and some core ideas. This was a quick read on a plane trip from Dublin to Brussels."@en ;
     schema:url "https://harshp.com/hobbies/books/1082"^^xsd:anyURI .
 
 book:1083 a hpcom:Book,
@@ -5002,7 +5008,7 @@ book:1083 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1083 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Rebecca Giblin and Cory Doctorow" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
@@ -5249,7 +5255,7 @@ book:1098 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1098 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Ada Palmer" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -5487,12 +5493,16 @@ book:1112 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1112 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-19T18:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "James Islington" ;
     schema:dateCreated "2025"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "The Strength of the Few" ;
+    schema:review "Sequel to a fantasy-epic thriller, this is a continuation of the genre mashup.We have three parallel stories, told across chapters. Each stream's chapter got really interesting, and then the next chapter started a different stream, which made it a little annoying. But then that stream got interesting. Nothing really converges, so that continues all the way to the end. Lots was not clear regarding why things happened or why suddently a character could do what they did. But all was good entertaining reading. Waiting for Book 3 now."@en ;
     schema:url "https://harshp.com/hobbies/books/1112"^^xsd:anyURI .
 
 book:1113 a hpcom:Book,
@@ -5508,6 +5518,19 @@ book:1113 a hpcom:Book,
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Last Colony" ;
     schema:url "https://harshp.com/hobbies/books/1113"^^xsd:anyURI .
+
+book:1114 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1114 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Sayaka Murata" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Convenience Store Woman" ;
+    schema:url "https://harshp.com/hobbies/books/1114"^^xsd:anyURI .
 
 book:112 a hpcom:Book,
         hpcom:BookReading,
@@ -11791,12 +11814,16 @@ book:47 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:47 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-10T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Miriam Toews" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Women Talking" ;
+    schema:review "The topic is as serious as it gets, and based on real events which lends it an added seriousness. What is wonderful about this book is how it manages to make its characters feel like people rather than plot points in a story. There is no overarching flow, every person when they speak or act or react do so in their own way, with their own perspectives. The result is a full display of the frustration, confusion, anger, sorrow, and sheer adversity imposed by society. "@en ;
     schema:url "https://harshp.com/hobbies/books/47"^^xsd:anyURI .
 
 book:470 a hpcom:Book,
@@ -24334,9 +24361,12 @@ game:228 a hpcom:RenderedItem,
 game:229 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
     hpcom:game-id "229"^^xsd:int ;
     hpcom:game-owned-platform hpcom:Steam ;
-    hpcom:game-status hpcom:game-currently-playing ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Pocketpair" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:survival ;
@@ -25313,20 +25343,12 @@ game:70 a hpcom:RenderedItem,
 game:71 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
-    hpcom:date-game-played "2023"^^xsd:int ;
     hpcom:game-id "71"^^xsd:int ;
     hpcom:game-owned-platform hpcom:Steam ;
-    hpcom:game-platform-played hpcom:Linux ;
-    hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating5 ;
+    hpcom:game-status hpcom:game-currently-playing ;
     schema:author "Obsidian" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
-    schema:isPartOf list1:classic,
-        list1:mechanics,
-        list1:recommended,
-        list1:repeat,
-        list1:story ;
     schema:name "Pillars of Eternity II: Deadfire" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/71"^^xsd:anyURI .
@@ -36850,6 +36872,11 @@ hptag:privacy a hpcom:RenderedItem,
     schema:name "privacy" ;
     schema:url "https://harshp.com/tags/privacy"^^xsd:anyURI .
 
+list1:repeat a hpcom:RenderedItem,
+        game:lists ;
+    schema:identifier "repeat"@en ;
+    schema:name "Repeat Playthroughs"@en .
+
 hptag:DPV a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "DPV"@en ;
@@ -36864,11 +36891,6 @@ list:books-changed-life a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "books-changed-life"@en ;
     schema:name "Books that changed my life"@en .
-
-list1:repeat a hpcom:RenderedItem,
-        game:lists ;
-    schema:identifier "repeat"@en ;
-    schema:name "Repeat Playthroughs"@en .
 
 list:cork a hpcom:RenderedItem,
         book:lists ;
@@ -36902,11 +36924,6 @@ list:educational a hpcom:RenderedItem,
 hpcom:gog a hpcom:Platform ;
     rdfs:label "GOG" .
 
-list:DublinLibrary a hpcom:RenderedItem,
-        book:lists ;
-    schema:identifier "DublinLibrary"@en ;
-    schema:name "Dublin Library"@en .
-
 list1:story a hpcom:RenderedItem,
         game:lists ;
     schema:identifier "story"@en ;
@@ -36914,6 +36931,11 @@ list1:story a hpcom:RenderedItem,
 
 <https://www.scss.tcd.ie/dave.lewis/> a schema:Person ;
     schema:name "Dave Lewis" .
+
+list:DublinLibrary a hpcom:RenderedItem,
+        book:lists ;
+    schema:identifier "DublinLibrary"@en ;
+    schema:name "Dublin Library"@en .
 
 hpcom:Conference a hpcom:EventType ;
     rdfs:label "Conference"@en ;

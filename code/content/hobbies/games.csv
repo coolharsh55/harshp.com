@@ -69,7 +69,7 @@ id,name,developer,publisher,owned,status,played_platform,played_year,genre,ratin
 68,Fallout: New Vegas,Obsidian,2010,Steam,played,Linux,2021,FPS,5,x,x,x,x,x
 69,Tyranny,Obsidian,2016,gog,played,Linux,"2023,2024",FPS,5,x,x,x,x,x
 70,Pillars of Eternity,Obsidian,2015,Steam,played,Linux,2023,FPS,5,x,x,x,x,x
-71,Pillars of Eternity II: Deadfire,Obsidian,2018,Steam,played,Linux,2023,FPS,5,x,x,x,x,x
+71,Pillars of Eternity II: Deadfire,Obsidian,2018,Steam,currently-playing,Linux,"2023,2026",FPS,5,x,x,x,x,x
 72,The Outer Worlds,Obsidian,2019,gog,played,Linux,2022,FPS,4,,,,,
 73,Grounded,Obsidian,2022,Steam,played,Linux,2023,FPS,5,x,,x,x,
 74,Pentiment,Obsidian,2022,,played,SteamDeck,2023,FPS,5,x,x,x,x,x
@@ -227,4 +227,4 @@ id,name,developer,publisher,owned,status,played_platform,played_year,genre,ratin
 226,Fallout: London,Team FOLON,2024,,unplayed,,,FPS,,,,,,
 227,Subnautica,Unknown Worlds Entertainment,2018,Steam,played,Linux,2026,survival,5,x,,x,x,x
 228,Polytopia,Midjiwan AB,2016,iOS,played,iOS,"2025,2026",strategy,4,x,,,,
-229,Palworld,Pocketpair,2026,Steam,currently-playing,Linux,2026,survival,,,,,,
+229,Palworld,Pocketpair,2026,Steam,played,Linux,2026,survival,4,,,,,

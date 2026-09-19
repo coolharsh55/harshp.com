@@ -2576,9 +2576,12 @@
 <https://harshp.com/hobbies/games/229> a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
     hpcom:game-id "229"^^xsd:int ;
     hpcom:game-owned-platform hpcom:Steam ;
-    hpcom:game-status hpcom:game-currently-playing ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Pocketpair" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:survival ;
@@ -3555,20 +3558,12 @@
 <https://harshp.com/hobbies/games/71> a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
-    hpcom:date-game-played "2023"^^xsd:int ;
     hpcom:game-id "71"^^xsd:int ;
     hpcom:game-owned-platform hpcom:Steam ;
-    hpcom:game-platform-played hpcom:Linux ;
-    hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating5 ;
+    hpcom:game-status hpcom:game-currently-playing ;
     schema:author "Obsidian" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
-    schema:isPartOf hplist:classic,
-        hplist:mechanics,
-        hplist:recommended,
-        hplist:repeat,
-        hplist:story ;
     schema:name "Pillars of Eternity II: Deadfire" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/71"^^xsd:anyURI .

@@ -519,7 +519,8 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1027 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Adrian Tchaikovsky" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -939,6 +940,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1050 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Adrian Tchaikovsky" ;
     schema:dateCreated "2026"^^xsd:int ;
@@ -1507,11 +1509,15 @@
         schema:Book ;
     hpcom:book_id hpcom:1082 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-14T09:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Cory Doctorow" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
     schema:name "The Reverse Centaur's Guide to Life After AI: How to Think About Artificial Intelligence—Before It's Too Late" ;
+    schema:review "While this is not a comprehensive thesis or guide, it does push the boundaries of knowledge and understanding to explain how AI economy is going to affect work and workers. This wsa useful for my work, and the whole notion of 'reverse centaur', which I came across in one of Doctorow's blog, is expanded with some examples and some core ideas. This was a quick read on a plane trip from Dublin to Brussels."@en ;
     schema:url "https://harshp.com/hobbies/books/1082"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1083> a hpcom:Book,
@@ -1520,7 +1526,7 @@
         schema:Book ;
     hpcom:book_id hpcom:1083 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Rebecca Giblin and Cory Doctorow" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
@@ -1767,7 +1773,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1098 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Ada Palmer" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -2005,12 +2011,16 @@
         schema:Book ;
     hpcom:book_id hpcom:1112 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-19T18:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "James Islington" ;
     schema:dateCreated "2025"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "The Strength of the Few" ;
+    schema:review "Sequel to a fantasy-epic thriller, this is a continuation of the genre mashup.We have three parallel stories, told across chapters. Each stream's chapter got really interesting, and then the next chapter started a different stream, which made it a little annoying. But then that stream got interesting. Nothing really converges, so that continues all the way to the end. Lots was not clear regarding why things happened or why suddently a character could do what they did. But all was good entertaining reading. Waiting for Book 3 now."@en ;
     schema:url "https://harshp.com/hobbies/books/1112"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1113> a hpcom:Book,
@@ -2026,6 +2036,19 @@
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Last Colony" ;
     schema:url "https://harshp.com/hobbies/books/1113"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1114> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1114 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Sayaka Murata" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:isPartOf hplist:DublinLibrary ;
+    schema:name "Convenience Store Woman" ;
+    schema:url "https://harshp.com/hobbies/books/1114"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/112> a hpcom:Book,
         hpcom:BookReading,
@@ -8309,12 +8332,16 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:47 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-10T00:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Miriam Toews" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Women Talking" ;
+    schema:review "The topic is as serious as it gets, and based on real events which lends it an added seriousness. What is wonderful about this book is how it manages to make its characters feel like people rather than plot points in a story. There is no overarching flow, every person when they speak or act or react do so in their own way, with their own perspectives. The result is a full display of the frustration, confusion, anger, sorrow, and sheer adversity imposed by society. "@en ;
     schema:url "https://harshp.com/hobbies/books/47"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/470> a hpcom:Book,
