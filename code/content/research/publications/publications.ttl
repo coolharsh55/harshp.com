@@ -1630,7 +1630,6 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/060-AI-Act-high-risk-semantics.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    hpcom:pinned true ;
     hpcom:peer_reviewed true .
 
 <https://harshp.com/research/publications/061-SEMANTiCS-DGA> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
@@ -1727,7 +1726,6 @@
     schema:datePublished "2024-02-14T00:00:00"^^xsd:dateTime ;
     schema:identifier "https://doi.org/10.3233/SW-243583"^^xsd:anyURI ;
     schema:url "https://doi.org/10.3233/SW-243583"^^xsd:anyURI ;
-    hpcom:pinned true ;
     schema:publisher <http://www.semantic-web-journal.net/> ;
     schema:funder ( <https://harshp.com/research/projects/risky> <http://example.com/ADAPT> );
     #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/96593"^^xsd:anyURI ] ;
@@ -2003,7 +2001,7 @@
     hpcom:tag hptag:FRIA ;
     hpcom:author_lead <https://harshp.com/me> ;
     hpcom:author_other <http://example.com/TyttiRintamaki> ;
-    schema:datePublished "2026-01-01T08:00:00"^^xsd:dateTime ;
+    schema:datePublished "2024-12-31T08:00:00"^^xsd:dateTime ;
     schema:publication <http://example.com/conferences/CLAIRvoyant2024> ;
     schema:url ""^^xsd:anyURI ;
     schema:funder <http://example.com/ADAPT> ;
@@ -2032,7 +2030,7 @@
     hpcom:tag hptag:semantic-web ;
     hpcom:author_lead <http://example.com/TyttiRintamaki> ;
     hpcom:author_other <https://harshp.com/me> ;
-    schema:datePublished "2026-01-01T09:00:00"^^xsd:dateTime ;
+    schema:datePublished "2024-12-31T09:00:00"^^xsd:dateTime ;
     schema:publication <http://example.com/conferences/CLAIRvoyant2024> ;
     schema:url ""^^xsd:anyURI ;
     schema:funder <http://example.com/ADAPT> ;
@@ -2174,7 +2172,7 @@
     # schema:inSupportOf ""@en ;
     schema:datePublished "2026-05-10T00:00:00"^^xsd:dateTime ;
     # schema:identifier ""^^xsd:anyURI ;
-    # schema:url "https://ceur-ws.org/Vol-4064/NXDG25-paper7.pdf"^^xsd:anyURI ;
+    schema:url "https://doi.org/10.1007/978-3-032-25156-5_21"^^xsd:anyURI ;
     schema:publication <http://example.com/conferences/ESWC2026> ;
     schema:funder <http://example.com/ADAPT> ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/081-Data-Sharing-Agreements"^^xsd:anyURI ] ;
@@ -2188,7 +2186,6 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/081-Data-Sharing-Agreements.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "to be presented"@en ;
     hpcom:peer_reviewed true .
 
 <https://harshp.com/research/publications/082-Corporate-Capture> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
@@ -2215,7 +2212,7 @@
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/082-Corporate-Capture"^^xsd:anyURI ] ;
     #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/100132"^^xsd:anyURI ] ;
     #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.6821844"^^xsd:anyURI ] ;
-    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/Julio-Noe/ESWC2026-DSAO"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "website" ; schema:url "https://aial.ie/research/corporate-capture/"^^xsd:anyURI ] ;
     #hpcom:supplementary [ a hpcom:Link ; schema:name "specification" ; schema:url "https://w3id.org/AIRO"^^xsd:anyURI ] ;
     #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
     hpcom:content [
@@ -2223,7 +2220,6 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/082-Corporate-Capture.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "to be presented"@en ;
     hpcom:peer_reviewed true .
 
 <https://harshp.com/research/publications/083-Quality-Assessment-AIA531d> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
@@ -2246,15 +2242,16 @@
     hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.18803975"^^xsd:anyURI ] ;
     hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/AIAccountabilityLab/gpai-training-transparency"^^xsd:anyURI ] ;
     hpcom:supplementary [ a hpcom:Link ; schema:name "website" ; schema:url "https://aial.ie/research/gpai-training-transparency"^^xsd:anyURI ] ;
-    hpcom:supplementary [ a hpcom:Link ; schema:name "(media article) Tech Policy Press" ; schema:url "https://www.techpolicy.press/how-big-ai-developers-are-skirting-a-mandate-for-training-data-transparency/"^^xsd:anyURI ] ;
-    hpcom:supplementary [ a hpcom:Link ; schema:name "(media article) Euractiv" ; schema:url "https://www.euractiv.com/news/researchers-have-trouble-finding-ai-training-data-summaries/"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "(media) Tech Policy Press Mar'26" ; schema:url "https://www.techpolicy.press/how-big-ai-developers-are-skirting-a-mandate-for-training-data-transparency/"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "(media) Euractiv Mar'26" ; schema:url "https://www.euractiv.com/news/researchers-have-trouble-finding-ai-training-data-summaries/"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "(media) Euractiv Aug'26" ; schema:url "https://www.euractiv.com/news/ai-labs-at-odds-with-eu-over-half-hearted-data-disclosures/"^^xsd:anyURI ] ;
     #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
     hpcom:content [
         a hpcom:Content ;
         hpcom:contentFile "https://harshp.com/code/content/research/publications/083-Quality-Assessment-AIA531d.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "to be presented"@en ;
+    hpcom:pinned true ;
     hpcom:peer_reviewed true .
 
 <https://harshp.com/research/publications/084-Terms-of-Abuse> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
@@ -2276,7 +2273,8 @@
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/084-Terms-of-Abuse"^^xsd:anyURI ] ;
     #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/100132"^^xsd:anyURI ] ;
     #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.18803975"^^xsd:anyURI ] ;
-    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/Julio-Noe/ESWC2026-DSAO"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "website" ; schema:url "https://aial.ie/research/terms-of-abuse/"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/AIAccountabilityLab/terms-of-abuse"^^xsd:anyURI ] ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "arXiv" ; schema:url "https://doi.org/10.48550/arXiv.2603.18964"^^xsd:anyURI ] ;
     #hpcom:supplementary [ a hpcom:Link ; schema:name "Euractiv article" ; schema:url "https://www.euractiv.com/news/researchers-have-trouble-finding-ai-training-data-summaries/"^^xsd:anyURI ] ;
     #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
@@ -2285,7 +2283,6 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/084-Terms-of-Abuse.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "to be presented"@en ;
     hpcom:peer_reviewed true .
 
 <https://harshp.com/research/publications/085-Semweb-AIAct> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
@@ -2299,8 +2296,7 @@
     hpcom:author_other ( <https://harshp.com/me> <https://www.scss.tcd.ie/declan.osullivan/> <https://www.scss.tcd.ie/dave.lewis/> ) ;
     schema:datePublished "2026-06-01T00:00:00"^^xsd:dateTime ;
     schema:publisher <https://www.sciencedirect.com/journal/clsr> ;
-    schema:url ""^^xsd:anyURI ;
-    schema:inSupportOf ""@en ;
+    schema:url "https://doi.org/10.1016/j.clsr.2026.106315"^^xsd:anyURI ;
     schema:funder <http://example.com/ADAPT> ; 
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/085-Semweb-AIAct"^^xsd:anyURI ] ;
     #hpcom:archived_version [ a hpcom:Link ; schema:name "DORAS" ; schema:url "https://doras.dcu.ie/29298/"^^xsd:anyURI ] ;
@@ -2336,7 +2332,6 @@
     #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/besteves4/odrl-access-control-profile"^^xsd:anyURI ] ;
     #hpcom:supplementary <https://harshp.com/research/presentations#2021-ConsentW-Solid-ODRL-ACP> ;
     hpcom:peer_reviewed true ;
-    schema:status "to be presented"@en ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/086-bridging-dpv-odrl-usage-data-spaces"^^xsd:anyURI ] ;
     hpcom:content [
         a hpcom:Content ;
@@ -2365,7 +2360,6 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/087-impact-assessments-GDPR-AIAct-overlaps.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "published"@en ;
     hpcom:peer_reviewed true .
 
 
@@ -2378,7 +2372,7 @@
     hpcom:tag hptag:GDPR, hptag:signal ;
     schema:datePublished "2026-05-15T00:00:00"^^xsd:dateTime ;
     schema:identifier ""^^xsd:anyURI ;
-    schema:url ""^^xsd:anyURI ;
+    schema:url "https://doi.org/10.1016/j.clsr.2026.106332"^^xsd:anyURI ;
     schema:publisher <https://www.sciencedirect.com/journal/clsr> ;
     schema:funder <http://example.com/ADAPT> ;
     hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/088-GPC-consent-banners-EU"^^xsd:anyURI ] ;
@@ -2390,5 +2384,57 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/088-GPC-consent-banners-EU.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "published"@en ;
+    hpcom:pinned true ;
     hpcom:peer_reviewed true .
+
+<https://harshp.com/research/publications/089-dqv4ai-ai-quality-vocabulary> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
+    schema:name "DQV4AI: Representing AI Quality Dimensions for ISO and EU AI Act Using the Data Quality Vocabulary"@en ;
+    schema:description "We propose updates to DQV concepts and provide taxonomies based on ISO/IEC DIS 25059 standard and the EU AI Act"@en ;
+    hpcom:tag hptag:semantic-web ;
+    hpcom:tag hptag:AI-Act ;
+    hpcom:tag hptag:DPV ;
+    hpcom:author_lead <https://www.scss.tcd.ie/personnel/golpayes> ;
+    hpcom:author_other ( <http://example.com/BeyzaYaman> <http://example.com/FabianLinde> <http://example.com/RiccardoAlbertoni> <https://harshp.com/me> ) ;
+    schema:datePublished "2026-09-17T00:00:00"^^xsd:dateTime ;
+    schema:publication <http://example.com/conferences/SEMANTiCS2026> ;
+    schema:url "https://doi.org/10.3233/SSW260022"^^xsd:anyURI ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/96757"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.5111539"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "dqv4ai" ; schema:url "https://w3id.org/dqv4ai"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "ISO vocab" ; schema:url "https://w3id.org/dqv4ai/iso-25059"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "EU AI Act vocab" ; schema:url "https://w3id.org/eu-aiact"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "ODRL profile" ; schema:url "https://w3id.org/oac/"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/besteves4/odrl-access-control-profile"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2021-ConsentW-Solid-ODRL-ACP> ;
+    hpcom:peer_reviewed true ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/089-dqv4ai-ai-quality-vocabulary"^^xsd:anyURI ] ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/089-dqv4ai-ai-quality-vocabulary.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+        ] .
+
+<https://harshp.com/research/publications/090-gdng-dpv> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:RenderedItem ;
+    schema:name "Extending the W3C Data Privacy Vocabulary to Cover the German Health Data Use Act – Lessons Learned"@en ;
+    schema:description "Creation of a DPV extension representing the German Health Data Use Act (Gesundheitsdatennutzungsgesetz (GDNG)"@en ;
+    hpcom:tag hptag:semantic-web ;
+    hpcom:tag hptag:health ;
+    hpcom:tag hptag:DPV ;
+    hpcom:author_lead <http://example.com/JulianFlake> ;
+    hpcom:author_other ( <http://example.com/ChristianHenke> <http://example.com/AlessandraSKuntz> <http://example.com/MatthiasLobe> <https://harshp.com/me> <http://example.com/ChristianDraeger> ) ;
+    schema:datePublished "2026-09-18T00:00:00"^^xsd:dateTime ;
+    schema:publication <http://example.com/conferences/GMDS2026> ;
+    schema:url "https://doi.org/10.3233/SHTI261013"^^xsd:anyURI ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/96757"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.5111539"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "DPV-GDNG" ; schema:url "https://w3id.org/dpv/legal/de/gdng"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "ODRL profile" ; schema:url "https://w3id.org/oac/"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/besteves4/odrl-access-control-profile"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2021-ConsentW-Solid-ODRL-ACP> ;
+    hpcom:peer_reviewed true ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/090-gdng-dpv"^^xsd:anyURI ] ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/090-gdng-dpv.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+        ] .

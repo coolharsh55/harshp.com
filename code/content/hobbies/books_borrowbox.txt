@@ -1,0 +1,30 @@
+------------------------------------------------------------------------------
+Books in Dublin Library
+******************************************************************************
+921 books already read from my list
+818 books to read from awards list
+652 books to read after removing already read books
+129 books unread that I do not own from my list
+767 books to read after adding unread books
+18 books found in library
+17 books are on loan
+1 books books are available
+******************************************************************************
+[R] :: BLOOD MUSIC :: GREG BEAR :: 2026-10-20 :: https://dublin.borrowbox.com/product/ORM_340090/
+[R] :: SPINNING SILVER :: NAOMI NOVIK :: 2026-10-31 :: https://dublin.borrowbox.com/product/MCU_512632/
+[R] :: THE CITY IN THE MIDDLE OF THE NIGHT :: CHARLIE JANE ANDERS :: 2026-09-26 :: https://dublin.borrowbox.com/product/LSB_587396/
+[R] :: THE COLLAPSING EMPIRE :: JOHN SCALZI :: 2026-09-20 :: https://dublin.borrowbox.com/product/MCU_564168/
+[R] :: THE EVERLASTING :: ALIX E. HARROW :: 2027-03-03 :: https://dublin.borrowbox.com/product/MCU_7348100/
+[R] :: THE LAST COLONY :: JOHN SCALZI :: 2026-11-02 :: https://dublin.borrowbox.com/product/MCU_074583/
+[R] :: TOO LIKE THE LIGHTNING :: ADA PALMER :: 2026-10-19 :: https://dublin.borrowbox.com/product/EPD_424470/
+[R] :: MONSTERS OF MEN :: PATRICK NESS :: 2026-09-26 :: https://dublin.borrowbox.com/product/WBA_474600/
+[R] :: GOING POSTAL :: TERRY PRATCHETT :: 2026-10-05 :: https://dublin.borrowbox.com/product/RDH_082955/
+[R] :: MAKING MONEY :: TERRY PRATCHETT :: 2026-10-28 :: https://dublin.borrowbox.com/product/RDH_083114/
+[A] :: WE ARE ALL COMPLETELY BESIDE OURSELVES :: KAREN JOY FOWLER :: 0 :: https://dublin.borrowbox.com/product/EPD_133896/
+[R] :: WHO FEARS DEATH :: NNEDI OKORAFOR :: 2026-11-16 :: https://dublin.borrowbox.com/product/HCU_472372/
+[R] :: THE LAST EMPEROX :: JOHN SCALZI :: 2026-12-03 :: https://dublin.borrowbox.com/product/MCU_776366/
+[R] :: THE ELEVENTH HOUR :: SALMAN RUSHDIE :: 2026-12-25 :: https://dublin.borrowbox.com/product/RDH_8360067/
+[R] :: FUZZY NATION :: JOHN SCALZI :: 2026-10-23 :: https://dublin.borrowbox.com/product/MCU_3969606/
+[R] :: CONVENIENCE STORE WOMAN :: SAYAKA MURATA :: 2026-10-05 :: https://dublin.borrowbox.com/product/GBL_1408131/
+[R] :: THE BINDING :: BRIDGET COLLINS :: 2026-11-01 :: https://dublin.borrowbox.com/product/HCU_523109/
+[R] :: THE COMFORT BOOK :: MATT HAIG :: 2026-12-28 :: https://dublin.borrowbox.com/product/CGB_1673298/

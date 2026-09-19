@@ -284,6 +284,17 @@ hpcom:View a rdfs:Class ;
     schema:superEvent <http://example.com/conferences/SEMANTiCS2024> ;
     schema:url "https://w3id.org/nxdg/2024"^^xsd:anyURI .
 
+<http://example.com/workshops/NXDG2026> a hpcom:OrganisationEvent,
+        schema:PublicationEvent ;
+    hpcom:event_type hpcom:Workshop ;
+    schema:alternateName "NXDG" ;
+    schema:endDate "2026-09-15T00:00:00"^^xsd:dateTime ;
+    schema:location "Ghent, Belgium" ;
+    schema:name "Workshop on Next Generation Data Governance"@en ;
+    schema:startDate "2026-09-15T00:00:00"^^xsd:dateTime ;
+    schema:superEvent <http://example.com/conferences/SEMANTiCS2026> ;
+    schema:url "https://w3id.org/nxdg/2026"^^xsd:anyURI .
+
 <http://example.com/workshops/TERECOM2018> a hpcom:ReviewingEvent,
         schema:PublicationEvent ;
     hpcom:event_type hpcom:Workshop ;
@@ -29918,7 +29929,7 @@ game:99 a hpcom:RenderedItem,
         hptag:DPIA,
         hptag:FRIA,
         hptag:GDPR ;
-    schema:datePublished "2026-01-01T08:00:00"^^xsd:dateTime ;
+    schema:datePublished "2024-12-31T08:00:00"^^xsd:dateTime ;
     schema:description "Interpreting the FRIA as a 5-step process where automated tools can apply for each step and how a DPIA can be reused in it"@en ;
     schema:funder <http://example.com/ADAPT> ;
     schema:name "Towards An Automated AI Act FRIA Tool That Can Reuse GDPR's DPIA"@en ;
@@ -29952,7 +29963,7 @@ game:99 a hpcom:RenderedItem,
         hptag:FRIA,
         hptag:GDPR,
         hptag:semantic-web ;
-    schema:datePublished "2026-01-01T09:00:00"^^xsd:dateTime ;
+    schema:datePublished "2024-12-31T09:00:00"^^xsd:dateTime ;
     schema:description "An ontology for creation and management of FRIA and use of automated tool in its various steps"@en ;
     schema:funder <http://example.com/ADAPT> ;
     schema:name "Developing an Ontology for AI Act Fundamental Rights Impact Assessments"@en ;
@@ -30107,7 +30118,7 @@ game:99 a hpcom:RenderedItem,
     schema:funder <http://example.com/ADAPT> ;
     schema:name "Explainable Validation of Data Sharing Agreements using DPV, SHACL, and Human-in-the-Loop Review"@en ;
     schema:publication <http://example.com/conferences/ESWC2026> ;
-    schema:status "to be presented"@en .
+    schema:url "https://doi.org/10.1007/978-3-032-25156-5_21"^^xsd:anyURI .
 
 <https://harshp.com/research/publications/082-Corporate-Capture> a hpcom:FullPaper,
         hpcom:RenderedItem,
@@ -30121,6 +30132,9 @@ game:99 a hpcom:RenderedItem,
             hpcom:contentFile "https://harshp.com/code/content/research/publications/082-Corporate-Capture.html" ;
             hpcom:contentFileFormat hpcom:formatHTML ] ;
     hpcom:peer_reviewed true ;
+    hpcom:supplementary [ a hpcom:Link ;
+            schema:name "website" ;
+            schema:url "https://aial.ie/research/corporate-capture/"^^xsd:anyURI ] ;
     hpcom:tag hptag:AI,
         hptag:corporate-capture,
         hptag:law,
@@ -30130,7 +30144,6 @@ game:99 a hpcom:RenderedItem,
     schema:identifier "10.1145/3805689.3806740"^^xsd:anyURI ;
     schema:name "Big AI’s Regulatory Capture: Mapping Industry Interference and Government Complicity"@en ;
     schema:publication <https://facctconference.org/2026/> ;
-    schema:status "to be presented"@en ;
     schema:url "https://doi.org/10.1145/3805689.3806740"^^xsd:anyURI .
 
 <https://harshp.com/research/publications/083-Quality-Assessment-AIA531d> a hpcom:FullPaper,
@@ -30148,6 +30161,7 @@ game:99 a hpcom:RenderedItem,
             hpcom:contentFile "https://harshp.com/code/content/research/publications/083-Quality-Assessment-AIA531d.html" ;
             hpcom:contentFileFormat hpcom:formatHTML ] ;
     hpcom:peer_reviewed true ;
+    hpcom:pinned true ;
     hpcom:supplementary [ a hpcom:Link ;
             schema:name "repo" ;
             schema:url "https://github.com/AIAccountabilityLab/gpai-training-transparency"^^xsd:anyURI ],
@@ -30155,11 +30169,14 @@ game:99 a hpcom:RenderedItem,
             schema:name "website" ;
             schema:url "https://aial.ie/research/gpai-training-transparency"^^xsd:anyURI ],
         [ a hpcom:Link ;
-            schema:name "(media article) Tech Policy Press" ;
+            schema:name "(media) Tech Policy Press Mar'26" ;
             schema:url "https://www.techpolicy.press/how-big-ai-developers-are-skirting-a-mandate-for-training-data-transparency/"^^xsd:anyURI ],
         [ a hpcom:Link ;
-            schema:name "(media article) Euractiv" ;
-            schema:url "https://www.euractiv.com/news/researchers-have-trouble-finding-ai-training-data-summaries/"^^xsd:anyURI ] ;
+            schema:name "(media) Euractiv Mar'26" ;
+            schema:url "https://www.euractiv.com/news/researchers-have-trouble-finding-ai-training-data-summaries/"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "(media) Euractiv Aug'26" ;
+            schema:url "https://www.euractiv.com/news/ai-labs-at-odds-with-eu-over-half-hearted-data-disclosures/"^^xsd:anyURI ] ;
     hpcom:tag hptag:AI,
         hptag:AI-Act,
         hptag:accountability,
@@ -30170,7 +30187,6 @@ game:99 a hpcom:RenderedItem,
     schema:inSupportOf "Mozilla Foundation"@en ;
     schema:name "A Quality Assessment Framework for GPAI Model Public Summaries required by AI Act Article 53(1)(d)"@en ;
     schema:publication <https://facctconference.org/2026/> ;
-    schema:status "to be presented"@en ;
     schema:url "https://doi.org/10.1145/3805689.3806755"^^xsd:anyURI .
 
 <https://harshp.com/research/publications/084-Terms-of-Abuse> a hpcom:FullPaper,
@@ -30188,6 +30204,12 @@ game:99 a hpcom:RenderedItem,
             hpcom:contentFile "https://harshp.com/code/content/research/publications/084-Terms-of-Abuse.html" ;
             hpcom:contentFileFormat hpcom:formatHTML ] ;
     hpcom:peer_reviewed true ;
+    hpcom:supplementary [ a hpcom:Link ;
+            schema:name "website" ;
+            schema:url "https://aial.ie/research/terms-of-abuse/"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "repo" ;
+            schema:url "https://github.com/AIAccountabilityLab/terms-of-abuse"^^xsd:anyURI ] ;
     hpcom:tag hptag:AI,
         hptag:accountability,
         hptag:consumer-protection,
@@ -30198,7 +30220,6 @@ game:99 a hpcom:RenderedItem,
     schema:identifier "10.1145/3805689.3806809"^^xsd:anyURI ;
     schema:name "Terms of (Ab)Use: An Analysis of GenAI Services"@en ;
     schema:publication <https://facctconference.org/2026/> ;
-    schema:status "to be presented"@en ;
     schema:url "https://doi.org/10.1145/3805689.3806809"^^xsd:anyURI .
 
 <https://harshp.com/research/publications/085-Semweb-AIAct> a hpcom:FullPaper,
@@ -30223,10 +30244,9 @@ game:99 a hpcom:RenderedItem,
     schema:datePublished "2026-06-01T00:00:00"^^xsd:dateTime ;
     schema:description "Set of open, standards-based, and extensible artefacts for (1) automatically determine risk category, (2) AI Use Policy profile for declaring AI intended purposes, (3) SPARQL queries for technical documentation, and (4) AI Catalogue vocabulary to support the data governance"@en ;
     schema:funder <http://example.com/ADAPT> ;
-    schema:inSupportOf ""@en ;
     schema:name "Semantic Frameworks to Support Implementation of the EU AI Act"@en ;
     schema:publisher <https://www.sciencedirect.com/journal/clsr> ;
-    schema:url ""^^xsd:anyURI .
+    schema:url "https://doi.org/10.1016/j.clsr.2026.106315"^^xsd:anyURI .
 
 <https://harshp.com/research/publications/086-bridging-dpv-odrl-usage-data-spaces> a hpcom:FullPaper,
         hpcom:RenderedItem,
@@ -30248,8 +30268,7 @@ game:99 a hpcom:RenderedItem,
     schema:datePublished "2026-05-31T00:00:00"^^xsd:dateTime ;
     schema:description "Addressing the gap of systematic alignment between legal vocabularies and enforceable policy language in data spaces"@en ;
     schema:name "Bridging DPV and ODRL for Legally-Oriented Usage Control in Data Spaces"@en ;
-    schema:publication <http://example.com/workshops/SDS2026> ;
-    schema:status "to be presented"@en .
+    schema:publication <http://example.com/workshops/SDS2026> .
 
 <https://harshp.com/research/publications/088-GPC-consent-banners-EU> a hpcom:FullPaper,
         hpcom:RenderedItem,
@@ -30272,6 +30291,7 @@ game:99 a hpcom:RenderedItem,
             hpcom:contentFile "https://harshp.com/code/content/research/publications/088-GPC-consent-banners-EU.html" ;
             hpcom:contentFileFormat hpcom:formatHTML ] ;
     hpcom:peer_reviewed true ;
+    hpcom:pinned true ;
     hpcom:tag hptag:GDPR,
         hptag:consent,
         hptag:signal ;
@@ -30281,8 +30301,61 @@ game:99 a hpcom:RenderedItem,
     schema:identifier ""^^xsd:anyURI ;
     schema:name "Can the GPC standard eliminate consent banners in the EU?"@en ;
     schema:publisher <https://www.sciencedirect.com/journal/clsr> ;
-    schema:status "published"@en ;
-    schema:url ""^^xsd:anyURI .
+    schema:url "https://doi.org/10.1016/j.clsr.2026.106332"^^xsd:anyURI .
+
+<https://harshp.com/research/publications/089-dqv4ai-ai-quality-vocabulary> a hpcom:FullPaper,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/089-dqv4ai-ai-quality-vocabulary"^^xsd:anyURI ] ;
+    hpcom:author_lead <https://www.scss.tcd.ie/personnel/golpayes> ;
+    hpcom:author_other ( <http://example.com/BeyzaYaman> <http://example.com/FabianLinde> <http://example.com/RiccardoAlbertoni> <https://harshp.com/me> ) ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/089-dqv4ai-ai-quality-vocabulary.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed true ;
+    hpcom:supplementary [ a hpcom:Link ;
+            schema:name "dqv4ai" ;
+            schema:url "https://w3id.org/dqv4ai"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "ISO vocab" ;
+            schema:url "https://w3id.org/dqv4ai/iso-25059"^^xsd:anyURI ],
+        [ a hpcom:Link ;
+            schema:name "EU AI Act vocab" ;
+            schema:url "https://w3id.org/eu-aiact"^^xsd:anyURI ] ;
+    hpcom:tag hptag:AI-Act,
+        hptag:DPV,
+        hptag:semantic-web ;
+    schema:datePublished "2026-09-17T00:00:00"^^xsd:dateTime ;
+    schema:description "We propose updates to DQV concepts and provide taxonomies based on ISO/IEC DIS 25059 standard and the EU AI Act"@en ;
+    schema:name "DQV4AI: Representing AI Quality Dimensions for ISO and EU AI Act Using the Data Quality Vocabulary"@en ;
+    schema:publication <http://example.com/conferences/SEMANTiCS2026> ;
+    schema:url "https://doi.org/10.3233/SSW260022"^^xsd:anyURI .
+
+<https://harshp.com/research/publications/090-gdng-dpv> a hpcom:FullPaper,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/090-gdng-dpv"^^xsd:anyURI ] ;
+    hpcom:author_lead <http://example.com/JulianFlake> ;
+    hpcom:author_other ( <http://example.com/ChristianHenke> <http://example.com/AlessandraSKuntz> <http://example.com/MatthiasLobe> <https://harshp.com/me> <http://example.com/ChristianDraeger> ) ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/090-gdng-dpv.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed true ;
+    hpcom:supplementary [ a hpcom:Link ;
+            schema:name "DPV-GDNG" ;
+            schema:url "https://w3id.org/dpv/legal/de/gdng"^^xsd:anyURI ] ;
+    hpcom:tag hptag:DPV,
+        hptag:health,
+        hptag:semantic-web ;
+    schema:datePublished "2026-09-18T00:00:00"^^xsd:dateTime ;
+    schema:description "Creation of a DPV extension representing the German Health Data Use Act (Gesundheitsdatennutzungsgesetz (GDNG)"@en ;
+    schema:name "Extending the W3C Data Privacy Vocabulary to Cover the German Health Data Use Act – Lessons Learned"@en ;
+    schema:publication <http://example.com/conferences/GMDS2026> ;
+    schema:url "https://doi.org/10.3233/SHTI261013"^^xsd:anyURI .
 
 <https://harshp.com/research/publications/drafts/001-Consent-Signal-User-Dialogue> a hpcom:DraftPaper,
         hpcom:FullPaper,
@@ -30533,6 +30606,30 @@ game:99 a hpcom:RenderedItem,
     schema:status "inviting feedback"@en ;
     schema:url "https://doi.org/10.48550/arXiv.2503.05787"^^xsd:anyURI .
 
+<https://harshp.com/research/publications/drafts/009-companions-playing-games> a hpcom:DraftPaper,
+        hpcom:FullPaper,
+        hpcom:RenderedItem,
+        schema:ScholarlyArticle ;
+    hpcom:archived_version [ a hpcom:Link ;
+            schema:name "harshp.com" ;
+            schema:url "https://harshp.com/research/publications/drafts/009-companions-playing-games"^^xsd:anyURI ] ;
+    hpcom:author_lead <http://example.com/MaribethRauh> ;
+    hpcom:author_other ( <http://example.com/DickBlankvoort> <http://example.com/MatiasDuran> <http://example.com/CaoilfhionnNiDheorain> <https://harshp.com/me> <http://example.com/SyrineEnneifer> <http://example.com/SiddharthDJaiswal> <http://example.com/AnthonyVentresque> <http://example.com/AbebaBirhane> ) ;
+    hpcom:content [ a hpcom:Content ;
+            hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/009-companions-playing-games.html" ;
+            hpcom:contentFileFormat hpcom:formatHTML ] ;
+    hpcom:peer_reviewed false ;
+    hpcom:tag hptag:AI-Act,
+        hptag:AI-companions,
+        hptag:dark-patterns ;
+    schema:datePublished "2026-08-07T00:00:00"^^xsd:dateTime ;
+    schema:description "We systematically record and quantify design dark patterns, anthropomorphism, stereotypes, erotica, and technical performance issues, and shed light on the mechanics used to leverage users' simulated relationships. On that basis, we put forward recommendations for regulators"@en ;
+    schema:identifier "10.48550/arXiv.2605.08093"^^xsd:anyURI ;
+    schema:name "Draft 009: Playing Games with My Heart: An Evaluation of AI Companion Apps"@en ;
+    schema:publication <http://example.com/working-draft> ;
+    schema:status "inviting feedback"@en ;
+    schema:url "https://doi.org/10.48550/arXiv.2605.08093"^^xsd:anyURI .
+
 <https://harshp.com/research/publications/drafts/087-impact-assessments-GDPR-AIAct-overlaps> a hpcom:FullPaper,
         hpcom:RenderedItem,
         schema:ScholarlyArticle ;
@@ -30558,7 +30655,6 @@ game:99 a hpcom:RenderedItem,
     schema:identifier "10.1016/j.clsr.2026.106317"^^xsd:anyURI ;
     schema:name "Impact Assessment Requirements in the GDPR vs the AI Act: Overlaps, Divergence, and Implications"@en ;
     schema:publisher <https://www.sciencedirect.com/journal/clsr> ;
-    schema:status "published"@en ;
     schema:url "https://doi.org/10.1016/j.clsr.2026.106317"^^xsd:anyURI .
 
 <https://harshp.com/research/supervision/2017-ethics-canvas-website> a hpcom:RenderedItem,
@@ -31712,8 +31808,14 @@ game:99 a hpcom:RenderedItem,
 <http://example.com/AdemarCrottiJunior> a schema:Person ;
     schema:name "Ademar Crotti Junior" .
 
+<http://example.com/AlessandraSKuntz> a schema:Person ;
+    schema:name "Alessandra S. Kuntz" .
+
 <http://example.com/AnnaFensel> a schema:Person ;
     schema:name "Anna Fensel" .
+
+<http://example.com/AnthonyVentresque> a schema:Person ;
+    schema:name "Anthony Ventresque" .
 
 <http://example.com/AriannaRossi> a schema:Person ;
     schema:name "Arianna Rossi" .
@@ -31724,6 +31826,9 @@ game:99 a hpcom:RenderedItem,
 <http://example.com/BertGordjin> a schema:Person ;
     schema:name "Bert Gordjin" .
 
+<http://example.com/BeyzaYaman> a schema:Person ;
+    schema:name "Beyza Yaman" .
+
 <http://example.com/BhaskarMitra> a schema:Person ;
     schema:name "Bhaskar Mitra" .
 
@@ -31733,8 +31838,17 @@ game:99 a hpcom:RenderedItem,
 <http://example.com/BudBruegger> a schema:Person ;
     schema:name "Bud Bruegger" .
 
+<http://example.com/CaoilfhionnNiDheorain> a schema:Person ;
+    schema:name "Caoilfhionn Ní Dheoráin" .
+
 <http://example.com/CeciliaPanigutti> a schema:Person ;
     schema:name "Cecilia Panigutti" .
+
+<http://example.com/ChristianDraeger> a schema:Person ;
+    schema:name "Christian Draeger" .
+
+<http://example.com/ChristianHenke> a schema:Person ;
+    schema:name "Christian Henke" .
 
 <http://example.com/DamienGraux> a schema:Person ;
     schema:name "Damien Graux" .
@@ -31747,6 +31861,9 @@ game:99 a hpcom:RenderedItem,
 
 <http://example.com/EvaSchlehahn> a schema:Person ;
     schema:name "Eva Schlehahn" .
+
+<http://example.com/FabianLinde> a schema:Person ;
+    schema:name "Fabian Linde" .
 
 <http://example.com/FabrizioOrlandi> a schema:Person ;
     schema:name "Fabrizio Orlandi" .
@@ -31772,9 +31889,6 @@ game:99 a hpcom:RenderedItem,
 <http://example.com/JanLindquist> a schema:Person ;
     schema:name "Jan Lindquist" .
 
-<http://example.com/JulianFlake> a schema:Person ;
-    schema:name "Julian Flake" .
-
 <http://example.com/JulioHernandez> a schema:Person ;
     schema:name "Julio Hernandez" .
 
@@ -31783,6 +31897,9 @@ game:99 a hpcom:RenderedItem,
 
 <http://example.com/MandanKazzazi> a schema:Person ;
     schema:name "Mandan Kazzazi" .
+
+<http://example.com/MaribethRauh> a schema:Person ;
+    schema:name "Maribeth Rauh" .
 
 <http://example.com/MarjiaSiddik> a schema:Person ;
     schema:name "Marjia Siddik" .
@@ -31795,6 +31912,12 @@ game:99 a hpcom:RenderedItem,
 
 <http://example.com/MartinDegeling> a schema:Person ;
     schema:name "Martin Degeling" .
+
+<http://example.com/MatiasDuran> a schema:Person ;
+    schema:name "Matias Duran" .
+
+<http://example.com/MatthiasLobe> a schema:Person ;
+    schema:name "Matthias Löbe" .
 
 <http://example.com/MaximilianGahntz> a schema:Person ;
     schema:name "Maximilian Gahntz" .
@@ -31813,6 +31936,9 @@ game:99 a hpcom:RenderedItem,
 
 <http://example.com/RayWalsh> a schema:Person ;
     schema:name "Ray Walsh" .
+
+<http://example.com/RiccardoAlbertoni> a schema:Person ;
+    schema:name "Riccardo Albertoni" .
 
 <http://example.com/RiccardoAngius> a schema:Person ;
     schema:name "Riccardo Angius" .
@@ -31838,11 +31964,17 @@ game:99 a hpcom:RenderedItem,
 <http://example.com/SharonFarrell> a schema:Person ;
     schema:name "Sharon Farrell" .
 
+<http://example.com/SiddharthDJaiswal> a schema:Person ;
+    schema:name "Siddharth D. Jaiswal" .
+
 <http://example.com/SimonSteyskal> a schema:Person ;
     schema:name "Simon Steyskal" .
 
 <http://example.com/SvenSchade> a schema:Person ;
     schema:name "Sven Schade" .
+
+<http://example.com/SyrineEnneifer> a schema:Person ;
+    schema:name "SyrineEnneifer" .
 
 <http://example.com/TekRajChhetri> a schema:Person ;
     schema:name "Tek Raj Chhetri" .
@@ -31936,6 +32068,15 @@ game:99 a hpcom:RenderedItem,
     schema:name "IEEE European Symposium on Security and Privacy"@en ;
     schema:startDate "2022-06-06T00:00:00"^^xsd:dateTime ;
     schema:url "https://www.ieee-security.org/TC/EuroSP2022/"^^xsd:anyURI .
+
+<http://example.com/conferences/GMDS2026> a schema:PublicationEvent ;
+    hpcom:event_type hpcom:Conference ;
+    schema:alternateName "GMDS" ;
+    schema:endDate "2026-10-01T00:00:00"^^xsd:dateTime ;
+    schema:location "Freiburg, Germany" ;
+    schema:name "71st Annual Meeting of the German Association of Medical Informatics, Biometry, and Epidemiology e.V. (GMDS)"@en ;
+    schema:startDate "2026-09-27T00:00:00"^^xsd:dateTime ;
+    schema:url "https://iscbgmds2026.info/"^^xsd:anyURI .
 
 <http://example.com/conferences/ICACEA2012> a schema:PublicationEvent ;
     hpcom:event_type hpcom:Conference ;
@@ -32080,7 +32221,7 @@ game:99 a hpcom:RenderedItem,
 <http://example.com/workshops/NXDG2025> a hpcom:OrganisationEvent,
         schema:PublicationEvent ;
     hpcom:event_type hpcom:Workshop ;
-    schema:alternateName "NXDG2025" ;
+    schema:alternateName "NXDG" ;
     schema:endDate "2025-09-03T00:00:00"^^xsd:dateTime ;
     schema:location "Vienna, Austria" ;
     schema:name "Workshop on Next Generation Data Governance"@en ;
@@ -34440,7 +34581,6 @@ hpview:StoryView a hpcom:View ;
             hpcom:contentFile "https://harshp.com/code/content/research/publications/060-AI-Act-high-risk-semantics.html" ;
             hpcom:contentFileFormat hpcom:formatHTML ] ;
     hpcom:peer_reviewed true ;
-    hpcom:pinned true ;
     hpcom:supplementary [ a hpcom:Link ;
             schema:name "specification" ;
             schema:url "https://w3id.org/VAIR"^^xsd:anyURI ],
@@ -34577,7 +34717,6 @@ hpview:StoryView a hpcom:View ;
             hpcom:contentFile "https://harshp.com/code/content/research/publications/064-Enhancing-DUO-by-extending-with-ODRL-DPV.html" ;
             hpcom:contentFileFormat hpcom:formatHTML ] ;
     hpcom:peer_reviewed true ;
-    hpcom:pinned true ;
     hpcom:supplementary [ a hpcom:Link ;
             schema:name "repo" ;
             schema:url "https://w3id.org/duodrl/repo"^^xsd:anyURI ],
@@ -34892,11 +35031,6 @@ hptag:crime a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "crime" ;
     schema:url "https://harshp.com/tags/crime"^^xsd:anyURI .
-
-hptag:dark-patterns a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "dark-patterns"@en ;
-    schema:url "https://harshp.com/tags/dark-patterns"^^xsd:anyURI .
 
 hptag:data-breach a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -35304,17 +35438,11 @@ hptag:workshop a hpcom:RenderedItem,
     schema:name "AI Accountability Lab (AIAL)"@en ;
     schema:url "https://aial.ie/"^^xsd:anyURI .
 
-<http://example.com/AbebaBirhane> a schema:Person ;
-    schema:name "Abeba Birhane" .
-
 <http://example.com/AureliaTamoLarrieux> a schema:Person ;
     schema:name "Aurelia Tamò-Larrieux" .
 
 <http://example.com/DavlidFilip> a schema:Person ;
     schema:name "David Filip" .
-
-<http://example.com/DickBlankvoort> a schema:Person ;
-    schema:name "Dick A. H. Blankvoort" .
 
 <http://example.com/EdoardoCeleste> a schema:Person ;
     schema:name "Edoardo Celeste" .
@@ -35327,6 +35455,9 @@ hptag:workshop a hpcom:RenderedItem,
 
 <http://example.com/JavierFernandez> a schema:Person ;
     schema:name "Javier Fernandez" .
+
+<http://example.com/JulianFlake> a schema:Person ;
+    schema:name "Julian Flake" .
 
 <http://example.com/KimberlyGarcia> a schema:Person ;
     schema:name "Kimberly García" .
@@ -35522,6 +35653,16 @@ hptag:workshop a hpcom:RenderedItem,
     schema:name "International Conference on Semantic Systems"@en ;
     schema:startDate "2024-09-17T00:00:00"^^xsd:dateTime ;
     schema:url "https://2024-eu.semantics.cc/"^^xsd:anyURI .
+
+<http://example.com/conferences/SEMANTiCS2026> a hpcom:ReviewingEvent,
+        schema:PublicationEvent ;
+    hpcom:event_type hpcom:Conference ;
+    schema:alternateName "SEMANTiCS" ;
+    schema:endDate "2026-09-17T00:00:00"^^xsd:dateTime ;
+    schema:location "Ghent, Belgium" ;
+    schema:name "International Conference on Semantic Systems"@en ;
+    schema:startDate "2026-09-15T00:00:00"^^xsd:dateTime ;
+    schema:url "https://2026-eu.semantics.cc/"^^xsd:anyURI .
 
 <http://example.com/workshops/BlackMirror2018> a schema:PublicationEvent ;
     hpcom:event_type hpcom:Workshop ;
@@ -35911,6 +36052,11 @@ hptag:chores a hpcom:RenderedItem,
     schema:name "chores"@en ;
     schema:url "https://harshp.com/tags/chores"^^xsd:anyURI .
 
+hptag:dark-patterns a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "dark-patterns"@en ;
+    schema:url "https://harshp.com/tags/dark-patterns"^^xsd:anyURI .
+
 hptag:event a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "event" ;
@@ -35996,11 +36142,17 @@ hptag:work a hpcom:RenderedItem,
     schema:name "University College Cork" ;
     schema:url "https://www.ucc.ie/"^^xsd:anyURI .
 
+<http://example.com/AbebaBirhane> a schema:Person ;
+    schema:name "Abeba Birhane" .
+
 <http://example.com/AneliaKurteva> a schema:Person ;
     schema:name "Anelia Kurteva" .
 
 <http://example.com/AseemGogte> a schema:Person ;
     schema:name "Aseem Gogte" .
+
+<http://example.com/DickBlankvoort> a schema:Person ;
+    schema:name "Dick A. H. Blankvoort" .
 
 <http://example.com/KanizFatema> a schema:Person ;
     schema:name "Kaniz Fatema" .
@@ -36110,11 +36262,6 @@ hptag:harshp.com a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "harshp.com" ;
     schema:url "https://harshp.com/tags/harshp.com"^^xsd:anyURI .
-
-hptag:health a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "health" ;
-    schema:url "https://harshp.com/tags/health"^^xsd:anyURI .
 
 hptag:horror a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -36314,6 +36461,11 @@ hptag:gadgets a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "gadgets" ;
     schema:url "https://harshp.com/tags/gadgets"^^xsd:anyURI .
+
+hptag:health a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "health" ;
+    schema:url "https://harshp.com/tags/health"^^xsd:anyURI .
 
 hptag:life a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -36549,14 +36701,6 @@ hptag:script a hpcom:RenderedItem,
     schema:name "script" ;
     schema:url "https://harshp.com/tags/script"^^xsd:anyURI .
 
-<http://example.com/working-draft> a schema:Publication ;
-    hpcom:event_type "" ;
-    schema:name "working draft"@en ;
-    schema:url "http://example.com/working-draft" .
-
-hpcom:DraftPaper rdfs:subClassOf schema:ScholarlyArticle ;
-    schema:name "Draft Paper"@en .
-
 list:thriller a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "thriller"@en ;
@@ -36577,9 +36721,17 @@ hptag:automation a hpcom:RenderedItem,
 <http://example.com/PaulRyan> a schema:Person ;
     schema:name "Paul Ryan" .
 
+<http://example.com/working-draft> a schema:Publication ;
+    hpcom:event_type "" ;
+    schema:name "working draft"@en ;
+    schema:url "http://example.com/working-draft" .
+
 <https://chrdebru.github.io/> a schema:Person ;
     schema:name "Christophe Debruyne" ;
     schema:url "https://chrdebru.github.io/"^^xsd:anyURI .
+
+hpcom:DraftPaper rdfs:subClassOf schema:ScholarlyArticle ;
+    schema:name "Draft Paper"@en .
 
 hptag:conference a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -36776,11 +36928,6 @@ hptag:risk a hpcom:RenderedItem,
 hpcom:ShortPaper rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Short Paper"@en .
 
-hptag:AI-Act a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "AI-Act"@en ;
-    schema:url "https://harshp.com/tags/AI-Act"^^xsd:anyURI .
-
 hptag:academia a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "academia" ;
@@ -36837,6 +36984,11 @@ hpcom:iOS a hpcom:Platform ;
     schema:startDate "2020-10-01T00:00:00"^^xsd:dateTime ;
     schema:url "https://harshp.com/research/projects/risky"^^xsd:anyURI .
 
+hptag:AI-Act a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "AI-Act"@en ;
+    schema:url "https://harshp.com/tags/AI-Act"^^xsd:anyURI .
+
 hptag:data-governance a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "data-governance"@en ;
@@ -36877,11 +37029,6 @@ list1:repeat a hpcom:RenderedItem,
     schema:identifier "repeat"@en ;
     schema:name "Repeat Playthroughs"@en .
 
-hptag:DPV a hpcom:RenderedItem,
-        hpcom:Tag ;
-    schema:name "DPV"@en ;
-    schema:url "https://harshp.com/tags/DPV"^^xsd:anyURI .
-
 hptag:emotional a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "emotional" ;
@@ -36892,15 +37039,15 @@ list:books-changed-life a hpcom:RenderedItem,
     schema:identifier "books-changed-life"@en ;
     schema:name "Books that changed my life"@en .
 
+hptag:DPV a hpcom:RenderedItem,
+        hpcom:Tag ;
+    schema:name "DPV"@en ;
+    schema:url "https://harshp.com/tags/DPV"^^xsd:anyURI .
+
 list:cork a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "cork"@en ;
     schema:name "Books in Cork"@en .
-
-hpcom:Workshop a hpcom:EventType ;
-    rdfs:label "Workshop"@en ;
-    rdfs:subClassOf schema:Event ;
-    schema:name "Workshop"@en .
 
 list:fantasy a hpcom:RenderedItem,
         book:lists ;
@@ -36911,6 +37058,11 @@ hptag:consent a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "consent" ;
     schema:url "https://harshp.com/tags/consent"^^xsd:anyURI .
+
+hpcom:Workshop a hpcom:EventType ;
+    rdfs:label "Workshop"@en ;
+    rdfs:subClassOf schema:Event ;
+    schema:name "Workshop"@en .
 
 hpcom:Jinja2 a hpcom:Renderer ;
     rdfs:label "Jinaj2"@en ;

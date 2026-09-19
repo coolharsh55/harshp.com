@@ -210,3 +210,27 @@
     ] ;
     schema:status "inviting feedback"@en ;
     hpcom:peer_reviewed false .
+
+<https://harshp.com/research/publications/drafts/009-companions-playing-games> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
+    schema:name "Draft 009: Playing Games with My Heart: An Evaluation of AI Companion Apps"@en ;
+    hpcom:author_lead <http://example.com/MaribethRauh> ;
+    hpcom:author_other ( <http://example.com/DickBlankvoort> <http://example.com/MatiasDuran> <http://example.com/CaoilfhionnNiDheorain> <https://harshp.com/me> <http://example.com/SyrineEnneifer> <http://example.com/SiddharthDJaiswal> <http://example.com/AnthonyVentresque> <http://example.com/AbebaBirhane> ) ;
+    schema:description "We systematically record and quantify design dark patterns, anthropomorphism, stereotypes, erotica, and technical performance issues, and shed light on the mechanics used to leverage users' simulated relationships. On that basis, we put forward recommendations for regulators"@en ;
+    hpcom:tag hptag:AI-companions ;
+    hpcom:tag hptag:AI-Act ;
+    hpcom:tag hptag:dark-patterns ;
+    schema:datePublished "2026-08-07T00:00:00"^^xsd:dateTime ;
+    schema:identifier "10.48550/arXiv.2605.08093"^^xsd:anyURI ;
+    schema:url "https://doi.org/10.48550/arXiv.2605.08093"^^xsd:anyURI ;
+    schema:publication <http://example.com/working-draft> ;
+    #schema:funder <http://example.com/ADAPT> ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/drafts/009-companions-playing-games"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "OSF" ; schema:url "https://doi.org/10.31219/osf.io/43rq2_v1"^^xsd:anyURI ] ;
+    # hpcom:archived_version [ a hpcom:Link ; schema:name "arXiv" ; schema:url "https://doi.org/10.48550/arXiv.2512.08856"^^xsd:anyURI ] ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/009-companions-playing-games.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+    ] ;
+    schema:status "inviting feedback"@en ;
+    hpcom:peer_reviewed false .

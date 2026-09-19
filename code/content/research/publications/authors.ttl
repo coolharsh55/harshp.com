@@ -137,9 +137,9 @@
     schema:name "Jan Lindquist" .
 <http://example.com/IsabelleHupont> a schema:Person ;
     schema:name "Isabelle Hupont" .
- <http://example.com/CeciliaPanigutti> a schema:Person ;
+<http://example.com/CeciliaPanigutti> a schema:Person ;
     schema:name "Cecilia Panigutti" .
- <http://example.com/SvenSchade> a schema:Person ;
+<http://example.com/SvenSchade> a schema:Person ;
     schema:name "Sven Schade" . 
 <http://example.com/JulianFlake> a schema:Person ;
     schema:name "Julian Flake" .
@@ -201,3 +201,31 @@
     schema:name "Sasha Luccioni" .
 <http://example.com/AdelShaaban> a schema:Person ;
     schema:name "Adel Shaaban" .
+<http://example.com/MatiasDuran> a schema:Person ;
+    schema:name "Matias Duran" .
+<http://example.com/CaoilfhionnNiDheorain> a schema:Person ;
+    schema:name "Caoilfhionn Ní Dheoráin" .
+<http://example.com/SyrineEnneifer> a schema:Person ;
+    schema:name "SyrineEnneifer" .
+<http://example.com/SiddharthDJaiswal> a schema:Person ;
+    schema:name "Siddharth D. Jaiswal" .
+<http://example.com/AnthonyVentresque> a schema:Person ;
+    schema:name "Anthony Ventresque" .
+<http://example.com/AbebaBirhane> a schema:Person ;
+    schema:name "Abeba Birhane" .
+<http://example.com/MaribethRauh> a schema:Person ;
+    schema:name "Maribeth Rauh" .
+<http://example.com/BeyzaYaman> a schema:Person ;
+    schema:name "Beyza Yaman" .
+<http://example.com/FabianLinde> a schema:Person ;
+    schema:name "Fabian Linde" .
+<http://example.com/RiccardoAlbertoni> a schema:Person ;
+    schema:name "Riccardo Albertoni" .
+<http://example.com/ChristianHenke> a schema:Person ;
+    schema:name "Christian Henke" .
+<http://example.com/AlessandraSKuntz> a schema:Person ;
+    schema:name "Alessandra S. Kuntz" .
+<http://example.com/MatthiasLobe> a schema:Person ;
+    schema:name "Matthias Löbe" .
+<http://example.com/ChristianDraeger> a schema:Person ;
+    schema:name "Christian Draeger" .

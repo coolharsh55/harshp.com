@@ -987,7 +987,7 @@
 <http://example.com/workshops/NXDG2025> a schema:PublicationEvent, hpcom:OrganisationEvent ;
     hpcom:event_type hpcom:Workshop ;
     schema:name "Workshop on Next Generation Data Governance"@en ;
-    schema:alternateName "NXDG2025" ;
+    schema:alternateName "NXDG" ;
     schema:url "https://w3id.org/nxdg/2025"^^xsd:anyURI ;
     schema:startDate "2025-09-03T00:00:00"^^xsd:dateTime ;
     schema:endDate "2025-09-03T00:00:00"^^xsd:dateTime ;
@@ -1021,3 +1021,31 @@
     schema:endDate "2026-05-10T00:00:00"^^xsd:dateTime ;
     schema:superEvent <http://example.com/conferences/ESWC2026> ;
     schema:location "Dubrovnik, Croatia" .
+
+<http://example.com/conferences/SEMANTiCS2026> a schema:PublicationEvent, hpcom:ReviewingEvent ;
+    hpcom:event_type hpcom:Conference ;
+    schema:name "International Conference on Semantic Systems"@en ;
+    schema:alternateName "SEMANTiCS" ;
+    schema:url "https://2026-eu.semantics.cc/"^^xsd:anyURI ;
+    schema:startDate "2026-09-15T00:00:00"^^xsd:dateTime ;
+    schema:endDate "2026-09-17T00:00:00"^^xsd:dateTime ;
+    schema:location "Ghent, Belgium" .
+
+<http://example.com/workshops/NXDG2026> a schema:PublicationEvent, hpcom:OrganisationEvent ;
+    hpcom:event_type hpcom:Workshop ;
+    schema:name "Workshop on Next Generation Data Governance"@en ;
+    schema:alternateName "NXDG" ;
+    schema:url "https://w3id.org/nxdg/2026"^^xsd:anyURI ;
+    schema:startDate "2026-09-15T00:00:00"^^xsd:dateTime ;
+    schema:endDate "2026-09-15T00:00:00"^^xsd:dateTime ;
+    schema:superEvent <http://example.com/conferences/SEMANTiCS2026> ;
+    schema:location "Ghent, Belgium" .
+
+<http://example.com/conferences/GMDS2026> a schema:PublicationEvent ;
+    hpcom:event_type hpcom:Conference ;
+    schema:name "71st Annual Meeting of the German Association of Medical Informatics, Biometry, and Epidemiology e.V. (GMDS)"@en ;
+    schema:alternateName "GMDS" ;
+    schema:url "https://iscbgmds2026.info/"^^xsd:anyURI ;
+    schema:startDate "2026-09-27T00:00:00"^^xsd:dateTime ;
+    schema:endDate "2026-10-01T00:00:00"^^xsd:dateTime ;
+    schema:location "Freiburg, Germany" .
