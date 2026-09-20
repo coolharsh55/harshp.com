@@ -1773,13 +1773,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1098 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-20T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Ada Palmer" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Too Like the Lightning" ;
+    schema:review "World-building that is expansive and comprehensive, with so many takes on society, politics, post-scarcity utopia, crime, religion. Very much like Gibson's works. But the writing in 18th century style, and the constant struggle to figure out where we are in the story was jarring at every point. By the end, the one key mystery that started the whole thing was never solved, not even hinted. It felt as if I had read a torn part of a larger work. Did not like this unfinished aspect and I will not be reading the rest despite the ideas being really interesting."@en ;
     schema:url "https://harshp.com/hobbies/books/1098"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1099> a hpcom:Book,
@@ -2049,6 +2053,47 @@
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Convenience Store Woman" ;
     schema:url "https://harshp.com/hobbies/books/1114"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1115> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1115 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Matt Dinniman" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Dungeon Crawler Carl" ;
+    schema:url "https://harshp.com/hobbies/books/1115"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1116> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1116 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Adrian Tchaikovsky" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf hplist:DublinLibrary ;
+    schema:name "Engines of Reason" ;
+    schema:url "https://harshp.com/hobbies/books/1116"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1117> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1117 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "T. Kingfisher" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf hplist:DublinLibrary ;
+    schema:name "Wolf Worm" ;
+    schema:url "https://harshp.com/hobbies/books/1117"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/112> a hpcom:Book,
         hpcom:BookReading,

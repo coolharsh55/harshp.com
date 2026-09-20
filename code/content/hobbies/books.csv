@@ -1100,7 +1100,7 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1095,Blood Music,Greg Bear,2014,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1096,Spinning Silver,Naomi Novik,2018,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1097,The Everlasting,Alix E. Harrow,2025,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
-1098,Too Like the Lightning,Ada Palmer,2017,,,currently-reading,,,BookFiction;BookSciFi,DublinLibrary,
+1098,Too Like the Lightning,Ada Palmer,2017,,EBook,read,2026-09-20 23:00:00,2,BookFiction;BookSciFi,DublinLibrary,"World-building that is expansive and comprehensive, with so many takes on society, politics, post-scarcity utopia, crime, religion. Very much like Gibson's works. But the writing in 18th century style, and the constant struggle to figure out where we are in the story was jarring at every point. By the end, the one key mystery that started the whole thing was never solved, not even hinted. It felt as if I had read a torn part of a larger work. Did not like this unfinished aspect and I will not be reading the rest despite the ideas being really interesting."
 1099,Fuzzy Nation,John Scalzi,2022,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1100,Perfection,Vincenzo Latronico,2022,PhysicalBook,,to-read,,,BookFiction,,
 1101,The Mountain in the Sea,Ray Nayler,2022,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
@@ -1117,3 +1117,6 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1112,The Strength of the Few,James Islington,2025,PhysicalBook,PhysicalBook,read,2026-09-19 18:00:00,4,BookFiction;BookSciFi,,"Sequel to a fantasy-epic thriller, this is a continuation of the genre mashup.We have three parallel stories, told across chapters. Each stream's chapter got really interesting, and then the next chapter started a different stream, which made it a little annoying. But then that stream got interesting. Nothing really converges, so that continues all the way to the end. Lots was not clear regarding why things happened or why suddently a character could do what they did. But all was good entertaining reading. Waiting for Book 3 now."
 1113,The Last Colony,John Scalzi,2007,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1114,Convenience Store Woman,Sayaka Murata,2018,,,to-read,,,BookFiction,DublinLibrary,
+1115,Dungeon Crawler Carl,Matt Dinniman,2020,,,to-read,,,BookFiction;BookSciFi,,
+1116,Engines of Reason,Adrian Tchaikovsky,2026,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
+1117,Wolf Worm,T. Kingfisher,2026,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,

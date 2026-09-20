@@ -5266,13 +5266,17 @@ book:1098 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1098 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-20T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Ada Palmer" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Too Like the Lightning" ;
+    schema:review "World-building that is expansive and comprehensive, with so many takes on society, politics, post-scarcity utopia, crime, religion. Very much like Gibson's works. But the writing in 18th century style, and the constant struggle to figure out where we are in the story was jarring at every point. By the end, the one key mystery that started the whole thing was never solved, not even hinted. It felt as if I had read a torn part of a larger work. Did not like this unfinished aspect and I will not be reading the rest despite the ideas being really interesting."@en ;
     schema:url "https://harshp.com/hobbies/books/1098"^^xsd:anyURI .
 
 book:1099 a hpcom:Book,
@@ -5542,6 +5546,47 @@ book:1114 a hpcom:Book,
     schema:isPartOf list:DublinLibrary ;
     schema:name "Convenience Store Woman" ;
     schema:url "https://harshp.com/hobbies/books/1114"^^xsd:anyURI .
+
+book:1115 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1115 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Matt Dinniman" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "Dungeon Crawler Carl" ;
+    schema:url "https://harshp.com/hobbies/books/1115"^^xsd:anyURI .
+
+book:1116 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1116 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Adrian Tchaikovsky" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Engines of Reason" ;
+    schema:url "https://harshp.com/hobbies/books/1116"^^xsd:anyURI .
+
+book:1117 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1117 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "T. Kingfisher" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Wolf Worm" ;
+    schema:url "https://harshp.com/hobbies/books/1117"^^xsd:anyURI .
 
 book:112 a hpcom:Book,
         hpcom:BookReading,
@@ -36413,6 +36458,9 @@ hpview:GenericJinja2View a hpcom:View ;
 hpcom:ExtendedAbstract rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Extended Abstract"@en .
 
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
+
 <https://harshp.com/dev/harshp.com> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -36549,9 +36597,6 @@ hptag:trains a hpcom:RenderedItem,
     schema:name "International Conference on Semantic Systems"@en ;
     schema:startDate "2022-09-13T00:00:00"^^xsd:dateTime ;
     schema:url "https://2022-eu.semantics.cc"^^xsd:anyURI .
-
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
 
 game:lists a owl:Class,
         hpcom:RenderedItem ;
@@ -37165,17 +37210,17 @@ list:DCU a hpcom:RenderedItem,
     schema:identifier "DCU"@en ;
     schema:name "Books in DCU"@en .
 
+list1:mechanics a hpcom:RenderedItem,
+        game:lists ;
+    schema:identifier "mechanics"@en ;
+    schema:name "Innovative Mechanics"@en .
+
 hptag:Rating2 a hpcom:Rating,
         hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "🙁bad (2/5)"@en ;
     schema:ratingValue "2"^^xsd:int ;
     schema:url "https://harshp.com/tags/Rating2"^^xsd:anyURI .
-
-list1:mechanics a hpcom:RenderedItem,
-        game:lists ;
-    schema:identifier "mechanics"@en ;
-    schema:name "Innovative Mechanics"@en .
 
 list1:classic a hpcom:RenderedItem,
         game:lists ;
