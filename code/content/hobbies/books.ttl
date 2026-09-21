@@ -1989,7 +1989,8 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1110 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Stanisław Lem" ;
     schema:dateCreated "1964"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -2094,6 +2095,20 @@
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Wolf Worm" ;
     schema:url "https://harshp.com/hobbies/books/1117"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1118> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1118 ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "qntm" ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "There is no Antimemetics Division" ;
+    schema:url "https://harshp.com/hobbies/books/1118"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/112> a hpcom:Book,
         hpcom:BookReading,

@@ -5482,7 +5482,8 @@ book:1110 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1110 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Stanisław Lem" ;
     schema:dateCreated "1964"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -5587,6 +5588,20 @@ book:1117 a hpcom:Book,
     schema:isPartOf list:DublinLibrary ;
     schema:name "Wolf Worm" ;
     schema:url "https://harshp.com/hobbies/books/1117"^^xsd:anyURI .
+
+book:1118 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1118 ;
+    hpcom:book_owned_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "qntm" ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "There is no Antimemetics Division" ;
+    schema:url "https://harshp.com/hobbies/books/1118"^^xsd:anyURI .
 
 book:112 a hpcom:Book,
         hpcom:BookReading,
@@ -36458,9 +36473,6 @@ hpview:GenericJinja2View a hpcom:View ;
 hpcom:ExtendedAbstract rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Extended Abstract"@en .
 
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
-
 <https://harshp.com/dev/harshp.com> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -36597,6 +36609,9 @@ hptag:trains a hpcom:RenderedItem,
     schema:name "International Conference on Semantic Systems"@en ;
     schema:startDate "2022-09-13T00:00:00"^^xsd:dateTime ;
     schema:url "https://2022-eu.semantics.cc"^^xsd:anyURI .
+
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
 
 game:lists a owl:Class,
         hpcom:RenderedItem ;
