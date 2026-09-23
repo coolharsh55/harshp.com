@@ -5526,7 +5526,7 @@ book:1113 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1113 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -5603,6 +5603,19 @@ book:1118 a hpcom:Book,
     schema:name "There is no Antimemetics Division" ;
     schema:url "https://harshp.com/hobbies/books/1118"^^xsd:anyURI .
 
+book:1119 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1119 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "M. John Harrison" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The End of Everything" ;
+    schema:url "https://harshp.com/hobbies/books/1119"^^xsd:anyURI .
+
 book:112 a hpcom:Book,
         hpcom:BookReading,
         hpcom:RenderedItem,
@@ -5617,6 +5630,18 @@ book:112 a hpcom:Book,
     schema:genre hpcom:BookFiction ;
     schema:name "Fools Die" ;
     schema:url "https://harshp.com/hobbies/books/112"^^xsd:anyURI .
+
+book:1120 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1120 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Luke Kennard" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "Black Bag" ;
+    schema:url "https://harshp.com/hobbies/books/1120"^^xsd:anyURI .
 
 book:113 a hpcom:Book,
         hpcom:BookReading,
@@ -36610,9 +36635,6 @@ hptag:trains a hpcom:RenderedItem,
     schema:startDate "2022-09-13T00:00:00"^^xsd:dateTime ;
     schema:url "https://2022-eu.semantics.cc"^^xsd:anyURI .
 
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
-
 game:lists a owl:Class,
         hpcom:RenderedItem ;
     rdfs:subClassOf schema:CreativeWork,
@@ -36664,6 +36686,9 @@ hptag:website a hpcom:RenderedItem,
 
 hpcom:BookChapter rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Book Chapter"@en .
+
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
 
 list:visually-stunning a hpcom:RenderedItem,
         book:lists ;

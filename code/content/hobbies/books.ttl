@@ -2033,7 +2033,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1113 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -2110,6 +2110,19 @@
     schema:name "There is no Antimemetics Division" ;
     schema:url "https://harshp.com/hobbies/books/1118"^^xsd:anyURI .
 
+<https://harshp.com/hobbies/books/1119> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1119 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "M. John Harrison" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The End of Everything" ;
+    schema:url "https://harshp.com/hobbies/books/1119"^^xsd:anyURI .
+
 <https://harshp.com/hobbies/books/112> a hpcom:Book,
         hpcom:BookReading,
         hpcom:RenderedItem,
@@ -2124,6 +2137,18 @@
     schema:genre hpcom:BookFiction ;
     schema:name "Fools Die" ;
     schema:url "https://harshp.com/hobbies/books/112"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1120> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1120 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Luke Kennard" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "Black Bag" ;
+    schema:url "https://harshp.com/hobbies/books/1120"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/113> a hpcom:Book,
         hpcom:BookReading,

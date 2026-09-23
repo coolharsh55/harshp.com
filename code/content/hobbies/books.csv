@@ -1112,12 +1112,14 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1107,All Systems Red,Martha Wells,2017,,,to-read,,,BookFiction;BookSciFi,,
 1108,Empire of Silence,Christopher Ruocchio,2018,,,to-read,,,BookFiction;BookSciFi,,
 1109,No More Mr. Nice Guy,Robert Glover,2003,,,to-read,,,BookNonFiction,,
-1110,The Invincible,Stanisław Lem,1964,EBook,,currently-reading,,,BookFiction;BookSciFi,,
+1110,The Invincible,Stanisław Lem,1964,EBook,EBook,currently-reading,2026-09-23 10:00:00,4,BookFiction;BookSciFi,,"Lem has a reputation for creating stories where humanity simply cannot grasp the sheer alien-ness of life, and in comparison critiquing the anthropomorphic takes that put humans at the center of everything. This is an earlier work, and it is a straightforward story. Most of it is focused on a spaceship crew, though there are no non-main-story related digressions. I had played the game of the same name, and was impressed a lot. The book is the same. "
 1111,Blood in the Machine: The Origins of the Rebellion Against Big Tech,Brian Merchant,2023,,,to-read,,,BookNonFiction,,
 1112,The Strength of the Few,James Islington,2025,PhysicalBook,PhysicalBook,read,2026-09-19 18:00:00,4,BookFiction;BookSciFi,,"Sequel to a fantasy-epic thriller, this is a continuation of the genre mashup.We have three parallel stories, told across chapters. Each stream's chapter got really interesting, and then the next chapter started a different stream, which made it a little annoying. But then that stream got interesting. Nothing really converges, so that continues all the way to the end. Lots was not clear regarding why things happened or why suddently a character could do what they did. But all was good entertaining reading. Waiting for Book 3 now."
-1113,The Last Colony,John Scalzi,2007,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
+1113,The Last Colony,John Scalzi,2007,,,currently-reading,,,BookFiction;BookSciFi,DublinLibrary,
 1114,Convenience Store Woman,Sayaka Murata,2018,,,to-read,,,BookFiction,DublinLibrary,
 1115,Dungeon Crawler Carl,Matt Dinniman,2020,,,to-read,,,BookFiction;BookSciFi,,
 1116,Engines of Reason,Adrian Tchaikovsky,2026,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1117,Wolf Worm,T. Kingfisher,2026,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1118,There is no Antimemetics Division,qntm,2025,EBook,,to-read,,,BookFiction;BookSciFi,,
+1119,The End of Everything,M. John Harrison,2026,,,to-read,,,BookFiction;BookSciFi,,
+1120,Black Bag,Luke Kennard,2026,,,to-read,,,BookFiction,,
