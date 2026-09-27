@@ -1649,13 +1649,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1090 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-27T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Nnedi Okorafor" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Who Fears Death" ;
+    schema:review "I did not enjoy the writing or the story in a general sense of the word. But I'm really admiring the topics being broached here of women in context of patriarchy, burden after being abused, reliving rape and the wish to just once let the accusers feel it too, or even genital mutilation. What was not so good was how the trope of big savior who can do it all with a twist of the wand, or the same old villain, or despite the ambitious goal of rewriting the holy book - not having any philosophical segments in the story. For me, this was a big piece missing, where Octavia Butler's way of handling people's beliefs and how it shapes society really gives a good way to describe it."@en ;
     schema:url "https://harshp.com/hobbies/books/1090"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1091> a hpcom:Book,
@@ -1663,7 +1667,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1091 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Karen Joy Fowler" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -1745,13 +1749,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1096 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-25T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Naomi Novik" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Spinning Silver" ;
+    schema:review "Excellent fantasy set in what I assumed was a Polish medieval setting, but could also be Russian or in general Eastern European. The story is three women breaking various shackles of society - one in fantasy, one in patriarchy, and one in destiny. The premise is based on rumplestiltskin, but where there is no magic elf and the woman must literally earn gold herself. The book mentions only one race - Jews (the woman who turns silver in to gold) and I was not sure what that is the case as no one else's attributes are mentioned or hinted at beyond class. But other than that the story was really nicely flowing, and there's enough maturity to not be a happy ending cliche of roles. "@en ;
     schema:url "https://harshp.com/hobbies/books/1096"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1097> a hpcom:Book,
@@ -1990,12 +1998,16 @@
         schema:Book ;
     hpcom:book_id hpcom:1110 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-23T10:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Stanisław Lem" ;
     schema:dateCreated "1964"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "The Invincible" ;
+    schema:review "Lem has a reputation for creating stories where humanity simply cannot grasp the sheer alien-ness of life, and in comparison critiquing the anthropomorphic takes that put humans at the center of everything. This is an earlier work, and it is a straightforward story. Most of it is focused on a spaceship crew, though there are no non-main-story related digressions. I had played the game of the same name, and was impressed a lot. The book is the same. "@en ;
     schema:url "https://harshp.com/hobbies/books/1110"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1111> a hpcom:Book,
@@ -2033,13 +2045,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1113 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-09-21T12:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2007"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Last Colony" ;
+    schema:review "Third book in the series. Reminded me a lot of The Exanse, where there's a plot story situated on a colonised world with implications on the rest of the bigger story. Was an okay read, though at the end the things seemed really hamfisted with the villain just conveniently being defeated and all plans being successful. Seemed a little improbably and lazy. "@en ;
     schema:url "https://harshp.com/hobbies/books/1113"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1114> a hpcom:Book,

@@ -1,7 +1,13 @@
 import csv
 from collections import namedtuple
 
-FILEPATH = '/home/harsh/GoogleDrive/RESEARCH/media/media-mentions.csv'
+import sys
+if sys.platform == 'linux':
+    FILEPATH = '/home/harsh/GoogleDrive/RESEARCH/media/media-mentions.csv'
+elif sys.platform == 'darwin':
+    FILEPATH = '/Users/harsh/GoogleDrive/RESEARCH/media/media-mentions.csv'
+else:
+    raise Exception(f'Unsupported {sys.platform=}')
 
 Entry = namedtuple('Entry',
     ('date', 'venue', 'link', 'title', 'byline', 'type', 'comment'))
