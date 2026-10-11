@@ -520,12 +520,16 @@
         schema:Book ;
     hpcom:book_id hpcom:1027 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-10-10T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Adrian Tchaikovsky" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "Pretenders to the Throne of God" ;
+    schema:review "Book 4 in the series. Set in a different location but still exploring the imperialism of 'perfection'. What was interesting was the tiny nitbits of how it implodes in ideals just to get a conquest done and then has to scramble back to disassociate the 'not perfect' back into orthodoxy. Some other plot elements continue. What I missed was a more thorough focus on a specific character or characters and following them on the journey. To borrow a style from the book, this was the Mosaic between the stories, a filler. Hope the next book ties things up with more world building and self-reflecting stories."@en ;
     schema:url "https://harshp.com/hobbies/books/1027"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1028> a hpcom:Book,
@@ -1667,13 +1671,17 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1091 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-10-01T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Karen Joy Fowler" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "We Are All Completely Beside Ourselves" ;
+    schema:review "Sharp wit, unusual premise, and a really intense core. Hard to explain without spoilers, but the story and the introspection of situations really brings up questions on what we are as humans, the role of upbringing on making us the people we are, and how life affects us all beyond what we think we can control."@en ;
     schema:url "https://harshp.com/hobbies/books/1091"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1092> a hpcom:Book,
@@ -2063,12 +2071,16 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1114 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-10-04T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "Sayaka Murata" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Convenience Store Woman" ;
+    schema:review "Picked this up because its popular and I kept seeing this pop up in various places. The story and the writing is decent, the topic of exploring being different and finding a purpose and a place in life is nice, though a tad of a downer. Still, its a good book to have read."@en ;
     schema:url "https://harshp.com/hobbies/books/1114"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1115> a hpcom:Book,
@@ -2103,7 +2115,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1117 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "T. Kingfisher" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction,
