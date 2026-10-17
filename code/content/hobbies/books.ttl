@@ -1867,7 +1867,7 @@
         schema:Book ;
     hpcom:book_id hpcom:1101 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Ray Nayler" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -2147,6 +2147,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1119 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-to-read ;
     schema:author "M. John Harrison" ;
     schema:dateCreated "2026"^^xsd:int ;
@@ -2175,6 +2176,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1120 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Luke Kennard" ;
     schema:dateCreated "2026"^^xsd:int ;
@@ -2194,6 +2196,32 @@
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "Gliff" ;
     schema:url "https://harshp.com/hobbies/books/1121"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1122> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1122 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Caitlin Starling" ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "The Starving Saints" ;
+    schema:url "https://harshp.com/hobbies/books/1122"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1123> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1123 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Billie Host" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "Splasher" ;
+    schema:url "https://harshp.com/hobbies/books/1123"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/113> a hpcom:Book,
         hpcom:BookReading,

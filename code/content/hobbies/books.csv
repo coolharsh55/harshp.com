@@ -1103,7 +1103,7 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1098,Too Like the Lightning,Ada Palmer,2017,,EBook,read,2026-09-20 23:00:00,2,BookFiction;BookSciFi,DublinLibrary,"World-building that is expansive and comprehensive, with so many takes on society, politics, post-scarcity utopia, crime, religion. Very much like Gibson's works. But the writing in 18th century style, and the constant struggle to figure out where we are in the story was jarring at every point. By the end, the one key mystery that started the whole thing was never solved, not even hinted. It felt as if I had read a torn part of a larger work. Did not like this unfinished aspect and I will not be reading the rest despite the ideas being really interesting."
 1099,Fuzzy Nation,John Scalzi,2022,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1100,Perfection,Vincenzo Latronico,2022,PhysicalBook,,to-read,,,BookFiction,,
-1101,The Mountain in the Sea,Ray Nayler,2022,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
+1101,The Mountain in the Sea,Ray Nayler,2022,PhysicalBook,,currently-reading,,,BookFiction;BookSciFi,,
 1102,This Is How You Lose the Time War,Amal El-Mohtar and Max Gladstone,2019,PhysicalBook,PhysicalBook,read,2026-08-15 02:30:00,4,BookFiction;BookSciFi,,"Two time travellers on opposing sides end up corresponding themselves into a battle of taunts that turns into romance. Amidst this is a tour of time, two factions utterly alien and incompatible. Two authors write the letters, which are communicated using all sorts of means, which was cool. A lot of times, it was never clear was exactly was the causal relation - like how did one person realise this is where the letter was. But the charm of the story is such that its taking you on a tour and you have to keep moving. So I took it simply as the person knowing them so well enough that they can find the subtlest things that to us would seem totally random. Afterall, they eluded their entire factions. Short novel, interesting premise and structure, and heavy on sci-fi with literary bonuses."
 1103,Where the Axe Is Buried,Ray Nayler,2025,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
 1104,"How to Make Your Brain Your Best Friend: A Neuroscientist's Guide to a Healthier, Happier Life",Rachel Barr,2026,PhysicalBook,,to-read,,,BookNonFiction,,
@@ -1121,6 +1121,8 @@ id,name,author,date_created,medium_owned,medium_read,status,date_read,rating,gen
 1116,Engines of Reason,Adrian Tchaikovsky,2026,,,to-read,,,BookFiction;BookSciFi,DublinLibrary,
 1117,Wolf Worm,T. Kingfisher,2026,,EBook,read,2026-10-17 11:00:00,4,BookFiction;BookSciFi,DublinLibrary,"Bio-horror with the science to back it up! Entertaining and has the writing style and restraint of the classics. Towards the end I thought I was going to be disappointed that it would be much ado about nothing, but then it was not, and it made me appreciate the author even more. This was a bedtime/bedside read, and it fit the role quite well."
 1118,There is no Antimemetics Division,qntm,2025,EBook,,to-read,,,BookFiction;BookSciFi,,
-1119,The End of Everything,M. John Harrison,2026,,,to-read,,,BookFiction;BookSciFi,,
-1120,Black Bag,Luke Kennard,2026,,,to-read,,,BookFiction,,
+1119,The End of Everything,M. John Harrison,2026,PhysicalBook,,to-read,,,BookFiction;BookSciFi,,
+1120,Black Bag,Luke Kennard,2026,PhysicalBook,,to-read,,,BookFiction,,
 1121,Gliff,Ali Smith,2025,,,to-read,,,BookFiction,DublinLibrary,
+1122,The Starving Saints,Caitlin Starling,2025,PhysicalBook,,to-read,,,BookFiction,,
+1123,Splasher,Billie Host,2026,PhysicalBook,,to-read,,,BookFiction,,

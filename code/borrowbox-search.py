@@ -1142,10 +1142,55 @@ LOCUS = {
     "THE DOORS OF EDEN": "ADRIAN TCHAIKOVSKY"
 }
 
+HUGO_AWARD_2026 = {
+    "The Everlasting": "Alix E. Harrow",
+    "A Drop of Corruption": "Robert Jackson Bennett",
+    "Death of the Author": "Nnedi Okorafor",
+    "Shroud": "Adrian Tchaikovsky",
+    "The Incandescent": "Emily Tesh",
+    "The Raven Scholar": "Antonia Hodgson",
+}
+
+NEBULA_AWARD_2026 = {
+    "The Buffalo Hunter Hunter": "Stephen Graham Jones",
+    "When We Were Real": "Daryl Gregory",
+    "Katabasis": "R. F. Kuang",
+    "Death of the Author": "Nnedi Okorafor",
+    "The Incandescent": "Emily Tesh",
+    "Sour Cherry": "Natalia Theodoridou",
+    "Wearing the Lion": "John Wiswell",
+}
+
+LOCUS_AWARD_SCIENCE_FICTION_2026 = {
+    "Death of the Author": "Nnedi Okorafor",
+    "Shroud": "Adrian Tchaikovsky",
+    "Slow Gods": "Claire North",
+    "The Folded Sky": "Elizabeth Bear",
+    "The Shattering Peace": "John Scalzi",
+    "All That We See or Seem": "Ken Liu",
+    "Where the Axe Is Buried": "Ray Nayler",
+    "When We Were Real": "Daryl Gregory",
+    "Notes from a Regicide": "Isaac Fellman",
+    "Picks and Shovels": "Cory Doctorow",
+}
+
+ARTHUR_C_CLARKE_AWARD_2026 = {
+    "When There Are Wolves Again": "E. J. Swift",
+    "Dungeon Crawler Carl": "Matt Dinniman",
+    "The Dream Hotel": "Laila Lalami",
+    "Luminous": "Silvia Park",
+    "There Is No Antimemetics Division": "qntm",
+    "The Salt Oracle": "Lorraine Wilson",
+}
+
 books.update(HUGO)
 books.update(ARTHURCCLARKE)
 books.update(NEBULA)
 books.update(LOCUS)
+books.update(HUGO_AWARD_2026)
+books.update(NEBULA_AWARD_2026)
+books.update(LOCUS_AWARD_SCIENCE_FICTION_2026)
+books.update(ARTHUR_C_CLARKE_AWARD_2026)
 
 from rdflib import Graph
 graph = Graph()
