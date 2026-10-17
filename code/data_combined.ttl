@@ -5236,7 +5236,7 @@ book:1095 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1095 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Greg Bear" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -5608,13 +5608,17 @@ book:1117 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1117 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-10-17T11:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "T. Kingfisher" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Wolf Worm" ;
+    schema:review "Bio-horror with the science to back it up! Entertaining and has the writing style and restraint of the classics. Towards the end I thought I was going to be disappointed that it would be much ado about nothing, but then it was not, and it made me appreciate the author even more. This was a bedtime/bedside read, and it fit the role quite well."@en ;
     schema:url "https://harshp.com/hobbies/books/1117"^^xsd:anyURI .
 
 book:1118 a hpcom:Book,
@@ -5670,6 +5674,19 @@ book:1120 a hpcom:Book,
     schema:genre hpcom:BookFiction ;
     schema:name "Black Bag" ;
     schema:url "https://harshp.com/hobbies/books/1120"^^xsd:anyURI .
+
+book:1121 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1121 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Ali Smith" ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Gliff" ;
+    schema:url "https://harshp.com/hobbies/books/1121"^^xsd:anyURI .
 
 book:113 a hpcom:Book,
         hpcom:BookReading,
