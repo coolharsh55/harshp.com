@@ -5023,7 +5023,7 @@ book:1083 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1083 ;
     hpcom:book_owned_medium hpcom:EBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_status hpcom:book-to-read ;
     schema:author "Rebecca Giblin and Cory Doctorow" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookNonFiction ;
@@ -5360,12 +5360,16 @@ book:1101 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1101 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-10-22T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Ray Nayler" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:name "The Mountain in the Sea" ;
+    schema:review "I was hyped for this book - it promised sentient octopuses! The starting chapter threw me off the cliff in a very pleasant way - a futuristic society, an android one of a kind sentient AI main character - an AI overlord and lots of cool tech. All good ingredients. But then the book just meanders into the other stuff and we barely get any exploration of octopuses beyond some hand wavy sentience crap. Its okay if you don't care much about it but since I picked up the book precisely and only because of this, I was utterly disappointed. Remembering the Children of Time series more fondly after this."@en ;
     schema:url "https://harshp.com/hobbies/books/1101"^^xsd:anyURI .
 
 book:1102 a hpcom:Book,
@@ -5670,7 +5674,7 @@ book:1120 a hpcom:Book,
         schema:Book ;
     hpcom:book_id hpcom:1120 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Luke Kennard" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
@@ -5682,12 +5686,16 @@ book:1121 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1121 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-10-25T19:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Ali Smith" ;
     schema:dateCreated "2025"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Gliff" ;
+    schema:review "A weird book that is set as a follow up to Brave New World, but where the main characters are (at the start) two kids. The world is weird, intentionally, and the book does a fantastic job of poking holes in to show how things have gone very wrong without the people in the bubble ever realising this at all. The writing is sharp, extremely witty, and the way ideas are brought into the foray was enjoyable (even if depressing in the end). Good read. There is a companion book called Glyph which I suspect is more fantasy, but I'm going to give it a read anyway."@en ;
     schema:url "https://harshp.com/hobbies/books/1121"^^xsd:anyURI .
 
 book:1122 a hpcom:Book,
@@ -5715,6 +5723,33 @@ book:1123 a hpcom:Book,
     schema:genre hpcom:BookFiction ;
     schema:name "Splasher" ;
     schema:url "https://harshp.com/hobbies/books/1123"^^xsd:anyURI .
+
+book:1124 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1124 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Ali Smith" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Glyph" ;
+    schema:url "https://harshp.com/hobbies/books/1124"^^xsd:anyURI .
+
+book:1125 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1125 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "T. Kingfisher" ;
+    schema:dateCreated "2025"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Hemlock & Silver" ;
+    schema:url "https://harshp.com/hobbies/books/1125"^^xsd:anyURI .
 
 book:113 a hpcom:Book,
         hpcom:BookReading,
@@ -36571,6 +36606,9 @@ hpview:GenericJinja2View a hpcom:View ;
 hpcom:ExtendedAbstract rdfs:subClassOf schema:ScholarlyArticle ;
     schema:name "Extended Abstract"@en .
 
+hpcom:book-currently-reading a hpcom:BookStatus ;
+    rdfs:label "currently reading"@en .
+
 <https://harshp.com/dev/harshp.com> a hpcom:RenderedItem,
         <https://harshp.com/dev>,
         schema:BlogPosting ;
@@ -36707,9 +36745,6 @@ hptag:trains a hpcom:RenderedItem,
     schema:name "International Conference on Semantic Systems"@en ;
     schema:startDate "2022-09-13T00:00:00"^^xsd:dateTime ;
     schema:url "https://2022-eu.semantics.cc"^^xsd:anyURI .
-
-hpcom:book-currently-reading a hpcom:BookStatus ;
-    rdfs:label "currently reading"@en .
 
 game:lists a owl:Class,
         hpcom:RenderedItem ;
