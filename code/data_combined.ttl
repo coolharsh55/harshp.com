@@ -5053,13 +5053,17 @@ book:1085 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1085 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-10-31T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2017"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Collapsing Empire" ;
+    schema:review "Decent book, reminiscient of early sci-fi novels. Straightforward and a bit of a hand wavy world building to get the plot moving. Characters are clear as is the writing. This is the first book in a trilogy. Giving the second one a chance."@en ;
     schema:url "https://harshp.com/hobbies/books/1085"^^xsd:anyURI .
 
 book:1086 a hpcom:Book,
@@ -5236,13 +5240,17 @@ book:1095 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1095 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-10-28T14:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "Greg Bear" ;
     schema:dateCreated "2014"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Blood Music" ;
+    schema:review "This turned out to be much more intriguing than I expected. Though the horror part was not new, for instance because you've played Inside, the sci-fi development of it was cool. The ending was nice and not cliche as well. Overall quite a few curveballs and was fun to read. "@en ;
     schema:url "https://harshp.com/hobbies/books/1095"^^xsd:anyURI .
 
 book:1096 a hpcom:Book,
@@ -5300,13 +5308,17 @@ book:1099 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1099 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-11-13T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
     schema:author "John Scalzi" ;
     schema:dateCreated "2022"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Fuzzy Nation" ;
+    schema:review "Run of the mill cute furry thing is actually sentient and then the evil corps are out to destroy it. MC is the bad guy but switches to being a good guy. Oh and there are some funny moments created, including with the girlfriend. I think this reads like a campy movie, albeit one you have fun watching and then forget."@en ;
     schema:url "https://harshp.com/hobbies/books/1099"^^xsd:anyURI .
 
 book:11 a hpcom:Book,
@@ -5742,14 +5754,78 @@ book:1125 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1125 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-11-12T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating4 ;
     schema:author "T. Kingfisher" ;
     schema:dateCreated "2025"^^xsd:int ;
     schema:genre hpcom:BookFiction,
         hpcom:BookSciFi ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "Hemlock & Silver" ;
+    schema:review "Sherlock Holmes start, and then halfway through we switch to Snow white meets some Brothers Grimm (no Disney sanitisation!). Oh yes, a budding romance but not as the main plot. Overall, was a fun bedtime read."@en ;
     schema:url "https://harshp.com/hobbies/books/1125"^^xsd:anyURI .
+
+book:1126 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1126 ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-11-08T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "John Scalzi" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Consuming Fire" ;
+    schema:review "Earlier impressions all indicated this was going to be a cliche snoozefest. Like the empress (emperox?) suddenly being an amazing politician after accidentally getting the throne in the first place. Or that there are technologies so advanced that we should have seen strides into singularity, but instead we're still running guild wars. But, things are answered, somewhat plausibly towards the end, so that's good. And the rest is a good book to read by the bedside. "@en ;
+    schema:url "https://harshp.com/hobbies/books/1126"^^xsd:anyURI .
+
+book:1127 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1127 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Cixin Liu" ;
+    schema:dateCreated "2018"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Ball Lightning" ;
+    schema:url "https://harshp.com/hobbies/books/1127"^^xsd:anyURI .
+
+book:1128 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1128 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "John Scalzi" ;
+    schema:dateCreated "2020"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Last Emperox" ;
+    schema:url "https://harshp.com/hobbies/books/1128"^^xsd:anyURI .
+
+book:1129 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1129 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Andrew Fox" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "Ghostlands" ;
+    schema:url "https://harshp.com/hobbies/books/1129"^^xsd:anyURI .
 
 book:113 a hpcom:Book,
         hpcom:BookReading,
@@ -5765,6 +5841,20 @@ book:113 a hpcom:Book,
     schema:genre hpcom:BookFiction ;
     schema:name "Tring...Tring...Faster Fene (ट्रिंग...ट्रिंग... फास्टर फेणे)" ;
     schema:url "https://harshp.com/hobbies/books/113"^^xsd:anyURI .
+
+book:1130 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1130 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "China Miéville" ;
+    schema:dateCreated "2026"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:isPartOf list:DublinLibrary ;
+    schema:name "The Rouse" ;
+    schema:url "https://harshp.com/hobbies/books/1130"^^xsd:anyURI .
 
 book:114 a hpcom:Book,
         hpcom:BookReading,
@@ -11842,7 +11932,7 @@ book:46 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:46 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Bridget Collins" ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
@@ -37277,11 +37367,6 @@ list1:story a hpcom:RenderedItem,
 <https://www.scss.tcd.ie/dave.lewis/> a schema:Person ;
     schema:name "Dave Lewis" .
 
-list:DublinLibrary a hpcom:RenderedItem,
-        book:lists ;
-    schema:identifier "DublinLibrary"@en ;
-    schema:name "Dublin Library"@en .
-
 hpcom:Conference a hpcom:EventType ;
     rdfs:label "Conference"@en ;
     rdfs:subClassOf schema:Event ;
@@ -37296,6 +37381,11 @@ hptag:story a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "story" ;
     schema:url "https://harshp.com/tags/story"^^xsd:anyURI .
+
+list:DublinLibrary a hpcom:RenderedItem,
+        book:lists ;
+    schema:identifier "DublinLibrary"@en ;
+    schema:name "Dublin Library"@en .
 
 list:GiveAway a hpcom:RenderedItem,
         book:give-away ;
@@ -37418,9 +37508,6 @@ hpcom:formatHTML a hpcom:FileFormat ;
     rdfs:label "formatHTML"@en ;
     rdfs:comment "Represents the HTML format for content"@en .
 
-hpcom:BookSciFi a hpcom:BookGenre ;
-    rdfs:label "sci-fi"@en .
-
 <https://harshp.com/me> a hpcom:RenderedItem,
         schema:BlogPosting,
         schema:Person ;
@@ -37450,6 +37537,9 @@ hpcom:BookSciFi a hpcom:BookGenre ;
             schema:name "India" ] ;
     schema:url "https://harshp.com/me"^^xsd:anyURI ;
     schema:worksFor <https://www.dcu.ie/> .
+
+hpcom:BookSciFi a hpcom:BookGenre ;
+    rdfs:label "sci-fi"@en .
 
 hpcom:EBook a hpcom:BookMedium ;
     rdfs:label "💾digital"@en .
