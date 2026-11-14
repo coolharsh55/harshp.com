@@ -1244,7 +1244,7 @@ booksread = graph.query('''
     ''')
 booksread = [(str(name).upper(), str(author).upper()) for name, author in booksread]
 print('-' * 78)
-print('Books in Dublin Library')
+print(f'Books in Dublin Library as of {datetime.datetime.now()}')
 print('*' * 78)
 print(f"{len(booksread)} books already read from my list")
 print(f"{len(books)} books to read from awards list")
