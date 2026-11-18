@@ -5741,7 +5741,7 @@ book:1124 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1124 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Ali Smith" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
@@ -5855,6 +5855,19 @@ book:1130 a hpcom:Book,
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Rouse" ;
     schema:url "https://harshp.com/hobbies/books/1130"^^xsd:anyURI .
+
+book:1131 a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1131 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Daniel Kehlmann" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "The Director" ;
+    schema:url "https://harshp.com/hobbies/books/1131"^^xsd:anyURI .
 
 book:114 a hpcom:Book,
         hpcom:BookReading,
@@ -11932,12 +11945,16 @@ book:46 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:46 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-11-18T08:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Bridget Collins" ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf list:DublinLibrary ;
     schema:name "The Binding" ;
+    schema:review "The premise is really interesting - turning memories into books, but which also removes the memories from the person. The novel shows how this can be sensitive when the memories are traumatic right from the start. But instead of a nuanced take, or some world building, or thoughtful depth, there is a main character who is clueless, whiny, and just not fleshed out. The love story or romance bit was interesting given the time period, but overall this was a slow boring book that promised interesting things and just never got there. "@en ;
     schema:url "https://harshp.com/hobbies/books/46"^^xsd:anyURI .
 
 book:460 a hpcom:Book,
@@ -19828,6 +19845,7 @@ book:886 a hpcom:Book,
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:886 ;
+    hpcom:book_owned_medium hpcom:EBook ;
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Ivo Velitchkov, George Anadiotis" ;
     schema:dateCreated "2023"^^xsd:int ;
@@ -22300,12 +22318,26 @@ game:108 a hpcom:RenderedItem,
 game:109 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
+    hpcom:date-game-played "2020"^^xsd:int,
+        "2021"^^xsd:int,
+        "2022"^^xsd:int,
+        "2023"^^xsd:int,
+        "2024"^^xsd:int,
+        "2025"^^xsd:int,
+        "2026"^^xsd:int ;
     hpcom:game-id "109"^^xsd:int ;
     hpcom:game-owned-platform hpcom:Steam ;
-    hpcom:game-status hpcom:game-currently-playing ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "ConcernedAge" ;
     schema:dateCreated "2016"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf list1:classic,
+        list1:mechanics,
+        list1:recommended,
+        list1:repeat,
+        list1:story ;
     schema:name "Stardew Valley" ;
     schema:publisher "2016" ;
     schema:url "https://harshp.com/hobbies/games/109"^^xsd:anyURI .
@@ -24683,6 +24715,54 @@ game:23 a hpcom:RenderedItem,
     schema:publisher "2007" ;
     schema:url "https://harshp.com/hobbies/games/23"^^xsd:anyURI .
 
+game:230 a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
+    hpcom:game-id "230"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating4 ;
+    schema:author "Owlcat" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:strategy ;
+    schema:isPartOf list1:repeat,
+        list1:story ;
+    schema:name "Warhammer 40,000: Rogue Trader" ;
+    schema:publisher "2023" ;
+    schema:url "https://harshp.com/hobbies/games/230"^^xsd:anyURI .
+
+game:231 a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:date-game-played "2026"^^xsd:int ;
+    hpcom:game-id "231"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating3 ;
+    schema:author "Black Salt Games" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:survival ;
+    schema:isPartOf list1:mechanics ;
+    schema:name "Dredge" ;
+    schema:publisher "2023" ;
+    schema:url "https://harshp.com/hobbies/games/231"^^xsd:anyURI .
+
+game:232 a hpcom:RenderedItem,
+        hpcom:VideoGame,
+        schema:VideoGame ;
+    hpcom:game-id "232"^^xsd:int ;
+    hpcom:game-owned-platform hpcom:Steam ;
+    hpcom:game-status hpcom:game-currently-playing ;
+    schema:author "Suspicious Developments" ;
+    schema:dateCreated "2024"^^xsd:int ;
+    schema:genre hpcom:strategy ;
+    schema:name "Tactical Breach Wizards" ;
+    schema:publisher "2024" ;
+    schema:url "https://harshp.com/hobbies/games/232"^^xsd:anyURI .
+
 game:24 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
@@ -25189,21 +25269,12 @@ game:5 a hpcom:RenderedItem,
 game:50 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
-    hpcom:date-game-played "2019"^^xsd:int,
-        "2020"^^xsd:int ;
     hpcom:game-id "50"^^xsd:int ;
     hpcom:game-owned-platform hpcom:gog ;
-    hpcom:game-platform-played hpcom:Linux ;
-    hpcom:game-status hpcom:game-played ;
-    schema:aggregatedRating hptag:Rating5 ;
+    hpcom:game-status hpcom:game-currently-playing ;
     schema:author "CD Projekt Red" ;
     schema:dateCreated "2015"^^xsd:int ;
     schema:genre hpcom:FPS ;
-    schema:isPartOf list1:classic,
-        list1:mechanics,
-        list1:recommended,
-        list1:repeat,
-        list1:story ;
     schema:name "The Witcher 3: Wild Hunt" ;
     schema:publisher "2015" ;
     schema:url "https://harshp.com/hobbies/games/50"^^xsd:anyURI .
@@ -25637,12 +25708,21 @@ game:70 a hpcom:RenderedItem,
 game:71 a hpcom:RenderedItem,
         hpcom:VideoGame,
         schema:VideoGame ;
+    hpcom:date-game-played "2023"^^xsd:int,
+        "2026"^^xsd:int ;
     hpcom:game-id "71"^^xsd:int ;
     hpcom:game-owned-platform hpcom:Steam ;
-    hpcom:game-status hpcom:game-currently-playing ;
+    hpcom:game-platform-played hpcom:Linux ;
+    hpcom:game-status hpcom:game-played ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Obsidian" ;
     schema:dateCreated "2018"^^xsd:int ;
     schema:genre hpcom:FPS ;
+    schema:isPartOf list1:classic,
+        list1:mechanics,
+        list1:recommended,
+        list1:repeat,
+        list1:story ;
     schema:name "Pillars of Eternity II: Deadfire" ;
     schema:publisher "2018" ;
     schema:url "https://harshp.com/hobbies/games/71"^^xsd:anyURI .
@@ -37307,11 +37387,6 @@ hptag:privacy a hpcom:RenderedItem,
     schema:name "privacy" ;
     schema:url "https://harshp.com/tags/privacy"^^xsd:anyURI .
 
-list1:repeat a hpcom:RenderedItem,
-        game:lists ;
-    schema:identifier "repeat"@en ;
-    schema:name "Repeat Playthroughs"@en .
-
 hptag:emotional a hpcom:RenderedItem,
         hpcom:Tag ;
     schema:name "emotional" ;
@@ -37321,6 +37396,11 @@ list:books-changed-life a hpcom:RenderedItem,
         book:lists ;
     schema:identifier "books-changed-life"@en ;
     schema:name "Books that changed my life"@en .
+
+list1:repeat a hpcom:RenderedItem,
+        game:lists ;
+    schema:identifier "repeat"@en ;
+    schema:name "Repeat Playthroughs"@en .
 
 hptag:DPV a hpcom:RenderedItem,
         hpcom:Tag ;
@@ -37359,13 +37439,13 @@ list:educational a hpcom:RenderedItem,
 hpcom:gog a hpcom:Platform ;
     rdfs:label "GOG" .
 
+<https://www.scss.tcd.ie/dave.lewis/> a schema:Person ;
+    schema:name "Dave Lewis" .
+
 list1:story a hpcom:RenderedItem,
         game:lists ;
     schema:identifier "story"@en ;
     schema:name "Play for the Story"@en .
-
-<https://www.scss.tcd.ie/dave.lewis/> a schema:Person ;
-    schema:name "Dave Lewis" .
 
 hpcom:Conference a hpcom:EventType ;
     rdfs:label "Conference"@en ;

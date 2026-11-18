@@ -2248,7 +2248,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1124 ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Ali Smith" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
@@ -2362,6 +2362,19 @@
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Rouse" ;
     schema:url "https://harshp.com/hobbies/books/1130"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1131> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1131 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Daniel Kehlmann" ;
+    schema:dateCreated "2023"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "The Director" ;
+    schema:url "https://harshp.com/hobbies/books/1131"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/114> a hpcom:Book,
         hpcom:BookReading,
@@ -8439,12 +8452,16 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:46 ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:EBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-11-18T08:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating2 ;
     schema:author "Bridget Collins" ;
     schema:dateCreated "2019"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:isPartOf hplist:DublinLibrary ;
     schema:name "The Binding" ;
+    schema:review "The premise is really interesting - turning memories into books, but which also removes the memories from the person. The novel shows how this can be sensitive when the memories are traumatic right from the start. But instead of a nuanced take, or some world building, or thoughtful depth, there is a main character who is clueless, whiny, and just not fleshed out. The love story or romance bit was interesting given the time period, but overall this was a slow boring book that promised interesting things and just never got there. "@en ;
     schema:url "https://harshp.com/hobbies/books/46"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/460> a hpcom:Book,
@@ -16335,6 +16352,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:886 ;
+    hpcom:book_owned_medium hpcom:EBook ;
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Ivo Velitchkov, George Anadiotis" ;
     schema:dateCreated "2023"^^xsd:int ;
