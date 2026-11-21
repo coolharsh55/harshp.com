@@ -229,3 +229,5 @@
     schema:name "Matthias Löbe" .
 <http://example.com/ChristianDraeger> a schema:Person ;
     schema:name "Christian Draeger" .
+<http://example.com/RuhiAnandFinn> a schema:Person ;
+    schema:name "Ruhi Anand Finn" .

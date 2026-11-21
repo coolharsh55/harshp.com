@@ -1477,30 +1477,6 @@
     hpcom:publishing_attempt "Annual Privacy Forum 2022";
     hpcom:peer_reviewed true .
 
-<https://harshp.com/research/publications/055-COnSeNT-2022-organisers-abstract> a schema:ScholarlyArticle, hpcom:ExtendedAbstract, hpcom:RenderedItem ;
-    schema:name "COnSeNT 2022: 2nd International Workshop on Consent Management in Online Services, Networks and Things"@en ;
-    hpcom:author_lead ( <http://example.com/PaulinaJoPesch> <https://harshp.com/me> <http://example.com/VitorJesus> <http://example.com/CristianaSantos> );
-    schema:description "Organisers abstract and introduction for the COnSeNT 2022 workshop"@en ;
-    hpcom:tag hptag:consent ;
-    hpcom:tag hptag:privacy ;
-    schema:inSupportOf "RISKY: Representing Privacy Risks of Technologies using Knowedlge Graphs"@en ;
-    schema:datePublished "2022-08-26T00:00:00"^^xsd:dateTime ;
-    schema:identifier "https://doi.org/10.1145/3487553.3524866"^^xsd:anyURI ;
-    schema:url "https://doi.org/10.1145/3487553.3524866"^^xsd:anyURI ;
-    schema:publication <http://example.com/workshops/Consent2022> ;
-    schema:funder <http://example.com/ADAPT> ;
-    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/055-COnSeNT-2022-organisers-abstract"^^xsd:anyURI ] ;
-    hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/101268"^^xsd:anyURI ] ;
-    hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://zenodo.org/record/7107248"^^xsd:anyURI ] ;
-    hpcom:supplementary [ a hpcom:Link ; schema:name "workshop website" ; schema:url "https://consentworkshop.com/"^^xsd:anyURI ] ;
-    hpcom:supplementary [ a hpcom:Link ; schema:name "proceedings" ; schema:url "https://dl.acm.org/doi/proceedings/10.1145/3487553"^^xsd:anyURI ] ;
-    hpcom:content [
-        a hpcom:Content ;
-        hpcom:contentFile "https://harshp.com/code/content/research/publications/055-COnSeNT-2022-organisers-abstract.html" ;
-        hpcom:contentFileFormat hpcom:formatHTML ;
-    ] ;
-    hpcom:peer_reviewed false .
-
 <https://harshp.com/research/publications/056-Citizen-Thinkin-AI-2022> a schema:ScholarlyArticle, hpcom:Report, hpcom:RenderedItem ;
     schema:name "We need to talk about AI: the case for citizens’ think-ins for citizen-researcher dialogue and deliberation"@en ;
     hpcom:author_lead <http://example.com/EmmaClarke> ;
@@ -2001,7 +1977,7 @@
     hpcom:tag hptag:FRIA ;
     hpcom:author_lead <https://harshp.com/me> ;
     hpcom:author_other <http://example.com/TyttiRintamaki> ;
-    schema:datePublished "2024-12-31T08:00:00"^^xsd:dateTime ;
+    schema:datePublished "2027-01-31T08:00:00"^^xsd:dateTime ;
     schema:publication <http://example.com/conferences/CLAIRvoyant2024> ;
     schema:url ""^^xsd:anyURI ;
     schema:funder <http://example.com/ADAPT> ;
@@ -2030,7 +2006,7 @@
     hpcom:tag hptag:semantic-web ;
     hpcom:author_lead <http://example.com/TyttiRintamaki> ;
     hpcom:author_other <https://harshp.com/me> ;
-    schema:datePublished "2024-12-31T09:00:00"^^xsd:dateTime ;
+    schema:datePublished "2027-01-31T09:00:00"^^xsd:dateTime ;
     schema:publication <http://example.com/conferences/CLAIRvoyant2024> ;
     schema:url ""^^xsd:anyURI ;
     schema:funder <http://example.com/ADAPT> ;
@@ -2436,5 +2412,30 @@
     hpcom:content [
         a hpcom:Content ;
         hpcom:contentFile "https://harshp.com/code/content/research/publications/090-gdng-dpv.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+        ] .
+
+<https://harshp.com/research/publications/090-policy-brief-ai-companions> a schema:ScholarlyArticle, hpcom:Report, hpcom:RenderedItem ;
+    schema:name "Policy Brief on AI Companions"@en ;
+    schema:description "Creation of a DPV extension representing the German Health Data Use Act (Gesundheitsdatennutzungsgesetz (GDNG)"@en ;
+    hpcom:tag hptag:semantic-web ;
+    hpcom:tag hptag:health ;
+    hpcom:tag hptag:DPV ;
+    hpcom:author_lead <https://harshp.com/me> ;
+    hpcom:author_other ( <http://example.com/RuhiAnandFinn> <http://example.com/MaribethRauh> <http://example.com/DickBlankvoort> <http://example.com/MatiasDuran> <http://example.com/CaoilfhionnNiDheorain> <http://example.com/SiddharthDJaiswal> <http://example.com/AbebaBirhane> ) ;
+    schema:datePublished "2026-07-15T00:00:00"^^xsd:dateTime ;
+    schema:publication <http://example.com/AIAL> ;
+    schema:url "https://aial.ie/research/publications/policy-brief-companions.pdf"^^xsd:anyURI ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/96757"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.5111539"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "project website" ; schema:url "https://aial.ie/research/evaluating-ai-companions/"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "ODRL profile" ; schema:url "https://w3id.org/oac/"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/besteves4/odrl-access-control-profile"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2021-ConsentW-Solid-ODRL-ACP> ;
+    hpcom:peer_reviewed false ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/90-policy-brief-ai-companions"^^xsd:anyURI ] ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/90-policy-brief-ai-companions.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
         ] .

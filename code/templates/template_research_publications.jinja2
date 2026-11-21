@@ -59,6 +59,9 @@
             {% endif %}
         {% else %}
             {{publication.schema_publisher}}
+            {% if publication.schema_publisher.schema_alternateName %}
+                ({{publication.schema_publisher.schema_alternateName}})
+            {% endif %}
         {% endif %}
         <br/>
         {# authors #}

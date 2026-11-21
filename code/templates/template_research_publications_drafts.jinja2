@@ -1,0 +1,327 @@
+{% extends 'template_base.jinja2' %}
+{% block navtype %}| <a href="/research">research</a>{% endblock navtype %}
+{% block desc %}{% endblock desc %}
+{% block pageCSS %}
+<style type="text/css">
+.publication-info {
+    font-size: 0.75rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+</style>
+{% endblock pageCSS %}
+{% block content %}
+<p>
+    Also see: <a href="#published">previous drafts (now published)</a>,
+    <a href="/research/publications">all published articles</a>, 
+    <a href="https://scholar.google.com/citations?user=nB9g4BMAAAAJ&hl=en">Google Scholar</a>, and
+    <a href="http://dblp.uni-trier.de/search?q=harshvardhan+pandit">dblp</a>.
+</p>
+
+<div id="publications-list">
+<ol class='list-index' data-categorise-by="year,type,lead-author">
+{% for publication, date in drafts %}
+    <li class="publication-metadata" data-title="{{publication.schema_name}}" data-date="{{publication.schema_datePublished}}" data-year="{{publication.schema_datePublished|year}}" data-type="{{publication|publication_type}}" data-lead-author="{% if  publication.hpcom_author_lead is sequence %}{% for author in publication.hpcom_author_lead %}{% if author.iri == 'https://harshp.com/me'%}true{% endif %}{% endfor %}{% elif publication.hpcom_author_lead.iri == 'https://harshp.com/me'%}true{% else %}false{% endif %}">
+        <a href="{{publication.iri}}">{{publication}}</a>
+        <br/>
+        <div class='publication-info'>
+            <time datetime="{{publication.schema_datePublished}}">{{publication.schema_datePublished}}</time>
+            {% if not publication|publication_is_draft %}<span class="label">{{publication|publication_type}}</span>{% endif %}
+        {% if publication.schema_status %}
+            <span class='note' style="color: red;">{{ publication.schema_status }}</span>
+        {% endif %}
+        <br/>
+        {# authors #}
+        &#9997; authors: <i>
+        {% if publication.hpcom_author_lead is sequence %}
+            {% for author in publication.hpcom_author_lead %}
+                {{", " if not loop.first }}
+                {% if author.iri == "https://harshp.com/me" %}
+                    <u>{{author}}</u>*
+                {% else %}
+                    {{author}}*
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            {% if publication.hpcom_author_lead.iri == "https://harshp.com/me" %}
+                <u>{{publication.hpcom_author_lead}}</u>*
+            {% else %}
+                {{publication.hpcom_author_lead}}*
+            {% endif %}
+        {% endif %}
+        {% if publication.hpcom_author_other is sequence %}
+            {% for author in publication.hpcom_author_other %},
+                {% if author.iri == "https://harshp.com/me" %}
+                    <u>{{author}}</u>
+                {% else %}
+                    {{author}}
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            ,
+            {% if publication.hpcom_author_other.iri == "https://harshp.com/me" %}
+                <u>{{publication.hpcom_author_other}}</u>
+            {% else %}
+                {{publication.hpcom_author_other}}
+            {% endif %}
+        {% endif %}
+        </i>
+        <br/>
+        {# pre-prints #}
+        {% if publication.hpcom_archived_version %}
+            &#x1f513;copies:
+            {% if publication.hpcom_archived_version is sequence %}
+                {% for archive in publication.hpcom_archived_version|sort(attribute='schema_name') %}
+                    <a href="{{archive.schema_url}}">{{archive}}</a>{{"," if not loop.last}}
+                {% endfor %}
+            {% else %}
+                <a href="{{publication.hpcom_archived_version.schema_url}}">{{publication.hpcom_archived_version}}</a>
+            {% endif %}
+        {% endif %}
+        {# supplementary resources #}
+        {% if publication.hpcom_supplementary %}
+            ; &#128230;resources:
+            {% if publication.hpcom_supplementary is sequence %}
+                {% for archive in publication.hpcom_supplementary|sort(attribute='schema_url') %}
+                    <a href="{{archive.schema_url}}"> 
+                    {% if is_rdf_type(archive, 'schema:PresentationDigitalDocument') %}
+                        slides
+                    {% else %}
+                        {{ archive }}
+                    {% endif %}
+                    </a>{{"," if not loop.last}}
+                {% endfor %}
+            {% else %}
+                <a href="{{publication.hpcom_supplementary.schema_url}}">
+                {% if is_rdf_type(publication.hpcom_supplementary, 'schema:PresentationDigitalDocument') %}
+                    slides
+                {% else %}
+                    {{publication.hpcom_supplementary}}
+                {% endif %}
+                </a>
+            {% endif %}
+        {% endif %}
+        {% if publication.hpcom_won_award %}<br/>🏆 {{ publication.hpcom_won_award }}{% endif %}
+        {% if publication.hpcom_publishing_attempt %}
+            <br/>
+            <small>&#128161; previous submissions:
+            {% if publication.hpcom_publishing_attempt is sequence and publication.hpcom_publishing_attempt is not string %}
+                {{ ' ,'.join(publication.hpcom_publishing_attempt|sort) }}
+            {% else %}
+                {{publication.hpcom_publishing_attempt}}
+            {% endif %}
+            </small>
+        {% endif %}
+        </div>
+    </li>
+{% endfor %}
+</ol>
+</div>
+
+<hr/>
+
+<h2 id="published">Previous Drafts that are now Published</h2>
+<ol class='list-index' data-categorise-by="year,type,lead-author">
+{% for publication, date in published %}
+    <li class="publication-metadata" data-title="{{publication.schema_name}}" data-date="{{publication.schema_datePublished}}" data-year="{{publication.schema_datePublished|year}}" data-type="{{publication|publication_type}}" data-lead-author="{% if  publication.hpcom_author_lead is sequence %}{% for author in publication.hpcom_author_lead %}{% if author.iri == 'https://harshp.com/me'%}true{% endif %}{% endfor %}{% elif publication.hpcom_author_lead.iri == 'https://harshp.com/me'%}true{% else %}false{% endif %}">
+        <a href="{{publication.iri}}">{{publication}}</a>
+        <br/>
+        <div class='publication-info'>
+            <time datetime="{{publication.schema_datePublished}}">{{publication.schema_datePublished}}</time>
+            {% if not publication|publication_is_draft %}<span class="label">{{publication|publication_type}}</span>{% endif %}
+        {% for entry in publication.hpcom_archived_version %}
+            {% if entry.schema_name == "published version" %}
+                <a href="{{ entry.schema_url }}">go to published entry</a>
+            {% endif %}
+        {% endfor %}
+        <br/>
+        {# authors #}
+        &#9997; authors: <i>
+        {% if publication.hpcom_author_lead is sequence %}
+            {% for author in publication.hpcom_author_lead %}
+                {{", " if not loop.first }}
+                {% if author.iri == "https://harshp.com/me" %}
+                    <u>{{author}}</u>*
+                {% else %}
+                    {{author}}*
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            {% if publication.hpcom_author_lead.iri == "https://harshp.com/me" %}
+                <u>{{publication.hpcom_author_lead}}</u>*
+            {% else %}
+                {{publication.hpcom_author_lead}}*
+            {% endif %}
+        {% endif %}
+        {% if publication.hpcom_author_other is sequence %}
+            {% for author in publication.hpcom_author_other %},
+                {% if author.iri == "https://harshp.com/me" %}
+                    <u>{{author}}</u>
+                {% else %}
+                    {{author}}
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            ,
+            {% if publication.hpcom_author_other.iri == "https://harshp.com/me" %}
+                <u>{{publication.hpcom_author_other}}</u>
+            {% else %}
+                {{publication.hpcom_author_other}}
+            {% endif %}
+        {% endif %}
+        </i>
+    </div></li>
+{% endfor %}
+</ol>
+{% endblock content %}
+
+{% block JS %}
+{{ super() }}
+<script type="text/javascript">
+// This script will categorise the publications by year, lead author, type, etc.
+document.addEventListener('DOMContentLoaded', function() {
+    let btn_year = document.getElementById('btn-categorise-year');
+    let btn_type = document.getElementById('btn-categorise-type');
+    let btn_lead = document.getElementById('btn-categorise-lead');
+    let toggle_buttons = function(btn) { 
+        btn_year.disabled = false;
+        btn_type.disabled = false;
+        btn_lead.disabled = false;
+        if (btn) btn.disabled = true;
+    } ;
+
+    let papers = document.getElementsByClassName('publication-metadata');
+    let div_main = document.getElementById('publications-list');
+    let func_categorise = function(filter) {
+        let keys = {};
+        for(const paper of papers) {
+            let val = filter(paper);
+            if (!(val in keys)) {
+                keys[val] = [];
+            }
+            keys[val].push(paper);
+        }
+        return keys;
+    }
+
+    // Year
+    btn_year_onclick = function() {
+        toggle_buttons(btn_year);
+        let func = function(p) {
+            let year = p.getAttribute('data-year');
+            return year;
+        }
+        let new_papers = func_categorise(func);
+        let new_div = [];
+        for (const key of Object.keys(new_papers).sort().reverse()) {
+            let title = document.createElement('h2');
+            title.appendChild(document.createTextNode(key));
+            let paper_count = document.createElement('p');
+            paper_count.appendChild(document.createTextNode(new_papers[key].length + ' papers'));
+            let ol = document.createElement('ol');
+            ol.classList.add('list-index');
+            new_papers[key].sort((a,b) => a.getAttribute('data-date') < b.getAttribute('data-date'));
+            for (const val of new_papers[key]) {
+                ol.appendChild(val);
+            }
+            new_div.push(title);
+            new_div.push(paper_count);
+            new_div.push(ol);
+        }
+        // div_main.textContent = '';
+        div_main.replaceChildren(...new_div);
+    }
+
+    // Type
+    btn_type_onclick = function() {
+        toggle_buttons(btn_type);
+        let func = function(p) {
+            let year = p.getAttribute('data-type');
+            return year;
+        }
+        let new_papers = func_categorise(func);
+        let new_div = [];
+        let ordered_keys = [
+            'Journal',
+            'Book Chapter',
+            'Conference',
+            'Workshop',
+            'Short Paper',
+            'Ext. Abstract',
+            'Thesis',
+            'Report',
+        ];
+        for (const key of ordered_keys) {
+            if (!(key in new_papers)) continue;
+            let title = document.createElement('h2');
+            title.appendChild(document.createTextNode(key));
+            let paper_count = document.createElement('p');
+            paper_count.appendChild(document.createTextNode(new_papers[key].length + ' papers'));
+            let ol = document.createElement('ol');
+            ol.classList.add('list-index');
+            new_papers[key].sort((a,b) => a.getAttribute('data-date') < b.getAttribute('data-date'));
+            for (const val of new_papers[key]) {
+                ol.appendChild(val);
+            }
+            new_div.push(title);
+            new_div.push(paper_count);
+            new_div.push(ol);
+        }
+        // div_main.textContent = '';
+        div_main.replaceChildren(...new_div);
+    }
+
+    // Lead
+    btn_lead_onclick = function() {
+        toggle_buttons(btn_lead);
+        let func = function(p) {
+            let year = p.getAttribute('data-lead-author');
+            return year;
+        }
+        let new_papers = func_categorise(func);
+        let new_div = [];
+
+        if ('true' in new_papers) {
+            let title = document.createElement('h2');
+            title.appendChild(document.createTextNode('Lead Authored'));
+            let paper_count = document.createElement('p');
+            paper_count.appendChild(document.createTextNode(new_papers['true'].length + ' papers'));
+            let ol = document.createElement('ol');
+            ol.classList.add('list-index');
+            new_papers['true'].sort((a,b) => a.getAttribute('data-date') < b.getAttribute('data-date'));
+            for (const val of new_papers['true']) {
+                ol.appendChild(val);
+            }
+            new_div.push(title);
+            new_div.push(paper_count);
+            new_div.push(ol);
+        }
+
+        if ('false' in new_papers) {
+            title = document.createElement('h2');
+            title.appendChild(document.createTextNode('Co-Authored'));
+            paper_count = document.createElement('p');
+            paper_count.appendChild(document.createTextNode(new_papers['false'].length + ' papers'));
+            ol = document.createElement('ol');
+            ol.classList.add('list-index');
+            new_papers['false'].sort((a,b) => a.getAttribute('data-date') < b.getAttribute('data-date'));
+            for (const val of new_papers['false']) {
+                ol.appendChild(val);
+            }
+            new_div.push(title);
+            new_div.push(paper_count);
+            new_div.push(ol);
+        }
+
+        // div_main.textContent = '';
+        div_main.replaceChildren(...new_div);
+    }
+
+    btn_year.onclick = btn_year_onclick;
+    btn_lead.onclick = btn_lead_onclick;
+    btn_type.onclick = btn_type_onclick;
+
+    btn_year_onclick();
+});
+</script>
+{% endblock JS %}

@@ -41,7 +41,7 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/001-Consent-Signal-User-Dialogue.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "inviting feedback"@en ;
+    #schema:status "inviting feedback"@en ;
     hpcom:peer_reviewed false .
 
 <https://harshp.com/research/publications/drafts/002-Making-sense-of-Solid> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:PublishedDraftPaper, hpcom:RenderedItem ;
@@ -89,10 +89,10 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/003-enforceable-privacy-signals.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "inviting feedback"@en ;
+    #schema:status "inviting feedback"@en ;
     hpcom:peer_reviewed false .
 
-<https://harshp.com/research/publications/drafts/004-high-risk-GDPR-DPIA-AI-Act> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
+<https://harshp.com/research/publications/drafts/004-high-risk-GDPR-DPIA-AI-Act> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem, hpcom:PublishedDraftPaper ;
     schema:name "Draft 004: Impact Assessment Requirements in the GDPR vs the AI Act: Overlaps, Divergence, and Implications"@en ;
     hpcom:author_lead <http://example.com/TyttiRintamaki> ;
     hpcom:author_other ( <https://www.scss.tcd.ie/personnel/golpayes> <https://www.scss.tcd.ie/dave.lewis/> <http://example.com/EdoardoCeleste> <https://harshp.com/me> ) ;
@@ -117,7 +117,7 @@
     schema:status "published"@en ;
     hpcom:peer_reviewed false .
 
-<https://harshp.com/research/publications/drafts/005-Solid-Use-Case> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:PublishedDraftPaper, hpcom:RenderedItem ;
+<https://harshp.com/research/publications/drafts/005-Solid-Use-Case> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:PublishedDraftPaper, hpcom:RenderedItem, hpcom:PublishedDraftPaper ;
     schema:name "Draft 005: A Solid Use Case To Empower And Protect Data Subjects"@en ;
     hpcom:author_lead <http://example.com/MichielFierens> ;
     hpcom:author_other ( <https://harshp.com/me> <http://example.com/AureliaTamoLarrieux> <http://example.com/KimberlyGarcia> ) ;
@@ -140,7 +140,7 @@
     schema:status "published"@en ;
     hpcom:peer_reviewed false .
 
-<https://harshp.com/research/publications/drafts/006-GPC-EU-law> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
+<https://harshp.com/research/publications/drafts/006-GPC-EU-law> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem, hpcom:PublishedDraftPaper ;
     schema:name "Draft 006: Can the GPC standard eliminate consent banners in the EU?"@en ;
     hpcom:author_lead <http://example.com/SebastianZimmeck> ;
     hpcom:author_other ( <https://harshp.com/me> <http://example.com/FrederikZuiderveenBorgesius> <http://example.com/CristianaSantos> <http://example.com/KonradKollnig> <http://example.com/RobinBerjon> ) ;
@@ -164,10 +164,10 @@
     schema:status "published"@en ;
     hpcom:peer_reviewed false .
 
-<https://harshp.com/research/publications/drafts/007-semantic-frameworks-ai-act> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
+<https://harshp.com/research/publications/drafts/007-semantic-frameworks-ai-act> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem, hpcom:PublishedDraftPaper ;
     schema:name "Draft 007: Semantic Frameworks to Support Implementation of the EU AI Act"@en ;
     hpcom:author_lead <https://www.scss.tcd.ie/personnel/golpayes> ;
-    hpcom:author_other ( <https://harshp.com/me> <https://www.scss.tcd.ie/dave.lewis/> <https://www.scss.tcd.ie/declan.osullivan/> ) ;
+    hpcom:author_other ( <https://harshp.com/me> <https://www.scss.tcd.ie/declan.osullivan/> <https://www.scss.tcd.ie/dave.lewis/> ) ;
     schema:description "We provide a novel set of open, standardised, and extensible artefacts for the AI Act to determine the risk category as per the AI Act, declaring AI intended purposes, retrieve information in technical documentation, and support the data governance requirements of the EU high-risk AI database."@en ;
     hpcom:tag hptag:data-governance ;
     hpcom:tag hptag:AI-Act, hptag:semantic-web ;
@@ -208,7 +208,7 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/008-mapping-regulatory-learning-AI-Act.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "inviting feedback"@en ;
+    #schema:status "inviting feedback"@en ;
     hpcom:peer_reviewed false .
 
 <https://harshp.com/research/publications/drafts/009-companions-playing-games> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
@@ -232,5 +232,85 @@
         hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/009-companions-playing-games.html" ;
         hpcom:contentFileFormat hpcom:formatHTML ;
     ] ;
-    schema:status "inviting feedback"@en ;
+    #schema:status "inviting feedback"@en ;
+    hpcom:peer_reviewed false .
+
+<https://harshp.com/research/publications/drafts/010-ai-risk-ontologies-ai-act> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
+    schema:name "Draft 010: AI Risk Ontologies for the EU AI Act Compliance: AIRO, VAIR, and their Integration with DPV"@en ;
+    hpcom:author_lead <https://www.scss.tcd.ie/personnel/golpayes> ;
+    hpcom:author_other ( <https://harshp.com/me> <https://www.scss.tcd.ie/declan.osullivan/> <https://www.scss.tcd.ie/dave.lewis/>  ) ;
+    schema:description "ontologies and taxonomies developed to assist with risk management and documentation, in line with the requirements of the EU the AI Act"@en ;
+    hpcom:tag hptag:data-governance ;
+    hpcom:tag hptag:AI-Act, hptag:semantic-web ;
+    schema:datePublished "2026-10-22T00:00:00"^^xsd:dateTime ;
+    schema:identifier ""^^xsd:anyURI ;
+    schema:url ""^^xsd:anyURI ;
+    schema:publication <http://example.com/working-draft> ;
+    schema:funder <http://example.com/ADAPT> ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/drafts/010-ai-risk-ontologies-ai-act"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "arXiv" ; schema:url "https://doi.org/10.48550/arXiv.2610.31380"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "published version" ; schema:url "https://harshp.com/research/publications/085-Semweb-AIAct"^^xsd:anyURI ] ;
+    # hpcom:archived_version [ a hpcom:Link ; schema:name "arXiv" ; schema:url "https://doi.org/10.48550/arXiv.2512.08856"^^xsd:anyURI ] ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/010-ai-risk-ontologies-ai-act.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+    ] ;
+    #schema:status "published"@en ;
+    hpcom:peer_reviewed false .
+
+<https://harshp.com/research/publications/011-AI-Act-GPAI-Classification-Framework> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
+    schema:name "Draft 011: Conference paper Open Mirror Mirror on the wall, is this GPAI model in the AI Act's Scope at all?: Necessary clarifications for establishing regulatory certainty and mitigating evasion"@en ;
+    hpcom:author_lead ( <http://example.com/DickBlankvoort> <https://harshp.com/me> ) ;
+    schema:description "A classification framework for GPAI models in scope of the AI Act"@en ;
+    hpcom:tag hptag:AI-Act ;
+    hpcom:tag hptag:data-governance ;
+    hpcom:tag hptag:accountability ;
+    hpcom:tag hptag:AI ;
+    schema:publication <http://example.com/working-draft> ;
+    schema:datePublished "2026-11-03T10:00:00"^^xsd:dateTime ;
+    schema:identifier ""^^xsd:anyURI ;
+    schema:url ""^^xsd:anyURI ;
+    #schema:publication <https://facctconference.org/2026/> ;
+    # schema:funder <http://example.com/ADAPT> ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/drafts/011-AI-Act-GPAI-Classification-Framework"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/100132"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.24080385"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "lawarchive" ; schema:url "https://doi.org/10.31219/osf.io/yf27e_v1"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/AIAccountabilityLab/gpai-training-transparency"^^xsd:anyURI ] ;
+    #hpcom:supplementary [ a hpcom:Link ; schema:name "website" ; schema:url "https://aial.ie/research/gpai-training-transparency"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/011-AI-Act-GPAI-Classification-Framework.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+    ] ;
+    hpcom:peer_reviewed false .
+
+<https://harshp.com/research/publications/012-AI-Act-Art531d-analysis> a schema:ScholarlyArticle, hpcom:FullPaper, hpcom:DraftPaper, hpcom:RenderedItem ;
+    schema:name "Draft 012: AI Act Article 53(1)(d) Mandated Transparency of Training Content: Evidence of Feasibility and Widespread Non-Compliance"@en ;
+    hpcom:author_lead ( <https://harshp.com/me> <http://example.com/DickBlankvoort>  ) ;
+    schema:description "Discovery and analysis of 64 summaries, which we scored for transparency (i.e. if required information was provided) and usefulness (i.e. if it is actionable)"@en ;
+    hpcom:tag hptag:AI-Act ;
+    hpcom:tag hptag:data-governance ;
+    hpcom:tag hptag:accountability ;
+    hpcom:tag hptag:AI ;
+    schema:publication <http://example.com/working-draft> ;
+    schema:datePublished "2026-11-03T12:00:00"^^xsd:dateTime ;
+    schema:identifier ""^^xsd:anyURI ;
+    schema:url ""^^xsd:anyURI ;
+    #schema:publication <https://facctconference.org/2026/> ;
+    # schema:funder <http://example.com/ADAPT> ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "harshp.com" ; schema:url "https://harshp.com/research/publications/drafts/012-AI-Act-Art531d-analysis"^^xsd:anyURI ] ;
+    #hpcom:archived_version [ a hpcom:Link ; schema:name "TARA" ; schema:url "http://hdl.handle.net/2262/100132"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "zenodo" ; schema:url "https://doi.org/10.5281/zenodo.24080030"^^xsd:anyURI ] ;
+    hpcom:archived_version [ a hpcom:Link ; schema:name "lawarchive" ; schema:url "https://doi.org/10.31219/osf.io/v5tma_v1"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "repo" ; schema:url "https://github.com/AIAccountabilityLab/gpai-training-transparency"^^xsd:anyURI ] ;
+    hpcom:supplementary [ a hpcom:Link ; schema:name "website" ; schema:url "https://aial.ie/research/gpai-training-transparency"^^xsd:anyURI ] ;
+    #hpcom:supplementary <https://harshp.com/research/presentations#2022-SEMANTiCS-AIRO> ;
+    hpcom:content [
+        a hpcom:Content ;
+        hpcom:contentFile "https://harshp.com/code/content/research/publications/drafts/012-AI-Act-Art531d-analysis.html" ;
+        hpcom:contentFileFormat hpcom:formatHTML ;
+    ] ;
     hpcom:peer_reviewed false .
