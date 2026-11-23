@@ -365,7 +365,7 @@
         schema:Book ;
     hpcom:book_id hpcom:1018 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-to-read ;
+    hpcom:book_status hpcom:book-currently-reading ;
     schema:author "Andrzej Sapkowski" ;
     schema:dateCreated "1992"^^xsd:int ;
     schema:genre hpcom:BookFiction,
@@ -378,6 +378,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1019 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Andrzej Sapkowski" ;
     schema:dateCreated "1994"^^xsd:int ;
@@ -420,6 +421,7 @@
         hpcom:RenderedItem,
         schema:Book ;
     hpcom:book_id hpcom:1021 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
     hpcom:book_status hpcom:book-to-read ;
     schema:author "Andrzej Sapkowski" ;
     schema:dateCreated "1996"^^xsd:int ;
@@ -2193,11 +2195,15 @@
         schema:Book ;
     hpcom:book_id hpcom:1120 ;
     hpcom:book_owned_medium hpcom:PhysicalBook ;
-    hpcom:book_status hpcom:book-currently-reading ;
+    hpcom:book_read_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-read ;
+    hpcom:date_book_read "2026-11-20T23:00:00"^^xsd:dateTime ;
+    schema:aggregatedRating hptag:Rating5 ;
     schema:author "Luke Kennard" ;
     schema:dateCreated "2026"^^xsd:int ;
     schema:genre hpcom:BookFiction ;
     schema:name "Black Bag" ;
+    schema:review "Its rare to get a story that just offers so much newness but in an environment that is intimately familiar. Black Bag is a struggling actor, who must undertake a bizzare experiment, which then ends up with becoming the Black Bag. Splattered across this is a sharp wit and commentary on so many things. Everytime I was worried it might take some cliched or stereotypes, it didn't. The story did have a tiny lull towards the end, but even that ended up a nice addition. The writing is really good, and there are some meta moments, of which my favourite was an escapade being told to Black Bag where we stop just before the end and the character in the story and then both Black Bag and by virtue of our involvement us too have to bear the brunt of never having it finished. Turns out this was a real experiment! I also came across another interesting book from the author - so I'm going to read that as well."@en ;
     schema:url "https://harshp.com/hobbies/books/1120"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/1121> a hpcom:Book,
@@ -2375,6 +2381,32 @@
     schema:genre hpcom:BookFiction ;
     schema:name "The Director" ;
     schema:url "https://harshp.com/hobbies/books/1131"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1132> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1132 ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Luke Kennard" ;
+    schema:dateCreated "2017"^^xsd:int ;
+    schema:genre hpcom:BookFiction ;
+    schema:name "The Transition" ;
+    schema:url "https://harshp.com/hobbies/books/1132"^^xsd:anyURI .
+
+<https://harshp.com/hobbies/books/1133> a hpcom:Book,
+        hpcom:BookReading,
+        hpcom:RenderedItem,
+        schema:Book ;
+    hpcom:book_id hpcom:1133 ;
+    hpcom:book_owned_medium hpcom:PhysicalBook ;
+    hpcom:book_status hpcom:book-to-read ;
+    schema:author "Andrzej Sapkowski" ;
+    schema:dateCreated "1999"^^xsd:int ;
+    schema:genre hpcom:BookFiction,
+        hpcom:BookSciFi ;
+    schema:name "The Lady of the Lake" ;
+    schema:url "https://harshp.com/hobbies/books/1133"^^xsd:anyURI .
 
 <https://harshp.com/hobbies/books/114> a hpcom:Book,
         hpcom:BookReading,

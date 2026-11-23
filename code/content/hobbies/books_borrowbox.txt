@@ -1,0 +1,26 @@
+------------------------------------------------------------------------------
+Books in Dublin Library as of 2026-11-21 17:54:58.537060
+******************************************************************************
+939 books already read from my list
+842 books to read from awards list
+668 books to read after removing already read books
+123 books unread that I do not own from my list
+781 books to read after adding unread books
+14 books found in library
+13 books are on loan
+1 books books are available
+******************************************************************************
+[A] :: THE CITY IN THE MIDDLE OF THE NIGHT :: CHARLIE JANE ANDERS :: 0 :: https://dublin.borrowbox.com/product/LSB_587396/
+[R] :: THE EVERLASTING :: ALIX E. HARROW :: 2027-04-09 :: https://dublin.borrowbox.com/product/MCU_7348100/
+[R] :: MONSTERS OF MEN :: PATRICK NESS :: 2026-12-19 :: https://dublin.borrowbox.com/product/WBA_474600/
+[R] :: GOING POSTAL :: TERRY PRATCHETT :: 2026-12-06 :: https://dublin.borrowbox.com/product/RDH_082955/
+[R] :: MAKING MONEY :: TERRY PRATCHETT :: 2026-11-24 :: https://dublin.borrowbox.com/product/RDH_083114/
+[R] :: THE POPPY WAR :: R. F. KUANG :: 2027-05-22 :: https://dublin.borrowbox.com/product/HCU_486395/
+[R] :: THE LAST EMPEROX :: JOHN SCALZI :: 2027-04-07 :: https://dublin.borrowbox.com/product/MCU_776366/
+[R] :: The Everlasting :: Alix E. Harrow :: 2027-04-09 :: https://dublin.borrowbox.com/product/MCU_7348100/
+[R] :: THE ELEVENTH HOUR :: SALMAN RUSHDIE :: 2027-02-26 :: https://dublin.borrowbox.com/product/RDH_8360067/
+[R] :: ENGINES OF REASON :: ADRIAN TCHAIKOVSKY :: 2027-01-12 :: https://dublin.borrowbox.com/product/MCU_9168388/
+[R] :: BALL LIGHTNING :: CIXIN LIU :: 2027-01-08 :: https://dublin.borrowbox.com/product/EPD_520550/
+[R] :: GHOSTLANDS :: ANDREW FOX :: 2027-02-10 :: https://dublin.borrowbox.com/product/LSA_8785885/
+[R] :: THE ROUSE :: CHINA MIÉVILLE :: 2027-03-13 :: https://dublin.borrowbox.com/product/MCU_8789603/
+[R] :: THE COMFORT BOOK :: MATT HAIG :: 2027-05-10 :: https://dublin.borrowbox.com/product/CGB_1673298/

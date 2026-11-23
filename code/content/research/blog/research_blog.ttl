@@ -132,8 +132,9 @@
         hptag:students ;
     schema:author <https://harshp.com/me> ;
     schema:datePublished "2023-09-09T15:00:00"^^xsd:dateTime ;
+    schema:dateModified "2026-11-23T21:00:00"^^xsd:dateTime ;
     schema:description "Ideas for student to implement as projects"@en ;
-    schema:name "Student Project Ideas"@en ;
+    schema:name "Student Project Ideas (Updated 2026)"@en ;
     schema:url "https://harshp.com/research/blog/student-project-ideas"^^xsd:anyURI .
 
 <https://harshp.com/research/blog/ted-talk-how-to-speak-so-that-people-want-to-listen> a hpcom:RenderedItem, schema:BlogPosting,

@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Student Project Ideas</title>
+    <title>Student Project Ideas (Updated 2026)</title>
     <meta name="description" content=""/>
-    <meta name="schema:name" content="Student Project Ideas">
+    <meta name="schema:name" content="Student Project Ideas (Updated 2026)">
     <meta name="schema:description" content="Ideas for student to implement as projects">
     <meta name="schema:datePublished" content="item.schema_datePublished">
     <meta name="schema:keywords" content="academic,projects,students,">
@@ -18,7 +18,7 @@
     <meta name="twitter:site" content="@coolharsh55">
     <meta name="twitter:creator" content="@coolharsh55">
     <meta property="og:url" content="https://harshp.com/research/blog/student-project-ideas">
-    <meta property="og:title" content="Student Project Ideas">
+    <meta property="og:title" content="Student Project Ideas (Updated 2026)">
     <meta property="og:description" content="Ideas for student to implement as projects">
     <link rel="stylesheet" href="/css/sitebase.css" />
 </head>
@@ -28,10 +28,11 @@
 | <a href="/research/blog">research blog</a>    </nav></header>
     <main>
     <article typeof="https://harshp.com/code/vocab#RenderedItem https://harshp.com/research/blog https://schema.org/BlogPosting " resource="https://harshp.com/research/blog/student-project-ideas">
-        <h1 property="schema:name schema:headline">Student Project Ideas</h1>
+        <h1 property="schema:name schema:headline">Student Project Ideas (Updated 2026)</h1>
         <div id="description">
             <span property='schema:description'>Ideas for student to implement as projects</span><br/>
             published: <time property="schema:datePublished" datetime="2023-09-09T15:00:00">2023-09-09T15:00:00</time>
+                <small>(updated: <time property="schema:dateModified" datetime="2026-11-23T21:00:00">2026-11-23T21:00:00</time>)</small>
             <br/> by <a href="https://harshp.com/me" property="schema:author schema:publisher" typeof="schema:Person" resource="https://harshp.com/me">Harshvardhan J. Pandit</a>
             <br/>
             <a class="tag" href="https://harshp.com/tags/academic" property="schema:about" resource="https://harshp.com/tags/academic" typeof="rdfs:Resource"><span property="rdfs:label">academic</span></a>
@@ -63,7 +64,7 @@
         }
     </style>
 
-    <p>This page lists ideas for projects which relate to <a href="/research">my research interests</a> and I am willing to collaborate and supervise students in their realisation. Each idea can be applied for multiple disciplines (e.g. computer science, law), and can be adapted to different skills and technologies (e.g. your favourite programming language) as well as expertise levels (e.g. Undergraduate, Masters, PhD, funded projects). Each project is expressed as multiple steps, each of which can be implemented individually for a smaller skillset (e.g. undergraduate) or combined for complex implementations (PhD or funded project).</p>
+    <p>This page lists ideas for projects which relate to <a href="/research">my research interests</a> and I am willing to collaborate and supervise students in their realisation. Each idea can be applied for multiple disciplines (e.g. computer science, law), and can be adapted to different skills and technologies (e.g. your favourite programming language) as well as expertise levels (e.g. Undergraduate, Masters, PhD, funded projects). Each project is expressed as multiple steps, each of which can be implemented individually for a smaller skillset (e.g. undergraduate) or combined for complex implementations (PhD or funded project). You can also see <a href="#old-ideas">old project ideas</a> for interest.</p>
 
     <div id="tags-block"><b>filter by:</b> <span class="tag-filter tag-selected">all tags</span><br/>
         <span id="tags"></span></div>
@@ -80,183 +81,43 @@
     <section>
         <h2>Project Ideas</h2>
 
-    <div class="project">
-        <h3>AI Risk Classification Tool</h3>
-        <p>#AI #GDPR #law #python #javascript #DPV #RDF</p>
-        <p>tldr; you will develop a tool which will take some inputs (e.g. purpose, technology) describing the use of AI within an use-case, and will provide an output showing: risks in its use, legal implications (e.g. high-risk under GDPR, AI Act), as well as suggest measures to limit the risk (e.g. use specific ISO standards, improve accuracy of outputs, DPIA). You will extend existing prototype implementations.</p>
-        <p>Artificial Intelligence (AI) is progressing at an alarmingly rapid rate. As a technology with the potential to be applied and used everywhere, it comes with great risks which range from minor annoyance (e.g. wrong spelling isn't detected) to major disruptions to society (e.g. humans are harmed, democratic elections are affected). One of the greatest challenges facing our times, and what the AI Act primarily aims to address, is how to understand what are the risks for using AI within specific use-cases. To better explore the topic, we first need to understand: (1) What is meant by AI?; (2) How can AI be used within specific use-case? (3) How can using AI affect people, society, and organisations?. To answer these, we researched and developed a 'framework' that uses 5 concepts: Domain (e.g. Education), Purpose (e.g. Identity Verification), Application or Capability (e.g. Facial Recognition), User or Operator (e.g. Lecturer), and Subject (e.g. Students). Using combinations of these, we express and identify risk categories e.g. high-risk per the AI Act Annex III or how a specific dataset or model might lead to high-risk uses. We also identify relevant risks for specific concepts within taxonomies created from the 5 concepts (e.g. what are the risks of facial recognition? what are the specific risks when facial recognition is used for identity verification?)</p>
-        <p>In this project, you will continue this work by further developing and extending the taxonomies and the tool used for risk classification. You can <a href="https://harshp.com/ai_act_risk">try a demo of the tool</a> in action for the AI Act. The underlying combinations are expressed using the N3 language - see <a href="https://github.com/coolharsh55/ai_act_risk">GitHub repo</a>. You will further develop the interface, create more rules, and add documentation. You will also make it easy for people to express their use-cases, for example, by providing options for popular uses such as using a LLM like ChatGPT to correct exam answers - and then explain the output (high-risk, impacts students) in terms of this use-case. If you do not have the sufficient programming background, you will conduct legal research i.e. how can the different use-cases from AI Act, GDPR (DPIA high-risk categories) be expressed in terms of these concepts, and assist in the documentation process which does not require a programming background.</p>
-        <p>For references, please see:</p>
-        <ul>
-            <li><a href="https://harshp.com/research/publications/060-AI-Act-high-risk-semantics"> To Be High-Risk, or Not To Be—Semantic Specifications and Implications of the AI Act’s High-Risk AI Applications and Harmonised Standards</a></li>
-            <li><a href="https://w3id.org/VAIR">Vocabulary of AI Risks (VAIR)</a> and <a href="https://w3id.org/AIRO">AI Risk Ontology (AIRO)</a></li>
-            <li><a href="https://w3id.org/dpv">Data Privacy Vocabulary (DPV)</a></li>
-        </ul>
-    </div>
-
-    <div class="project">
-        <h3>Ethics Assessment / DPIA Support Tool</h3>
-
-        <p>
-            #ethics #GDPR #javascript #python #RDF #DPV
-        </p>
-
-        <p>
-            Description: Performing an ethics assessment or a Data Protection Impact Assessment (DPIA) is a key requirement whenever there are people and personal data involved. Such assessments are increasingly being embedded Students are required to assess their projects, Researchers require ethics integration into their work as well as statements for publications, and Organisations require it for GDPR. This project will develop a support tool to help students, researchers, and organisations to conduct their Ethics/GDPR applications in a more efficient manner and to improve the process of identifying ethics / data protection risks as well as suitable measures for their mitigations.</p> 
-
-        <p>The project involves work on building a web dashboard for assisting researchers with documentation for data protection and ethical clearance, and will provide an opportunity to participate in real-world applications of technology in the areas of data protection and ethics. The chief task would be to build an information system that will allow users to receive suggestions and guidance for addressing risks regarding ethics and privacy.  The core idea of the project is based on the following steps.</p>
-        <ul>
-            <li>An ethics assessment or a DPIA can be expressed as a form containing 'fields' which require specific information. The project requires identification of these fields - and a large body of work exists to do this in a machine-readable manner. For example, see <a href="https://harshp.com/research/publications/053-DPV-DPIA"> A Semantic Specification for Data Protection Impact Assessments (DPIA)</a> which expresses the information in a machine-readable form using the <a href="https://w3id.org/dpv">Data Privacy Vocabulary (DPV)</a>. The premise of these is that instead of entering textual information (i.e. sentences), <i>semantic concepts</i> can be used to ensure information is expressed in a form that can be programmatically checked and used.</li>
-            <li>Some information can be conditional based on other information, for e.g. if the field 'will personal data be stored?' has the information 'yes', then another field 'list categories of personal data' must have appropriate information. This requires checking the necessary information <i>exists</i>.</li>
-            <li>Entered information is also required to be <i>correct</i>, e.g. 'encryption' is not a personal data category. Therefore, the entered information is also required to be checked for <i>correctness</i>.</li>
-            <li>Based on the correctly entered information, some inferences need to be drawn, e.g. consent is required, or a full DPIA or ethics assessment is required, which will determine the form of output provided back to the users. To do this, the concepts entered within the form need to be grouped into 'patterns' which when satisfied result in these inferences. For example, if personal data is collected - GDPR applies. Or, if consent is to be collected, consent records must be maintained. Based on these, a final outcome needs to be calculated for the form of assessment required, e.g. a self-assessment or a submission to a committee.</li>
-            <li>The information entered and the inferences drawn need to be recorded into logs recording the submission and decision.</li>
-            <li>Collecting and analysing the assessments will provide insight into how specific risks are associated with concepts. For e.g. the most common form of 'error' in the submission form might be incorrectly indicating personal data is not involved, or that consent is not required. Such analysis can be used to further refine the input form to ensure the inputs are correctly understood and entered. Further, specific risks for most common uses can be identified and provided to assist in the form filling process, e.g. if most submissions use an online service to conduct surveys - the form can specifically use this information to further ask if the online service is safe and appropriate to be used. Finally, the analysis should also provide a list of common concepts for inputs, e.g. how will personal data be stored can be accompanied with the options for popular services such as Dropbox, Google Drive, OneDrive. This will simplify the form for most users and speed up the process of figuring out input information.</li>
-        </ul>
-
-    </div>
-
-    <div class="project">
-        <h3>Annotated Privacy Information Dataset of Apps from iOS and Android App-Stores</h3>
-        <p>#privacy #smartphones #RDF #Python #JavaScript #BrowserAddon</p>
-        <p>Tldr; Scrape the app’s information from app store and automatically annotate it with information relevant for privacy</p>
-        <p>Motivation: Apple’s iOS and Google’s Android are the dominant smartphone OSs, and through their respective App-Stores are responsible for providing the infrastructure and functionality to users for installing and managing applications on their devices. Increasingly, these companies are creating requirements for applications to declare information about their privacy practices, which not only include a privacy policy, but also information on what kinds of data the apps collect and how they use it [1]. Collecting this information in a machine-readable dataset can enable understanding current practices, pitfalls, and the privacy practices of apps - as well as tracking how they evolve with time.</p>
-        <p>Implementation: You will utilise a web-scraping [2] tool to parse the information from app-store pages. This can be written in any language of choice, though python offers a large collection of ready-to-use frameworks. The information extracted from these pages will be defined using the Data Privacy Vocabulary (DPV) [3], a metadata specification for declaring how data is used. The formal representation used for DPV is the Resource Description Framework (RDF), which you will become familiar with in order to read and write it for generating the dataset / corpus. The actual data will be stored and managed using a relational database and SQL, such that it can be extracted and exported to RDF to provide interoperability. </p>
-        <p>What you will learn: (i) How Apps utilise personal data; (ii) How to do web-scraping; (iii) How to work with concepts and semantics, e.g. when creating schemas; (iv) Creating and managing datasets as research resources; (v) What/Where more information is needed in App Stores</p>
-        <p>tldr; for another idea: You will work on improving the 'transparency labels' shown in smartphone app stores, e.g. Apple's store provides 'Data used to Track you' by identifying additional information to be shown, and showing examples using labels developed from analysing selected applications. You will also create a 'machine-readable' version of this label so that it can be automatically detected, and used programmatically e.g. filter all apps that do not track me.</p>
-        <p>For examples of what information can be put into a transparency label, see <a href="https://w3id.org/dpv">Data Privacy Vocabulary (DPV)</a>.</p>
-        <p>References: <br/>
-        [1] https://developer.apple.com/app-store/app-privacy-details/ <br/>
-        [2] https://en.wikipedia.org/wiki/Web_scraping <br/>
-        [3] http://w3.org/ns/dpv </p>
-    </div>
-
-    <div class="project">
-        <h3>Automated Privacy Policy Generation Using Metadata and Templates</h3>
-        <p>#GDPR #privacy #javascript #python #DPV #RDF</p>
-        <p>Tldr; Create different variations of privacy policies in terms of text and design by using templates and metadata containing the required information</p>
-        <p>Motivation: Privacy policies and Terms and Conditions, as they are presented on the web, are a long boring wall of legal text which is difficult to comprehend and use. There have been various avenues for making this simpler, such as summarising [1], or using machine learning to identify relevant information [2], and even alternatives such as visualising information [3]. However, instead of starting from a fixed given set of complicated text or a fixed layout, this research instead takes a different approach. It explores whether using metadata and a set of templates can make privacy policies easier to generate, offer different options to comprehend them, and enable alternative mediums such as visualisations to be easily implemented. It thus aims to show that metadata and automation can help people better understand privacy practices.</p>
-        <p>Implementation: You will analyse how privacy policies look, read, and affect comprehension of information through existing literature on these topics. You will then create ‘templates’ for policies - where a template is (simplified) some generic document with blanks that will be filled with use-case specific information. The template will be defined using a ‘templating library’ such as Jinja2 or Moustache. You will create different templates for rendering the same information in different sentences, layouts, forms (e.g. visual, multimedia). The information to be used to fill in the template will be declared using Data Privacy Specification (DPV), a metadata specification for declaring how data is used. The formal representation used for DPV is the Resource Description Framework (RDF), which you will become familiar with in order to read and write it for generating the dataset / corpus. The actual data will be stored and managed using JSON or JSON-LD which makes it easier to use in the web browser and in javascript.</p>
-        <p>What you will learn: (i) Issues with existing privacy policies; (ii) How to automate documentation using templates; (iii) What information is relevant for understanding privacy and legal compliance; (iv) How people comprehend information; (v) How to query and use linked data in a web application.</p>
-        <p>References: <br/>
-        [1] https://tosdr.org/ <br/>
-        [2] https://pribot.org/polisis <br/>
-        [3] Privacy CURE: Consent Comprehension Made Easy https://www.specialprivacy.eu/images/documents/IFIP_SEC_2020.pdf <br/>
-        [4] http://w3.org/ns/dpv </p>
-
-    </div>
-
-
-    <div class="project">
-        <h3>Tool to Report GDPR Violations in Online Services</h3>
-        <p>#consent #GDPR #javascript #BrowserAddon</p>
-        <p>Motivation: The GDPR lays out specific requirements regarding how to inform people about e.g. data collection, how to exercise rights, and when requesting consent. Given that most of us interact with online services these days, it is difficult for authorities to manually inspect websites for compliance and produce the required documentation at a large scale. While technologies have been proposed to help automate the detection of issues - their outcomes need to be expressed with the correct legal terms and links back to specific GDPR clauses in order for them to be useful in legal investigations. This project will assist in these tasks by creating a browser extension which will enable any individual to highlight problematic parts of a website e.g. consent dialogues, and will automatically generate  documentation containing links to appropriate legal clauses i.e. which specific parts of GDPR it violates. </p>
-        <p>Implementation: The project will involve understanding the requirements of GDPR and investigations into compliance violations. The project will create a browser extension - which requires knowledge of javascript and web development - to provide an interface to users to report and to capture evidence in the form of annotated screenshots e.g. problematic parts of a consent dialogue.</p>
-        <p>An early prototype has validated this idea, see <a href="https://brianlunch.github.io/ConsentAnnotationToolSite/#/ConsentAnnotationToolSite/HowTo">this demo</a> showing a browser extension that captures a screenshot of a consent dialogue and provides an interface where users can select their domain (e.g. lay person, HCI, law) to get a list of issues expressed in terms of their chosen domains. The tool then produced a legally-worded documentation that listed those issues along with specific clauses associated with each of those issues with the intention to submit it to the Data Protection Officer (DPO) or the Authority. For more information, see <a href="https://harshp.com/research/publications/041-crowdsourcing-issues-consent-automated-legal-complaints">Crowd-sourcing Multi-Domain Issues in Consent Dialogues for Automated Generation of Legal Complaints</a></p>
-        <p>To implement these ideas, the project will involve the following steps:</p>
-        <ul>
-            <li>Choosing a specific aspect of GDPR's requirements and the corresponding implementation in online services, e.g. consent and the consenting dialogue, or exercising of rights and the privacy policy or form. A list of 'issues' associated with the topic will be compiled from the state of the art.</li>
-            <li>The list of 'issues' will be expressed a lists for a particular domain, e.g. a sentence for the lay person to express they don't understand what they are consenting to will be different from how a legal scholar would express it. Each such issue and sentence would be put into a database and linked with the relevant GDPR clauses.</li>
-            <li>A user interface needs to be developed for users to report the issues. This should involve capturing information automatically e.g. such as the URL of the website they are on, the date and time, their location based on IP address - which will be part of the final output document.</li>
-            <li>The tool should also provide the ability to capture an image of the website and to highlight specific parts of it in relation to an identified issue (see the demo mentioned earlier).</li>
-            <li>The tool should identify and insert relevant details such as organisation name (e.g. Meta), service name (e.g. Facebook), and to whom the issue should be reported to - i.e. contact of DPO as well as the Data Protection Authority (which can be 'local' e.g. Austria or 'EU' e.g. Meta has HQ in Ireland). Practically, this might mean manually creating a database containing this information with some selected popular services.</li>
-            <li>Based on the selected issues and the entered information, the tool should generate a document that contains the listed issues, relevant GDPR clauses, and annotated screenshots (if any). The document should be in a form that can be shared (e.g. PDF, copy text into an email) and export-able. It should provide suitable wording (e.g. To the DPO, please see below issues) with variations for different tasks (e.g. complaining to the DPO or an authority, assisting the DPO in identifying the issues, offering fixes, exercising rights under GDPR).</li>
-            <li>Based on the extent of this work, its feasibility and evaluation in terms of practicality, this can be turned into a community-initiative where the submissions are collected and shared with authorities or NGOs for further action.</li>
-        </ul>
-
-    </div>
-
-    <div class="project">
-        <h3>Extracting Structured Metadata from Consent Dialogues</h3>
-
-        <p>
-            #privacy #consent #NLP #ML
-        </p>
-
-        <p>
-            Consent dialogue boxes are everywhere on the web - with the information geared towards making it easy for users to comprehend how their personal data is being used. However, this information is presented in human-readable format with no way for machines to analyse it. The aim of this project is to extract this information and represent it as structured metadata to enable automation and analysis of privacy based approaches. For example, the statement "We use your address to deliver goods you buy on our website" can be represented by: address - personal data, deliver goods - purpose, use - processing.
-        </p>
-
-        <p>
-            The project goal is to use NLP techniques to identify such categories by using classifiers and ML similar to existing work regarding privacy policies [1][2][3]. The extracted information would then be represented using vocabularies such as DPV [4].
-        </p>
-
-        <p>
-            [1] Usable Privacy Project<br>
-            [2] Pribot<br>
-            [3] CLAUDETTE<br>
-            [4] DPV
-        </p>
-
-    </div>
-
-    <div class="project">
-        <h3>Programmatic Privacy Notices and Dialogues</h3>
-        <p>#privacy #consent #cookies #Browser #signals #internet #GDPR #Javascript</p>
-        <p>Tldr; Creating APIs for programmatically generating notices and dialogues, as those used for consent and cookies on websites, to be developed from metadata (e.g. JSON) to avoid known issues (e.g. dark patterns).</p>
-        <p>Motivation: Consent and cookie dialogues are a plague on the web - they’re there on every website, and most people click on the ‘Agree’ button without reading or understanding what they just agreed to. Even though this has been shown to violate data protection and privacy laws [1], enforcement takes time and is difficult to undertake at the scale of the web. It is difficult to create a singular solution that is acceptable to all parties (users, service providers, authorities), which makes it difficult to achieve common goals. This research explores how a web browser can provide a set of APIs to generate privacy notices and dialogues on user-side, with different methods or options offering various levels of controls to the websites and users to control their interactions.</p>
-        <p>Implementation: You will understand how current privacy notices and consent dialogues function in terms of information, content, legal requirements, and technical implementations. You will then identify different types of APIs that can automate the generation of different components (e.g. API for notice, for showing options, for giving consent). You will implement these using CSS and JS, and test them using browser addons.</p>
-        <p>What you will learn: (i) What are privacy notices and consent dialogues (ii); How to create and implement APIs based on different stakeholder requirements (iii) Legal and Privacy implications of your developed technologies (iv) Challenges associated with developing privacy solutions</p>
-
-    </div>
-
-    <div class="project">
-        <h3>Implementing ISO/IEC 29184 privacy notices</h3>
-        <p>#privacy #consent #JavaScript #BrowserAddon #GDPR</p>
-        <p>tldr; The ISO/IEC 29184 is a standard specifying content of privacy notices, how they should be presented, and how they can be used - including machine-readable versions. This project will implement the standard to create privacy notices that conform with the standard, assess how the standard addresses existing issues regarding consent and privacy notices, and provide reusable components for others to improve their notices.</p>
-    </div>
+        <div class="project">
+            <h3>Transparency of AI Training</h3>
+            <p>#AI #GDPR #law #python #scraping</p>
+            <p>The AI Act requires providers of General Purpose AI Models to publish a document outlining their training data and practices, with enforcement starting from August 2 2026. Till date (18 September) we have analysed and scored over 70 such documents and discovered issues such as difficulty in discovering documents, missing, unclear or ambiguous information, and in certain cases potentially incorrect information when compared to other documentation.</p>
+            <p>The student will assist with this project regarding the following:</p>
+            <ol>
+                <li>Automate discovery and checking for updates of documents e.g. using python scripts;</li>
+                <li>Help analyse documents and quantify problems e.g. a taxonomy of issues we encounter for each field and their prevalence;</li>
+                <li>Help with maintaining  the project website <a href="https://aial.ie/research/gpai-training-transparency/">https://aial.ie/research/gpai-training-transparency/</a> and data repository. </li>
+                <li>The project also involves sensitive communications with journalists and regulators to share our findings and discuss next steps. For this, the student will also: Help produce ad-hoc reports and blog posts on specific topics.</li>
+            </ol>
+        </div>
 
         <div class="project">
-        <h3>A Privacy Signal for Automating Consent Interactions</h3>
+            <h3>AI Impact Assessment Framework</h3>
+            <p>#AI #law #RDF #DPIA #FRIA</p>
+            <p>AI adoption is growing at a rapid pace, including in sensitive contexts such as healthcare, finance, education, and justice. Regulations such as the GDPR and the AI Act consider these as 'high-risk' cases and require conducting an impact assessment to outline what risks might exist, how they can be addressed, and what could be the impacts e.g. on specific groups of people. The student will assist with existing work on this by:</p>
+            <ol>
+                <li>Help with analysis of the high-risk and prohibited use-cases and identifying key information such as what organisation, which technologies, affecting which people;</li>
+                <li>Quantify risks and impacts (in particular harms) based on literature;</li>
+                <li>Encode information using existing taxonomies (see <a href="https://w3id.org/dpv/risk">https://w3id.org/dpv/risk</a>);</li>
+                <li>Develop a system (program) that takes inputs e.g. a given technology such as Meta Smart-Glasses with Facial Recognition, and suggests potential issues based on risks and impacts. For this, the student will assist in further development of rules/code/reasoning based on existing work (see <a href="https://harshp.com/ai_act_risk/">https://harshp.com/ai_act_risk/</a> and <a href="https://harshp.com/ai-incident/">https://harshp.com/ai-incident/</a> and <a href="https://hdl.handle.net/2262/100126">https://hdl.handle.net/2262/100126</a>).</li>
+                <li>The project also involves sensitive communications with journalists and regulators to share our findings and discuss next steps. For this, the student will also: assist in producing reports/write-ups of specific use-cases (such as Meta Smart-Glasses or any other AI technology under controversy at the moment).</li>
+            </ol>
+        </div>
 
-        <p>#privacy #browser #signaling #internet #GDPR #BrowserAddon #Javascript</p>
-
-        <p>tldr; Creating a browser signal that helps automate some of the interactions on notices and consent dialogues online</p>
-
-        <p>Motivation: Consent and cookie dialogues are a plague on the web - they’re there on every website, and most people click on the ‘Agree’ button without reading or understanding what they just agreed to. Even though this has been shown to violate data protection and privacy laws [1], enforcement takes time and is difficult to undertake at the scale of the web. Instead, there is a growing call for easier-to-use and enforce ‘signals’ which indicate privacy preferences in a human-centric manner. Previously, Do Not Track (DNT) and Platform for Privacy Preferences (P3P) were two major efforts which failed to gain adoption. The current ones showing promise are Global Privacy Control (GPC) [2] - which can prohibit any further sharing of data, and the Advanced Data Protection Control (ADPC) [3] which can enable a machine-readable request and indicating of preferences to permit or prohibit certain actions. While uptake for both increases, there are two important areas of implementation and research - (1) what language to use within the signals so that both users and websites interpret it in the same manner; and (2) how to manage these within the browser.</p>
-
-        <p>Implementation: You will understand DNT, P3P, GPC and ADPC specifications. They’re fairly technical which means you will also learn about how they work through HTTP communication protocols. You will then explore how ADPC can be implemented using HTTP. Within ADPC, a language is necessary for expressing whether something is permitted or prohibited and what it is (e.g. a purpose, some personal data). For expressing these concepts, you will use the Data Privacy Vocabulary (DPV) [4], a metadata specification for declaring how data is used. To test the developed signal, you will create browser addons and a (sample) backend server for creating and managing the preferences set within ADPC, and testing the communication between users and websites. You will also investigate expressing consenting choices as rules or heuristics of the kind: only 1st party; only analytics; no third party ads; And see whether this affects consenting behaviours or notices</p>
-
-        <p>What you will learn: (i) What information is relevant when making privacy decisions about personal data use and sharing; (ii) HTTP protocols and how the web functions; (iii) How to express permissions or prohibitions for data sharing; (iv) Legal and Privacy implications of permitting or prohibiting websites from using data; (v) The next generation of privacy signals within the browser.</p>
-
-        <p>References:<br/>
-        [1] Do Cookie Banners Respect my Choice?: Measuring Legal Compliance of Banners from IAB Europe’s Transparency and Consent Framework https://arxiv.org/pdf/1911.09964 <br/>
-        [2] https://globalprivacycontrol.github.io/gpc-spec/ <br/>
-        [3] https://www.dataprotectioncontrol.org/spec/ <br/>
-        [4] https://w3id.org/dpv</p>
-
-    </div>
-
-
-    <div class="project">
-        <h3>Recording online consent via browser extension</h3>
-
-        <p>
-            #privacy #consent #javascript #GDPR
-        </p>
-
-        <p>
-            Description: The "I Agree" button has become inescapable while browsing the web. While it is present as a legal requirement for collecting consent, once we have clicked the button, we have no record of what we just agreed to. In this project, you will be creating a digital receipt to record the given consent and the information associated with it.
-        </p>
-
-        <p>
-            The goal is to create a browser extension that automatically captures the information in a consent dialogue box, and enables the user to later view it in a dashboard. It will use existing standards such as Consent Receipt [1] and Data Privacy Vocabulary [2] to record this information.
-        </p>
-
-        <p>
-            This project will provide exposure on front-end development in real-world websites, and an opportunity for increased transparency online regarding privacy. It will also provide a learning experience for use of programming tools (e.g. git) and research based workflows.
-        </p>
-
-        <p>
-            Pre-requisites: Good working knowledge of Javascript/CSS and its use in web-pages
-        </p>
-
-        <p>
-            [1] Consent Receipt <a href="https://kantarainitiative.org/confluence/display/infosharing/Consent+Receipt+Specification" title="https://kantarainitiative.org/confluence/display/infosharing/Consent+Receipt+Specification" class="https">https://kantarainitiative.org/confluence/display/infosharing/Consent+Receipt+Specification</a><br>
-            [2] DPV <a href="http://w3.org/ns/dpv" title="http://w3.org/ns/dpv" class="http">http://w3.org/ns/dpv</a>
-        </p>
-
-    </div>
+        <div class="project">
+            <h3>Kill the Cookie Banner</h3>
+            <p>#GDPR #law #javascript #consent #privacy</p>
+            <p>You visit websites. You get cookie/consent banners you must fight through. They contain dark patterns and other manipulative/bad practices. You accidentally allow 1000s of companies to track you across the web and infer intimate details about your health, sexuality, ideology, and more. The EU Commission proposed a simple technical solution for this - let a (browser) agent take your preferences and then manage these automatically for you. However, regulators and lawmakers are not acting (fast enough) to accept this because they are uncertain whether a technical solution is feasible and will work in real-world conditions.</p>
+            <p>The student will assist with the ongoing <a href="https://killthecookiebanner.eu/">https://killthecookiebanner.eu/</a> initiative by:</p>
+            <ol>
+                <li>Helping consolidate existing literature on problems and solutions, including scoring them based on e.g. maturity;</li>
+                <li>Develop a technical prototype that simulates different actors (both good and bad) to create a comprehensive report on how it will function, how it can be audited, and what problems would still remain.</li>
+            </ol>
+            <p>The student will assist ongoing research and activities regarding lawmaking and policy activities, which means that the objective is not to produce a 'toy project' by themselves but to assess existing solutions by companies, features in existing browsers, standards. See <a href="https://w3id.org/dpv/standards/ieee/7012">https://w3id.org/dpv/standards/ieee/7012</a> and <a href="https://www.dataprotectioncontrol.org/spec/">https://www.dataprotectioncontrol.org/spec/</a> and <a href="https://arxiv.org/abs/2208.05786">https://www.dataprotectioncontrol.org/spec/</a> and <a href="https://doi.org/10.1016/j.clsr.2026.106332">https://doi.org/10.1016/j.clsr.2026.106332</a> for context.</p>
+        </div>
 
     </section>
 
@@ -266,6 +127,183 @@
         <h2>Old Ideas that are no longer supported</h2>
         <p>These ideas were proposed earlier and I am currently not accepting these for supervising student projects. I will support their implementation by sharing knowledge and providing guidance - so if you are interested in any of these then you should email me.</p>
 
+        <div class="old-project">
+            <h3>AI Risk Classification Tool</h3>
+            <p>#AI #GDPR #law #python #javascript #DPV #RDF</p>
+            <p>tldr; you will develop a tool which will take some inputs (e.g. purpose, technology) describing the use of AI within an use-case, and will provide an output showing: risks in its use, legal implications (e.g. high-risk under GDPR, AI Act), as well as suggest measures to limit the risk (e.g. use specific ISO standards, improve accuracy of outputs, DPIA). You will extend existing prototype implementations.</p>
+            <p>Artificial Intelligence (AI) is progressing at an alarmingly rapid rate. As a technology with the potential to be applied and used everywhere, it comes with great risks which range from minor annoyance (e.g. wrong spelling isn't detected) to major disruptions to society (e.g. humans are harmed, democratic elections are affected). One of the greatest challenges facing our times, and what the AI Act primarily aims to address, is how to understand what are the risks for using AI within specific use-cases. To better explore the topic, we first need to understand: (1) What is meant by AI?; (2) How can AI be used within specific use-case? (3) How can using AI affect people, society, and organisations?. To answer these, we researched and developed a 'framework' that uses 5 concepts: Domain (e.g. Education), Purpose (e.g. Identity Verification), Application or Capability (e.g. Facial Recognition), User or Operator (e.g. Lecturer), and Subject (e.g. Students). Using combinations of these, we express and identify risk categories e.g. high-risk per the AI Act Annex III or how a specific dataset or model might lead to high-risk uses. We also identify relevant risks for specific concepts within taxonomies created from the 5 concepts (e.g. what are the risks of facial recognition? what are the specific risks when facial recognition is used for identity verification?)</p>
+            <p>In this project, you will continue this work by further developing and extending the taxonomies and the tool used for risk classification. You can <a href="https://harshp.com/ai_act_risk">try a demo of the tool</a> in action for the AI Act. The underlying combinations are expressed using the N3 language - see <a href="https://github.com/coolharsh55/ai_act_risk">GitHub repo</a>. You will further develop the interface, create more rules, and add documentation. You will also make it easy for people to express their use-cases, for example, by providing options for popular uses such as using a LLM like ChatGPT to correct exam answers - and then explain the output (high-risk, impacts students) in terms of this use-case. If you do not have the sufficient programming background, you will conduct legal research i.e. how can the different use-cases from AI Act, GDPR (DPIA high-risk categories) be expressed in terms of these concepts, and assist in the documentation process which does not require a programming background.</p>
+            <p>For references, please see:</p>
+            <ul>
+                <li><a href="https://harshp.com/research/publications/060-AI-Act-high-risk-semantics"> To Be High-Risk, or Not To Be—Semantic Specifications and Implications of the AI Act’s High-Risk AI Applications and Harmonised Standards</a></li>
+                <li><a href="https://w3id.org/VAIR">Vocabulary of AI Risks (VAIR)</a> and <a href="https://w3id.org/AIRO">AI Risk Ontology (AIRO)</a></li>
+                <li><a href="https://w3id.org/dpv">Data Privacy Vocabulary (DPV)</a></li>
+            </ul>
+        </div>
+
+        <div class="old-project">
+            <h3>Ethics Assessment / DPIA Support Tool</h3>
+
+            <p>
+                #ethics #GDPR #javascript #python #RDF #DPV
+            </p>
+
+            <p>
+                Description: Performing an ethics assessment or a Data Protection Impact Assessment (DPIA) is a key requirement whenever there are people and personal data involved. Such assessments are increasingly being embedded Students are required to assess their projects, Researchers require ethics integration into their work as well as statements for publications, and Organisations require it for GDPR. This project will develop a support tool to help students, researchers, and organisations to conduct their Ethics/GDPR applications in a more efficient manner and to improve the process of identifying ethics / data protection risks as well as suitable measures for their mitigations.</p> 
+
+            <p>The project involves work on building a web dashboard for assisting researchers with documentation for data protection and ethical clearance, and will provide an opportunity to participate in real-world applications of technology in the areas of data protection and ethics. The chief task would be to build an information system that will allow users to receive suggestions and guidance for addressing risks regarding ethics and privacy.  The core idea of the project is based on the following steps.</p>
+            <ul>
+                <li>An ethics assessment or a DPIA can be expressed as a form containing 'fields' which require specific information. The project requires identification of these fields - and a large body of work exists to do this in a machine-readable manner. For example, see <a href="https://harshp.com/research/publications/053-DPV-DPIA"> A Semantic Specification for Data Protection Impact Assessments (DPIA)</a> which expresses the information in a machine-readable form using the <a href="https://w3id.org/dpv">Data Privacy Vocabulary (DPV)</a>. The premise of these is that instead of entering textual information (i.e. sentences), <i>semantic concepts</i> can be used to ensure information is expressed in a form that can be programmatically checked and used.</li>
+                <li>Some information can be conditional based on other information, for e.g. if the field 'will personal data be stored?' has the information 'yes', then another field 'list categories of personal data' must have appropriate information. This requires checking the necessary information <i>exists</i>.</li>
+                <li>Entered information is also required to be <i>correct</i>, e.g. 'encryption' is not a personal data category. Therefore, the entered information is also required to be checked for <i>correctness</i>.</li>
+                <li>Based on the correctly entered information, some inferences need to be drawn, e.g. consent is required, or a full DPIA or ethics assessment is required, which will determine the form of output provided back to the users. To do this, the concepts entered within the form need to be grouped into 'patterns' which when satisfied result in these inferences. For example, if personal data is collected - GDPR applies. Or, if consent is to be collected, consent records must be maintained. Based on these, a final outcome needs to be calculated for the form of assessment required, e.g. a self-assessment or a submission to a committee.</li>
+                <li>The information entered and the inferences drawn need to be recorded into logs recording the submission and decision.</li>
+                <li>Collecting and analysing the assessments will provide insight into how specific risks are associated with concepts. For e.g. the most common form of 'error' in the submission form might be incorrectly indicating personal data is not involved, or that consent is not required. Such analysis can be used to further refine the input form to ensure the inputs are correctly understood and entered. Further, specific risks for most common uses can be identified and provided to assist in the form filling process, e.g. if most submissions use an online service to conduct surveys - the form can specifically use this information to further ask if the online service is safe and appropriate to be used. Finally, the analysis should also provide a list of common concepts for inputs, e.g. how will personal data be stored can be accompanied with the options for popular services such as Dropbox, Google Drive, OneDrive. This will simplify the form for most users and speed up the process of figuring out input information.</li>
+            </ul>
+
+        </div>
+
+        <div class="old-project">
+            <h3>Annotated Privacy Information Dataset of Apps from iOS and Android App-Stores</h3>
+            <p>#privacy #smartphones #RDF #Python #JavaScript #BrowserAddon</p>
+            <p>Tldr; Scrape the app’s information from app store and automatically annotate it with information relevant for privacy</p>
+            <p>Motivation: Apple’s iOS and Google’s Android are the dominant smartphone OSs, and through their respective App-Stores are responsible for providing the infrastructure and functionality to users for installing and managing applications on their devices. Increasingly, these companies are creating requirements for applications to declare information about their privacy practices, which not only include a privacy policy, but also information on what kinds of data the apps collect and how they use it [1]. Collecting this information in a machine-readable dataset can enable understanding current practices, pitfalls, and the privacy practices of apps - as well as tracking how they evolve with time.</p>
+            <p>Implementation: You will utilise a web-scraping [2] tool to parse the information from app-store pages. This can be written in any language of choice, though python offers a large collection of ready-to-use frameworks. The information extracted from these pages will be defined using the Data Privacy Vocabulary (DPV) [3], a metadata specification for declaring how data is used. The formal representation used for DPV is the Resource Description Framework (RDF), which you will become familiar with in order to read and write it for generating the dataset / corpus. The actual data will be stored and managed using a relational database and SQL, such that it can be extracted and exported to RDF to provide interoperability. </p>
+            <p>What you will learn: (i) How Apps utilise personal data; (ii) How to do web-scraping; (iii) How to work with concepts and semantics, e.g. when creating schemas; (iv) Creating and managing datasets as research resources; (v) What/Where more information is needed in App Stores</p>
+            <p>tldr; for another idea: You will work on improving the 'transparency labels' shown in smartphone app stores, e.g. Apple's store provides 'Data used to Track you' by identifying additional information to be shown, and showing examples using labels developed from analysing selected applications. You will also create a 'machine-readable' version of this label so that it can be automatically detected, and used programmatically e.g. filter all apps that do not track me.</p>
+            <p>For examples of what information can be put into a transparency label, see <a href="https://w3id.org/dpv">Data Privacy Vocabulary (DPV)</a>.</p>
+            <p>References: <br/>
+            [1] https://developer.apple.com/app-store/app-privacy-details/ <br/>
+            [2] https://en.wikipedia.org/wiki/Web_scraping <br/>
+            [3] http://w3.org/ns/dpv </p>
+        </div>
+
+        <div class="old-project">
+            <h3>Automated Privacy Policy Generation Using Metadata and Templates</h3>
+            <p>#GDPR #privacy #javascript #python #DPV #RDF</p>
+            <p>Tldr; Create different variations of privacy policies in terms of text and design by using templates and metadata containing the required information</p>
+            <p>Motivation: Privacy policies and Terms and Conditions, as they are presented on the web, are a long boring wall of legal text which is difficult to comprehend and use. There have been various avenues for making this simpler, such as summarising [1], or using machine learning to identify relevant information [2], and even alternatives such as visualising information [3]. However, instead of starting from a fixed given set of complicated text or a fixed layout, this research instead takes a different approach. It explores whether using metadata and a set of templates can make privacy policies easier to generate, offer different options to comprehend them, and enable alternative mediums such as visualisations to be easily implemented. It thus aims to show that metadata and automation can help people better understand privacy practices.</p>
+            <p>Implementation: You will analyse how privacy policies look, read, and affect comprehension of information through existing literature on these topics. You will then create ‘templates’ for policies - where a template is (simplified) some generic document with blanks that will be filled with use-case specific information. The template will be defined using a ‘templating library’ such as Jinja2 or Moustache. You will create different templates for rendering the same information in different sentences, layouts, forms (e.g. visual, multimedia). The information to be used to fill in the template will be declared using Data Privacy Specification (DPV), a metadata specification for declaring how data is used. The formal representation used for DPV is the Resource Description Framework (RDF), which you will become familiar with in order to read and write it for generating the dataset / corpus. The actual data will be stored and managed using JSON or JSON-LD which makes it easier to use in the web browser and in javascript.</p>
+            <p>What you will learn: (i) Issues with existing privacy policies; (ii) How to automate documentation using templates; (iii) What information is relevant for understanding privacy and legal compliance; (iv) How people comprehend information; (v) How to query and use linked data in a web application.</p>
+            <p>References: <br/>
+            [1] https://tosdr.org/ <br/>
+            [2] https://pribot.org/polisis <br/>
+            [3] Privacy CURE: Consent Comprehension Made Easy https://www.specialprivacy.eu/images/documents/IFIP_SEC_2020.pdf <br/>
+            [4] http://w3.org/ns/dpv </p>
+
+        </div>
+
+
+        <div class="old-project">
+            <h3>Tool to Report GDPR Violations in Online Services</h3>
+            <p>#consent #GDPR #javascript #BrowserAddon</p>
+            <p>Motivation: The GDPR lays out specific requirements regarding how to inform people about e.g. data collection, how to exercise rights, and when requesting consent. Given that most of us interact with online services these days, it is difficult for authorities to manually inspect websites for compliance and produce the required documentation at a large scale. While technologies have been proposed to help automate the detection of issues - their outcomes need to be expressed with the correct legal terms and links back to specific GDPR clauses in order for them to be useful in legal investigations. This project will assist in these tasks by creating a browser extension which will enable any individual to highlight problematic parts of a website e.g. consent dialogues, and will automatically generate  documentation containing links to appropriate legal clauses i.e. which specific parts of GDPR it violates. </p>
+            <p>Implementation: The project will involve understanding the requirements of GDPR and investigations into compliance violations. The project will create a browser extension - which requires knowledge of javascript and web development - to provide an interface to users to report and to capture evidence in the form of annotated screenshots e.g. problematic parts of a consent dialogue.</p>
+            <p>An early prototype has validated this idea, see <a href="https://brianlunch.github.io/ConsentAnnotationToolSite/#/ConsentAnnotationToolSite/HowTo">this demo</a> showing a browser extension that captures a screenshot of a consent dialogue and provides an interface where users can select their domain (e.g. lay person, HCI, law) to get a list of issues expressed in terms of their chosen domains. The tool then produced a legally-worded documentation that listed those issues along with specific clauses associated with each of those issues with the intention to submit it to the Data Protection Officer (DPO) or the Authority. For more information, see <a href="https://harshp.com/research/publications/041-crowdsourcing-issues-consent-automated-legal-complaints">Crowd-sourcing Multi-Domain Issues in Consent Dialogues for Automated Generation of Legal Complaints</a></p>
+            <p>To implement these ideas, the project will involve the following steps:</p>
+            <ul>
+                <li>Choosing a specific aspect of GDPR's requirements and the corresponding implementation in online services, e.g. consent and the consenting dialogue, or exercising of rights and the privacy policy or form. A list of 'issues' associated with the topic will be compiled from the state of the art.</li>
+                <li>The list of 'issues' will be expressed a lists for a particular domain, e.g. a sentence for the lay person to express they don't understand what they are consenting to will be different from how a legal scholar would express it. Each such issue and sentence would be put into a database and linked with the relevant GDPR clauses.</li>
+                <li>A user interface needs to be developed for users to report the issues. This should involve capturing information automatically e.g. such as the URL of the website they are on, the date and time, their location based on IP address - which will be part of the final output document.</li>
+                <li>The tool should also provide the ability to capture an image of the website and to highlight specific parts of it in relation to an identified issue (see the demo mentioned earlier).</li>
+                <li>The tool should identify and insert relevant details such as organisation name (e.g. Meta), service name (e.g. Facebook), and to whom the issue should be reported to - i.e. contact of DPO as well as the Data Protection Authority (which can be 'local' e.g. Austria or 'EU' e.g. Meta has HQ in Ireland). Practically, this might mean manually creating a database containing this information with some selected popular services.</li>
+                <li>Based on the selected issues and the entered information, the tool should generate a document that contains the listed issues, relevant GDPR clauses, and annotated screenshots (if any). The document should be in a form that can be shared (e.g. PDF, copy text into an email) and export-able. It should provide suitable wording (e.g. To the DPO, please see below issues) with variations for different tasks (e.g. complaining to the DPO or an authority, assisting the DPO in identifying the issues, offering fixes, exercising rights under GDPR).</li>
+                <li>Based on the extent of this work, its feasibility and evaluation in terms of practicality, this can be turned into a community-initiative where the submissions are collected and shared with authorities or NGOs for further action.</li>
+            </ul>
+
+        </div>
+
+        <div class="old-project">
+            <h3>Extracting Structured Metadata from Consent Dialogues</h3>
+
+            <p>
+                #privacy #consent #NLP #ML
+            </p>
+
+            <p>
+                Consent dialogue boxes are everywhere on the web - with the information geared towards making it easy for users to comprehend how their personal data is being used. However, this information is presented in human-readable format with no way for machines to analyse it. The aim of this project is to extract this information and represent it as structured metadata to enable automation and analysis of privacy based approaches. For example, the statement "We use your address to deliver goods you buy on our website" can be represented by: address - personal data, deliver goods - purpose, use - processing.
+            </p>
+
+            <p>
+                The project goal is to use NLP techniques to identify such categories by using classifiers and ML similar to existing work regarding privacy policies [1][2][3]. The extracted information would then be represented using vocabularies such as DPV [4].
+            </p>
+
+            <p>
+                [1] Usable Privacy Project<br>
+                [2] Pribot<br>
+                [3] CLAUDETTE<br>
+                [4] DPV
+            </p>
+
+        </div>
+
+        <div class="old-project">
+            <h3>Programmatic Privacy Notices and Dialogues</h3>
+            <p>#privacy #consent #cookies #Browser #signals #internet #GDPR #Javascript</p>
+            <p>Tldr; Creating APIs for programmatically generating notices and dialogues, as those used for consent and cookies on websites, to be developed from metadata (e.g. JSON) to avoid known issues (e.g. dark patterns).</p>
+            <p>Motivation: Consent and cookie dialogues are a plague on the web - they’re there on every website, and most people click on the ‘Agree’ button without reading or understanding what they just agreed to. Even though this has been shown to violate data protection and privacy laws [1], enforcement takes time and is difficult to undertake at the scale of the web. It is difficult to create a singular solution that is acceptable to all parties (users, service providers, authorities), which makes it difficult to achieve common goals. This research explores how a web browser can provide a set of APIs to generate privacy notices and dialogues on user-side, with different methods or options offering various levels of controls to the websites and users to control their interactions.</p>
+            <p>Implementation: You will understand how current privacy notices and consent dialogues function in terms of information, content, legal requirements, and technical implementations. You will then identify different types of APIs that can automate the generation of different components (e.g. API for notice, for showing options, for giving consent). You will implement these using CSS and JS, and test them using browser addons.</p>
+            <p>What you will learn: (i) What are privacy notices and consent dialogues (ii); How to create and implement APIs based on different stakeholder requirements (iii) Legal and Privacy implications of your developed technologies (iv) Challenges associated with developing privacy solutions</p>
+
+        </div>
+
+        <div class="old-project">
+            <h3>Implementing ISO/IEC 29184 privacy notices</h3>
+            <p>#privacy #consent #JavaScript #BrowserAddon #GDPR</p>
+            <p>tldr; The ISO/IEC 29184 is a standard specifying content of privacy notices, how they should be presented, and how they can be used - including machine-readable versions. This project will implement the standard to create privacy notices that conform with the standard, assess how the standard addresses existing issues regarding consent and privacy notices, and provide reusable components for others to improve their notices.</p>
+        </div>
+
+            <div class="old-project">
+            <h3>A Privacy Signal for Automating Consent Interactions</h3>
+
+            <p>#privacy #browser #signaling #internet #GDPR #BrowserAddon #Javascript</p>
+
+            <p>tldr; Creating a browser signal that helps automate some of the interactions on notices and consent dialogues online</p>
+
+            <p>Motivation: Consent and cookie dialogues are a plague on the web - they’re there on every website, and most people click on the ‘Agree’ button without reading or understanding what they just agreed to. Even though this has been shown to violate data protection and privacy laws [1], enforcement takes time and is difficult to undertake at the scale of the web. Instead, there is a growing call for easier-to-use and enforce ‘signals’ which indicate privacy preferences in a human-centric manner. Previously, Do Not Track (DNT) and Platform for Privacy Preferences (P3P) were two major efforts which failed to gain adoption. The current ones showing promise are Global Privacy Control (GPC) [2] - which can prohibit any further sharing of data, and the Advanced Data Protection Control (ADPC) [3] which can enable a machine-readable request and indicating of preferences to permit or prohibit certain actions. While uptake for both increases, there are two important areas of implementation and research - (1) what language to use within the signals so that both users and websites interpret it in the same manner; and (2) how to manage these within the browser.</p>
+
+            <p>Implementation: You will understand DNT, P3P, GPC and ADPC specifications. They’re fairly technical which means you will also learn about how they work through HTTP communication protocols. You will then explore how ADPC can be implemented using HTTP. Within ADPC, a language is necessary for expressing whether something is permitted or prohibited and what it is (e.g. a purpose, some personal data). For expressing these concepts, you will use the Data Privacy Vocabulary (DPV) [4], a metadata specification for declaring how data is used. To test the developed signal, you will create browser addons and a (sample) backend server for creating and managing the preferences set within ADPC, and testing the communication between users and websites. You will also investigate expressing consenting choices as rules or heuristics of the kind: only 1st party; only analytics; no third party ads; And see whether this affects consenting behaviours or notices</p>
+
+            <p>What you will learn: (i) What information is relevant when making privacy decisions about personal data use and sharing; (ii) HTTP protocols and how the web functions; (iii) How to express permissions or prohibitions for data sharing; (iv) Legal and Privacy implications of permitting or prohibiting websites from using data; (v) The next generation of privacy signals within the browser.</p>
+
+            <p>References:<br/>
+            [1] Do Cookie Banners Respect my Choice?: Measuring Legal Compliance of Banners from IAB Europe’s Transparency and Consent Framework https://arxiv.org/pdf/1911.09964 <br/>
+            [2] https://globalprivacycontrol.github.io/gpc-spec/ <br/>
+            [3] https://www.dataprotectioncontrol.org/spec/ <br/>
+            [4] https://w3id.org/dpv</p>
+
+        </div>
+
+
+        <div class="old-project">
+            <h3>Recording online consent via browser extension</h3>
+
+            <p>
+                #privacy #consent #javascript #GDPR
+            </p>
+
+            <p>
+                Description: The "I Agree" button has become inescapable while browsing the web. While it is present as a legal requirement for collecting consent, once we have clicked the button, we have no record of what we just agreed to. In this project, you will be creating a digital receipt to record the given consent and the information associated with it.
+            </p>
+
+            <p>
+                The goal is to create a browser extension that automatically captures the information in a consent dialogue box, and enables the user to later view it in a dashboard. It will use existing standards such as Consent Receipt [1] and Data Privacy Vocabulary [2] to record this information.
+            </p>
+
+            <p>
+                This project will provide exposure on front-end development in real-world websites, and an opportunity for increased transparency online regarding privacy. It will also provide a learning experience for use of programming tools (e.g. git) and research based workflows.
+            </p>
+
+            <p>
+                Pre-requisites: Good working knowledge of Javascript/CSS and its use in web-pages
+            </p>
+
+            <p>
+                [1] Consent Receipt <a href="https://kantarainitiative.org/confluence/display/infosharing/Consent+Receipt+Specification" title="https://kantarainitiative.org/confluence/display/infosharing/Consent+Receipt+Specification" class="https">https://kantarainitiative.org/confluence/display/infosharing/Consent+Receipt+Specification</a><br>
+                [2] DPV <a href="http://w3.org/ns/dpv" title="http://w3.org/ns/dpv" class="http">http://w3.org/ns/dpv</a>
+            </p>
+
+        </div>
         <div class="old-project">
             <h3>Building a Registry of CCTV Notices and their Privacy Practices in Dublin</h3>
             <p>#privacy #surveillance #dashboard #GDPR #BrowserAddon #Javascript</p>
